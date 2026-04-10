@@ -1,12 +1,15 @@
 {
-  "dependencies": {
-    "@anthropic-ai/sdk": "^0.86.1",
-    "@modelcontextprotocol/sdk": "^1.29.0",
-    "better-sqlite3": "^12.8.0",
-    "cors": "^2.8.6",
-    "dotenv": "^17.4.1",
-    "express": "^5.2.1",
-    "zod": "^4.3.6"
+  "name": "nyaysahayak-api",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node api-server.js"
   },
-  "type": "module"
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "better-sqlite3": "^9.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2"
+  }
 }
