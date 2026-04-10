@@ -32,11 +32,12 @@ app.post('/search', async (req, res) => {
     if (existsSync(DB_PATH)) {
       const db = new Database(DB_PATH, { readonly: true });
       results = db.prepare(
-        `SELECT book, chapter, content FROM knowledge_base 
-         WHERE content LIKE '%' || ? || '%' 
-         OR chapter LIKE '%' || ? || '%'
-         LIMIT 8`
-      ).all(query, query);
+        `SELECT book, chapter, content FROM knowledge_base
+          WHERE content LIKE '%' || ? || '%'
+          OR chapter LIKE '%' || ? || '%'
+          OR book LIKE '%' || ? || '%'
+          LIMIT 8`
+        ).all(query, query, query);
       db.close();
     }
 
