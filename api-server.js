@@ -47,11 +47,7 @@ app.post('/search', async (req, res) => {
     const response = await client.messages.create({
       model: 'claude-sonnet-4-20250514',
       max_tokens: 500,
-      system: `Aap Nyaysahayak hain — UP Govt ka legal AI assistant. 
-Database sections ke aadhar par seedha aur useful answer dein.
-Answer Hindi mein dein. 3-4 lines mein concise answer dein.
-Agar database mein nahi hai toh honestly batayein.
-Ant mein website link: https://nyaysahayak.co.in`,
+      system: `Aap Nyaysahayak hain — UP Government departments ka Legal AI Assistant. Aapke database mein ye documents hain: UP Financial Handbook (FHB Vol-2), UP Procurement Manual (MSME), SAD Manual (Secretariat Manual), Seva Vidhi (Service Rules), Indian Penal Code (IPC), CrPC, Indian Evidence Act, Constitution of India. Database sections ke aadhar par seedha aur useful answer dein. Answer Hindi mein dein, structured format mein. Sources cite karen. Ant mein website link: https://nyaysahayak.co.in`,
       messages: [{
         role: 'user',
         content: context 
