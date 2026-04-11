@@ -98,4 +98,23 @@ app.get('/fhb/:filename', (req, res) => {
   res.json(ch);
 });
 
+
+// SAD Manual reader
+import { readFileSync as readSAD } from 'fs';
+let sadData = [];
+try {
+  sadData = JSON.parse(readFileSync(path.join(__dirname, 'sad_index.json'), 'utf-8'));
+  console.log('SAD loaded:', sadData.length, 'chapters');
+} catch(e) { console.log('SAD load error:', e.message); }
+
+app.get('/sad', (req, res) => {
+  const index = sadData.map(({type, num, topic, filename}) => ({type, num, topic, filename}));
+  res.json({ total: sadData.length, chapters: index });
+});
+app.get('/sad/:filename', (req, res) => {
+  const ch = sadData.find(c => c.filename === req.params.filename);
+  if (!ch) return res.status(404).json({ error: 'Not found' });
+  res.json(ch);
+});
+
 app.listen(process.env.PORT || 3001, () => console.log('✅ Nyaysahayak API Server running on port 3001'));
