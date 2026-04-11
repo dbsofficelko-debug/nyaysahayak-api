@@ -62,3 +62,20 @@ app.post('/search', async (req, res) => {
 });
 
 app.listen(process.env.PORT || 3001, () => console.log('✅ Nyaysahayak API Server running on port 3001'));
+
+app.get('/browse', (req, res) => {
+  const grouped = {};
+  entries.forEach(e => {
+    const book = e.source || e.book || e.filename || 'Other';
+    if (!grouped[book]) grouped[book] = { name: book, count: 0 };
+    grouped[book].count++;
+  });
+  res.json({ total_books: Object.keys(grouped).length, books: Object.values(grouped).sort((a,b) => b.count - a.count) });
+});
+app.get('/browse/:book', (req, res) => {
+  const book = decodeURIComponent(req.params.book);
+  const page = parseInt(req.query.page) || 1;
+  const filtered = entries.filter(e => (e.source || e.book || e.filename || 'Other') === book);
+  const start = (page-1)*30;
+  res.json({ book, total: filtered.length, page, total_pages: Math.ceil(filtered.length/30), entries: filtered.slice(start, start+30) });
+});
