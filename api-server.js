@@ -117,4 +117,22 @@ app.get('/sad/:filename', (req, res) => {
   res.json(ch);
 });
 
+
+// Procurement Manual reader
+let pmData = [];
+try {
+  pmData = JSON.parse(readFileSync(path.join(__dirname, 'pm_index.json'), 'utf-8'));
+  console.log('PM loaded:', pmData.length, 'chapters');
+} catch(e) { console.log('PM load error:', e.message); }
+
+app.get('/pm', (req, res) => {
+  const index = pmData.map(({type, num, topic, filename}) => ({type, num, topic, filename}));
+  res.json({ total: pmData.length, chapters: index });
+});
+app.get('/pm/:filename', (req, res) => {
+  const ch = pmData.find(c => c.filename === req.params.filename);
+  if (!ch) return res.status(404).json({ error: 'Not found' });
+  res.json(ch);
+});
+
 app.listen(process.env.PORT || 3001, () => console.log('✅ Nyaysahayak API Server running on port 3001'));
