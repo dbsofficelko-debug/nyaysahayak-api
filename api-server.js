@@ -81,10 +81,13 @@ app.get('/browse/:book', (req, res) => {
 
 
 // FHB Chapter-wise reader
-const fhbPath = new URL('./fhb_index.json', import.meta.url);
-import { readFileSync } from 'fs';
+const fs = require('fs');
+const path = require('path');
 let fhbData = [];
-try { fhbData = JSON.parse(readFileSync(fhbPath, 'utf-8')); } catch(e) {}
+try { 
+  fhbData = JSON.parse(fs.readFileSync(path.join(__dirname, 'fhb_index.json'), 'utf-8'));
+  console.log('FHB loaded:', fhbData.length, 'chapters');
+} catch(e) { console.log('FHB load error:', e.message); }
 
 app.get('/fhb', (req, res) => {
   const index = fhbData.map(({pages, topic, filename}) => ({pages, topic, filename}));
