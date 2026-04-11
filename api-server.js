@@ -79,4 +79,22 @@ app.get('/browse/:book', (req, res) => {
   res.json({ book, total: filtered.length, page, total_pages: Math.ceil(filtered.length/30), entries: filtered.slice(start, start+30) });
 });
 
+
+// FHB Chapter-wise reader
+const fhbPath = new URL('./fhb_index.json', import.meta.url);
+import { readFileSync } from 'fs';
+let fhbData = [];
+try { fhbData = JSON.parse(readFileSync(fhbPath, 'utf-8')); } catch(e) {}
+
+app.get('/fhb', (req, res) => {
+  const index = fhbData.map(({pages, topic, filename}) => ({pages, topic, filename}));
+  res.json({ total: fhbData.length, chapters: index });
+});
+
+app.get('/fhb/:filename', (req, res) => {
+  const ch = fhbData.find(c => c.filename === req.params.filename);
+  if (!ch) return res.status(404).json({ error: 'Not found' });
+  res.json(ch);
+});
+
 app.listen(process.env.PORT || 3001, () => console.log('✅ Nyaysahayak API Server running on port 3001'));
