@@ -61,21 +61,23 @@ app.post('/search', async (req, res) => {
   }
 });
 
-app.listen(process.env.PORT || 3001, () => console.log('✅ Nyaysahayak API Server running on port 3001'));
 
 app.get('/browse', (req, res) => {
-  const grouped = {};
-  entries.forEach(e => {
-    const book = e.source || e.book || e.filename || 'Other';
-    if (!grouped[book]) grouped[book] = { name: book, count: 0 };
-    grouped[book].count++;
-  });
-  res.json({ total_books: Object.keys(grouped).length, books: Object.values(grouped).sort((a,b) => b.count - a.count) });
+  try {
+    const books = db.prepare("SELECT book, COUNT(*) as count FROM knowledge_base GROUP BY book ORDER BY count DESC").all();
+    res.json({ total_books: books.length, books });
+  } catch(e) { res.status(500).json({ error: e.message }); }
 });
 app.get('/browse/:book', (req, res) => {
-  const book = decodeURIComponent(req.params.book);
-  const page = parseInt(req.query.page) || 1;
-  const filtered = entries.filter(e => (e.source || e.book || e.filename || 'Other') === book);
-  const start = (page-1)*30;
-  res.json({ book, total: filtered.length, page, total_pages: Math.ceil(filtered.length/30), entries: filtered.slice(start, start+30) });
+  try {
+    const book = decodeURIComponent(req.params.book);
+    const page = parseInt(req.query.page) || 1;
+    const limit = 30;
+    const offset = (page-1)*limit;
+    const total = db.prepare("SELECT COUNT(*) as c FROM knowledge_base WHERE book=?").get(book).c;
+    const entries = db.prepare("SELECT * FROM knowledge_base WHERE book=? LIMIT ? OFFSET ?").all(book, limit, offset);
+    res.json({ book, total, page, total_pages: Math.ceil(total/limit), entries });
+  } catch(e) { res.status(500).json({ error: e.message }); }
 });
+
+app.listen(process.env.PORT || 3001, () => console.log('✅ Nyaysahayak API Server running on port 3001'));
