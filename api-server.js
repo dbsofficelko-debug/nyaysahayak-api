@@ -135,4 +135,22 @@ app.get('/pm/:filename', (req, res) => {
   res.json(ch);
 });
 
+
+// Seva Vidhi reader
+let svData = [];
+try {
+  svData = JSON.parse(readFileSync(path.join(__dirname, 'sv_index.json'), 'utf-8'));
+  console.log('SV loaded:', svData.length, 'chapters');
+} catch(e) { console.log('SV load error:', e.message); }
+
+app.get('/sv', (req, res) => {
+  const index = svData.map(({type, num, topic, filename}) => ({type, num, topic, filename}));
+  res.json({ total: svData.length, chapters: index });
+});
+app.get('/sv/:filename', (req, res) => {
+  const ch = svData.find(c => c.filename === req.params.filename);
+  if (!ch) return res.status(404).json({ error: 'Not found' });
+  res.json(ch);
+});
+
 app.listen(process.env.PORT || 3001, () => console.log('✅ Nyaysahayak API Server running on port 3001'));
