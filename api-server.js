@@ -154,3 +154,17 @@ app.get('/sv/:filename', (req, res) => {
 });
 
 app.listen(process.env.PORT || 3001, () => console.log('✅ Nyaysahayak API Server running on port 3001'));
+
+// Add SV chapter endpoint
+app.post('/add-sv', async (req, res) => {
+  const { num, topic, filename, content, type } = req.body;
+  if (!filename || !content) return res.status(400).json({ error: 'filename and content required' });
+  try {
+    db.run(`INSERT OR REPLACE INTO documents (source, title, content) VALUES (?, ?, ?)`,
+      ['seva_vidhi', `${num}. ${topic}`, content],
+      function(err) {
+        if (err) return res.status(500).json({ error: err.message });
+        res.json({ ok: true, id: this.lastID });
+      });
+  } catch(e) { res.status(500).json({ error: e.message }); }
+});
