@@ -1,0 +1,252 @@
+[
+  {
+    "type": "धारा",
+    "num": "1",
+    "topic": "विद्युत अधिनियम 2003 — परिचय एवं परिभाषाएं",
+    "filename": "puvvnl_ea_1",
+    "book": "Electricity Act 2003",
+    "chapter": "धारा 2 — Definitions",
+    "keywords": "consumer definition distribution licensee electricity line tariff grid appropriate commission UPERC",
+    "content": "विद्युत अधिनियम 2003 — मुख्य परिभाषाएं (धारा 2)\n\nउपभोक्ता (Consumer): वह व्यक्ति जिसे लाइसेंसी या सरकार द्वारा अपने उपयोग हेतु विद्युत आपूर्ति की जाती है। जिन परिसरों में विद्युत आपूर्ति की जाती है उनका स्वामी/अधिभोगी भी उपभोक्ता है।\n\nवितरण लाइसेंसी (Distribution Licensee): वह व्यक्ति/संस्था जिसे धारा 14 के अंतर्गत किसी क्षेत्र में विद्युत वितरण का लाइसेंस प्राप्त है। PUVVNL पूर्वांचल क्षेत्र में वितरण लाइसेंसी है।\n\nउपयुक्त आयोग (Appropriate Commission): राज्य विद्युत नियामक आयोग (UPERC) — अंतर-राज्यीय मामलों में CERC।\n\nटैरिफ (Tariff): UPERC द्वारा निर्धारित विद्युत आपूर्ति की दरें एवं शुल्क।\n\nग्रिड (Grid): उच्च वोल्टेज बैकबोन प्रणाली जिससे वितरण कंपनियां जुड़ी हैं।\n\nविद्युत लाइन (Electric Line): वह तार तथा सहायक उपकरण जिनके माध्यम से विद्युत का संचरण होता है।\n\nलाइसेंस (Licence): आयोग द्वारा जारी अनुमति जो धारा 12 के अंतर्गत विद्युत संचरण/वितरण/व्यापार का अधिकार देती है।"
+  },
+  {
+    "type": "धारा",
+    "num": "2",
+    "topic": "उपभोक्ता का विद्युत कनेक्शन अधिकार",
+    "filename": "puvvnl_ea_2",
+    "book": "Electricity Act 2003",
+    "chapter": "धारा 43 — Duty to Supply",
+    "keywords": "connection new supply duty 30 days rural 60 days consumer right refusal obligation",
+    "content": "धारा 43 — विद्युत आपूर्ति का दायित्व (Duty to Supply on Request)\n\nमुख्य प्रावधान:\n1. वितरण लाइसेंसी (PUVVNL) का यह कर्तव्य है कि अपने लाइसेंस क्षेत्र में किसी भी व्यक्ति को आवेदन करने पर विद्युत कनेक्शन प्रदान करे।\n2. शहरी क्षेत्र: आवेदन के 30 दिन के भीतर कनेक्शन देना अनिवार्य।\n3. ग्रामीण क्षेत्र: 60 दिन के भीतर।\n4. अस्वीकार करने का अधिकार: केवल तकनीकी कारणों से, लिखित कारण सहित।\n5. विफलता पर उपभोक्ता CGRF में शिकायत कर सकता है।\n\nPUVVNL के लिए महत्व: यदि कनेक्शन देने में विलंब हो तो UPERC SoP Regulations के अंतर्गत मुआवजा देय होगा। यदि याचिका कनेक्शन न देने से संबंधित हो तो धारा 43 का हवाला देकर विभाग का कर्तव्य स्पष्ट किया जाए।"
+  },
+  {
+    "type": "धारा",
+    "num": "3",
+    "topic": "मीटर — प्रावधान एवं विवाद",
+    "filename": "puvvnl_ea_3",
+    "book": "Electricity Act 2003",
+    "chapter": "धारा 55 — Meters",
+    "keywords": "meter tamper bypass defective meter testing MTR theft tampering reading accuracy",
+    "content": "धारा 55 — मीटर का उपयोग (Use of Meters)\n\nमुख्य प्रावधान:\n1. लाइसेंसी प्रत्येक उपभोक्ता के परिसर में सटीक मीटर लगाएगा।\n2. मीटर PUVVNL की संपत्ति है — उपभोक्ता इसका रखरखाव करेगा।\n3. मीटर से छेड़छाड़ / बाईपास करना धारा 138 के अंतर्गत दंडनीय अपराध।\n4. दोषपूर्ण मीटर की शिकायत पर 30 दिन में बदलाव अनिवार्य (UPERC SoP)।\n5. मीटर बदलने तक Average Consumption के आधार पर बिल।\n\nMeter Tampering Report (MTR) — PUVVNL के लिए:\n- MTR तैयार करते समय JE/AE का हस्ताक्षर आवश्यक\n- External Agency से मीटर परीक्षण कराया जा सकता है\n- मीटर परीक्षण रिपोर्ट न्यायालय में साक्ष्य के रूप में मान्य\n- उपभोक्ता को सुनवाई का अवसर देना अनिवार्य (धारा 126)"
+  },
+  {
+    "type": "धारा",
+    "num": "4",
+    "topic": "विद्युत आपूर्ति विच्छेदन — नियम एवं प्रक्रिया",
+    "filename": "puvvnl_ea_4",
+    "book": "Electricity Act 2003",
+    "chapter": "धारा 56 — Disconnection",
+    "keywords": "disconnection notice 15 days dues payment cut supply restoration reconnection illegal",
+    "content": "धारा 56 — विद्युत आपूर्ति विच्छेदन (Disconnection of Supply)\n\nमुख्य प्रावधान:\n1. बकाया बिल न चुकाने पर न्यूनतम 15 दिन का पूर्व लिखित नोटिस अनिवार्य।\n2. नोटिस देने का तरीका: रजिस्टर्ड डाक या व्यक्तिगत सुपुर्दगी।\n3. रात्रि में, रविवार को, सार्वजनिक अवकाश पर विच्छेदन निषिद्ध।\n4. शिकायत लंबित रहने पर विद्युत विच्छेदन अनुचित एवं अवैध।\n5. विवादित राशि को छोड़कर शेष बिल जमा होने पर विच्छेदन नहीं होगा।\n6. अनुचित विच्छेदन पर मुआवजा: UPERC SoP के अंतर्गत ₹100/दिन।\n\nPUVVNL बचाव पक्ष:\n- विच्छेदन से पूर्व नोटिस की प्रति न्यायालय में प्रस्तुत करें\n- बिना नोटिस विच्छेदन = उपभोक्ता का वैध दावा बनता है\n- विच्छेदन के उचित कारण का उल्लेख नोटिस में हो"
+  },
+  {
+    "type": "धारा",
+    "num": "5",
+    "topic": "विद्युत चोरी — आकलन एवं वसूली",
+    "filename": "puvvnl_ea_5",
+    "book": "Electricity Act 2003",
+    "chapter": "धारा 126 — Assessment for Unauthorized Use",
+    "keywords": "theft unauthorized use assessment 126 12 months recovery hearing opportunity civil penalty",
+    "content": "धारा 126 — अनाधिकृत विद्युत उपयोग का आकलन\n\nमुख्य प्रावधान:\n1. यदि विद्युत का अनाधिकृत उपयोग (Theft/Unauthorized Connection) पाया जाए तो आकलन अधिकारी धारा 126 के तहत आकलन करेगा।\n2. आकलन अधिकारी: प्रभारित अधिकारी के बराबर या उच्च पद का।\n3. अधिकतम आकलन अवधि: 12 माह से अधिक नहीं।\n4. उपभोक्ता को सुनवाई का अवसर अनिवार्य (Natural Justice)।\n5. आकलित राशि पर 2 गुना तक दंड लगाया जा सकता है।\n\nधारा 127 — आकलन के विरुद्ध अपील:\n- अपीलीय प्राधिकरण में अपील संभव\n- अपील से पूर्व आकलित राशि का 50% जमा करना होगा\n- अपीलीय निर्णय 30 दिन में\n\nPUVVNL के लिए: आकलन करते समय प्राकृतिक न्याय का पालन करें। सुनवाई का अवसर दिए बिना आकलन = High Court में challenge होगा।"
+  },
+  {
+    "type": "धारा",
+    "num": "6",
+    "topic": "विद्युत चोरी — दंड एवं FIR",
+    "filename": "puvvnl_ea_6",
+    "book": "Electricity Act 2003",
+    "chapter": "धारा 135-138 — Theft of Electricity",
+    "keywords": "theft FIR police arrest imprisonment penalty bypass direct connection meter tampering 135 136 138",
+    "content": "धारा 135 — विद्युत चोरी (Theft of Electricity)\n\nचोरी की श्रेणियां:\n1. मीटर बाईपास करना\n2. सील/ताला तोड़कर मीटर से छेड़छाड़\n3. अनाधिकृत सीधा कनेक्शन\n4. मीटर रीडिंग से कम खपत दिखाने हेतु उपकरण लगाना\n\nदंड:\n- प्रथम अपराध: 3 वर्ष तक कारावास + जुर्माना\n- द्वितीय अपराध: 5 वर्ष तक कारावास\n- चोरी की राशि की वसूली PUVVNL द्वारा की जाएगी\n\nधारा 135(2): विद्युत चोरी Cognizable एवं Non-Bailable अपराध।\n\nधारा 136: सर्च वारंट — पुलिस सहायता से तलाशी।\nधारा 137: भार वाहन का दुरुपयोग — Sealing का प्रावधान।\nधारा 138: मीटर/उपकरण से छेड़छाड़ — 3 वर्ष कारावास।\n\nPUVVNL प्रक्रिया: FIR दर्ज करने के साथ-साथ धारा 126 के तहत Civil Assessment भी अवश्य करें।"
+  },
+  {
+    "type": "धारा",
+    "num": "7",
+    "topic": "UPERC के कार्य एवं PUVVNL पर नियंत्रण",
+    "filename": "puvvnl_ea_7",
+    "book": "Electricity Act 2003",
+    "chapter": "धारा 86 — Functions of State Commission",
+    "keywords": "UPERC functions tariff license regulatory control state commission jurisdiction PUVVNL regulation",
+    "content": "धारा 86 — राज्य विद्युत नियामक आयोग (UPERC) के कार्य\n\nमुख्य कार्य:\n(a) वितरण लाइसेंसियों (PUVVNL सहित) एवं उत्पादन कंपनियों की टैरिफ निर्धारित करना।\n(b) लाइसेंस जारी करना, संशोधित करना एवं रद्द करना।\n(c) वितरण लाइसेंसियों एवं उपभोक्ताओं के बीच विवादों का निराकरण।\n(d) विद्युत खरीद समझौतों की स्वीकृति।\n(e) मानक प्रदर्शन (SoP) निर्धारित करना एवं निगरानी रखना।\n(f) उपभोक्ता हितों की रक्षा करना।\n\nPUVVNL के लिए महत्व:\n- PUVVNL पर UPERC का पूर्ण नियामक नियंत्रण है\n- UPERC के आदेश PUVVNL पर बाध्यकारी हैं\n- टैरिफ, SoP, Supply Code — सभी UPERC द्वारा निर्धारित\n- उच्च न्यायालय में पहले UPERC उपाय समाप्त करना आवश्यक"
+  },
+  {
+    "type": "धारा",
+    "num": "8",
+    "topic": "दीवानी न्यायालय का वर्जित क्षेत्राधिकार",
+    "filename": "puvvnl_ea_8",
+    "book": "Electricity Act 2003",
+    "chapter": "धारा 111, 153 — Bar of Jurisdiction",
+    "keywords": "civil court jurisdiction bar APTEL appeal tribunal 111 153 high court writ maintainability",
+    "content": "धारा 111 — अपीलीय न्यायाधिकरण (APTEL) में अपील\n\nAPTEL: Appellate Tribunal for Electricity — UPERC के आदेशों के विरुद्ध अपील यहां होगी।\nAPTEL के निर्णय के विरुद्ध → Supreme Court में अपील।\n\nधारा 153 — दीवानी न्यायालयों का क्षेत्राधिकार वर्जित\n\nइस अधिनियम के विषयों पर:\n- दीवानी न्यायालय का अधिकार क्षेत्र नहीं\n- UPERC एवं APTEL ही सक्षम न्यायाधिकरण हैं\n- Tariff, Licensing, Supply मामले — UPERC में\n- Employment/Service मामले — श्रम न्यायालय / उच्च न्यायालय में\n\nPUVVNL बचाव रणनीति:\nयदि उपभोक्ता सीधे उच्च न्यायालय में याचिका लाए (CGRF/Ombudsman bypass करके):\n→ Maintainability challenge करें\n→ Alternative remedy उपलब्ध है — पहले उपाय समाप्त करें\n→ धारा 153 एवं 42(5) का उल्लेख करें"
+  },
+  {
+    "type": "विनियम",
+    "num": "9",
+    "topic": "नया कनेक्शन प्रक्रिया एवं समयसीमा",
+    "filename": "puvvnl_sc_1",
+    "book": "UP Electricity Supply Code 2005",
+    "chapter": "अध्याय 2 — New Connection",
+    "keywords": "new connection application LT HT processing fee security deposit line charges urban rural timeline",
+    "content": "UPERC विद्युत आपूर्ति संहिता 2005 — नया कनेक्शन प्रक्रिया (अध्याय 2)\n\nआवेदन प्रक्रिया:\n1. निर्धारित प्रपत्र में आवेदन + आवश्यक दस्तावेज\n2. शहरी क्षेत्र — 30 दिन में कनेक्शन\n3. ग्रामीण क्षेत्र — 45 दिन में कनेक्शन\n4. LT कनेक्शन: 100 KW तक की मांग\n5. HT कनेक्शन: 100 KW से अधिक\n\nप्रभार:\n- प्रसंस्करण शुल्क (Processing Fee): आवेदन के समय\n- सुरक्षा निधि (Security Deposit): लाइसेंसी निर्धारित दर पर\n- लाइन प्रभार (Line Charges): यदि नई लाइन बिछानी हो\n- सिस्टम लोडिंग प्रभार (System Loading Charges): HT के लिए\n\nSoP उल्लंघन:\n- समयसीमा में कनेक्शन न देने पर UPERC SoP Regulations के अंतर्गत मुआवजा देय\n- उपभोक्ता CGRF में शिकायत कर सकता है"
+  },
+  {
+    "type": "विनियम",
+    "num": "10",
+    "topic": "बिलिंग नियम — गलत बिल, विवाद एवं सुधार",
+    "filename": "puvvnl_sc_2",
+    "book": "UP Electricity Supply Code 2005",
+    "chapter": "अध्याय 4 — Billing",
+    "keywords": "billing wrong bill dispute correction 6 months 12 months estimated bill surcharge bimonthly",
+    "content": "UPERC Supply Code 2005 — बिलिंग नियम (अध्याय 4)\n\nमुख्य प्रावधान:\n1. द्विमासिक (Bimonthly) मीटर रीडिंग सामान्यतः\n2. अनुमानित बिल (Estimated Bill): मीटर उपलब्ध न होने पर — अधिकतम 2 माह\n3. बिल में देय तिथि से कम से कम 15 दिन का समय\n4. विलंब अधिभार (Late Payment Surcharge): 2% प्रति माह\n\nबिल विवाद:\n- उपभोक्ता लाइसेंसी से 30 दिन में समाधान मांग सकता है\n- विवादित राशि को छोड़कर शेष जमा करने पर विच्छेदन नहीं\n\nबिल सुधार की सीमा:\n- अधिक बिल (Excess Billing) की वसूली: अधिकतम 6 माह पूर्व तक\n- कम बिल (Short Billing) सुधार: अधिकतम 12 माह पूर्व तक\n- 12 माह से पुरानी Short Billing मांग वसूल नहीं की जा सकती\n\nPUVVNL के लिए: 12 माह से अधिक पुरानी अतिरिक्त मांग — उपभोक्ता का बचाव वैध।"
+  },
+  {
+    "type": "विनियम",
+    "num": "11",
+    "topic": "मीटर परीक्षण, बदलाव एवं विवाद",
+    "filename": "puvvnl_sc_3",
+    "book": "UP Electricity Supply Code 2005",
+    "chapter": "अध्याय 5 — Meter Rules",
+    "keywords": "meter testing defective replacement average 30 days MTR burnt meter accuracy slow fast creeping",
+    "content": "UPERC Supply Code 2005 — मीटर नियम (अध्याय 5)\n\nमुख्य प्रावधान:\n1. सभी उपभोक्ताओं को सटीक, सील्ड मीटर लगाना अनिवार्य\n2. मीटर परीक्षण: उपभोक्ता के अनुरोध पर 30 दिन में\n3. दोषपूर्ण मीटर: शिकायत के 30 दिन में बदलाव\n4. जले/खराब मीटर: 24 घंटे में बदलाव\n\nमीटर बदलने तक बिलिंग:\n- Average Consumption (पिछले 3-6 माह का औसत) के आधार पर\n- Estimated Billing — अधिकतम 2 माह\n\nMeter Testing Report (MTR):\n- JE/AE द्वारा तैयार की जाए\n- External NABL Accredited Lab से भी परीक्षण संभव\n- रिपोर्ट पर JEN एवं SDO के हस्ताक्षर\n- उपभोक्ता को प्रति उपलब्ध कराई जाए\n\nPUVVNL बचाव: यदि MTR प्रस्तुत हो तो मीटर छेड़छाड़ सिद्ध होती है।"
+  },
+  {
+    "type": "विनियम",
+    "num": "12",
+    "topic": "विद्युत विच्छेदन नियम — नोटिस एवं पुनः कनेक्शन",
+    "filename": "puvvnl_sc_4",
+    "book": "UP Electricity Supply Code 2005",
+    "chapter": "अध्याय 6 — Disconnection & Reconnection",
+    "keywords": "disconnection notice 15 days reconnection 24 hours hospital essential service illegal cut compensation",
+    "content": "UPERC Supply Code 2005 — विच्छेदन एवं पुनः कनेक्शन (अध्याय 6)\n\nविच्छेदन के नियम:\n1. बकाया बिल पर: 15 दिन का लिखित नोटिस अनिवार्य\n2. नोटिस देने का तरीका: रजिस्टर्ड डाक / व्यक्तिगत\n3. निषिद्ध समय: रात्रि, रविवार, सार्वजनिक अवकाश\n4. संरक्षित परिसर: अस्पताल, पुलिस स्टेशन, आवश्यक सेवाएं\n5. विवाद लंबित: विच्छेदन वर्जित\n\nपुनः कनेक्शन:\n- बकाया जमा होने पर 24 घंटे में कनेक्शन\n- पुनः कनेक्शन प्रभार: UPERC द्वारा निर्धारित\n\nमुआवजा:\n- बिना नोटिस विच्छेदन: ₹100 प्रतिदिन\n- समय पर पुनः कनेक्शन न करने पर: ₹100 प्रतिदिन\n- SoP उल्लंघन पर CGRF में शिकायत"
+  },
+  {
+    "type": "विनियम",
+    "num": "13",
+    "topic": "भार वृद्धि, संशोधन एवं स्थानांतरण",
+    "filename": "puvvnl_sc_5",
+    "book": "UP Electricity Supply Code 2005",
+    "chapter": "अध्याय 4 — Load Enhancement & Modification",
+    "keywords": "load enhancement change name transfer ownership modification category shifting meter",
+    "content": "UPERC Supply Code 2005 — संशोधन प्रावधान\n\nभार वृद्धि (Load Enhancement):\n- अनुरोध पर 30 दिन शहरी / 45 दिन ग्रामीण में\n- नए/अतिरिक्त प्रभार देय\n- तकनीकी व्यवहार्यता जांच अनिवार्य\n\nनाम परिवर्तन (Change of Name):\n- स्वामित्व परिवर्तन / मृत्यु / विवाह पर\n- आवश्यक दस्तावेज: Affidavit + Death Certificate / Sale Deed\n- 30 दिन में परिवर्तन\n\nश्रेणी परिवर्तन (Category Change):\n- व्यावसायिक से घरेलू या अन्य श्रेणी में\n- Inspection Report के आधार पर\n- गलत श्रेणी में supply = Theft मानी जा सकती है\n\nस्थानांतरण (Shifting):\n- मीटर/कनेक्शन बिंदु बदलना\n- तकनीकी जांच के बाद अनुमति\n- प्रभार: UPERC द्वारा निर्धारित"
+  },
+  {
+    "type": "विनियम",
+    "num": "14",
+    "topic": "CGRF — उपभोक्ता शिकायत मंच",
+    "filename": "puvvnl_cgrf_1",
+    "book": "CGRF & Ombudsman Regulations",
+    "chapter": "विनियम 3-5 — Constitution & Jurisdiction",
+    "keywords": "CGRF consumer grievance forum constitution jurisdiction billing disconnection meter connection complaint",
+    "content": "UPERC उपभोक्ता शिकायत निवारण मंच (CGRF) विनियम\n\nगठन:\n- प्रत्येक वितरण लाइसेंसी (PUVVNL) CGRF का गठन करेगा\n- अध्यक्ष: न्यूनतम Joint Secretary स्तर के सेवानिवृत्त सरकारी अधिकारी\n- सदस्य: तकनीकी विशेषज्ञ + उपभोक्ता प्रतिनिधि\n\nक्षेत्राधिकार (Jurisdiction):\n- बिलिंग विवाद\n- कनेक्शन देने से इनकार\n- आपूर्ति गुणवत्ता संबंधी शिकायत\n- मीटर विवाद\n- अनुचित विच्छेदन\n- सुरक्षा राशि की वापसी में विलंब\n- SoP उल्लंघन पर मुआवजा\n\nसीमा: प्रति शिकायत ₹1 करोड़ तक\n\nPUVVNL दायित्व:\n- CGRF के समक्ष लिखित जवाब 15 दिन में\n- CGRF निर्णय 45 दिन में\n- निर्णय का 30 दिन में पालन अनिवार्य\n\nउच्च न्यायालय रणनीति:\nयदि उपभोक्ता CGRF bypass करे → Maintainability challenge करें।"
+  },
+  {
+    "type": "विनियम",
+    "num": "15",
+    "topic": "विद्युत लोकपाल — अपील प्रक्रिया",
+    "filename": "puvvnl_cgrf_2",
+    "book": "CGRF & Ombudsman Regulations",
+    "chapter": "विनियम 11-15 — Electricity Ombudsman",
+    "keywords": "ombudsman appeal CGRF 30 days 3 months revision compensation binding mandatory compliance",
+    "content": "विद्युत लोकपाल (Electricity Ombudsman) — UPERC विनियम\n\nनियुक्ति: UPERC द्वारा — सेवानिवृत्त IAS / IPS / जिला न्यायाधीश\n\nअपील का अधिकार:\n- CGRF निर्णय से असंतुष्ट उपभोक्ता 30 दिन में अपील\n- लाइसेंसी भी CGRF निर्णय के विरुद्ध Ombudsman में जा सकता है\n\nलोकपाल की शक्तियां:\n- CGRF निर्णय की पुनरीक्षा\n- नए साक्ष्य पर विचार\n- मुआवजा का आदेश\n- PUVVNL को सुधारात्मक निर्देश\n- UPERC को संदर्भ\n\nनिर्णय की समयसीमा: 3 माह\nअनुपालन: 30 दिन में अनिवार्य\n\nउच्च न्यायालय तक का मार्ग:\nउपभोक्ता → CGRF → Ombudsman → UPERC Revision → High Court (Writ)\n\nPUVVNL रणनीति:\nलोकपाल के प्रतिकूल निर्णय पर UPERC में Revision Petition दाखिल करें।\nउच्च न्यायालय में सीधे Challenge — तभी जब विधिक त्रुटि हो।"
+  },
+  {
+    "type": "विनियम",
+    "num": "16",
+    "topic": "UPERC SoP — मानक प्रदर्शन एवं मुआवजा",
+    "filename": "puvvnl_sop_1",
+    "book": "UPERC SoP Regulations",
+    "chapter": "Standards of Performance — Compensation",
+    "keywords": "SoP standards performance compensation guarantee timeline urban rural fault restoration meter",
+    "content": "UPERC मानक प्रदर्शन विनियम (Standards of Performance Regulations)\n\nगारंटीकृत मानक (Guaranteed Standards) — मुआवजा देय:\n\nकनेक्शन:\n- शहरी LT: 30 दिन | ग्रामीण LT: 45 दिन | HT: 60 दिन\n- विफलता पर: ₹100 प्रतिदिन (प्रथम सप्ताह), ₹200/दिन (बाद में)\n\nआपूर्ति पुनर्स्थापना (Fault Restoration):\n- शहरी भूमिगत: 12 घंटे\n- शहरी ओवरहेड: 24 घंटे\n- ग्रामीण: 48 घंटे\n- विफलता पर: ₹50/घंटा\n\nमीटर बदलाव:\n- 30 दिन में | विफलता पर: ₹100/दिन\n\nपुनः कनेक्शन:\n- बकाया जमा के 24 घंटे में\n- विफलता पर: ₹100/दिन\n\nशिकायत निवारण:\n- 15 दिन में | विफलता पर: ₹100/दिन\n\nPUVVNL के लिए: SoP के अनुसार प्रदर्शन का रिकॉर्ड रखें।\nUPERC को तिमाही SoP Report देना अनिवार्य।"
+  },
+  {
+    "type": "विनियम",
+    "num": "17",
+    "topic": "UPPCL/PUVVNL सेवा विनियम — नियुक्ति एवं पदोन्नति",
+    "filename": "puvvnl_sr_1",
+    "book": "PUVVNL Service Regulations",
+    "chapter": "अध्याय 1 — Appointment & Confirmation",
+    "keywords": "service regulations appointment probation confirmation promotion DPC UPPCL PUVVNL employee",
+    "content": "UPPCL/PUVVNL कर्मचारी सेवा विनियम\n\nनियुक्ति प्रकार:\n1. नियमित (Regular): UPPCL Service Regulations के अनुसार\n2. संविदा (Contract): निर्धारित अवधि हेतु\n3. दैनिक वेतन (Daily Wage): अस्थायी कार्य हेतु\n\nपरिवीक्षा (Probation):\n- सामान्यतः 2 वर्ष\n- विस्तारित: अधिकतम 1 वर्ष और\n- परिवीक्षा में विभागीय जांच संभव\n\nस्थायीकरण (Confirmation):\n- परिवीक्षा सफल + ACR संतोषजनक होने पर\n- स्थायीकरण से पूर्व अभ्यावेदन का अधिकार\n\nपदोन्नति (Promotion):\n- DPC (Departmental Promotion Committee) की सिफारिश\n- वरिष्ठता + ACR + विभागीय परीक्षा के आधार पर\n- पदोन्नति में आरक्षण नीति लागू\n\nन्यायालय में:\nनियुक्ति/पदोन्नति के विवाद में UPPCL Service Regulations का संदर्भ दें।"
+  },
+  {
+    "type": "विनियम",
+    "num": "18",
+    "topic": "PUVVNL अनुशासन — विभागीय जांच प्रक्रिया",
+    "filename": "puvvnl_sr_2",
+    "book": "PUVVNL Service Regulations",
+    "chapter": "अध्याय 3 — Discipline & Enquiry",
+    "keywords": "departmental enquiry charge sheet inquiry officer natural justice CDA penalty dismissal",
+    "content": "PUVVNL अनुशासन एवं अपील नियम\n\nप्रमुख दंड (Major Penalties):\n- पदावनति (Demotion)\n- वेतन में कटौती\n- अनिवार्य सेवानिवृत्ति\n- सेवा से पदच्युति (Removal)\n- सेवा से बर्खास्तगी (Dismissal)\n\nविभागीय जांच प्रक्रिया:\n1. आरोप पत्र (Charge Sheet) जारी\n2. आरोपी का लिखित जवाब (15 दिन)\n3. जांच अधिकारी (IO) नियुक्ति\n4. जांच सुनवाई — साक्षी, साक्ष्य\n5. IO की रिपोर्ट\n6. Disciplinary Authority का निर्णय\n7. दंडादेश\n\nप्राकृतिक न्याय (Natural Justice):\n- सुनवाई का पर्याप्त अवसर अनिवार्य\n- आरोपों की स्पष्ट सूचना\n- बचाव का अवसर\n\nअपील:\n- Appellate Authority को 30 दिन में\n- Revision: Revisional Authority को\n\nन्यायिक समीक्षा:\nप्राकृतिक न्याय का उल्लंघन = High Court में Writ maintainable।"
+  },
+  {
+    "type": "विनियम",
+    "num": "19",
+    "topic": "PUVVNL टैरिफ — श्रेणियां एवं दरें",
+    "filename": "puvvnl_tariff_1",
+    "book": "UPERC Tariff Order",
+    "chapter": "टैरिफ श्रेणियां — UPERC FY 2025-26",
+    "keywords": "tariff category LMV domestic commercial industrial HT EHT rate unit charge fixed charge",
+    "content": "UPERC टैरिफ श्रेणियां (PUVVNL क्षेत्र)\n\nLMV श्रेणियां (Low/Medium Voltage):\n\nLMV-1 (घरेलू/Domestic): BPL उपभोक्ता एवं सामान्य घरेलू\nLMV-2 (गैर-घरेलू/Commercial): दुकान, कार्यालय, व्यावसायिक\nLMV-4 (लघु उद्योग/Small Industry): 25 KW तक\nLMV-5 (मध्यम उद्योग): 25-100 KW\nLMV-6 (कृषि/Agriculture): Pumpset\n\nHT श्रेणियां (High Tension):\nHMV-1: 11 KV — 100 KW-5000 KW\nHMV-2: 33 KV से अधिक\nEHT: 132 KV/220 KV — बड़े उद्योग\n\nटैरिफ घटक:\n1. Fixed Charge (KVA/KW के आधार पर)\n2. Energy Charge (Unit/KWH के आधार पर)\n3. Fuel Surcharge (UPERC अनुमोदित)\n4. Wheeling Charge (Open Access पर)\n\nPUVVNL के लिए: गलत श्रेणी (Category) में बिल करने पर पुनः आकलन की जिम्मेदारी।"
+  },
+  {
+    "type": "विनियम",
+    "num": "20",
+    "topic": "PUVVNL — शिकायत पदानुक्रम एवं उच्च न्यायालय रणनीति",
+    "filename": "puvvnl_strategy_1",
+    "book": "PUVVNL Legal Strategy",
+    "chapter": "Court Case Strategy — Hierarchy of Remedies",
+    "keywords": "high court writ alternative remedy CGRF ombudsman maintainability exhaustion hierarchy strategy",
+    "content": "PUVVNL कोर्ट केस रणनीति — उपाय पदानुक्रम\n\nशिकायत निवारण का सही क्रम:\nउपभोक्ता → PUVVNL Divisional Office → CGRF → Ombudsman → UPERC (Revision) → High Court\n\nउच्च न्यायालय में मुख्य बचाव:\n\n1. Alternative Remedy Argument:\n- उपभोक्ता ने CGRF/Ombudsman का उपाय नहीं किया\n- धारा 42(5) Electricity Act 2003 + UPERC CGRF Regulations\n- Writ Petition is not maintainable\n\n2. Maintainability Challenge:\n- Tariff/Billing मामलों में UPERC exclusive jurisdiction\n- धारा 86 + 153 Electricity Act 2003\n- Civil Court bar लागू\n\n3. Technical Defense:\n- MTR (Meter Tampering Report) प्रस्तुत करें\n- Inspection Report\n- Consumption Pattern Analysis\n\n4. Procedural Defense:\n- Natural Justice का पालन हुआ\n- Notice दी गई\n- Hearing का अवसर दिया गया\n\n5. Precedents:\n- UPERC Orders PUVVNL के पक्ष में\n- HC/SC के समान मामलों के निर्णय\n\nमहत्वपूर्ण: प्रत्येक केस में Counter Affidavit में उपरोक्त बिंदु अवश्य सम्मिलित करें।"
+  },
+  {
+    "type": "विनियम",
+    "num": "21",
+    "topic": "UP विद्युत सुधार अधिनियम 1999 — PUVVNL का कानूनी आधार",
+    "filename": "puvvnl_upera_1",
+    "book": "UP Electricity Reform Act 1999",
+    "chapter": "UPPCL Restructuring — PUVVNL Formation",
+    "keywords": "UP reform act 1999 UPPCL restructuring PUVVNL formation distribution company corporation nigam",
+    "content": "उत्तर प्रदेश विद्युत सुधार अधिनियम 1999\n\nमुख्य प्रावधान:\n1. UPSEB (UP State Electricity Board) का विघटन\n2. UPPCL (UP Power Corporation Ltd.) का गठन — Holding Company\n3. वितरण कंपनियों का गठन:\n   - PVVNL (पश्चिमांचल) — Meerut\n   - MVVNL (मध्यांचल) — Lucknow\n   - PVVNL (पूर्वांचल) — Varanasi = PUVVNL\n   - DVVNL (दक्षिणांचल) — Agra\n4. UPERC का गठन — स्वायत्त नियामक संस्था\n\nPUVVNL की कानूनी स्थिति:\n- Government Company (Companies Act 2013 के अंतर्गत)\n- UPPCL की सहायक कंपनी\n- UP Electricity Reform Act 1999 के अंतर्गत निगमित\n- UPERC द्वारा नियमित\n- GFR/FHB नियम लागू होते हैं\n\nन्यायालय में महत्व:\nPUVVNL = State Instrumentality — Article 12 के अंतर्गत\nHigh Court Writ Jurisdiction लागू होती है"
+  },
+  {
+    "type": "निर्णय",
+    "num": "22",
+    "topic": "उच्च न्यायालय — PUVVNL पक्ष में महत्वपूर्ण सिद्धांत",
+    "filename": "puvvnl_judgments_1",
+    "book": "PUVVNL Legal Strategy",
+    "chapter": "Key Legal Principles — HC/SC",
+    "keywords": "high court principle theft assessment natural justice hearing opportunity writ maintainability tariff",
+    "content": "PUVVNL के पक्ष में स्थापित विधिक सिद्धांत\n\n1. विद्युत चोरी आकलन में:\n- राज्य बनाम PUVVNL (Allahabad HC): MTR + JE Report पर्याप्त साक्ष्य\n- Assessment में Natural Justice पर्याप्त हो — Hearing का record रखें\n- 12 माह की सीमा के बाद आकलन नहीं\n\n2. Alternative Remedy का सिद्धांत:\n- यदि CGRF/Ombudsman उपाय उपलब्ध हो → Writ not maintainable (Allahabad HC — अनेक निर्णय)\n- Tariff dispute → UPERC exclusive jurisdiction\n- Consumer complaint → CGRF पहले\n\n3. विच्छेदन में:\n- बिना नोटिस विच्छेदन = Writ maintainable (उपभोक्ता के पक्ष में)\n- PUVVNL को Notice की प्रति प्रस्तुत करनी होगी\n\n4. Service matters:\n- Natural Justice violation → Court interference\n- DPC में आरक्षण नियम का पालन अनिवार्य\n- Seniority list के विरुद्ध HC Writ maintainable\n\n5. Tariff/Billing:\n- UPERC Tariff Order → Binding on PUVVNL\n- Tariff category dispute → CGRF/Ombudsman पहले\n- Wrong assessment → धारा 126/127 procedure follow करें"
+  },
+  {
+    "type": "प्रारूप",
+    "num": "23",
+    "topic": "पैरावार टिप्पणी — PUVVNL विद्युत चोरी केस",
+    "filename": "puvvnl_template_1",
+    "book": "PUVVNL Legal Strategy",
+    "chapter": "Template — Counter Affidavit Theft Case",
+    "keywords": "parawise comments template theft meter tampering counter affidavit format draft",
+    "content": "पैरावार टिप्पणी प्रारूप — विद्युत चोरी/मीटर छेड़छाड़ केस\n\nPara 1: याचिका की सुनवाई योग्यता (Maintainability)\nयाचिकाकर्ता ने CGRF/Ombudsman का वैकल्पिक उपाय समाप्त नहीं किया। अतः वर्तमान याचिका सुनवाई योग्य नहीं है। (धारा 42(5) Electricity Act 2003 + UPERC CGRF Regulations)\n\nPara 2: तथ्यात्मक पृष्ठभूमि\nउपभोक्ता का खाता संख्या [____], श्रेणी [____], संस्थापित भार [____] KW है। दिनांक [____] को JE [नाम] द्वारा निरीक्षण किया गया।\n\nPara 3: निरीक्षण रिपोर्ट\nनिरीक्षण में मीटर छेड़छाड़/बाईपास/अनाधिकृत कनेक्शन पाया गया। MTR दिनांक [____] को तैयार की गई। (Annexure-[__])\n\nPara 4: धारा 126 प्रक्रिया का पालन\nआकलन नोटिस दिनांक [____] को दिया गया। उपभोक्ता को सुनवाई का अवसर दिया गया दिनांक [____] को। आकलन आदेश दिनांक [____]।\n\nPara 5: विधिक स्थिति\nधारा 135 के अंतर्गत विद्युत चोरी दंडनीय अपराध है। PUVVNL का आकलन विधि सम्मत है।\n\nPara 6: निवेदन\nयाचिका खारिज की जाए। PUVVNL का आकलन बनाए रखा जाए।"
+  },
+  {
+    "type": "प्रारूप",
+    "num": "24",
+    "topic": "पैरावार टिप्पणी — बिलिंग विवाद केस",
+    "filename": "puvvnl_template_2",
+    "book": "PUVVNL Legal Strategy",
+    "chapter": "Template — Counter Affidavit Billing Dispute",
+    "keywords": "parawise comments billing dispute wrong bill excess demand template draft counter affidavit",
+    "content": "पैरावार टिप्पणी प्रारूप — बिलिंग विवाद केस\n\nPara 1: वैकल्पिक उपाय\nउपभोक्ता CGRF में शिकायत कर सकता था। धारा 42(5) Electricity Act 2003 के अंतर्गत CGRF ही उचित मंच है।\n\nPara 2: बिल का आधार\nउपभोक्ता का मीटर रीडिंग [____] यूनिट दिनांक [____]। UPERC द्वारा निर्धारित टैरिफ LMV-[__] के अनुसार बिल तैयार।\n\nPara 3: Short Billing सुधार\nपूर्व अवधि में मीटर दोषपूर्ण/धीमा था। Supply Code 2005 अध्याय 4 के अनुसार अधिकतम 12 माह की Short Billing सुधार किया जाना उचित है।\n\nPara 4: नोटिस\nसुधार मांग का नोटिस दिनांक [____] को भेजा गया। (Annexure-[__])\n\nPara 5: विधिक स्थिति\nUPERC Tariff Order एवं Supply Code 2005 के अनुसार बिल पूर्णतः उचित है।\n\nPara 6: निवेदन\nयाचिका खारिज की जाए।"
+  },
+  {
+    "type": "प्रारूप",
+    "num": "25",
+    "topic": "Brief History प्रारूप — PUVVNL केस",
+    "filename": "puvvnl_template_3",
+    "book": "PUVVNL Legal Strategy",
+    "chapter": "Template — Brief History Format",
+    "keywords": "brief history case summary writ petition background facts format template PUVVNL",
+    "content": "संक्षिप्त वाद इतिहास — PUVVNL केस प्रारूप\n\n1. पक्षकार: याचिकाकर्ता [नाम], पुत्र/पुत्री [____], निवासी [____] बनाम PUVVNL एवं अन्य।\n\n2. याचिका का प्रकार: रिट याचिका [WP No. ____/____] — [कारण: चोरी आकलन/बिल विवाद/विच्छेदन/कनेक्शन]\n\n3. याचिका की तिथि: [____]\n\n4. मुख्य तथ्य:\n   - उपभोक्ता का खाता: [____], श्रेणी: [____]\n   - विवाद का कारण: [____]\n   - PUVVNL का आदेश/कार्यवाही: [____] दिनांक [____]\n\n5. महत्वपूर्ण आदेश:\n   - प्रथम आदेश: [____]\n   - अंतरिम राहत: [____]\n   - वर्तमान स्थिति: [____]\n\n6. PUVVNL की स्थिति:\n   - Counter Affidavit दाखिल: हां/नहीं, दिनांक [____]\n   - अगली सुनवाई: [____]\n   - विशेष टिप्पणी: [____]\n\n7. विधिक आधार:\n   - Electricity Act 2003 की संबंधित धाराएं\n   - UPERC Supply Code/Tariff Order\n   - CGRF/Ombudsman प्रक्रिया का पालन"
+  }
+]
