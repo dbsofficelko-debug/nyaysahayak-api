@@ -51,7 +51,6 @@ const handleSearch = async (req, res) => {
     const q = query.toLowerCase();
     let pool = knowledge;
 
-    // Filter by book if provided
     if (bookFilter) {
       const bf = bookFilter.toLowerCase();
       pool = knowledge.filter(r =>
@@ -68,12 +67,10 @@ const handleSearch = async (req, res) => {
       (r.topic && r.topic.toLowerCase().includes(q))
     ).slice(0, limitParam);
 
-    // Return results directly (for RAG use by bot)
     if (req.method === 'GET' || req.query?.raw) {
       return res.json({ results, total: results.length });
     }
 
-    // AI-enhanced response (POST)
     const context = results.length > 0
       ? results.map(r => `[${r.book} — ${r.chapter}]\n${r.content}`).join('\n\n')
       : '';
@@ -81,7 +78,13 @@ const handleSearch = async (req, res) => {
     const response = await client.messages.create({
       model: 'claude-sonnet-4-5',
       max_tokens: 500,
-      system: `You are Nyaysahayak, a legal assistant for UP government employees. Answer in Hindi using the provided context.`,
+      system: `आप न्यायसहायक हैं — उत्तर प्रदेश शासन के विधिक सहायक।
+
+नियम:
+1. उत्तर केवल हिंदी में दें।
+2. हर तथ्य के साथ नियम/धारा का उल्लेख अनिवार्य है। जैसे: (सेवा विधि, अध्याय-16, नियम 52)
+3. यदि संदर्भ में उत्तर न हो तो स्पष्ट लिखें: "उपलब्ध ज्ञान आधार में यह जानकारी नहीं है।"
+4. अनुमान न लगाएं।`,
       messages: [{ role: 'user', content: context ? `Context:\n${context}\n\nPrashna: ${query}` : query }]
     });
 
@@ -117,7 +120,6 @@ app.get('/browse/:book', (req, res) => {
   res.json({ book, total: filtered.length, page, total_pages: Math.ceil(filtered.length/30), entries: filtered.slice(start, start+30) });
 });
 
-
 // ── FHB Chapter Reader ──────────────────────────────────────────
 let fhbData = [];
 try {
@@ -135,7 +137,6 @@ app.get('/fhb/:filename', (req, res) => {
   if (!ch) return res.status(404).json({ error: 'Chapter not found' });
   res.json(ch);
 });
-
 
 // ── SAD Manual Reader ───────────────────────────────────────────
 let sadData = [];
@@ -155,7 +156,6 @@ app.get('/sad/:filename', (req, res) => {
   res.json(ch);
 });
 
-
 // ── Seva Vidhi Reader ───────────────────────────────────────────
 let svData = [];
 try {
@@ -173,7 +173,6 @@ app.get('/sv/:filename', (req, res) => {
   res.json(ch);
 });
 
-
 // ── Procurement Manual Reader ───────────────────────────────────
 let pmData = [];
 try {
@@ -190,7 +189,6 @@ app.get('/pm/:filename', (req, res) => {
   if (!ch) return res.status(404).json({ error: 'Chapter not found' });
   res.json(ch);
 });
-
 
 // ── PUVVNL Reader ───────────────────────────────────────────────
 let puvvnlData = [];
@@ -212,7 +210,6 @@ app.get('/puvvnl/:filename', (req, res) => {
   res.json(ch);
 });
 
-
 // ── Start Server ────────────────────────────────────────────────
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
@@ -221,10 +218,28 @@ app.listen(PORT, () => {
   console.log(`⚡ PUVVNL entries: ${puvvnlData.length}`);
 });
 
-// DocGen endpoint — no timeout limit
+// ── DocGen endpoint ─────────────────────────────────────────────
 app.post('/docgen', async (req, res) => {
-  const { prompt } = req.body;
+  const { prompt, department } = req.body;
   if (!prompt) return res.status(400).json({ error: 'prompt required' });
+
+  const systemPrompt = `आप न्यायसहायक हैं — उत्तर प्रदेश शासन के विधिक दस्तावेज़ सहायक।
+
+विभाग: ${department || 'सामान्य'}
+
+पैरावार टिप्पणी का प्रारूप — प्रत्येक पैरे के लिए तीन कॉलम में उत्तर दें:
+
+| पैरा सं० | पैरे का सार (1-2 वाक्य) | विधिक टिप्पणी (नियम/धारा सहित) |
+|----------|--------------------------|----------------------------------|
+| Para 1   | ...                      | (नियम का नाम, धारा सं०)         |
+| Para 2   | ...                      | (नियम का नाम, धारा सं०)         |
+
+नियम:
+1. नियम/धारा उद्धरण अनिवार्य है — बिना citation के कोई टिप्पणी मान्य नहीं।
+2. भाषा: शुद्ध सरकारी हिंदी।
+3. यदि कोई पैरा तथ्यात्मक हो तो "तथ्यात्मक — टिप्पणी अपेक्षित नहीं" लिखें।
+4. अंत में "पैरवी बिंदु" अनुभाग जोड़ें जिसमें 3-5 मुख्य तर्क हों।`;
+
   try {
     const response = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
@@ -236,6 +251,7 @@ app.post('/docgen', async (req, res) => {
       body: JSON.stringify({
         model: 'claude-haiku-4-5-20251001',
         max_tokens: 2000,
+        system: systemPrompt,
         messages: [{ role: 'user', content: prompt }]
       })
     });
