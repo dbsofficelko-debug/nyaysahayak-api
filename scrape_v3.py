@@ -21,7 +21,7 @@ all_entries = []
 
 async def solve_captcha(page):
     try:
-        captcha_img = page.locator("img[src*='CaptchaImage'], img[id*='captcha'], img[id*='Captcha']")
+        captcha_img = page.locator("img[id='Image1']")
         if await captcha_img.count() == 0:
             print("  No captcha image found!")
             return None
