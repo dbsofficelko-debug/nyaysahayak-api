@@ -47,7 +47,7 @@ async def scrape():
             dept_total = 0
             page_num = 1
 
-            while True:
+            while page_num <= 400:
                 rows = await page.locator("table tr").all()
                 count = 0
                 for row in rows[1:]:
