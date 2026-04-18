@@ -2,15 +2,9 @@ import asyncio, json
 from playwright.async_api import async_playwright
 
 DEPARTMENTS = [
-    {"name": "grah", "label": "गृह विभाग", "value": "165"},
-    {"name": "nyay", "label": "न्याय विभाग", "value": "46"},
-    {"name": "karmik", "label": "कार्मिक विभाग", "value": "163"},
+    
     {"name": "vitt", "label": "वित्त विभाग", "value": "199"},
-    {"name": "rajaswa", "label": "स्टाम्प एवं रजिस्ट्रेशन", "value": "94"},
-    {"name": "madhyamik", "label": "माध्यमिक शिक्षा", "value": "50002"},
-    {"name": "basic", "label": "बेसिक शिक्षा", "value": "50001"},
-    {"name": "sainik", "label": "सैनिक कल्याण", "value": "209"},
-    {"name": "urja", "label": "ऊर्जा विभाग", "value": "1"},
+    
 ]
 
 all_entries = []
@@ -47,7 +41,7 @@ async def scrape():
             dept_total = 0
             page_num = 1
 
-            while page_num <= 400:
+            while page_num <= 135:
                 rows = await page.locator("table tr").all()
                 count = 0
                 for row in rows[1:]:
