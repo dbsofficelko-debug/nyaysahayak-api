@@ -218,7 +218,18 @@ app.listen(PORT, () => {
   console.log(`⚡ PUVVNL entries: ${puvvnlData.length}`);
 });
 
-// ── DocGen endpoint ─────────────────────────────────────────────
+// — Bulk Insert endpoint ————————————————————
+app.post('/bulk-insert', (req, res) => {
+  const entries = req.body;
+  if (!Array.isArray(entries)) return res.status(400).json({error: 'Array expected'});
+  const stmt = db.prepare('INSERT OR IGNORE INTO knowledge_base (book, chapter, heading, content, keywords, page_ref) VALUES (?, ?, ?, ?, ?, ?)');
+  let ok = 0;
+  for (const d of entries) {
+    stmt.run('vitt', d.topic||'', d.topic||'', d.content||'', d.keywords||'', d.source||'');
+    ok++;
+  }
+  res.json({inserted: ok});
+});
 app.post('/docgen', async (req, res) => {
   const { prompt, department } = req.body;
   if (!prompt) return res.status(400).json({ error: 'prompt required' });
