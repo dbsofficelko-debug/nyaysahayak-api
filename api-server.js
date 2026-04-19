@@ -94,13 +94,13 @@ function smartSearch(query, bookFilter, limit = 8) {
   // Book filter
   if (bookFilter && bookFilter.trim()) {
     const bf = bookFilter.toLowerCase().trim();
-    pool = knowledge.filter(r =>
-      (r.book       && r.book.toLowerCase().includes(bf)) ||
-      (r.filename   && r.filename.toLowerCase().includes(bf)) ||
-      (r.source     && r.source.toLowerCase().includes(bf)) ||
-      (r.dept       && r.dept.toLowerCase().includes(bf)) ||
-      (r.department && r.department.toLowerCase().includes(bf))
-    );
+    pool = knowledge.filter(r => {
+      const dept = (r.dept || r.department || '').toLowerCase();
+      const book = (r.book || r.filename || r.source || '').toLowerCase();
+      // Universal entries (Level 1) sabhi depts ko milegi
+      if (dept === 'universal') return true;
+      return book.includes(bf) || dept.includes(bf);
+    });
   }
 
   // Score each entry
