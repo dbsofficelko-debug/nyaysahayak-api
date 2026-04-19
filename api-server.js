@@ -214,18 +214,20 @@ app.get('/knowledge', (req, res) => {
   const dept      = req.query.dept || '';
 
   let pool = knowledge;
-  if (bookFilter) {
-    const bf = bookFilter.toLowerCase();
-    pool = knowledge.filter(r =>
-      (r.book   && r.book.toLowerCase().includes(bf)) ||
-      (r.source && r.source.toLowerCase().includes(bf))
-    );
-  }
+  // DEPT filter first — strict match (universal entries always included)
   if (dept) {
     const d = dept.toLowerCase();
+    pool = knowledge.filter(r =>
+      !r.dept ||
+      r.dept === 'universal' ||
+      r.dept.toLowerCase() === d
+    );
+  }
+  if (bookFilter) {
+    const bf = bookFilter.toLowerCase();
     pool = pool.filter(r =>
-      (r.dept       && r.dept.toLowerCase().includes(d)) ||
-      (r.department && r.department.toLowerCase().includes(d))
+      (r.book   && r.book.toLowerCase().includes(bf)) ||
+      (r.source && r.source.toLowerCase().includes(bf))
     );
   }
 
