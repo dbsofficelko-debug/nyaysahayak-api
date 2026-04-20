@@ -504,7 +504,7 @@ function parseCNR(cnr) {
   const courtMatch = body.match(/^([A-Z]+)(\d+)$/);
   const court_code  = courtMatch ? courtMatch[1] : '';
   const case_number = courtMatch ? courtMatch[2] : body;
-  return { cnr, court_type: 'hc', court_code, case_number, case_year: year };
+  return { reference_id: cnr, cnr, court_type: 'hc', court_code, case_number, case_year: year };
 }
 
 app.get('/ecourts/cnr/:cnr', async (req, res) => {
