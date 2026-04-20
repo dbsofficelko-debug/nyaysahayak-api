@@ -234,7 +234,7 @@ app.get('/knowledge', (req, res) => {
     pool = knowledge.filter(r =>
       !r.dept ||
       r.dept === 'universal' ||
-      r.dept.toLowerCase() === d
+      r.dept.toLowerCase().includes(d) || d.includes(r.dept.toLowerCase())
     );
   }
   if (bookFilter) {
