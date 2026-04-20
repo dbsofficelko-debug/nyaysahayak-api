@@ -493,15 +493,15 @@ app.post('/docgen', async (req, res) => {
 
 // ── eCourts Case Tracking ────────────────────────────────────────
 const VAKEEL_API_KEY = process.env.VAKEEL_API_KEY || '';
-const VAKEEL_BASE    = 'https://www.vakeel360.com/api/v1/protected';
+const VAKEEL_BASE    = 'https://prod-api.vakeel360.com/api/v1';  // ✅ FIXED
 
 app.get('/ecourts/cnr/:cnr', async (req, res) => {
   if (!VAKEEL_API_KEY) return res.status(503).json({ error: 'eCourts API key not configured' });
   try {
-    const response = await fetch(`${VAKEEL_BASE}/case-search-cnr`, {
+    const response = await fetch(`${VAKEEL_BASE}/cases/search`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'X-API-Key': VAKEEL_API_KEY },
-      body: JSON.stringify({ cnr: req.params.cnr })
+      body: JSON.stringify({ court_type: 'hc', reference_id: req.params.cnr })  // ✅ FIXED
     });
     const data = await response.json();
     res.json(data);
@@ -510,13 +510,13 @@ app.get('/ecourts/cnr/:cnr', async (req, res) => {
 
 app.get('/ecourts/case', async (req, res) => {
   if (!VAKEEL_API_KEY) return res.status(503).json({ error: 'eCourts API key not configured' });
-  const { court, type, number, year } = req.query;
-  if (!court || !number || !year) return res.status(400).json({ error: 'court, number, year required' });
+  const { type, number, year } = req.query;
+  if (!number || !year) return res.status(400).json({ error: 'number, year required' });
   try {
-    const response = await fetch(`${VAKEEL_BASE}/case-search`, {
+    const response = await fetch(`${VAKEEL_BASE}/cases/search`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'X-API-Key': VAKEEL_API_KEY },
-      body: JSON.stringify({ court, case_type: type || 'WRIT-C', case_number: number, case_year: year })
+      body: JSON.stringify({ court_type: 'hc', reference_id: number, year: year })  // ✅ FIXED
     });
     const data = await response.json();
     res.json(data);
@@ -525,18 +525,16 @@ app.get('/ecourts/case', async (req, res) => {
 
 app.post('/ecourts/track', async (req, res) => {
   if (!VAKEEL_API_KEY) return res.status(503).json({ error: 'eCourts API key not configured' });
-  const { cnr, court, type, number, year } = req.body;
+  const { cnr, type, number, year } = req.body;
   try {
-    let endpoint, payload;
+    let payload;
     if (cnr) {
-      endpoint = `${VAKEEL_BASE}/case-search-cnr`;
-      payload  = { cnr };
+      payload = { court_type: 'hc', reference_id: cnr };  // ✅ FIXED
     } else {
-      if (!court || !number || !year) return res.status(400).json({ error: 'cnr OR (court + number + year) required' });
-      endpoint = `${VAKEEL_BASE}/case-search`;
-      payload  = { court, case_type: type || 'WRIT-C', case_number: number, case_year: year };
+      if (!number || !year) return res.status(400).json({ error: 'cnr OR (number + year) required' });
+      payload = { court_type: 'hc', reference_id: number, year: year };  // ✅ FIXED
     }
-    const response = await fetch(endpoint, {
+    const response = await fetch(`${VAKEEL_BASE}/cases/search`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'X-API-Key': VAKEEL_API_KEY },
       body: JSON.stringify(payload)
