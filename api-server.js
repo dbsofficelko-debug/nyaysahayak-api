@@ -495,13 +495,26 @@ app.post('/docgen', async (req, res) => {
 const VAKEEL_API_KEY = process.env.VAKEEL_API_KEY || '';
 const VAKEEL_BASE    = 'https://prod-api.vakeel360.com/api/v1';  // ✅ FIXED
 
+// CNR format: UPHC052055442026 → court_code=UPHC + case_number=05205544 + case_year=2026
+function parseCNR(cnr) {
+  // Last 4 digits = year, rest = number (after court code)
+  const year = cnr.slice(-4);
+  const body = cnr.slice(0, -4);   // e.g. UPHC05205544
+  // Court code = leading alpha chars
+  const courtMatch = body.match(/^([A-Z]+)(\d+)$/);
+  const court_code  = courtMatch ? courtMatch[1] : '';
+  const case_number = courtMatch ? courtMatch[2] : body;
+  return { cnr, court_type: 'hc', court_code, case_number, case_year: year };
+}
+
 app.get('/ecourts/cnr/:cnr', async (req, res) => {
   if (!VAKEEL_API_KEY) return res.status(503).json({ error: 'eCourts API key not configured' });
   try {
+    const payload = parseCNR(req.params.cnr);
     const response = await fetch(`${VAKEEL_BASE}/cases/search`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'X-API-Key': VAKEEL_API_KEY },
-      body: JSON.stringify({ court_type: 'hc', reference_id: req.params.cnr })  // ✅ FIXED
+      body: JSON.stringify(payload)
     });
     const data = await response.json();
     res.json(data);
@@ -516,7 +529,7 @@ app.get('/ecourts/case', async (req, res) => {
     const response = await fetch(`${VAKEEL_BASE}/cases/search`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'X-API-Key': VAKEEL_API_KEY },
-      body: JSON.stringify({ court_type: 'hc', reference_id: number, year: year })  // ✅ FIXED
+      body: JSON.stringify({ court_type: 'hc', case_number: number, case_year: year, case_type: type || 'WRIT-C' })
     });
     const data = await response.json();
     res.json(data);
@@ -529,10 +542,10 @@ app.post('/ecourts/track', async (req, res) => {
   try {
     let payload;
     if (cnr) {
-      payload = { court_type: 'hc', reference_id: cnr };  // ✅ FIXED
+      payload = parseCNR(cnr);
     } else {
       if (!number || !year) return res.status(400).json({ error: 'cnr OR (number + year) required' });
-      payload = { court_type: 'hc', reference_id: number, year: year };  // ✅ FIXED
+      payload = { court_type: 'hc', case_number: number, case_year: year, case_type: type || 'WRIT-C' };
     }
     const response = await fetch(`${VAKEEL_BASE}/cases/search`, {
       method: 'POST',
