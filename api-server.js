@@ -510,11 +510,11 @@ function parseCNR(cnr) {
 app.get('/ecourts/cnr/:cnr', async (req, res) => {
   if (!VAKEEL_API_KEY) return res.status(503).json({ error: 'eCourts API key not configured' });
   try {
-    const payload = parseCNR(req.params.cnr);
+    
     const response = await fetch(`${VAKEEL_BASE}/cases/search`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'X-API-Key': VAKEEL_API_KEY },
-      body: JSON.stringify(payload)
+      body: JSON.stringify({ cnr: req.params.cnr })
     });
     const data = await response.json();
     res.json(data);
