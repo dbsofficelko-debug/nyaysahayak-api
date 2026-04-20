@@ -491,6 +491,61 @@ app.post('/docgen', async (req, res) => {
   }
 });
 
+// ── eCourts Case Tracking ────────────────────────────────────────
+const VAKEEL_API_KEY = process.env.VAKEEL_API_KEY || '';
+const VAKEEL_BASE    = 'https://www.vakeel360.com/api/v1/protected';
+
+app.get('/ecourts/cnr/:cnr', async (req, res) => {
+  if (!VAKEEL_API_KEY) return res.status(503).json({ error: 'eCourts API key not configured' });
+  try {
+    const response = await fetch(`${VAKEEL_BASE}/case-search-cnr`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'X-API-Key': VAKEEL_API_KEY },
+      body: JSON.stringify({ cnr: req.params.cnr })
+    });
+    const data = await response.json();
+    res.json(data);
+  } catch(e) { res.status(500).json({ error: e.message }); }
+});
+
+app.get('/ecourts/case', async (req, res) => {
+  if (!VAKEEL_API_KEY) return res.status(503).json({ error: 'eCourts API key not configured' });
+  const { court, type, number, year } = req.query;
+  if (!court || !number || !year) return res.status(400).json({ error: 'court, number, year required' });
+  try {
+    const response = await fetch(`${VAKEEL_BASE}/case-search`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'X-API-Key': VAKEEL_API_KEY },
+      body: JSON.stringify({ court, case_type: type || 'WRIT-C', case_number: number, case_year: year })
+    });
+    const data = await response.json();
+    res.json(data);
+  } catch(e) { res.status(500).json({ error: e.message }); }
+});
+
+app.post('/ecourts/track', async (req, res) => {
+  if (!VAKEEL_API_KEY) return res.status(503).json({ error: 'eCourts API key not configured' });
+  const { cnr, court, type, number, year } = req.body;
+  try {
+    let endpoint, payload;
+    if (cnr) {
+      endpoint = `${VAKEEL_BASE}/case-search-cnr`;
+      payload  = { cnr };
+    } else {
+      if (!court || !number || !year) return res.status(400).json({ error: 'cnr OR (court + number + year) required' });
+      endpoint = `${VAKEEL_BASE}/case-search`;
+      payload  = { court, case_type: type || 'WRIT-C', case_number: number, case_year: year };
+    }
+    const response = await fetch(endpoint, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'X-API-Key': VAKEEL_API_KEY },
+      body: JSON.stringify(payload)
+    });
+    const data = await response.json();
+    res.json(data);
+  } catch(e) { res.status(500).json({ error: e.message }); }
+});
+
 // ── Start ────────────────────────────────────────────────────────
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
