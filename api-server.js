@@ -153,6 +153,22 @@ const handleSearch = async (req, res) => {
   if (!query.trim()) return res.status(400).json({ error: 'Query required — use ?q=yourquery' });
 
   try {
+    // Pre-filter by dept before smartSearch
+    const deptParam = req.body?.dept || req.query?.dept || '';
+    if (deptParam) {
+      const d = deptParam.toLowerCase();
+      const origKnowledge = knowledge.slice();
+      knowledge.length = 0;
+      origKnowledge.forEach(e => {
+        const ed = (e.dept || '').toLowerCase();
+        if (!ed || ed === 'universal' || ed === d) knowledge.push(e);
+      });
+      const results = smartSearch(query, '', limitParam);
+      knowledge.length = 0;
+      origKnowledge.forEach(e => knowledge.push(e));
+      if (rawMode) return res.json(results);
+      return res.json({ results, total: results.length });
+    }
     const results = smartSearch(query, bookFilter, limitParam);
 
     // GET request or ?raw — return raw results (used by frontend)
