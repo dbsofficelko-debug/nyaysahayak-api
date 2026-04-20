@@ -91,15 +91,13 @@ function smartSearch(query, bookFilter, limit = 8) {
   const terms = expandQuery(query);
   let pool = knowledge;
 
-  // Book filter
+  // DEPT filter first — strict match, universal always included
   if (bookFilter && bookFilter.trim()) {
     const bf = bookFilter.toLowerCase().trim();
     pool = knowledge.filter(r => {
-      const dept = (r.dept || r.department || '').toLowerCase();
-      const book = (r.book || r.filename || r.source || '').toLowerCase();
-      // Universal entries (Level 1) sabhi depts ko milegi
-      if (dept === 'universal') return true;
-      return book.includes(bf) || dept.includes(bf);
+      const entryDept = (r.dept || r.department || '').toLowerCase();
+      if (!entryDept || entryDept === 'universal') return true;
+      return entryDept === bf || entryDept.includes(bf);
     });
   }
 
