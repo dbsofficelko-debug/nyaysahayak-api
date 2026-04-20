@@ -504,7 +504,7 @@ function parseCNR(cnr) {
   const courtMatch = body.match(/^([A-Z]+)(\d+)$/);
   const court_code  = courtMatch ? courtMatch[1] : '';
   const case_number = courtMatch ? courtMatch[2] : body;
-  return { reference_id: cnr, cnr, court_type: 'hc', court_code, case_number, case_year: year };
+  return { reference_id: cnr, cnr, court_type: 'lucknow-hc', court_code, case_number, case_year: year };
 }
 
 app.get('/ecourts/cnr/:cnr', async (req, res) => {
@@ -529,7 +529,7 @@ app.get('/ecourts/case', async (req, res) => {
     const response = await fetch(`${VAKEEL_BASE}/cases/search`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'X-API-Key': VAKEEL_API_KEY },
-      body: JSON.stringify({ court_type: 'hc', case_number: number, case_year: year, case_type: type || 'WRIT-C' })
+      body: JSON.stringify({ court_type: 'lucknow-hc', case_number: number, case_year: year, case_type: type || 'WRIT-C' })
     });
     const data = await response.json();
     res.json(data);
@@ -545,7 +545,7 @@ app.post('/ecourts/track', async (req, res) => {
       payload = parseCNR(cnr);
     } else {
       if (!number || !year) return res.status(400).json({ error: 'cnr OR (number + year) required' });
-      payload = { court_type: 'hc', case_number: number, case_year: year, case_type: type || 'WRIT-C' };
+      payload = { court_type: 'lucknow-hc', case_number: number, case_year: year, case_type: type || 'WRIT-C' };
     }
     const response = await fetch(`${VAKEEL_BASE}/cases/search`, {
       method: 'POST',
