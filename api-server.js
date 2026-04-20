@@ -146,7 +146,7 @@ app.get('/', (req, res) => res.json({
 // ── SEARCH (GET + POST) ─────────────────────────────────────────
 const handleSearch = async (req, res) => {
   const query      = req.body?.query || req.body?.q || req.query?.q || req.query?.query || '';
-  const bookFilter = req.body?.book  || req.query?.book  || '';
+  const bookFilter = req.body?.book  || req.query?.book  || req.body?.dept || req.query?.dept || '';
   const limitParam = parseInt(req.query?.limit || req.body?.limit) || 8;
   const rawMode    = req.method === 'GET' || req.query?.raw;
 
