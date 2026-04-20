@@ -131612,7 +131612,8 @@
       "शिक्षक नियुक्ति",
       "शून्य नियुक्ति",
       "section 12"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_002",
@@ -131627,7 +131628,8 @@
       "SC ST OBC",
       "EWS",
       "भर्ती वर्ष"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_003",
@@ -131642,7 +131644,8 @@
       "30 दिन",
       "joining",
       "panel expiry"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_004",
@@ -131656,7 +131659,8 @@
       "नियुक्ति न होना",
       "वेतन वसूली",
       "section 13"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_005",
@@ -131670,7 +131674,8 @@
       "विधिक कार्यवाही",
       "section 20",
       "contravention"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_006",
@@ -131684,7 +131689,8 @@
       "eligibility",
       "2026 amendment",
       "Principal Secretary"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_007",
@@ -131698,7 +131704,8 @@
       "merger",
       "UPESSC",
       "1982 Act repealed"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_008",
@@ -131712,7 +131719,8 @@
       "40 percent",
       "merit list",
       "tiebreaker"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_009",
@@ -131726,7 +131734,8 @@
       "repeal",
       "section 30",
       "Intermediate Education Act override"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_010",
@@ -131741,7 +131750,8 @@
       "DIOS approval",
       "removal",
       "section 16-N"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_011",
@@ -131756,7 +131766,8 @@
       "60 दिन",
       "निलम्बन अवधि",
       "inspector approval"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_012",
@@ -131771,7 +131782,8 @@
       "one month",
       "DIOS order appeal",
       "final order"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_013",
@@ -131786,7 +131798,8 @@
       "observer",
       "नियुक्ति प्रक्रिया",
       "two experts quorum"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_014",
@@ -131800,7 +131813,8 @@
       "management scheme",
       "प्रबन्ध समिति",
       "Director approval"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_015",
@@ -131815,7 +131829,8 @@
       "परिवीक्षा",
       "salary scale",
       "pension"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_016",
@@ -131830,7 +131845,8 @@
       "Board exemption",
       "UPTET",
       "CTET"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_017",
@@ -131844,7 +131860,8 @@
       "inspection",
       "director powers",
       "2 year term"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_018",
@@ -131859,7 +131876,8 @@
       "UP Board",
       "माँयता वापसी",
       "affiliation"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_019",
@@ -131874,7 +131892,8 @@
       "3 year imprisonment",
       "void ab initio",
       "fraud"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_020",
@@ -131889,7 +131908,8 @@
       "नियमितीकरण",
       "retrenchment",
       "Section 33-G"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_021",
@@ -131903,7 +131923,8 @@
       "UP Board",
       "government direction",
       "section 9"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_022",
@@ -131917,7 +131938,8 @@
       "technical cancellation",
       "legitimate equity",
       "fraud void ab initio"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_023",
@@ -131931,7 +131953,8 @@
       "selection committee quorum",
       "Gunjan Singh case",
       "DIOS नामिती"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_024",
@@ -131945,7 +131968,8 @@
       "DIOS inquiry",
       "committee legitimacy",
       "धारा 16-क(7)"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_025",
@@ -131960,7 +131984,8 @@
       "वेतन",
       "Manav Sampada",
       "salary arrears"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_026",
@@ -131975,7 +132000,8 @@
       "बिना चयन समिति",
       "शिक्षा सत्र",
       "6 months temporary"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_027",
@@ -131990,7 +132016,8 @@
       "post abolition",
       "erroneous requisition",
       "section 14"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   },
   {
     "id": "MADHYAMIK_028",
@@ -132005,6 +132032,7 @@
       "aided institution",
       "DIOS approval",
       "Section 12 proviso"
-    ]
+    ],
+    "dept": "Madhyamik Shiksha"
   }
 ]
