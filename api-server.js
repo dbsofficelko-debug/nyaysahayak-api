@@ -511,10 +511,10 @@ app.get('/ecourts/cnr/:cnr', async (req, res) => {
   if (!VAKEEL_API_KEY) return res.status(503).json({ error: 'eCourts API key not configured' });
   try {
     
-    const response = await fetch(`${VAKEEL_BASE}/cases/search`, {
+    const response = await fetch(`${VAKEEL_BASE}/allahabad-hc/case/cnr`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'X-API-Key': VAKEEL_API_KEY },
-      body: JSON.stringify({ cnr: req.params.cnr })
+      body: JSON.stringify({ cnr: req.params.cnr, bench: 'allahabad' })
     });
     const data = await response.json();
     res.json(data);
