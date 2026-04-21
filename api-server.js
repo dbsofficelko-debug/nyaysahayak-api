@@ -76,7 +76,6 @@ function expandQuery(q) {
   const words = q.toLowerCase().split(/\s+/);
   words.forEach(w => {
     if (TRANSLIT[w]) terms.push(...TRANSLIT[w].map(t => t.toLowerCase()));
-    // Also try reverse — if Hindi word matches a key's value, add the key
     Object.entries(TRANSLIT).forEach(([eng, hindiArr]) => {
       hindiArr.forEach(h => {
         if (q.includes(h)) terms.push(eng, ...hindiArr.map(x => x.toLowerCase()));
@@ -91,7 +90,6 @@ function smartSearch(query, bookFilter, limit = 8) {
   const terms = expandQuery(query);
   let pool = knowledge;
 
-  // DEPT filter first — strict match, universal always included
   if (bookFilter && bookFilter.trim()) {
     const bf = bookFilter.toLowerCase().trim();
     pool = knowledge.filter(r => {
@@ -101,27 +99,18 @@ function smartSearch(query, bookFilter, limit = 8) {
     });
   }
 
-  // Score each entry
   const scored = pool.map(r => {
     let score = 0;
     const fields = [
-      r.content   || '',
-      r.keywords  || '',
-      r.topic     || '',
-      r.chapter   || '',
-      r.book      || '',
-      r.heading   || '',
-      r.title     || '',
-      r.section   || '',
-      r.text      || '',
+      r.content || '', r.keywords || '', r.topic || '',
+      r.chapter || '', r.book || '', r.heading || '',
+      r.title || '', r.section || '', r.text || '',
     ].join(' ').toLowerCase();
 
     terms.forEach(term => {
       if (!term) return;
-      // Exact match = higher score
       const exactCount = (fields.match(new RegExp(term, 'g')) || []).length;
       score += exactCount * 2;
-      // Partial match
       if (fields.includes(term)) score += 1;
     });
 
@@ -136,14 +125,13 @@ function smartSearch(query, bookFilter, limit = 8) {
 }
 
 // ── Routes ──────────────────────────────────────────────────────
-
 app.get('/', (req, res) => res.json({
   status: 'Nyaysahayak API Live!',
   entries: knowledge.length,
   endpoints: ['GET /search?q=&book=&limit=', 'POST /search', 'GET /browse', 'GET /browse/:book', 'POST /bulk-insert', 'GET /knowledge?page=&limit=&book=']
 }));
 
-// ── SEARCH (GET + POST) ─────────────────────────────────────────
+// ── SEARCH ──────────────────────────────────────────────────────
 const handleSearch = async (req, res) => {
   const query      = req.body?.query || req.body?.q || req.query?.q || req.query?.query || '';
   const bookFilter = req.body?.book  || req.query?.book  || req.body?.dept || req.query?.dept || '';
@@ -153,7 +141,6 @@ const handleSearch = async (req, res) => {
   if (!query.trim()) return res.status(400).json({ error: 'Query required — use ?q=yourquery' });
 
   try {
-    // Pre-filter by dept before smartSearch
     const deptParam = req.body?.dept || req.query?.dept || '';
     if (deptParam) {
       const d = deptParam.toLowerCase();
@@ -171,12 +158,8 @@ const handleSearch = async (req, res) => {
     }
     const results = smartSearch(query, bookFilter, limitParam);
 
-    // GET request or ?raw — return raw results (used by frontend)
-    if (rawMode) {
-      return res.json({ results, total: results.length });
-    }
+    if (rawMode) return res.json({ results, total: results.length });
 
-    // POST without raw — return AI answer
     const context = results.length > 0
       ? results.map(r => {
           const book    = r.book || r.source || '';
@@ -219,8 +202,7 @@ const handleSearch = async (req, res) => {
 app.post('/search', handleSearch);
 app.get('/search',  handleSearch);
 
-// ── KNOWLEDGE BROWSE (new) ───────────────────────────────────────
-// GET /knowledge?page=1&limit=20&book=Seva Vidhi
+// ── KNOWLEDGE BROWSE ─────────────────────────────────────────────
 app.get('/knowledge', (req, res) => {
   const page      = parseInt(req.query.page)  || 1;
   const limit     = parseInt(req.query.limit) || 20;
@@ -228,12 +210,10 @@ app.get('/knowledge', (req, res) => {
   const dept      = req.query.dept || '';
 
   let pool = knowledge;
-  // DEPT filter first — strict match (universal entries always included)
   if (dept) {
     const d = dept.toLowerCase();
     pool = knowledge.filter(r =>
-      !r.dept ||
-      r.dept === 'universal' ||
+      !r.dept || r.dept === 'universal' ||
       r.dept.toLowerCase().includes(d) || d.includes(r.dept.toLowerCase())
     );
   }
@@ -248,11 +228,10 @@ app.get('/knowledge', (req, res) => {
   const total = pool.length;
   const start = (page - 1) * limit;
   const entries = pool.slice(start, start + limit);
-
   res.json({ total, page, limit, total_pages: Math.ceil(total / limit), entries });
 });
 
-// ── BROWSE (book summary) ────────────────────────────────────────
+// ── BROWSE ───────────────────────────────────────────────────────
 app.get('/browse', (req, res) => {
   const grouped = {};
   knowledge.forEach(e => {
@@ -281,22 +260,17 @@ app.get('/browse/:book', (req, res) => {
   });
 });
 
-// ── BULK INSERT (fixed — no SQLite) ─────────────────────────────
-// POST /bulk-insert
-// Body: array of entry objects
-// Each entry should have: book, chapter/topic, content, keywords (optional), dept (optional)
+// ── BULK INSERT ──────────────────────────────────────────────────
 app.post('/bulk-insert', (req, res) => {
   const entries = req.body;
   if (!Array.isArray(entries)) return res.status(400).json({ error: 'Array of entries expected' });
   if (entries.length === 0)    return res.status(400).json({ error: 'Empty array' });
   if (entries.length > 500)    return res.status(400).json({ error: 'Max 500 entries per request' });
 
-  let inserted = 0;
-  let skipped  = 0;
+  let inserted = 0, skipped = 0;
 
   entries.forEach(entry => {
     if (!entry.content && !entry.text) { skipped++; return; }
-    // Normalize
     const normalized = {
       book:     entry.book     || entry.source  || 'Unknown',
       chapter:  entry.chapter  || entry.topic   || entry.heading || '',
@@ -314,25 +288,17 @@ app.post('/bulk-insert', (req, res) => {
     inserted++;
   });
 
-  // Save back to knowledge.json
   try {
     writeFileSync(KNOWLEDGE_PATH, JSON.stringify(knowledge, null, 2), 'utf-8');
     console.log(`✅ Bulk insert: ${inserted} added, ${skipped} skipped. Total: ${knowledge.length}`);
-    res.json({
-      success: true,
-      inserted,
-      skipped,
-      total: knowledge.length
-    });
+    res.json({ success: true, inserted, skipped, total: knowledge.length });
   } catch(e) {
     console.error('Write error:', e.message);
     res.status(500).json({ error: 'Could not save knowledge.json: ' + e.message });
   }
 });
 
-// ── Department-wise GOs insert ───────────────────────────────────
-// POST /insert-go
-// Single GO entry with department tag
+// ── INSERT-GO ────────────────────────────────────────────────────
 app.post('/insert-go', (req, res) => {
   const { title, content, dept, year, ref, court, book } = req.body;
   if (!content) return res.status(400).json({ error: 'content required' });
@@ -356,17 +322,12 @@ app.post('/insert-go', (req, res) => {
   try {
     writeFileSync(KNOWLEDGE_PATH, JSON.stringify(knowledge, null, 2), 'utf-8');
     res.json({ success: true, total: knowledge.length });
-  } catch(e) {
-    res.status(500).json({ error: e.message });
-  }
+  } catch(e) { res.status(500).json({ error: e.message }); }
 });
 
-// ── Stats endpoint ───────────────────────────────────────────────
+// ── STATS ────────────────────────────────────────────────────────
 app.get('/stats', (req, res) => {
-  const byBook = {};
-  const byDept = {};
-  const byType = {};
-
+  const byBook = {}, byDept = {}, byType = {};
   knowledge.forEach(e => {
     const book = e.book || 'Other';
     const dept = e.dept || 'General';
@@ -375,16 +336,10 @@ app.get('/stats', (req, res) => {
     byDept[dept] = (byDept[dept] || 0) + 1;
     byType[type] = (byType[type] || 0) + 1;
   });
-
-  res.json({
-    total: knowledge.length,
-    by_book: byBook,
-    by_dept: byDept,
-    by_type: byType,
-  });
+  res.json({ total: knowledge.length, by_book: byBook, by_dept: byDept, by_type: byType });
 });
 
-// ── Reader endpoints (existing — unchanged) ──────────────────────
+// ── READER ENDPOINTS ─────────────────────────────────────────────
 let fhbData = [];
 try {
   fhbData = JSON.parse(readFileSync(path.join(__dirname, 'fhb_index.json'), 'utf-8'));
@@ -486,66 +441,88 @@ app.post('/docgen', async (req, res) => {
       messages: [{ role: 'user', content: prompt }]
     });
     res.json(response);
-  } catch(e) {
-    res.status(500).json({ error: e.message });
-  }
+  } catch(e) { res.status(500).json({ error: e.message }); }
 });
 
 // ── eCourts Case Tracking ────────────────────────────────────────
 const VAKEEL_API_KEY = process.env.VAKEEL_API_KEY || '';
-const VAKEEL_BASE    = 'https://prod-api.vakeel360.com/api/v1';  // ✅ FIXED
+const VAKEEL_BASE    = 'https://prod-api.vakeel360.com/api/v1';
 
-// CNR format: UPHC052055442026 → court_code=UPHC + case_number=05205544 + case_year=2026
-function parseCNR(cnr) {
-  // Last 4 digits = year, rest = number (after court code)
-  const year = cnr.slice(-4);
-  const body = cnr.slice(0, -4);   // e.g. UPHC05205544
-  // Court code = leading alpha chars
-  const courtMatch = body.match(/^([A-Z]+)(\d+)$/);
-  const court_code  = courtMatch ? courtMatch[1] : '';
-  const case_number = courtMatch ? courtMatch[2] : body;
-  return { reference_id: cnr, cnr, court_type: 'lucknow-hc', court_code, case_number, case_year: year };
+// UPHC prefix = Lucknow Bench, others = Allahabad (Prayagraj)
+function getBenchId(cnr) {
+  return cnr.startsWith('UPHC') ? 'allahabad-hc-lucknow' : 'allahabad-hc';
 }
 
+// ── CNR Search ──────────────────────────────────────────────────
 app.get('/ecourts/cnr/:cnr', async (req, res) => {
   if (!VAKEEL_API_KEY) return res.status(503).json({ error: 'eCourts API key not configured' });
   try {
-    
-    const response = await fetch(`${VAKEEL_BASE}/allahabad-hc/case/cnr`, {
+    const cnr = req.params.cnr;
+    const response = await fetch(`${VAKEEL_BASE}/cases/search`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'X-API-Key': VAKEEL_API_KEY },
-      body: JSON.stringify({ cnr: req.params.cnr, bench: 'allahabad' })
+      body: JSON.stringify({
+        court_type: 'hc',
+        reference_id: getBenchId(cnr),
+        cnr: cnr
+      })
     });
     const data = await response.json();
     res.json(data);
   } catch(e) { res.status(500).json({ error: e.message }); }
 });
 
+// ── Case Number Search ──────────────────────────────────────────
+// GET /ecourts/case?number=1&year=2024&type=WRIA&bench=lucknow
 app.get('/ecourts/case', async (req, res) => {
   if (!VAKEEL_API_KEY) return res.status(503).json({ error: 'eCourts API key not configured' });
-  const { type, number, year } = req.query;
+  const { type, number, year, bench } = req.query;
   if (!number || !year) return res.status(400).json({ error: 'number, year required' });
+  const benchId = bench === 'lucknow' ? 'allahabad-hc-lucknow' : 'allahabad-hc';
   try {
     const response = await fetch(`${VAKEEL_BASE}/cases/search`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'X-API-Key': VAKEEL_API_KEY },
-      body: JSON.stringify({ court_type: 'lucknow-hc', case_number: number, case_year: year, case_type: type || 'WRIT-C' })
+      body: JSON.stringify({
+        court_type: 'hc',
+        reference_id: benchId,
+        case_type: type || 'WRIA',
+        case_number: number,
+        case_year: year
+      })
     });
     const data = await response.json();
     res.json(data);
   } catch(e) { res.status(500).json({ error: e.message }); }
 });
 
+// ── Case Types (metadata) ───────────────────────────────────────
+// GET /ecourts/casetypes?bench=lucknow
+app.get('/ecourts/casetypes', async (req, res) => {
+  if (!VAKEEL_API_KEY) return res.status(503).json({ error: 'eCourts API key not configured' });
+  const { bench } = req.query;
+  const benchId = bench === 'lucknow' ? 'allahabad-hc-lucknow' : 'allahabad-hc';
+  try {
+    const response = await fetch(`${VAKEEL_BASE}/courts/${benchId}/case-types`, {
+      headers: { 'X-API-Key': VAKEEL_API_KEY }
+    });
+    const data = await response.json();
+    res.json(data);
+  } catch(e) { res.status(500).json({ error: e.message }); }
+});
+
+// ── Track (unified POST) ────────────────────────────────────────
 app.post('/ecourts/track', async (req, res) => {
   if (!VAKEEL_API_KEY) return res.status(503).json({ error: 'eCourts API key not configured' });
-  const { cnr, type, number, year } = req.body;
+  const { cnr, type, number, year, bench } = req.body;
   try {
     let payload;
     if (cnr) {
-      payload = parseCNR(cnr);
+      payload = { court_type: 'hc', reference_id: getBenchId(cnr), cnr };
     } else {
       if (!number || !year) return res.status(400).json({ error: 'cnr OR (number + year) required' });
-      payload = { court_type: 'lucknow-hc', case_number: number, case_year: year, case_type: type || 'WRIT-C' };
+      const benchId = bench === 'lucknow' ? 'allahabad-hc-lucknow' : 'allahabad-hc';
+      payload = { court_type: 'hc', reference_id: benchId, case_type: type || 'WRIA', case_number: number, case_year: year };
     }
     const response = await fetch(`${VAKEEL_BASE}/cases/search`, {
       method: 'POST',
