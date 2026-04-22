@@ -14,12 +14,9 @@ BASE_URL = "https://shasanadesh.up.gov.in"
 OUTPUT_FILE = os.path.expanduser("~/Downloads/go_entries.json")
 
 SKIP_CATEGORIES = [
-    "वित्तीय स्वीकृतियां",
-    "वित्तीय स्वीकृति",
-    "प्रशासकीय एवं वित्तीय स्वीकृति",
-    "वित्तीय एवं प्रशासकीय स्वीकृति",
+    "वित्तीय स्वीकृतियां", "वित्तीय स्वीकृति",
+    "प्रशासकीय एवं वित्तीय स्वीकृति", "वित्तीय एवं प्रशासकीय स्वीकृति",
 ]
-
 SKIP_SUBJECTS = [
     "भवन निर्माण", "रंगाई-पुताई", "मरम्मत कार्य",
     "निर्माण कार्य", "क्रय किये जाने", "वाहन क्रय",
@@ -36,7 +33,7 @@ def load_existing():
         for e in data:
             seen_go_numbers.add(e.get('go_number', ''))
             all_entries.append(e)
-        print(f"ℹ️  Resumed: {len(all_entries)} existing entries loaded")
+        print(f"ℹ️  Resumed: {len(all_entries)} existing entries")
 
 def save():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
@@ -52,8 +49,7 @@ async def fetch_pdf_text(context, pdf_url):
             with pdfplumber.open(io.BytesIO(pdf_bytes)) as pdf:
                 for p in pdf.pages[:6]:
                     t = p.extract_text()
-                    if t:
-                        parts.append(t)
+                    if t: parts.append(t)
             await pg.close()
             return "\n".join(parts)
         await pg.close()
@@ -61,64 +57,37 @@ async def fetch_pdf_text(context, pdf_url):
         print(f"      PDF err: {e}")
     return ""
 
-async def do_postback(page, target, arg=''):
-    """Trigger ASP.NET __doPostBack"""
-    await page.evaluate(f"__doPostBack('{target}', '{arg}')")
+async def do_postback(page, target):
+    await page.evaluate(f"__doPostBack('{target}', '')")
     await asyncio.sleep(3)
 
-async def scrape_page_rows(page, context, dept, dept_entries):
-    """Scrape all GO rows on current page"""
+async def scrape_current_page(page, context, dept, dept_entries):
     rows = await page.query_selector_all('table tr')
-    page_saved = 0
-    page_skipped = 0
-
+    saved = skipped = 0
     for row in rows:
         try:
             cells = await row.query_selector_all('td')
-            if len(cells) < 5:
-                continue
-
-            col1 = (await cells[1].inner_text()).strip()  # vibhag/anubhag
-            col2 = (await cells[2].inner_text()).strip()  # GO number
-            col3 = (await cells[3].inner_text()).strip()  # date
-            col4 = (await cells[4].inner_text()).strip()  # shreni
-            col5 = (await cells[5].inner_text()).strip() if len(cells) > 5 else ""  # vishay
-
-            if not col2 or col2 == 'शासनादेश संख्या':
-                continue
-
-            # Deduplicate
-            if col2 in seen_go_numbers:
-                continue
+            if len(cells) < 5: continue
+            col1 = (await cells[1].inner_text()).strip()
+            col2 = (await cells[2].inner_text()).strip()
+            col3 = (await cells[3].inner_text()).strip()
+            col4 = (await cells[4].inner_text()).strip()
+            col5 = (await cells[5].inner_text()).strip() if len(cells) > 5 else ""
+            if not col2 or col2 == 'शासनादेश संख्या': continue
+            if col2 in seen_go_numbers: continue
             seen_go_numbers.add(col2)
-
-            # Filter: skip financial sanction
-            if any(cat in col4 for cat in SKIP_CATEGORIES):
-                page_skipped += 1
-                continue
-
-            # Filter: skip construction/purchase subjects
-            if any(kw in col5 for kw in SKIP_SUBJECTS):
-                page_skipped += 1
-                continue
-
-            # Get PDF link
+            if any(c in col4 for c in SKIP_CATEGORIES): skipped += 1; continue
+            if any(k in col5 for k in SKIP_SUBJECTS): skipped += 1; continue
             link_el = await row.query_selector('a[href*="frmPDF"]')
-            if not link_el:
-                continue
+            if not link_el: continue
             pdf_href = await link_el.get_attribute('href') or ''
             pdf_url = BASE_URL + '/' + pdf_href.lstrip('/') if not pdf_href.startswith('http') else pdf_href
-
-            # Extract anubhag
-            parts = col1.split('\n')
-            anubhag = parts[-1].strip() if len(parts) > 1 else col1
-
-            # Fetch PDF
+            anubhag_parts = col1.split('\n')
+            anubhag = anubhag_parts[-1].strip() if len(anubhag_parts) > 1 else col1
             go_text = await fetch_pdf_text(context, pdf_url)
             if not go_text or len(go_text) < 60:
-                print(f"    ⚠️  Empty PDF: {col2[:40]}")
+                print(f"    ⚠️  Empty: {col2[:40]}")
                 continue
-
             entry = {
                 "id": f"go_{dept['name']}_{len(all_entries)+len(dept_entries)+1:05d}",
                 "book": dept["book"],
@@ -133,23 +102,43 @@ async def scrape_page_rows(page, context, dept, dept_entries):
                 "keywords": f"shasanadesh {dept['label']} {col2} {col3} {anubhag} {col5[:80]}"
             }
             dept_entries.append(entry)
-            page_saved += 1
-            print(f"    ✅ {col2[:38]} | {col3} | {col4[:18]}")
+            saved += 1
+            print(f"    ✅ {col2[:35]} | {col3} | {col4[:15]}")
+        except: continue
+    return saved, skipped
 
-        except Exception as e:
-            continue
-
-    return page_saved, page_skipped
-
-async def get_pagination_targets(page):
-    """Get all __doPostBack pagination targets from current page"""
-    html = await page.content()
-    targets = re.findall(r"__doPostBack\('(ItemDataPager[^']+)',''\)", html)
+def build_page_sequence(total_pages):
+    """
+    Build __doPostBack targets for all pages sequentially.
+    Pattern observed:
+      Group ctl01: pages 1-5  -> ctl01$ctl01 ... ctl01$ctl05
+      Group ctl02: next group -> ctl02$ctl00 (next), ctl02$ctl01..ctl05 (pages 6-10)
+      Group ctl03: next group -> ctl03$ctl00, ctl03$ctl01..ctl05
+      etc.
+    Page 1 is already loaded (manual CAPTCHA), so we start from page 2.
+    """
+    targets = []
+    # First group: pages 2-5 (page 1 already done)
+    for i in range(2, 6):
+        targets.append(f"ItemDataPager$ctl01$ctl{i:02d}")
+    # Subsequent groups
+    group = 2
+    page_in_group = 6
+    while page_in_group <= total_pages:
+        # "Next group" button
+        targets.append(f"ItemDataPager$ctl{group:02d}$ctl00")
+        # Pages within this group (up to 5)
+        for i in range(1, 6):
+            if page_in_group > total_pages: break
+            targets.append(f"ItemDataPager$ctl{group:02d}$ctl{i:02d}")
+            page_in_group += 1
+        group += 1
+        if group > 50: break  # safety
     return targets
 
-async def scrape_department(browser, dept):
+async def scrape_department(browser, dept, total_pages):
     print(f"\n{'='*60}")
-    print(f"  {dept['label']}")
+    print(f"  {dept['label']} — {total_pages} pages expected")
     print(f"{'='*60}")
 
     context = await browser.new_context(
@@ -161,100 +150,90 @@ async def scrape_department(browser, dept):
     try:
         await page.goto(BASE_URL, wait_until="networkidle", timeout=30000)
         await asyncio.sleep(2)
-
-        # Select department
         await page.select_option('#ddldept', dept['value'])
         await asyncio.sleep(3)
-
-        # Select samast anubhag
         try:
             await page.select_option('#ddlsection', '0')
             await asyncio.sleep(1)
-        except:
-            pass
+        except: pass
 
-        # === MANUAL CAPTCHA ===
         print(f"\n  ⚠️  CAPTCHA BHARNA HAI!")
-        print(f"  Browser window mein:")
+        print(f"  Browser mein:")
         print(f"  1. CAPTCHA box mein number type karo")
         print(f"  2. 'खोजें' button click karo")
         print(f"  3. Results aane ke baad YAHAN Enter dabao\n")
-        input("  >>> Enter dabao jab results screen pe aa jayein: ")
+        input("  >>> Enter dabao jab results aa jayein: ")
 
-        # Page 1 scrape
-        print(f"\n  Page 1 scraping...")
-        saved, skipped = await scrape_page_rows(page, context, dept, dept_entries)
-        print(f"  Page 1: {saved} saved, {skipped} skipped")
+        # Page 1
+        print(f"  Page 1...")
+        s, sk = await scrape_current_page(page, context, dept, dept_entries)
+        print(f"  Page 1: {s} saved, {sk} skipped")
+        all_entries.extend(dept_entries)
+        dept_entries.clear()
         save()
 
-        # Pagination loop
-        page_num = 2
-        visited_targets = set()
+        # Build page sequence
+        targets = build_page_sequence(total_pages)
+        print(f"  Pagination targets built: {len(targets)} steps for {total_pages} pages\n")
 
-        while True:
-            # Get current pagination targets
-            targets = await get_pagination_targets(page)
+        actual_page = 2
+        for target in targets:
+            # Skip "next group" buttons — just click them silently
+            is_group_btn = '$ctl00' in target
+            if not is_group_btn:
+                print(f"  Page {actual_page}/{total_pages} [{target}]...")
 
-            # Find next unvisited page target
-            # Pattern: ctl01$ctl01=page1, ctl01$ctl02=page2, etc.
-            next_target = None
-            for t in targets:
-                if t not in visited_targets:
-                    # Skip "previous" type (ctl02$ctl00 pattern)
-                    if '$ctl00' in t and page_num > 2:
-                        continue
-                    next_target = t
-                    break
+            await do_postback(page, target)
 
-            if not next_target:
-                print(f"  ✅ No more pages")
-                break
+            if not is_group_btn:
+                s, sk = await scrape_current_page(page, context, dept, dept_entries)
+                print(f"  Page {actual_page}: {s} saved, {sk} skipped | Total dept: {len(dept_entries)}")
 
-            visited_targets.add(next_target)
-            print(f"\n  Page {page_num} [{next_target}]...")
+                # Save every 10 pages
+                if actual_page % 10 == 0:
+                    all_entries.extend(dept_entries)
+                    dept_entries.clear()
+                    save()
+                    print(f"  💾 Saved checkpoint — Total: {len(all_entries)}")
 
-            await do_postback(page, next_target)
-            await asyncio.sleep(2)
+                actual_page += 1
 
-            saved, skipped = await scrape_page_rows(page, context, dept, dept_entries)
-            print(f"  Page {page_num}: {saved} saved, {skipped} skipped")
-
-            # Save every 5 pages
-            if page_num % 5 == 0:
-                all_entries.extend(dept_entries)
-                dept_entries_temp = dept_entries.copy()
-                dept_entries.clear()
-                save()
-                dept_entries.extend(dept_entries_temp)
-
-            if saved == 0 and skipped == 0:
-                print(f"  Empty page — stopping")
-                break
-
-            page_num += 1
+        # Final save for this dept
+        all_entries.extend(dept_entries)
+        dept_entries.clear()
+        save()
 
     except Exception as e:
         print(f"  ❌ Error: {e}")
         import traceback; traceback.print_exc()
+        all_entries.extend(dept_entries)
+        save()
     finally:
         await context.close()
 
-    print(f"\n  ✅ {dept['label']}: {len(dept_entries)} entries")
-    return dept_entries
+    print(f"  ✅ {dept['label']} done. Total so far: {len(all_entries)}")
+
+# ── MAIN ────────────────────────────────────────────────────
+DEPT_PAGES = {
+    "nyay": 173,
+    "karmik": 39,
+    "vitt": 132,
+    "madhyamik": 54,
+    "basic": 46,
+}
 
 async def main():
-    print("🚀 Nyaysahayak GO Scraper — FINAL VERSION")
+    print("🚀 Nyaysahayak GO Scraper — FINAL v4")
     print(f"Output: {OUTPUT_FILE}\n")
     load_existing()
 
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=False)  # Visible for CAPTCHA
+        browser = await p.chromium.launch(headless=False)
 
         for dept in DEPARTMENTS:
-            entries = await scrape_department(browser, dept)
-            all_entries.extend(entries)
-            save()
-            print(f"💾 Total: {len(all_entries)} entries saved\n")
+            total_pages = DEPT_PAGES[dept['name']]
+            await scrape_department(browser, dept, total_pages)
+            print(f"💾 Total saved: {len(all_entries)}\n")
 
         await browser.close()
 
