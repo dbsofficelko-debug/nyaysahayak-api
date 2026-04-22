@@ -1,5 +1,5 @@
 import asyncio, json, re, io, os
-from playwright.async_playwright import async_playwright
+from playwright.async_api import async_playwright
 import pdfplumber
 
 # ── Target Departments ──────────────────────────────────────
