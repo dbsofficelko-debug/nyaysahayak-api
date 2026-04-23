@@ -503,3 +503,32 @@ app.listen(PORT, () => {
   console.log(`🚀 Nyaysahayak API on port ${PORT}`);
   console.log(`📚 Knowledge entries: ${knowledge.length}`);
 });
+
+// ── Vakeel360 CNR Search ──────────────────────────────
+const VAKEEL_BASE = 'https://prod-api.vakeel360.com';
+const VAKEEL_KEY = process.env.VAKEEL_API_KEY || 'vk_demo_dhriti_857b1fc4e305e8c5aa1a0273';
+
+app.post('/api/v1/cases/search', async (req, res) => {
+  try {
+    const { cnr, court_type, reference_id, case_type, case_number, case_year } = req.body;
+    let url, body;
+    if (cnr) {
+      const bench = reference_id && reference_id.includes('lucknow') ? 'lucknow' : 'allahabad';
+      url = `${VAKEEL_BASE}/api/v1/allahabad-hc/case/cnr`;
+      body = { cnr, bench };
+    } else {
+      const bench = reference_id && reference_id.includes('lucknow') ? 'lucknow' : 'allahabad';
+      url = `${VAKEEL_BASE}/api/v1/allahabad-hc/case/search`;
+      body = { court_type, reference_id, case_type, case_number, case_year, bench };
+    }
+    const r = await fetch(url, {
+      method: 'POST',
+      headers: { 'X-API-Key': VAKEEL_KEY, 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    });
+    const data = await r.json();
+    res.json(data);
+  } catch(e) {
+    res.status(500).json({ error: e.message });
+  }
+});
