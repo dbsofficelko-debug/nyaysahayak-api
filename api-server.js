@@ -253,7 +253,7 @@ app.get('/browse', (req, res) => {
 
 
 // GET /gos?dept=madhyamik - dept specific + universal GOs
-const UNIVERSAL_DEPTS = ['nyay', 'karmik', 'vitt'];
+const UNIVERSAL_DEPTS = ['nyay', 'karmik', 'vitt', 'universal'];
 app.get('/gos', (req, res) => {
   res.set('Cache-Control', 'no-store');
   const dept = req.query.dept || '';
