@@ -255,6 +255,7 @@ app.get('/browse', (req, res) => {
 // GET /gos?dept=madhyamik - dept specific + universal GOs
 const UNIVERSAL_DEPTS = ['nyay', 'karmik', 'vitt'];
 app.get('/gos', (req, res) => {
+  res.set('Cache-Control', 'no-store');
   const dept = req.query.dept || '';
   const page = parseInt(req.query.page) || 1;
   const limit = parseInt(req.query.limit) || 20;
