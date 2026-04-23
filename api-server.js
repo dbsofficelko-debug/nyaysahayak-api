@@ -251,6 +251,27 @@ app.get('/browse', (req, res) => {
   });
 });
 
+
+// GET /gos?dept=madhyamik - dept specific + universal GOs
+const UNIVERSAL_DEPTS = ['nyay', 'karmik', 'vitt'];
+app.get('/gos', (req, res) => {
+  const dept = req.query.dept || '';
+  const page = parseInt(req.query.page) || 1;
+  const limit = parseInt(req.query.limit) || 20;
+  const filtered = knowledge.filter(e => {
+    if (e.type !== 'GO') return false;
+    if (!dept) return true;
+    return e.dept === dept || UNIVERSAL_DEPTS.includes(e.dept);
+  });
+  const start = (page - 1) * limit;
+  res.json({
+    total: filtered.length,
+    page,
+    total_pages: Math.ceil(filtered.length / limit),
+    entries: filtered.slice(start, start + limit)
+  });
+});
+
 app.get('/browse/:book', (req, res) => {
   const book = decodeURIComponent(req.params.book);
   const page = parseInt(req.query.page) || 1;
