@@ -76,6 +76,7 @@ function expandQuery(q) {
   const words = q.toLowerCase().split(/\s+/);
   words.forEach(w => {
     if (TRANSLIT[w]) terms.push(...TRANSLIT[w].map(t => t.toLowerCase()));
+    // Also try reverse — if Hindi word matches a key's value, add the key
     Object.entries(TRANSLIT).forEach(([eng, hindiArr]) => {
       hindiArr.forEach(h => {
         if (q.includes(h)) terms.push(eng, ...hindiArr.map(x => x.toLowerCase()));
@@ -90,27 +91,39 @@ function smartSearch(query, bookFilter, limit = 8) {
   const terms = expandQuery(query);
   let pool = knowledge;
 
+  // Book filter
   if (bookFilter && bookFilter.trim()) {
     const bf = bookFilter.toLowerCase().trim();
     pool = knowledge.filter(r => {
-      const entryDept = (r.dept || r.department || '').toLowerCase();
-      if (!entryDept || entryDept === 'universal') return true;
-      return entryDept === bf || entryDept.includes(bf);
+      const dept = (r.dept || r.department || '').toLowerCase();
+      const book = (r.book || r.filename || r.source || '').toLowerCase();
+      // Universal entries (Level 1) sabhi depts ko milegi
+      if (dept === 'universal') return true;
+      return book.includes(bf) || dept.includes(bf);
     });
   }
 
+  // Score each entry
   const scored = pool.map(r => {
     let score = 0;
     const fields = [
-      r.content || '', r.keywords || '', r.topic || '',
-      r.chapter || '', r.book || '', r.heading || '',
-      r.title || '', r.section || '', r.text || '',
+      r.content   || '',
+      r.keywords  || '',
+      r.topic     || '',
+      r.chapter   || '',
+      r.book      || '',
+      r.heading   || '',
+      r.title     || '',
+      r.section   || '',
+      r.text      || '',
     ].join(' ').toLowerCase();
 
     terms.forEach(term => {
       if (!term) return;
+      // Exact match = higher score
       const exactCount = (fields.match(new RegExp(term, 'g')) || []).length;
       score += exactCount * 2;
+      // Partial match
       if (fields.includes(term)) score += 1;
     });
 
@@ -125,41 +138,31 @@ function smartSearch(query, bookFilter, limit = 8) {
 }
 
 // ── Routes ──────────────────────────────────────────────────────
+
 app.get('/', (req, res) => res.json({
   status: 'Nyaysahayak API Live!',
   entries: knowledge.length,
   endpoints: ['GET /search?q=&book=&limit=', 'POST /search', 'GET /browse', 'GET /browse/:book', 'POST /bulk-insert', 'GET /knowledge?page=&limit=&book=']
 }));
 
-// ── SEARCH ──────────────────────────────────────────────────────
+// ── SEARCH (GET + POST) ─────────────────────────────────────────
 const handleSearch = async (req, res) => {
   const query      = req.body?.query || req.body?.q || req.query?.q || req.query?.query || '';
-  const bookFilter = req.body?.book  || req.query?.book  || req.body?.dept || req.query?.dept || '';
+  const bookFilter = req.body?.book  || req.query?.book  || '';
   const limitParam = parseInt(req.query?.limit || req.body?.limit) || 8;
   const rawMode    = req.method === 'GET' || req.query?.raw;
 
   if (!query.trim()) return res.status(400).json({ error: 'Query required — use ?q=yourquery' });
 
   try {
-    const deptParam = req.body?.dept || req.query?.dept || '';
-    if (deptParam) {
-      const d = deptParam.toLowerCase();
-      const origKnowledge = knowledge.slice();
-      knowledge.length = 0;
-      origKnowledge.forEach(e => {
-        const ed = (e.dept || '').toLowerCase();
-        if (!ed || ed === 'universal' || ed === d) knowledge.push(e);
-      });
-      const results = smartSearch(query, '', limitParam);
-      knowledge.length = 0;
-      origKnowledge.forEach(e => knowledge.push(e));
-      if (rawMode) return res.json(results);
-      return res.json({ results, total: results.length });
-    }
     const results = smartSearch(query, bookFilter, limitParam);
 
-    if (rawMode) return res.json({ results, total: results.length });
+    // GET request or ?raw — return raw results (used by frontend)
+    if (rawMode) {
+      return res.json({ results, total: results.length });
+    }
 
+    // POST without raw — return AI answer
     const context = results.length > 0
       ? results.map(r => {
           const book    = r.book || r.source || '';
@@ -173,12 +176,18 @@ const handleSearch = async (req, res) => {
       model: 'claude-haiku-4-5-20251001',
       max_tokens: 800,
       system: `आप न्यायसहायक हैं — उत्तर प्रदेश शासन के विधिक सहायक।
+
 नियम:
-1. उत्तर केवल हिंदी में।
-2. citation नियम (अनिवार्य): (क) शासनादेश/GO हो तो — "फ़ाइल संख्या: [no], दिनांक: [date]" लिखें, कोई अन्य विवरण नहीं। (ख) अधिनियम/पुस्तक/मैनुअल हो तो — "अध्याय [X], [शीर्षक], धारा/नियम [X]" लिखें। (ग) citation कभी भी "[Book Name, Section X]" bracket format में नहीं होगी।
-3. ज्ञान आधार में न हो तो: "उपलब्ध ज्ञान आधार में यह जानकारी नहीं है।"
-4. अनुमान न लगाएं।
-5. 150 शब्द से कम।`,
+1. उत्तर केवल शुद्ध सरकारी हिंदी में।
+2. यदि तुलनात्मक या पैरावार प्रश्न हो — क्र.सं. सहित तालिका (table) में उत्तर दें।
+3. citation अनिवार्य — इस प्रारूप में:
+   🔖 शासनादेश: [विभाग व अनुभाग], शा०सं० [संख्या], दिनांक [DD Month YYYY]
+   🔖 पुस्तक: [पुस्तक नाम], खण्ड-[X], अध्याय-[X], नियम [X]
+   🔖 सेवा विधि: सेवा विधि, अध्याय-[X], प्रस्तर-[X]
+4. उत्तर 150 शब्द या एक सम्पूर्ण प्रासंगिक अनुच्छेद — जो पहले पूर्ण हो।
+5. अंत में अवश्य लिखें: 📚 विस्तृत विवरण — ज्ञानकोश में पढ़ें →
+6. ज्ञान आधार में न हो तो: ⚠️ उपलब्ध ज्ञान आधार में यह जानकारी नहीं है — संबंधित विभाग से संपर्क करें।
+7. अनुमान कदापि न लगाएं।`,
       messages: [{
         role: 'user',
         content: context
@@ -202,7 +211,8 @@ const handleSearch = async (req, res) => {
 app.post('/search', handleSearch);
 app.get('/search',  handleSearch);
 
-// ── KNOWLEDGE BROWSE ─────────────────────────────────────────────
+// ── KNOWLEDGE BROWSE (new) ───────────────────────────────────────
+// GET /knowledge?page=1&limit=20&book=Seva Vidhi
 app.get('/knowledge', (req, res) => {
   const page      = parseInt(req.query.page)  || 1;
   const limit     = parseInt(req.query.limit) || 20;
@@ -210,28 +220,29 @@ app.get('/knowledge', (req, res) => {
   const dept      = req.query.dept || '';
 
   let pool = knowledge;
-  if (dept) {
-    const d = dept.toLowerCase();
-    pool = knowledge.filter(r =>
-      !r.dept || r.dept === 'universal' ||
-      r.dept.toLowerCase().includes(d) || d.includes(r.dept.toLowerCase())
-    );
-  }
   if (bookFilter) {
     const bf = bookFilter.toLowerCase();
-    pool = pool.filter(r =>
+    pool = knowledge.filter(r =>
       (r.book   && r.book.toLowerCase().includes(bf)) ||
       (r.source && r.source.toLowerCase().includes(bf))
+    );
+  }
+  if (dept) {
+    const d = dept.toLowerCase();
+    pool = pool.filter(r =>
+      (r.dept       && r.dept.toLowerCase().includes(d)) ||
+      (r.department && r.department.toLowerCase().includes(d))
     );
   }
 
   const total = pool.length;
   const start = (page - 1) * limit;
   const entries = pool.slice(start, start + limit);
+
   res.json({ total, page, limit, total_pages: Math.ceil(total / limit), entries });
 });
 
-// ── BROWSE ───────────────────────────────────────────────────────
+// ── BROWSE (book summary) ────────────────────────────────────────
 app.get('/browse', (req, res) => {
   const grouped = {};
   knowledge.forEach(e => {
@@ -243,6 +254,28 @@ app.get('/browse', (req, res) => {
     total_entries: knowledge.length,
     total_books: Object.keys(grouped).length,
     books: Object.values(grouped).sort((a, b) => b.count - a.count)
+  });
+});
+
+
+// GET /gos?dept=madhyamik - dept specific + universal GOs
+const UNIVERSAL_DEPTS = ['nyay', 'karmik', 'vitt', 'universal'];
+app.get('/gos', (req, res) => {
+  res.set('Cache-Control', 'no-store');
+  const dept = req.query.dept || '';
+  const page = parseInt(req.query.page) || 1;
+  const limit = parseInt(req.query.limit) || 20;
+  const filtered = knowledge.filter(e => {
+    if (e.type !== 'GO') return false;
+    if (!dept) return true;
+    return e.dept === dept || UNIVERSAL_DEPTS.includes(e.dept);
+  });
+  const start = (page - 1) * limit;
+  res.json({
+    total: filtered.length,
+    page,
+    total_pages: Math.ceil(filtered.length / limit),
+    entries: filtered.slice(start, start + limit)
   });
 });
 
@@ -260,17 +293,22 @@ app.get('/browse/:book', (req, res) => {
   });
 });
 
-// ── BULK INSERT ──────────────────────────────────────────────────
+// ── BULK INSERT (fixed — no SQLite) ─────────────────────────────
+// POST /bulk-insert
+// Body: array of entry objects
+// Each entry should have: book, chapter/topic, content, keywords (optional), dept (optional)
 app.post('/bulk-insert', (req, res) => {
   const entries = req.body;
   if (!Array.isArray(entries)) return res.status(400).json({ error: 'Array of entries expected' });
   if (entries.length === 0)    return res.status(400).json({ error: 'Empty array' });
   if (entries.length > 500)    return res.status(400).json({ error: 'Max 500 entries per request' });
 
-  let inserted = 0, skipped = 0;
+  let inserted = 0;
+  let skipped  = 0;
 
   entries.forEach(entry => {
     if (!entry.content && !entry.text) { skipped++; return; }
+    // Normalize
     const normalized = {
       book:     entry.book     || entry.source  || 'Unknown',
       chapter:  entry.chapter  || entry.topic   || entry.heading || '',
@@ -288,17 +326,25 @@ app.post('/bulk-insert', (req, res) => {
     inserted++;
   });
 
+  // Save back to knowledge.json
   try {
     writeFileSync(KNOWLEDGE_PATH, JSON.stringify(knowledge, null, 2), 'utf-8');
     console.log(`✅ Bulk insert: ${inserted} added, ${skipped} skipped. Total: ${knowledge.length}`);
-    res.json({ success: true, inserted, skipped, total: knowledge.length });
+    res.json({
+      success: true,
+      inserted,
+      skipped,
+      total: knowledge.length
+    });
   } catch(e) {
     console.error('Write error:', e.message);
     res.status(500).json({ error: 'Could not save knowledge.json: ' + e.message });
   }
 });
 
-// ── INSERT-GO ────────────────────────────────────────────────────
+// ── Department-wise GOs insert ───────────────────────────────────
+// POST /insert-go
+// Single GO entry with department tag
 app.post('/insert-go', (req, res) => {
   const { title, content, dept, year, ref, court, book } = req.body;
   if (!content) return res.status(400).json({ error: 'content required' });
@@ -322,12 +368,17 @@ app.post('/insert-go', (req, res) => {
   try {
     writeFileSync(KNOWLEDGE_PATH, JSON.stringify(knowledge, null, 2), 'utf-8');
     res.json({ success: true, total: knowledge.length });
-  } catch(e) { res.status(500).json({ error: e.message }); }
+  } catch(e) {
+    res.status(500).json({ error: e.message });
+  }
 });
 
-// ── STATS ────────────────────────────────────────────────────────
+// ── Stats endpoint ───────────────────────────────────────────────
 app.get('/stats', (req, res) => {
-  const byBook = {}, byDept = {}, byType = {};
+  const byBook = {};
+  const byDept = {};
+  const byType = {};
+
   knowledge.forEach(e => {
     const book = e.book || 'Other';
     const dept = e.dept || 'General';
@@ -336,10 +387,16 @@ app.get('/stats', (req, res) => {
     byDept[dept] = (byDept[dept] || 0) + 1;
     byType[type] = (byType[type] || 0) + 1;
   });
-  res.json({ total: knowledge.length, by_book: byBook, by_dept: byDept, by_type: byType });
+
+  res.json({
+    total: knowledge.length,
+    by_book: byBook,
+    by_dept: byDept,
+    by_type: byType,
+  });
 });
 
-// ── READER ENDPOINTS ─────────────────────────────────────────────
+// ── Reader endpoints (existing — unchanged) ──────────────────────
 let fhbData = [];
 try {
   fhbData = JSON.parse(readFileSync(path.join(__dirname, 'fhb_index.json'), 'utf-8'));
@@ -428,7 +485,7 @@ app.post('/docgen', async (req, res) => {
 |----------|--------------------------|----------------------------------|
 
 नियम:
-2. citation नियम (अनिवार्य): (क) शासनादेश/GO हो तो — "फ़ाइल संख्या: [no], दिनांक: [date]" लिखें, कोई अन्य विवरण नहीं। (ख) अधिनियम/पुस्तक/मैनुअल हो तो — "अध्याय [X], [शीर्षक], धारा/नियम [X]" लिखें। (ग) citation कभी भी "[Book Name, Section X]" bracket format में नहीं होगी।
+1. citation अनिवार्य — exact section number।
 2. भाषा: शुद्ध सरकारी हिंदी।
 3. तथ्यात्मक पैरे पर: "तथ्यात्मक — टिप्पणी अपेक्षित नहीं"
 4. अंत में "पैरवी बिंदु" — 3-5 मुख्य तर्क।`;
@@ -441,97 +498,9 @@ app.post('/docgen', async (req, res) => {
       messages: [{ role: 'user', content: prompt }]
     });
     res.json(response);
-  } catch(e) { res.status(500).json({ error: e.message }); }
-});
-
-// ── eCourts Case Tracking ────────────────────────────────────────
-const VAKEEL_API_KEY = process.env.VAKEEL_API_KEY || '';
-const VAKEEL_BASE    = 'https://prod-api.vakeel360.com/api/v1';
-
-// UPHC prefix = Lucknow Bench, others = Allahabad (Prayagraj)
-function getBenchId(cnr) {
-  return cnr.startsWith('UPHC') ? 'allahabad-hc-lucknow' : 'allahabad-hc';
-}
-
-// ── CNR Search ──────────────────────────────────────────────────
-app.get('/ecourts/cnr/:cnr', async (req, res) => {
-  if (!VAKEEL_API_KEY) return res.status(503).json({ error: 'eCourts API key not configured' });
-  try {
-    const cnr = req.params.cnr;
-    const response = await fetch(`${VAKEEL_BASE}/cases/search`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'X-API-Key': VAKEEL_API_KEY },
-      body: JSON.stringify({
-        court_type: 'hc',
-        reference_id: getBenchId(cnr),
-        cnr: cnr
-      })
-    });
-    const data = await response.json();
-    res.json(data);
-  } catch(e) { res.status(500).json({ error: e.message }); }
-});
-
-// ── Case Number Search ──────────────────────────────────────────
-// GET /ecourts/case?number=1&year=2024&type=WRIA&bench=lucknow
-app.get('/ecourts/case', async (req, res) => {
-  if (!VAKEEL_API_KEY) return res.status(503).json({ error: 'eCourts API key not configured' });
-  const { type, number, year, bench } = req.query;
-  if (!number || !year) return res.status(400).json({ error: 'number, year required' });
-  const benchId = bench === 'lucknow' ? 'allahabad-hc-lucknow' : 'allahabad-hc';
-  try {
-    const response = await fetch(`${VAKEEL_BASE}/cases/search`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'X-API-Key': VAKEEL_API_KEY },
-      body: JSON.stringify({
-        court_type: 'hc',
-        reference_id: benchId,
-        case_type: type || 'WRIA',
-        case_number: number,
-        case_year: year
-      })
-    });
-    const data = await response.json();
-    res.json(data);
-  } catch(e) { res.status(500).json({ error: e.message }); }
-});
-
-// ── Case Types (metadata) ───────────────────────────────────────
-// GET /ecourts/casetypes?bench=lucknow
-app.get('/ecourts/casetypes', async (req, res) => {
-  if (!VAKEEL_API_KEY) return res.status(503).json({ error: 'eCourts API key not configured' });
-  const { bench } = req.query;
-  const benchId = bench === 'lucknow' ? 'allahabad-hc-lucknow' : 'allahabad-hc';
-  try {
-    const response = await fetch(`${VAKEEL_BASE}/courts/${benchId}/case-types`, {
-      headers: { 'X-API-Key': VAKEEL_API_KEY }
-    });
-    const data = await response.json();
-    res.json(data);
-  } catch(e) { res.status(500).json({ error: e.message }); }
-});
-
-// ── Track (unified POST) ────────────────────────────────────────
-app.post('/ecourts/track', async (req, res) => {
-  if (!VAKEEL_API_KEY) return res.status(503).json({ error: 'eCourts API key not configured' });
-  const { cnr, type, number, year, bench } = req.body;
-  try {
-    let payload;
-    if (cnr) {
-      payload = { court_type: 'hc', reference_id: getBenchId(cnr), cnr };
-    } else {
-      if (!number || !year) return res.status(400).json({ error: 'cnr OR (number + year) required' });
-      const benchId = bench === 'lucknow' ? 'allahabad-hc-lucknow' : 'allahabad-hc';
-      payload = { court_type: 'hc', reference_id: benchId, case_type: type || 'WRIA', case_number: number, case_year: year };
-    }
-    const response = await fetch(`${VAKEEL_BASE}/cases/search`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'X-API-Key': VAKEEL_API_KEY },
-      body: JSON.stringify(payload)
-    });
-    const data = await response.json();
-    res.json(data);
-  } catch(e) { res.status(500).json({ error: e.message }); }
+  } catch(e) {
+    res.status(500).json({ error: e.message });
+  }
 });
 
 // ── Start ────────────────────────────────────────────────────────
@@ -539,4 +508,33 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`🚀 Nyaysahayak API on port ${PORT}`);
   console.log(`📚 Knowledge entries: ${knowledge.length}`);
+});
+
+// ── Vakeel360 CNR Search ──────────────────────────────
+const VAKEEL_BASE = 'https://prod-api.vakeel360.com';
+const VAKEEL_KEY = process.env.VAKEEL_API_KEY || 'vk_demo_dhriti_857b1fc4e305e8c5aa1a0273';
+
+app.post('/api/v1/cases/search', async (req, res) => {
+  try {
+    const { cnr, court_type, reference_id, case_type, case_number, case_year } = req.body;
+    let url, body;
+    if (cnr) {
+      const bench = reference_id && reference_id.includes('lucknow') ? 'lucknow' : 'allahabad';
+      url = `${VAKEEL_BASE}/api/v1/allahabad-hc/case/cnr`;
+      body = { cnr, bench };
+    } else {
+      const bench = reference_id && reference_id.includes('lucknow') ? 'lucknow' : 'allahabad';
+      url = `${VAKEEL_BASE}/api/v1/allahabad-hc/case/search`;
+      body = { court_type, reference_id, case_type, case_number, case_year, bench };
+    }
+    const r = await fetch(url, {
+      method: 'POST',
+      headers: { 'X-API-Key': VAKEEL_KEY, 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    });
+    const data = await r.json();
+    res.json(data);
+  } catch(e) {
+    res.status(500).json({ error: e.message });
+  }
 });
