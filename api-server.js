@@ -268,6 +268,7 @@ app.get('/gos', (req, res) => {
   const filtered = knowledge.filter(e => {
     if (e.type !== 'GO') return false;
     if (!dept) return true;
+    if (dept === "iti") return e.dept === "iti";
     return e.dept === dept || UNIVERSAL_DEPTS.includes(e.dept);
   });
   const start = (page - 1) * limit;
