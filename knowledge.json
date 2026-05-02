@@ -70453,5 +70453,82 @@
       "appointment cancellation",
       "sainik school lucknow"
     ]
+  },
+  {
+    "id": "sss_up_judgment_004",
+    "department": "sss_up",
+    "source": "Allahabad High Court Lucknow Bench",
+    "type": "judgment",
+    "case_number": "Contempt Application (Civil) No. 417/2026",
+    "date": "18-03-2026",
+    "court": "Allahabad High Court Lucknow Bench",
+    "judge": "Justice Manish Kumar",
+    "parties": "Ravindra Singh vs Col. Devendra Singh Chauhan, Principal UP Sainik School Lucknow",
+    "title": "Contempt — HC order ka palan na karna, nayi Principal impleaded",
+    "summary": "Writ A No. 23098/2018 mein paas order dated 31.10.2025 ki avamanna ke liye contempt application. Principal ke transfer ke baad nayi Principal Col. Seema Mishra ko respondent no. 2 ke roop mein impleaded kiya gaya. Court ne notice jaari kiya aur 7 kaarya divas mein kadam uthane ka aadesh diya.",
+    "key_provisions": [
+      "Contempt of Courts Act 1971",
+      "Principal ke transfer par nayi Principal ko impleaded karna anivaarya",
+      "HC order ki avamanna par contempt proceedings"
+    ],
+    "directions": "Col. Seema Mishra, Principal CMKP UP Sainik School ko notice — 7 kaarya divas mein kadam uthao, next date 27.04.2026",
+    "tags": [
+      "contempt",
+      "principal transfer",
+      "impleadment",
+      "sainik school lucknow",
+      "writ compliance"
+    ]
+  },
+  {
+    "id": "sss_up_judgment_005",
+    "department": "sss_up",
+    "source": "Allahabad High Court Lucknow Bench",
+    "type": "judgment",
+    "case_number": "Writ A No. 4490/2025",
+    "date": "25-04-2025",
+    "court": "Allahabad High Court Lucknow Bench",
+    "judge": "Justice Rajesh Singh Chauhan",
+    "parties": "Dinesh Mishra vs State of UP + UP Sainik School Society Lucknow",
+    "title": "Writ not pressed — liberty to file fresh petition granted",
+    "summary": "Petitioner ne UP Sainik School Society ke virudh writ dakhil ki thi. Sunvaai ke dauran petitioner ke vakeel ne writ na press karne ki request ki. Court ne writ dismissed karte hue fresh petition file karne ki chhoot di.",
+    "key_provisions": [
+      "UP Sainik School Society ek proper respondent entity hai",
+      "Fresh petition file karne ki liberty milti hai dismissed petition par"
+    ],
+    "directions": "Writ dismissed as not pressed, liberty to file fresh granted",
+    "tags": [
+      "writ dismissed",
+      "UP sainik school society",
+      "fresh petition liberty",
+      "service matter"
+    ]
+  },
+  {
+    "id": "sss_up_judgment_006",
+    "department": "sss_up",
+    "source": "Allahabad High Court",
+    "type": "judgment",
+    "case_number": "Contempt Application (Civil) No. 7256/2025",
+    "date": "15-12-2025",
+    "court": "Allahabad High Court",
+    "judge": "Justice Dinesh Pathak",
+    "parties": "Adarsh Awasthi vs Sri Devendra Singh Chauhan, Principal Sainik School Manbela (Gorakhpur)",
+    "title": "Contempt — Writ A 15705/2025 ke order ki avamanna, joining na dena",
+    "summary": "Writ A No. 15705/2025 dated 03.11.2025 ke order ki avamanna — Principal Sainik School Manbela (UP Sainik School Gorakhpur) ne order ka palan nahi kiya. Court ne notice jaari kiya — 1 maah mein compliance ya show cause. Baad mein 06.04.2026 tak joining letter jaari hua.",
+    "key_provisions": [
+      "Contempt of Courts Act 1971",
+      "HC order compliance anivarya — Principal personally liable",
+      "Joining letter jaari hona compliance ka praman"
+    ],
+    "directions": "1 maah mein compliance ya show cause. Antim roop se 03.04.2026 ko joining letter jaari hua",
+    "tags": [
+      "contempt",
+      "joining order",
+      "sainik school gorakhpur",
+      "manbela",
+      "principal liability",
+      "writ compliance"
+    ]
   }
 ]
