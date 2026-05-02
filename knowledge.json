@@ -70373,5 +70373,85 @@
       "anubandh",
       "Society rules"
     ]
+  },
+  {
+    "id": "sss_up_judgment_001",
+    "department": "sss_up",
+    "source": "Allahabad High Court",
+    "type": "judgment",
+    "case_number": "Service Single No. 4188/2010",
+    "date": "02-07-2010",
+    "court": "Allahabad High Court",
+    "judge": "Justice Satyendra Singh Chauhan",
+    "parties": "Sunil Kumar & Ors. vs State of UP",
+    "title": "Rule 20 appeal — Class IV staff appointment cancellation",
+    "summary": "Class IV karmchari ki niyukti nirastikaran ke virudh sidhi writ maintainable nahi. UP Sainik Schools (Class IV Establishment) Service Rules 1970 ke Niyam 20 ke antargat Vice Chairman UP Sainik School Lucknow ke samaksh appeal ka vikalp uplabdh hai.",
+    "key_provisions": [
+      "Rule 20, UP Sainik Schools (Class IV Establishment) Service Rules 1970",
+      "Alternative remedy doctrine",
+      "Vice Chairman UP Sainik School Lucknow — appellate authority for Class IV"
+    ],
+    "directions": "1 saptah mein appeal file karo, appellate authority 6 saptah mein nistar kare, tab tak fresh selection nahi",
+    "tags": [
+      "rule 20",
+      "class iv",
+      "alternative remedy",
+      "vice chairman",
+      "appointment cancellation",
+      "sainik school lucknow"
+    ]
+  },
+  {
+    "id": "sss_up_judgment_002",
+    "department": "sss_up",
+    "source": "Allahabad High Court",
+    "type": "judgment",
+    "case_number": "Service Single No. 4189/2010",
+    "date": "02-07-2010",
+    "court": "Allahabad High Court",
+    "judge": "Justice Satyendra Singh Chauhan",
+    "parties": "Sarvesh Kumar & Ors. vs State of UP",
+    "title": "Rule 20 appeal — Class IV staff appointment cancellation companion case",
+    "summary": "Sunil Kumar case ka companion case. Identical facts aur directions. Rule 20 UP Sainik Schools Class IV Service Rules 1970 ke antargat appeal vikalp uplabdh hone par writ kharijyogya.",
+    "key_provisions": [
+      "Rule 20, UP Sainik Schools (Class IV Establishment) Service Rules 1970",
+      "Alternative remedy doctrine"
+    ],
+    "directions": "1 saptah appeal, 6 saptah nistar, fresh selection stay",
+    "tags": [
+      "rule 20",
+      "class iv",
+      "alternative remedy",
+      "vice chairman",
+      "appointment cancellation",
+      "sainik school lucknow"
+    ]
+  },
+  {
+    "id": "sss_up_judgment_003",
+    "department": "sss_up",
+    "source": "Allahabad High Court",
+    "type": "judgment",
+    "case_number": "Service Single No. 4161/2010",
+    "date": "18-06-2010",
+    "court": "Allahabad High Court",
+    "judge": "Justice Narayan Shukla",
+    "parties": "Laxmi Kant Shukla & Ors. vs State of UP",
+    "title": "Regulation 20 appeal — Ministerial staff appointment cancellation",
+    "summary": "Ministerial karmchari ki niyukti nirastikaran ke virudh sidhi writ maintainable nahi. UP Sainik School Ministerial Establishment Service Rules 1970 ke Regulation 20 ke antargat Vice Chairman UP Sainik School Lucknow appellate authority hai.",
+    "key_provisions": [
+      "Regulation 20, UP Sainik School (Ministerial Establishment) Service Rules 1970",
+      "Alternative remedy doctrine",
+      "Vice Chairman UP Sainik School Lucknow — appellate authority for Ministerial staff"
+    ],
+    "directions": "1 saptah mein appeal file karo, expeditious disposal, tab tak fresh selection nahi",
+    "tags": [
+      "regulation 20",
+      "ministerial",
+      "alternative remedy",
+      "vice chairman",
+      "appointment cancellation",
+      "sainik school lucknow"
+    ]
   }
 ]
