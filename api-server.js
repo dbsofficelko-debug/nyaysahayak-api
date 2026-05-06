@@ -461,6 +461,31 @@ app.get('/pm/:filename', (req, res) => {
   res.json(ch);
 });
 
+
+// Seva Vidhi — 4 volumes
+const SV_VOLS = {
+  sv1: { file: 'sv_vol1_index.json', name: 'नियुक्ति एवं भर्ती' },
+  sv2: { file: 'sv_vol2_index.json', name: 'सेवा शर्तें एवं पदोन्नति' },
+  sv3: { file: 'sv_vol3_index.json', name: 'अनुशासन एवं अपील' },
+  sv4: { file: 'sv_vol4_index.json', name: 'पेंशन एवं शासनादेश' },
+};
+const svVolData = {};
+for (const [key, vol] of Object.entries(SV_VOLS)) {
+  try {
+    svVolData[key] = JSON.parse(readFileSync(path.join(__dirname, vol.file), 'utf-8'));
+    console.log(key + ' loaded:', svVolData[key].length, 'entries');
+  } catch(e) { svVolData[key] = []; console.log(key + ' not found'); }
+  app.get('/' + key, (req, res) => {
+    const d = svVolData[key];
+    res.json({ total: d.length, name: vol.name, chapters: d.map(({id,topic,type}) => ({id,topic,type})) });
+  });
+  app.get('/' + key + '/:id', (req, res) => {
+    const ch = svVolData[key].find(c => String(c.id) === req.params.id);
+    if (!ch) return res.status(404).json({ error: 'Not found' });
+    res.json(ch);
+  });
+}
+
 let puvvnlData = [];
 try {
   puvvnlData = JSON.parse(readFileSync(path.join(__dirname, 'puvvnl_index.json'), 'utf-8'));
