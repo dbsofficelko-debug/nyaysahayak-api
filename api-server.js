@@ -486,6 +486,67 @@ for (const [key, vol] of Object.entries(SV_VOLS)) {
   });
 }
 
+// ── New library books (FHB Vol 3, CSR, Budget, Police Kalyan) ──
+let fhb3Data = [];
+try {
+  fhb3Data = JSON.parse(readFileSync(path.join(__dirname, 'fhb_vol3_index.json'), 'utf-8'));
+  console.log('FHB Vol 3 loaded:', fhb3Data.length, 'entries');
+} catch(e) { console.log('FHB Vol 3 not found:', e.message); }
+
+app.get('/fhb3', (req, res) => {
+  res.json({ total: fhb3Data.length, chapters: fhb3Data.map(({type,num,topic,filename}) => ({type,num,topic,filename})) });
+});
+app.get('/fhb3/:filename', (req, res) => {
+  const ch = fhb3Data.find(c => c.filename === req.params.filename);
+  if (!ch) return res.status(404).json({ error: 'Not found' });
+  res.json(ch);
+});
+
+let csrData = [];
+try {
+  csrData = JSON.parse(readFileSync(path.join(__dirname, 'csr_index.json'), 'utf-8'));
+  console.log('CSR loaded:', csrData.length, 'entries');
+} catch(e) { console.log('CSR not found:', e.message); }
+
+app.get('/csr', (req, res) => {
+  res.json({ total: csrData.length, chapters: csrData.map(({type,num,topic,filename}) => ({type,num,topic,filename})) });
+});
+app.get('/csr/:filename', (req, res) => {
+  const ch = csrData.find(c => c.filename === req.params.filename);
+  if (!ch) return res.status(404).json({ error: 'Not found' });
+  res.json(ch);
+});
+
+let budgetData = [];
+try {
+  budgetData = JSON.parse(readFileSync(path.join(__dirname, 'budget_index.json'), 'utf-8'));
+  console.log('Budget Manual loaded:', budgetData.length, 'chapters');
+} catch(e) { console.log('Budget not found:', e.message); }
+
+app.get('/budget', (req, res) => {
+  res.json({ total: budgetData.length, chapters: budgetData.map(({type,num,topic,filename}) => ({type,num,topic,filename})) });
+});
+app.get('/budget/:filename', (req, res) => {
+  const ch = budgetData.find(c => c.filename === req.params.filename);
+  if (!ch) return res.status(404).json({ error: 'Not found' });
+  res.json(ch);
+});
+
+let policeKalyanData = [];
+try {
+  policeKalyanData = JSON.parse(readFileSync(path.join(__dirname, 'police_kalyan_index.json'), 'utf-8'));
+  console.log('Police Kalyan loaded:', policeKalyanData.length, 'GOs');
+} catch(e) { console.log('Police Kalyan not found:', e.message); }
+
+app.get('/police-kalyan', (req, res) => {
+  res.json({ total: policeKalyanData.length, chapters: policeKalyanData.map(({type,num,topic,filename,file_number,date}) => ({type,num,topic,filename,file_number,date})) });
+});
+app.get('/police-kalyan/:filename', (req, res) => {
+  const ch = policeKalyanData.find(c => c.filename === req.params.filename);
+  if (!ch) return res.status(404).json({ error: 'Not found' });
+  res.json(ch);
+});
+
 let puvvnlData = [];
 try {
   puvvnlData = JSON.parse(readFileSync(path.join(__dirname, 'puvvnl_index.json'), 'utf-8'));
