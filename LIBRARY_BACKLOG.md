@@ -2,12 +2,40 @@
 
 > **Purpose:** Library pustakon ki permanent tracking file. Har session ke shuru mein ye padhi jaaye. Tum aur Claude dono ke liye single source of truth.
 >
-> **Last updated:** 06-May-2026
+> **Last updated:** 06-May-2026 (evening)
 >
 > **Architecture:** Library = 3 categories
 > 1. UP Universal (cross-cutting books)
 > 2. लेखापरीक्षा एवं लेखा (AG/Audit specific)
-> 3. विभाग-वार (10 departments)
+> 3. विभाग-वार (10 departments — PWD + Health included)
+
+---
+
+## 🚦 NEXT SESSION — Where to start
+
+**Resume from: Stage 3A — `library.html` design mockup**
+
+Stage 1 (Content audit) ✅ done
+Stage 2 (Backend cleanup + index files) ✅ done — Tier 1 live with 6 books
+Stage 3A (Frontend design mockup) ⏳ NEXT
+Stage 3B (Frontend full build) — after 3A approval
+Stage 4 (Reader UI universal) — after 3B
+Stage 5 (Cross-book search results) — after 4
+Stage 6 (Polish + mobile + citation copy) — final
+
+**Stage 3A scope:**
+- Hero search bar (prominent top)
+- 8 use-case tiles (वित्तीय मामले, अनुशासन, वरिष्ठता, शिक्षक भेद, नियुक्ति, निलंबन, अवकाश, पेंशन)
+- 3 category sections: UP Universal · लेखापरीक्षा · विभाग-वार (10 dept cards)
+- Book cards with gradient covers + actual Hindi cover names from this file
+- Maroon (#8B2000) / Gold (#9a7000) / Cream (#faf6ec) theme
+- Bureaucratic + sundar feel — IAS/AG demo grade
+
+**Visual reference:** "FHB reader ka model — left sidebar TOC, right content, prev/next, sundar typography" (Shoonya's earlier feedback)
+
+**Demo target:** Senior IAS / AG officers — 5-min screen demo (informal usage, word-of-mouth marketing)
+
+---
 
 ---
 
