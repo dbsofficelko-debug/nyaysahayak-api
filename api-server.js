@@ -229,10 +229,13 @@ app.get('/knowledge', (req, res) => {
   }
   if (dept) {
     const d = dept.toLowerCase();
-    pool = pool.filter(r =>
-      (r.dept       && r.dept.toLowerCase().includes(d)) ||
-      (r.department && r.department.toLowerCase().includes(d))
-    );
+    const NON_UNIVERSAL_DEPTS = ['sainik_school_mod', 'iti_mod'];
+    const isNonUniversal = NON_UNIVERSAL_DEPTS.some(nd => d.includes(nd));
+    pool = pool.filter(r => {
+      const rdept = (r.department || r.dept || '').toLowerCase();
+      if (isNonUniversal) return rdept.includes(d);
+      return rdept === 'universal' || rdept.includes(d);
+    });
   }
 
   const total = pool.length;
