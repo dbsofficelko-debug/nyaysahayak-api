@@ -516,7 +516,60 @@ app.get('/puvvnl/:filename', (req, res) => {
   if (!ch) return res.status(404).json({ error: 'Not found' });
   res.json(ch);
 });
+// ── Library chapter content search (per-book) ───────────────────
+const LIBRARY_DATA = {
+  fhb:    () => fhbData,
+  sad:    () => sadData,
+  sv:     () => svData,
+  pm:     () => pmData,
+  puvvnl: () => puvvnlData,
+};
 
+app.get('/library/search', (req, res) => {
+  const q = (req.query.q || '').trim();
+  const book = req.query.book;
+  if (!q) return res.json({ total: 0, results: [] });
+  if (!book || !LIBRARY_DATA[book]) {
+    return res.status(400).json({ error: 'valid book code required (fhb/sad/sv/pm/puvvnl)' });
+  }
+
+  const terms = expandQuery(q).filter(t => t && t.length > 1);
+  const data = LIBRARY_DATA[book]();
+  const results = [];
+
+  for (let idx = 0; idx < data.length; idx++) {
+    const c = data[idx];
+    const orig = c.content || '';
+    const content = orig.toLowerCase();
+    if (!content) continue;
+
+    let bestIdx = -1, bestTerm = '';
+    for (const term of terms) {
+      const i = content.indexOf(term);
+      if (i >= 0 && (bestIdx === -1 || i < bestIdx)) {
+        bestIdx = i;
+        bestTerm = term;
+      }
+    }
+    if (bestIdx < 0) continue;
+
+    const start = Math.max(0, bestIdx - 80);
+    const end = Math.min(orig.length, bestIdx + bestTerm.length + 200);
+    const snippet = (start > 0 ? '…' : '') + orig.substring(start, end) + (end < orig.length ? '…' : '');
+
+    results.push({
+      chapter_idx: idx,
+      filename: c.filename || '',
+      topic:    c.topic    || '',
+      pages:    c.pages    || c.prastar || c.chapter || '',
+      snippet,
+      matched: bestTerm
+    });
+    if (results.length >= 20) break;
+  }
+
+  res.json({ total: results.length, results });
+});
 // ── DocGen endpoint ──────────────────────────────────────────────
 app.post('/docgen', async (req, res) => {
   const { prompt, department } = req.body;
