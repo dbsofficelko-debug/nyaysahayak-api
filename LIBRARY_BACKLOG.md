@@ -2,7 +2,7 @@
 
 > **Purpose:** Library pustakon ki permanent tracking file. Har session ke shuru mein ye padhi jaaye. Tum aur Claude dono ke liye single source of truth.
 >
-> **Last updated:** 06-May-2026 (evening — book acquisition lists finalized)
+> **Last updated:** 08-May-2026 (late evening — Block 2/3/4 frontend wired, /library/search backend endpoint live, Batch 1 book downloads done)
 >
 > **Scanner:** CZUR ET24 — being shipped from Delhi (director arranging)
 >
@@ -13,29 +13,65 @@
 
 ---
 
-## 🚦 NEXT SESSION — Where to start
+## 🚦 NEXT SESSION — Where to start (09-May-2026 morning, 8 AM)
 
-**Resume from: Stage 3A — `library.html` design mockup**
+**Resume from: Batch 2 — Central Govt book downloads**
+
+### Today's session (08-May-2026 evening) — COMPLETED ✅
+
+**Frontend (library-preview.html) — fully wired to live API:**
+- Block 2 ✅ — Topic chip clickability (v7.1) — 8 chips on landing scroll-to-search + auto-fill
+- Block 3 ✅ — Library backend wiring (v7.2) — openReader hijacked, fetches `/<book>` for chapter list, builds TOC dynamically, loads chapter via `/<book>/:filename`, mdToHtml renders Devanagari content
+- Block 3 ✅ — Next/prev chapter buttons (v7.3) — wired to TOC simulation
+- Block 3 ✅ — TTS compatibility (v7.4) — MutationObserver wraps API content paragraphs in `.rule-text` so speech works
+- Block 4 ✅ — In-book search (v7.5/v7.6 deprecated, v7.7/v7.7.1 final) — dedicated `/library/search` endpoint, per-book Devanagari results with snippet highlighting, click-to-navigate via TOC trigger, container-clone strategy to detach v7.6 observer
+
+**Backend (api-server.js) — new endpoint:**
+- `/library/search?book=fhb|sad|sv|pm|puvvnl&q=…` — searches `*_index.json` content directly using `expandQuery` (TRANSLIT), returns `{chapter_idx, filename, topic, pages, snippet, matched}` top-20
+
+**Confirmed working iPhone Safari:** SAD `अनुभाग` → 14 chapters, FHB `pension` → real chapters, click navigation working across all 5 books (FHB/SAD/PM/SV/PUVVNL). Police Kalyan stays in original demo banner (no `/police` endpoint yet — separate future task, ~30 min work to add `pk_index.json`).
+
+**Book acquisition started — Batch 1 IndiaCode COMPLETED ✅**
+- `~/Desktop/UP_Govt_Knowledge_Base/00_Downloads/01_IndiaCode/` folder contains:
+  - `UP_Panchayat_Raj_Act_1947.pdf`
+  - `UP_Kshetra_Zila_Panchayat_1961.pdf` (combined Kshetra+Zila Adhiniyam — both books in one PDF from IndiaCode)
+- Adjustments learned: UP Conduct Rules 1956 + DA Rules 1999 NOT in IndiaCode (they are Rules, not Acts) — moved to Batch 3 (UP Karmik). UP Panchayat Raj Sanshodhan 1994 NOT in IndiaCode separately — consolidated into 1947 Act download. Constitution of India NOT in IndiaCode as full PDF (only 1-page notification snippets) — moved to Batch 2 from `legislative.gov.in`.
+
+---
+
+### Tomorrow morning (09-May-2026, 8 AM) — START HERE
+
+**Resume command for new chat:**
+> *"Library project resume. Pehle GitHub se LIBRARY_BACKLOG.md padho — repo dbsofficelko-debug/nyaysahayak-api. Aaj Batch 2 (Central Govt downloads) se shuru karenge."*
+
+**Batch 2 — Central Govt (.gov.in) — 4 items, save folder `04_Central/`:**
+
+| # | Source URL | Book | Save naam |
+|---|---|---|---|
+| 1 | https://legislative.gov.in/constitution-of-india/ | Constitution of India (Hindi PDF) | `Constitution_of_India_Hindi.pdf` |
+| 2 | https://doe.gov.in (search "GFR 2017") | GFR 2017 with 2024 amendments | `GFR_2017.pdf` |
+| 3 | https://cag.gov.in (search "DPC Act") | C&AG (DPC) Act 1971 | `CAG_DPC_Act_1971.pdf` |
+| 4 | https://www.education.gov.in (search "RTE Act") | RTE Act 2009 | `RTE_Act_2009.pdf` |
+
+**After Batch 2, sequence:**
+- Batch 3: UP Karmik (`niyukti.up.gov.in`) — Conduct Rules 1956, DA Rules 1999, Reservation Rules 1994
+- Batch 4: UP Vitt (`shasanadesh.up.gov.in` — Vitt section) — Pension/Family Pension/LTC/TA/GPF/Pay Revision (scattered notifications, time-consuming)
+- Batch 5: UP Departments — Panchayat Sangathan Pustika, Police Standing Orders, Forest Manual, DBT Pension Schemes
+- Batch 6: AG/Audit — CAG manuals, AG UP audit reports
+
+---
+
+### Frontend / Backend stages — ON HOLD until book downloads progress
 
 Stage 1 (Content audit) ✅ done
 Stage 2 (Backend cleanup + index files) ✅ done — Tier 1 live with 6 books
-Stage 3A (Frontend design mockup) ⏳ NEXT
-Stage 3B (Frontend full build) — after 3A approval
-Stage 4 (Reader UI universal) — after 3B
-Stage 5 (Cross-book search results) — after 4
-Stage 6 (Polish + mobile + citation copy) — final
-
-**Stage 3A scope:**
-- Hero search bar (prominent top)
-- 8 use-case tiles (वित्तीय मामले, अनुशासन, वरिष्ठता, शिक्षक भेद, नियुक्ति, निलंबन, अवकाश, पेंशन)
-- 3 category sections: UP Universal · लेखापरीक्षा · विभाग-वार (10 dept cards)
-- Book cards with gradient covers + actual Hindi cover names from this file
-- Maroon (#8B2000) / Gold (#9a7000) / Cream (#faf6ec) theme
-- Bureaucratic + sundar feel — IAS/AG demo grade
-
-**Visual reference:** "FHB reader ka model — left sidebar TOC, right content, prev/next, sundar typography" (Shoonya's earlier feedback)
-
-**Demo target:** Senior IAS / AG officers — 5-min screen demo (informal usage, word-of-mouth marketing)
+Stage 3A (Frontend design mockup) — DONE via library-preview.html
+Stage 3B (Frontend full build) ✅ done 08-May (Block 3+4)
+Stage 4 (Reader UI universal) ✅ done 08-May
+Stage 5 (Cross-book search results) ⏳ future — currently per-book only via `/library/search`
+Stage 6 (Polish + mobile + citation copy) ⏳ future
+Police Kalyan `/police` endpoint ⏳ future (~30 min work after `pk_index.json` made)
+Bot KB cleanup (FHB/PM bad entries) ⏳ low priority
 
 ---
 
