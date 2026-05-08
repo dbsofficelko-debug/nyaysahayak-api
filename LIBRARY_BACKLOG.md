@@ -42,22 +42,208 @@
 ### Tomorrow morning (09-May-2026, 8 AM) — START HERE
 
 **Resume command for new chat:**
-> *"Library project resume. Pehle GitHub se LIBRARY_BACKLOG.md padho — repo dbsofficelko-debug/nyaysahayak-api. Aaj Batch 2 (Central Govt downloads) se shuru karenge."*
+> *"Library project resume. Pehle GitHub se LIBRARY_BACKLOG.md padho — repo dbsofficelko-debug/nyaysahayak-api. Aaj-kal 2 din ka leave hai, 20 hrs available. Section '🗓 2-DAY DOWNLOAD MARATHON' follow karo."*
 
-**Batch 2 — Central Govt (.gov.in) — 4 items, save folder `04_Central/`:**
+---
+
+## 🗓 2-DAY DOWNLOAD MARATHON (09-10 May 2026)
+
+**Target:** 42 books in 20 hrs (Batch 1 ke 2 already done).
+**Realistic:** 35-40 books mil jayenge — kuch UP portal pe broken/missing honge.
+
+**Skip rule:** Har book par max 10 min. Na mile to "MISSING" log karo aur agla. Time waste nahi.
+**Per book ka workflow:** Search → Download PDF → Rename per naming convention → Move to correct folder → Tick log.
+
+**Folder structure:**
+```
+~/Desktop/UP_Govt_Knowledge_Base/00_Downloads/
+├── 01_IndiaCode/      (UP Acts — 11 total target)
+├── 02_UP_Vitt/        (Pension/LTC/TA/GPF/Pay — 6)
+├── 03_UP_Karmik/      (Conduct/DA/Reservation — 3)
+├── 04_Central/        (GFR/Constitution/Schemes — 10)
+├── 05_UP_Depts/       (Police/Forest/Panchayat/SSPY — 5)
+└── 06_AG_Audit/       (CAG/AG manuals — 4)
+```
+
+---
+
+### 📅 DAY 1 — 09 May 2026 (10 hrs)
+
+**Session 1.1 — IndiaCode UP Acts batch (1.5 hr) — 9 books**
+
+URL: https://www.indiacode.nic.in
+Save: `01_IndiaCode/`
+
+| # | Search query | Save naam |
+|---|---|---|
+| 15 | `UP Panchayat Niwachan` | `UP_Panchayat_Niwachan.pdf` |
+| 16 | `UP Revenue Code 2006` | `UP_Revenue_Code_2006.pdf` |
+| 17 | `UP Stamp Act` | `UP_Stamp_Act.pdf` |
+| 18 | `UP Intermediate Education Act 1921` | `UP_Intermediate_Education_Act_1921.pdf` |
+| 19 | `UP Basic Education Act 1972` | `UP_Basic_Education_Act_1972.pdf` |
+| 20 | `UP Municipalities Act 1916` | `UP_Municipalities_Act_1916.pdf` |
+| 21 | `UP Nagar Nigam Adhiniyam 1959` | `UP_Nagar_Nigam_Adhiniyam_1959.pdf` |
+| 22 | `UP Urban Planning Development Act 1973` | `UP_Urban_Planning_Act_1973.pdf` |
+| 23 | `UP Apartment Act 2010` | `UP_Apartment_Act_2010.pdf` |
+| 24 | `UP Industrial Area Development Act 1976` | `UP_Industrial_Area_Dev_Act_1976.pdf` |
+| 25 | `UP Housing Development Act` | `UP_Housing_Dev_Act.pdf` |
+
+---
+
+**Session 1.2 — Constitution + GFR (1 hr) — 3 books**
+
+| Source URL | Book | Save naam | Folder |
+|---|---|---|---|
+| https://legislative.gov.in/constitution-of-india/ | Constitution of India Hindi | `Constitution_of_India_Hindi.pdf` | `04_Central/` |
+| https://doe.gov.in (search "GFR 2017") | GFR 2017 + 2024 amendments | `GFR_2017.pdf` | `04_Central/` |
+| https://doe.gov.in (search "Government Accounts Format Rules 2017") | Govt Accounts Format Rules 2017 | `Govt_Accounts_Format_Rules_2017.pdf` | `06_AG_Audit/` |
+
+---
+
+**Session 1.3 — CAG + Education central (1.5 hr) — 4 books**
+
+| Source | Book | Save naam | Folder |
+|---|---|---|---|
+| https://cag.gov.in (search "DPC Act 1971") | C&AG (DPC) Act 1971 | `CAG_DPC_Act_1971.pdf` | `06_AG_Audit/` |
+| https://cag.gov.in (search "MSO Audit") | CAG Manual Standing Orders Audit | `CAG_MSO_Audit.pdf` | `06_AG_Audit/` |
+| https://cag.gov.in (search "Receipt Audit Manual") | Receipt Audit Manual | `CAG_Receipt_Audit_Manual.pdf` | `06_AG_Audit/` |
+| https://cag.gov.in/uttar-pradesh (Reports tab) | AG Audit Reports UP — recent 5 | `AG_UP_Reports_*.pdf` (multiple) | `06_AG_Audit/` |
+| https://www.education.gov.in (search "RTE Act 2009") | RTE Act 2009 | `RTE_Act_2009.pdf` | `04_Central/` |
+
+---
+
+**Session 1.4 — Centrally Sponsored Schemes (1.5 hr) — 6 books**
+
+| Source URL | Book | Save naam |
+|---|---|---|
+| https://nrega.nic.in | MGNREGA Operational Guidelines (Hindi) | `MGNREGA_Hindi_Guidelines.pdf` |
+| https://pmayg.nic.in | PMAY-G Operational Manual | `PMAY_G_Operational_Manual.pdf` |
+| https://www.pmuy.gov.in | PM Ujjwala Yojana guidelines | `PM_Ujjwala_Guidelines.pdf` |
+| https://swachhbharatmission.gov.in | SBM Rural guidelines | `SBM_Rural_Guidelines.pdf` |
+| https://fincomindia.nic.in | 14th + 15th Finance Commission grants | `Finance_Commission_14_15.pdf` |
+| https://nhm.gov.in | NHM Operational Guidelines | `NHM_Operational_Guidelines.pdf` |
+
+Save folder: `04_Central/`
+
+---
+
+**Session 1.5 — UP Karmik (1 hr) — 3 books**
+
+URL: https://niyukti.up.gov.in (legitquest.com fallback)
+Save: `03_UP_Karmik/`
+
+| # | Book | Save naam |
+|---|---|---|
+| 1 | UP Conduct Rules 1956 | `UP_Conduct_Rules_1956.pdf` |
+| 2 | UP Discipline & Appeal Rules 1999 | `UP_DA_Rules_1999.pdf` |
+| 6 | UP Reservation Rules 1994 | `UP_Reservation_Rules_1994.pdf` |
+
+---
+
+**Session 1.6 — UP Vitt morning batch (2.5 hr) — 3 books**
+
+URL: https://shasanadesh.up.gov.in (Vitt Vibhag filter) + https://upfin.up.gov.in
+Save: `02_UP_Vitt/`
+
+⚠ **Slowest segment** — Vitt Vibhag ke "Rules" alag-alag GO/notifications mein bikhre hote hain. Latest consolidated GO dhundo.
+
+| # | Book | Save naam |
+|---|---|---|
+| 3 | Pay Revision Rules (5th/6th/7th CPC) — 3 separate consolidated GOs | `UP_Pay_Revision_5th.pdf`, `_6th.pdf`, `_7th.pdf` |
+| 4 | UP Pension Rules notifications (consolidated) | `UP_Pension_Rules.pdf` |
+| 5 | UP Family Pension Rules | `UP_Family_Pension_Rules.pdf` |
+
+---
+
+**Session 1.7 — Break + organize/verify (1 hr)**
+- Sab folders mein PDFs check karo — kya saare ke saare proper khulte hain
+- 0-page / corrupt PDFs delete karo, re-download
+- MISSING ka log file banao: `00_Downloads/MISSING.txt`
+
+**Day 1 total target: ~28 books**
+
+---
+
+### 📅 DAY 2 — 10 May 2026 (10 hrs)
+
+**Session 2.1 — UP Vitt remaining (2 hr) — 3 books**
+
+URL: https://shasanadesh.up.gov.in (Vitt) + https://upfin.up.gov.in
+Save: `02_UP_Vitt/`
+
+| # | Book | Save naam |
+|---|---|---|
+| 7 | UP LTC Rules | `UP_LTC_Rules.pdf` |
+| 8 | UP TA Rules | `UP_TA_Rules.pdf` |
+| 9 | GPF (UP) Rules | `UP_GPF_Rules.pdf` |
+
+---
+
+**Session 2.2 — UP Chikitsa (0.5 hr) — 1 book**
+
+URL: UP Chikitsa Vibhag (https://chikitsashiksha.up.nic.in / DG Health UP)
+Save: `02_UP_Vitt/` (or new `07_UP_Chikitsa/`)
+
+| # | Book | Save naam |
+|---|---|---|
+| 10 | UP Medical Reimbursement Rules | `UP_Medical_Reimbursement_Rules.pdf` |
+
+---
+
+**Session 2.3 — UP Departments (2 hr) — 5 books**
+
+Save: `05_UP_Depts/`
 
 | # | Source URL | Book | Save naam |
 |---|---|---|---|
-| 1 | https://legislative.gov.in/constitution-of-india/ | Constitution of India (Hindi PDF) | `Constitution_of_India_Hindi.pdf` |
-| 2 | https://doe.gov.in (search "GFR 2017") | GFR 2017 with 2024 amendments | `GFR_2017.pdf` |
-| 3 | https://cag.gov.in (search "DPC Act") | C&AG (DPC) Act 1971 | `CAG_DPC_Act_1971.pdf` |
-| 4 | https://www.education.gov.in (search "RTE Act") | RTE Act 2009 | `RTE_Act_2009.pdf` |
+| 40 | https://upprd.gov.in | Panchayat Vibhag Sangathan Pustika | `UP_Panchayat_Sangathan_Pustika.pdf` |
+| 41 | https://uppolice.gov.in (Standing Orders section) | UP Police Standing Orders compilation | `UP_Police_Standing_Orders.pdf` |
+| 42 | https://uppolice.gov.in (Regulations) | UP Police Regulations (older edition) | `UP_Police_Regulations.pdf` |
+| 43 | https://upforest.gov.in | UP Forest Manual | `UP_Forest_Manual.pdf` |
+| 44 | https://sspy-up.gov.in | DBT Pension Schemes (Vridh/Vidhwa/Divyang) | `UP_DBT_Pension_Schemes.pdf` |
 
-**After Batch 2, sequence:**
-- Batch 3: UP Karmik (`niyukti.up.gov.in`) — Conduct Rules 1956, DA Rules 1999, Reservation Rules 1994
-- Batch 4: UP Vitt (`shasanadesh.up.gov.in` — Vitt section) — Pension/Family Pension/LTC/TA/GPF/Pay Revision (scattered notifications, time-consuming)
-- Batch 5: UP Departments — Panchayat Sangathan Pustika, Police Standing Orders, Forest Manual, DBT Pension Schemes
-- Batch 6: AG/Audit — CAG manuals, AG UP audit reports
+---
+
+**Session 2.4 — Buffer + re-search MISSING list (2.5 hr)**
+
+`MISSING.txt` mein jo books hain unhe legitquest.com / lawmin.gov.in / archive.org alternative se try karo. Phir bhi na mile to bole "PURCHASE list mein move karo" — backlog update karenge.
+
+---
+
+**Session 2.5 — Quality audit + ledger (1.5 hr)**
+
+- Sab folders ki ek master CSV banao (Excel mein):
+  ```
+  Book Name | Filename | Pages | File Size | Quality (Good/Searchable/Scanned) | OCR Needed (Y/N) | Notes
+  ```
+- 2 columns: ready-for-OCR vs needs-better-source
+
+---
+
+**Session 2.6 — Backup (1.5 hr)**
+- Google Drive folder banao: "DBS / Nyaysahayak / Library Source PDFs"
+- Pure `00_Downloads/` folder upload — auto-sync set karo
+- GitHub mein backlog update push karo with MISSING + ACQUIRED lists
+
+**Day 2 total target: 14 books + audit + backup**
+
+---
+
+## 📊 Cumulative Acquisition Target after 10-May
+
+| Folder | Target | Effort |
+|---|---|---|
+| 01_IndiaCode | 13 books (2 done + 11 new) | Easy |
+| 02_UP_Vitt | 6 books | Hard (scattered) |
+| 03_UP_Karmik | 3 books | Medium |
+| 04_Central | 10 books | Easy-Medium |
+| 05_UP_Depts | 5 books | Medium |
+| 06_AG_Audit | 5 books | Medium |
+| **TOTAL** | **42 books** | — |
+
+Realistic: 35-40 mil jayenge. 4-9 missing → Purchase list mein move ya next month re-attempt.
+
+CZUR ET24 scanner aate hi → in PDFs ko OCR karke `*_index.json` banayenge → library mein add → bot KB mein chunks → live by 5 July 2026 launch.
 
 ---
 
