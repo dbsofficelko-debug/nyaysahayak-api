@@ -2,7 +2,7 @@
 
 > **Purpose:** Library pustakon ki permanent tracking file. Har session ke shuru mein ye padhi jaaye. Tum aur Claude dono ke liye single source of truth.
 >
-> **Last updated:** 08-May-2026 (late evening — Block 2/3/4 frontend wired, /library/search backend endpoint live, Batch 1 book downloads done)
+> **Last updated:** 10-May-2026 morning (Day 1 closed — 30 books — strategic pivot to quality-first; Day 2 Session 2.1 starting)
 >
 > **Scanner:** CZUR ET24 — being shipped from Delhi (director arranging)
 >
@@ -13,36 +13,68 @@
 
 ---
 
-## 🚦 NEXT SESSION — Where to start (09-May-2026 morning, 8 AM)
+## 🚦 NEXT SESSION — Where to start (10-May-2026 morning, 8 AM)
 
-**Resume from: Batch 2 — Central Govt book downloads**
-
-### Today's session (08-May-2026 evening) — COMPLETED ✅
-
-**Frontend (library-preview.html) — fully wired to live API:**
-- Block 2 ✅ — Topic chip clickability (v7.1) — 8 chips on landing scroll-to-search + auto-fill
-- Block 3 ✅ — Library backend wiring (v7.2) — openReader hijacked, fetches `/<book>` for chapter list, builds TOC dynamically, loads chapter via `/<book>/:filename`, mdToHtml renders Devanagari content
-- Block 3 ✅ — Next/prev chapter buttons (v7.3) — wired to TOC simulation
-- Block 3 ✅ — TTS compatibility (v7.4) — MutationObserver wraps API content paragraphs in `.rule-text` so speech works
-- Block 4 ✅ — In-book search (v7.5/v7.6 deprecated, v7.7/v7.7.1 final) — dedicated `/library/search` endpoint, per-book Devanagari results with snippet highlighting, click-to-navigate via TOC trigger, container-clone strategy to detach v7.6 observer
-
-**Backend (api-server.js) — new endpoint:**
-- `/library/search?book=fhb|sad|sv|pm|puvvnl&q=…` — searches `*_index.json` content directly using `expandQuery` (TRANSLIT), returns `{chapter_idx, filename, topic, pages, snippet, matched}` top-20
-
-**Confirmed working iPhone Safari:** SAD `अनुभाग` → 14 chapters, FHB `pension` → real chapters, click navigation working across all 5 books (FHB/SAD/PM/SV/PUVVNL). Police Kalyan stays in original demo banner (no `/police` endpoint yet — separate future task, ~30 min work to add `pk_index.json`).
-
-**Book acquisition started — Batch 1 IndiaCode COMPLETED ✅**
-- `~/Desktop/UP_Govt_Knowledge_Base/00_Downloads/01_IndiaCode/` folder contains:
-  - `UP_Panchayat_Raj_Act_1947.pdf`
-  - `UP_Kshetra_Zila_Panchayat_1961.pdf` (combined Kshetra+Zila Adhiniyam — both books in one PDF from IndiaCode)
-- Adjustments learned: UP Conduct Rules 1956 + DA Rules 1999 NOT in IndiaCode (they are Rules, not Acts) — moved to Batch 3 (UP Karmik). UP Panchayat Raj Sanshodhan 1994 NOT in IndiaCode separately — consolidated into 1947 Act download. Constitution of India NOT in IndiaCode as full PDF (only 1-page notification snippets) — moved to Batch 2 from `legislative.gov.in`.
+**Resume from: Session 2.1 — UP Vitt remaining (LTC + TA + GPF)**
 
 ---
 
-### Tomorrow morning (09-May-2026, 8 AM) — START HERE
+### 📅 DAY 1 — 09 May 2026 — CLOSED ✅
+
+**Total acquired:** 30 books
+
+| Folder | Count | Books |
+|---|---|---|
+| 01_IndiaCode | 4 | UP Panchayat Raj 1947, Kshetra-Zila Panchayat 1961, Basic Education 1972, Urban Planning 1973 |
+| 04_Central | 12 | Constitution Diglot, RTI, GFR 2017, RTE 2009, MGNREGA Hindi, PMAY-G, PM Ujjwala, SBM Rural, NHM Framework, FC 14th + 15th + 16th |
+| 06_AG_Audit | 11 | GAR, CGA RP Rules 2022, Civil Accounts Manual 2024 Hindi, DPC Act 1971, Vittiya Sakshyankan Audit Niyam Pustak, 6 AG UP Audit Reports (incl. PMAY + AYUSH) |
+| 03_UP_Karmik | 3 | Conduct Rules 1956, D&A Rules 1999 + 2022 amendment GO, Reservation Act 1994 + Schedule + 2002 amendment |
+| 02_UP_Vitt | 0 | Day 2 target |
+| 05_UP_Depts | 0 | Day 2 target |
+
+**MISSING.txt entries:**
+- 9 IndiaCode Acts (Session 1.1 partial — Stamp Act, Municipalities 1916, Nagar Nigam 1959, Apartment 2010, Industrial Area 1976, Housing Dev, Niwachan Niyam, Revenue Code 2006, Intermediate Education 1921 nahi mile)
+- CAG MSO Audit
+- CAG Receipt Audit Manual
+
+**Substitution note:** "Govt Accounts Format Rules 2017" misnamed entry tha — actual GAR (General Accounts Rules) substitute kiya gaya.
+
+---
+
+### 🎯 STRATEGIC PIVOT (09-May-2026)
+
+**Launch dates dropped.** 5-July deadline aur officer seeding plan abhi ke liye hold par.
+
+**Naya goal:** World-class state-of-art library + bot + PWA. Specifically — **Dastavej Nirmata (DocGen) ki RAG world-best ho.**
+
+**Reasoning:**
+- 2-year horizon hai — competitors AI tools ke saath aane lagenge tab tak
+- Tab tak quality moat ready chahiye
+- Monetization differentiator = zero hallucination
+- 8 hrs/day commitment confirm
+
+**Quality > speed always.** Substandard data delete karte hain. Padding nahi. Honest data quality issues flag karte hain.
+
+#### 🔬 Post-Marathon Priorities (Round 3 onwards)
+
+1. **Bot hallucination diagnostic** — 5-10 actual hallucinating queries ke samples lo, failure mode identify karo (font garbling / chunking / retrieval / prompt template). User confirm: UP Vitt/Karmik/Nyay/Anya GOs Kruti Dev mein hain (garbled). Lekin existing KB (FHB Vol 2 + SAD Manual) clean MD mein hain — to actual hallucination source aur kahin hai, diagnostic se confirm hoga.
+
+2. **One-time targeted pipeline build** — Root cause ke clean fix par. If font issue → Kruti Dev/DevLys → Unicode converter + OCR fallback (Tesseract Hindi already installed). Architecture: PDF input → font detect → conversion path → Unicode .md output → library chapter version + bot RAG chunks. **One scan, two products** principle preserved.
+
+3. **Existing 6 KB books validation** — FHB Vol 2, SAD Manual, PM, PUVVNL, SV-4, Police Kalyan — re-process through pipeline.
+
+4. **Day 1-2 ke 30+ books processing** — pipeline ke through.
+
+5. **Phase 2 content expansion** — 37 purchase books across 3 phases + remaining free downloads. **Sirf clean pipeline ke through.**
+
+6. **Officer seeding (10 log)** — sirf jab bot production-quality ho. Pehle nahi. Until then: content-priority-feedback WhatsApp message use karenge — sirf list dikhao, bot expose nahi karo.
+
+---
+
+### Tomorrow morning (10-May-2026, 8 AM) — START HERE
 
 **Resume command for new chat:**
-> *"Library project resume. Pehle GitHub se LIBRARY_BACKLOG.md padho — repo dbsofficelko-debug/nyaysahayak-api. Aaj-kal 2 din ka leave hai, 20 hrs available. Section '🗓 2-DAY DOWNLOAD MARATHON' follow karo."*
+> *"Library project resume — Round 2. Pehle GitHub se LIBRARY_BACKLOG.md padho — repo dbsofficelko-debug/nyaysahayak-api. Strategic pivot yaad rakho. Section '🗓 DAY 2 — 10 May 2026' follow karo. Session 2.1 (UP Vitt remaining — LTC + TA + GPF) se start."*
 
 ---
 
