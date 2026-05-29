@@ -117,8 +117,8 @@ def load_chapters():
         return json.load(f)
 
 
-def extract_chapter(client, chap_idx, chapter, model="claude-sonnet-4-20250514"):
-    """Call Sonnet to extract fact cards from one chapter."""
+def extract_chapter(client, chap_idx, chapter, model="claude-sonnet-4-20250514", max_retries=4):
+    """Call Sonnet to extract fact cards from one chapter, with retry on 429."""
     user_msg = USER_TEMPLATE.format(
         chap_idx=chap_idx,
         topic=chapter.get('topic', ''),
@@ -127,13 +127,32 @@ def extract_chapter(client, chap_idx, chapter, model="claude-sonnet-4-20250514")
         content=chapter.get('content', '')
     )
 
-    response = client.messages.create(
-        model=model,
-        max_tokens=8000,
-        temperature=0,
-        system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": user_msg}]
-    )
+    last_err = None
+    for attempt in range(max_retries):
+        try:
+            response = client.messages.create(
+                model=model,
+                max_tokens=16000,
+                temperature=0,
+                system=SYSTEM_PROMPT,
+                messages=[{"role": "user", "content": user_msg}]
+            )
+            break
+        except anthropic.RateLimitError as e:
+            wait = 30 + attempt * 30  # 30s, 60s, 90s, 120s
+            print(f"    [429 rate limit, waiting {wait}s, attempt {attempt+1}/{max_retries}]", flush=True)
+            time.sleep(wait)
+            last_err = e
+        except anthropic.APIStatusError as e:
+            if e.status_code == 429:
+                wait = 30 + attempt * 30
+                print(f"    [429 rate limit, waiting {wait}s, attempt {attempt+1}/{max_retries}]", flush=True)
+                time.sleep(wait)
+                last_err = e
+                continue
+            raise
+    else:
+        return None, f"Rate-limited after {max_retries} attempts: {last_err}"
 
     raw = response.content[0].text.strip()
     # Defensive: strip markdown fences if model added them
