@@ -2,7 +2,7 @@
 
 > **Purpose:** Library pustakon ki permanent tracking file. Har session ke shuru mein ye padhi jaaye. Tum aur Claude dono ke liye single source of truth.
 >
-> **Last updated:** 29-May-2026 night (**Phase 1 + Phase 2a COMPLETE** — bot KB 1,401 entries, 100% Devanagari; SV Vol 5/Budget Manual/Teacher Rules blocked on scanner+purchase)
+> **Last updated:** 29-May-2026 late night (**Tier 1 + Tier 2 COMPLETE** — bot zero-hallucination verified via Haiku test; library SV Vol 4 clean re-ingest done; dead code purged)
 >
 > **Scanner:** CZUR ET24 — being shipped from Delhi (director arranging)
 >
@@ -139,7 +139,59 @@ Sources assessed and **SKIPPED** (until clean alternatives available):
 
 ---
 
-### 🔄 PHASE 3+ targets (after scanner + purchase)
+### ✅ TIER 1 — Zero-hallucination bot (29-May-2026 — DONE)
+
+**T1.4 — Bot prompt overhaul (commit e2aa484):**
+- Added Rule 1 KB-ONLY (supreme) — refuse if KB doesn't have it
+- Added ANTI-HALLUCINATION CHECKLIST + multi-script tolerance
+- DELETED Rule 5A "CONFIRMED facts" (was hardcoding GPF Rule 8.7, pension 50%, gratuity formula, Anukampa GO 155/48-2018-14 — model was citing these without source)
+- Cleaned dept-specific prompts (Grih: removed hardcoded GO numbers + amounts; Basic: removed "CONFIRMED facts" list)
+- Updated KB inventory: 16,000+ entries → actual 1,401
+
+**T1.1 — TRANSLIT expansion (commit 0e91211):**
+- 40 → 561 entries covering pension/leave/discipline/allowances/court/documents/dept terms
+- All 3 scripts supported: Hinglish/Hindi/English → Devanagari
+
+**T1.3 — smartSearch overhaul (commits e2a8bbe + 349590b):**
+- CRITICAL BUG FIX: scoring was using fields (`r.content`, `r.text`, `r.heading`, `r.keywords`) that DON'T exist in Phase-1 cards — 70% of search context was empty
+- POST endpoint context construction had same bug
+- Frontend buildCtx had same bug
+- All fixed to use Phase-1 schema: title/summary/key_provisions[]/tags[]/chapter/rule_number
+- Added IDF weighting (rare terms boost), field weights (title=5, rule_number=4, tags=3), phrase match bonus (+50), regex escape, top-K 8→12
+
+**T1.5 — Live Haiku verification (cost: $0.02):**
+- 4 test queries: Devanagari + Hinglish + English + Out-of-KB
+- All passed: bot retrieves grounded answers with citations OR refuses cleanly
+- No hallucination on any test
+- Sample citation rendered: `[Financial Handbook Vol-2, Important GOs 50, 72]`
+- SUGGESTIONS format intact on all responses
+
+---
+
+### ✅ TIER 2 — Library quality (29-May-2026 — DONE)
+
+**T2.1 — SV Vol 4 library re-ingest (commit 985fa64):**
+- Replaced OCR-garbled `sv_index.json` (20.8 MB with `[cite_start]`, `|=`, `* 050 सेवा विधि` fragments)
+- Built `pipelines/sv4_library_rebuild/parse.py` — pure parser, zero API cost
+- 18 clean entries covering विषय-सूची + अध्याय 1-15 (with sub-volumes for ch9, ch10)
+- 867 KB of clean Devanagari content, all entries verified ✓ CLEAN
+- Stripped: 594 [cite_start] markers, all [cite: N] closures, OCR-page H3 markers
+- Merged orphan H2 "अध्याय 4" with its title-only H2 "तदर्थ नियुक्ति एवं विनियमितीकरण"
+
+**T2.2 — Library frontend dead code cleanup (commit 08409f8):**
+- Removed all PM (Procurement Manual) + Police Kalyan JS routing
+- BOOKS endpoint config, BOOK_NAMES citation map, 4× currentBookCode() variants, 2× police search guards — all purged
+- Library now references exactly 4 books: FHB, SAD, SV, PUVVNL
+
+**T2.3 — 3-mode library search verification:**
+- Tested 10 queries × 4 books with new TRANSLIT
+- 9/10 queries return relevant matches across 3+ books
+- New clean SV Vol 4 returns Devanagari content snippets correctly
+- Only gap: "character" → चरित्र पंजी missing in TRANSLIT (minor; future improvement)
+
+---
+
+### 🎯 NEXT: TIER 3 — Enhancements (deferred)
 
 1. SV Vol 4 library re-ingestion from clean MD (`SevaVidhi_Vol4_Nivritti.md` 2.2 MB) — replaces OCR-garbled `sv_vol4_index.json` + `sv_index.json`
 2. SV Vol 5 Shashnadesh expansion (`SevaVidhi_Vol5_Shashnadesh.md` 9.3 MB) → ~1,000-2,000 new Devanagari KB entries (untapped goldmine)
