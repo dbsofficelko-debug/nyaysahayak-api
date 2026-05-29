@@ -2,7 +2,7 @@
 
 > **Purpose:** Library pustakon ki permanent tracking file. Har session ke shuru mein ye padhi jaaye. Tum aur Claude dono ke liye single source of truth.
 >
-> **Last updated:** 29-May-2026 (Day 2 closed — +1 book Police Regulations; Forest Manual + DBT → PURCHASE; **Round 3 starting — Hallucination Diagnostic**)
+> **Last updated:** 29-May-2026 evening (**Phase 0 cleanup done** — KB 2,618 entries, 4 clean Devanagari library books; Phase 1 FHB Vol 2 re-ingestion next)
 >
 > **Scanner:** CZUR ET24 — being shipped from Delhi (director arranging)
 >
@@ -39,25 +39,58 @@
 
 **Goal:** Diagnose actual hallucination source on live bot before any pipeline work. **Without diagnosis, pipeline build = blind fix.**
 
-**Phase A — Test Case Collection (immediate)**
-- 5–10 actual hallucinating queries identify (or suspected) — domain mix: pension, discipline, seniority, teacher service, financial
-- User runs each on `nyaysahayak.co.in/nyaysahayak_ai_v8.html` → screenshots bot output + cited entries
-- Claude inspects `knowledge.json` for the cited entries' actual source quality
+---
 
-**Phase B — Failure Mode Classification**
-Each hallucination logged with:
-| Query | Bot output | KB entries cited | Ground truth | Failure mode |
-|---|---|---|---|---|
-| ... | ... | ... | ... | font garbling / chunking / retrieval / prompt template |
+### ✅ PHASE 0 — Diagnostic + Cleanup (29-May-2026 — DONE)
 
-**Phase C — Pipeline Architecture Decision**
-Based on dominant failure mode:
-- Font garbling (Kruti Dev/DevLys) → Unicode converter + OCR fallback (Tesseract Hindi installed)
-- Chunking → re-chunk with semantic boundaries
-- Retrieval → embedding/keyword search re-tuning
-- Prompt template → system prompt rewrite
+**Diagnostic root cause (static analysis of `api-server.js` + `knowledge.json`):**
 
-**Output:** One-time targeted pipeline build for root cause. Architecture: PDF → font detect → conversion → Unicode .md → library chapters + bot RAG chunks. **One scan, two products** preserved.
+Bot KB was 88.6% non-Devanagari (mix of English statutory text from bilingual UP rule books + Roman Hindi transliteration). TRANSLIT map = only 48 English→Devanagari mappings. Devanagari user queries → most KB unreachable → Haiku fills gaps from training data → hallucination.
+
+**Phase 0 cleanup executed:**
+
+| Action | Detail | Commit |
+|---|---|---|
+| Bot KB: deleted 609 substandard entries | CSR (468) + FHB Vol 3 (89) + Budget Manual (52) — marked REMOVED in backlog but still live | `863ed3a` |
+| Bot KB: deleted 108 wrong-script entries | UP Procurement Manual MSME (90) + Police Kalyan (12) + Allahabad HC (6) | `285ec4b` |
+| Library: removed PM + Police Kalyan books | PM was English, Police Kalyan was Roman Hindi | `285ec4b` (API) + `7b5fe1e` (frontend) |
+| Repo cleanup: legacy files | nyaysahayak.db (13.2 MB SQLite) + empty MDs + 3 scraper scripts | `285ec4b` |
+| api-server.js: routes cleaned | Removed `/pm`, `/pm/:filename`, `/police-kalyan`, `/police-kalyan/:filename`, `pm:` from `LIBRARY_DATA` | `285ec4b` |
+| Frontend `library-preview.html` | Removed PM + Police Kalyan book cards. Version bumped 7.0.0 → 7.1.0 | `7b5fe1e` |
+
+**Post-Phase 0 state:**
+- **Bot KB: 2,618 entries** (was 3,335 — 21% reduction)
+  - FHB Vol 2: 2,267 (English) — **awaiting Devanagari re-ingestion**
+  - Seva Vidhi Vol 4: 321 ✅ Devanagari
+  - SAD Manual: 28 ✅ Devanagari
+  - Seva Vidhi Vol 5: 2 ✅ Devanagari (to expand from 9.3 MB MD)
+- **Library: 4 clean Devanagari books** (FHB, SAD, SV, PUVVNL)
+- **Repo: clean** — no legacy SQLite, no empty MDs, no scraper scripts
+
+---
+
+### 🔄 PHASE 1 — FHB Vol 2 re-ingestion (NEXT)
+
+**Goal:** Replace 2,267 English fact cards with ~2,000 Devanagari fact cards extracted from `fhb_index.json`'s 92 clean Devanagari chapters.
+
+**Approach:** LLM extraction pipeline (Claude Sonnet) — reads each chapter, identifies discrete rules/sub-rules/GOs/court rulings, outputs structured fact cards matching existing schema.
+
+**Pending decisions:**
+1. Where pipeline runs (sandbox vs user's Mac)
+2. API key handling
+
+**Estimated:** 3-5 hours script + runtime + validation. Cost ~$5-10 in Sonnet tokens.
+
+---
+
+### Phase 2+ pipeline targets (after FHB)
+
+1. SV Vol 4 library re-ingestion from clean MD (`SevaVidhi_Vol4_Nivritti.md` 2.2 MB) — replaces OCR-garbled `sv_vol4_index.json` + `sv_index.json`
+2. SV Vol 5 Shashnadesh expansion (`SevaVidhi_Vol5_Shashnadesh.md` 9.3 MB) → ~1,000-2,000 new Devanagari KB entries (untapped goldmine)
+3. Vitt GO Court Relevant ingest (`Vitt_GO_Court_Relevant.md` 65 KB) → ~50-100 KB entries
+4. Day 1+2 PDFs OCR pipeline (30 PDFs) → multi-week project
+
+---
 
 ---
 
