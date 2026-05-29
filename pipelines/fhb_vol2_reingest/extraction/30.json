@@ -1,0 +1,407 @@
+[
+  {
+    "id": "fhb2_30_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 202",
+    "title": "आकस्मिक अवकाश - संक्रामक रोग की स्थिति में",
+    "summary": "संक्रामक रोग या प्लेग शिविर में रोके जाने की स्थिति में आकस्मिक अवकाश की व्यवस्था",
+    "key_provisions": [
+      "प्लेग शिविर में रोक लिया जाना अथवा परिवार में संक्रामक रोग होने पर आकस्मिक अवकाश",
+      "यह अवकाश नियम 201 के अतिरिक्त होगा और साधारण अवकाश के साथ संयोजित किया जा सकता है"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P321-P330",
+    "chapter": "30 - Leave Process Salary Inside Outside India",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "आकस्मिक अवकाश",
+      "संक्रामक रोग",
+      "प्लेग शिविर"
+    ]
+  },
+  {
+    "id": "fhb2_30_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 203",
+    "title": "आकस्मिक अवकाश की स्वीकृति सीमा",
+    "summary": "चिकित्सा प्रमाण-पत्र के आधार पर आकस्मिक अवकाश की अधिकतम सीमा का निर्धारण",
+    "key_provisions": [
+      "प्लेग शिविर में रोके जाने की वास्तविक अवधि के लिए",
+      "अधिकतम 21 दिन या असाधारण परिस्थितियों में 30 दिन तक"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P321-P330",
+    "chapter": "30 - Leave Process Salary Inside Outside India",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "आकस्मिक अवकाश",
+      "चिकित्सा प्रमाण-पत्र",
+      "अवधि सीमा"
+    ]
+  },
+  {
+    "id": "fhb2_30_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "note",
+    "rule_number": null,
+    "title": "संगरोधावकाश की शर्तें",
+    "summary": "संगरोधावकाश केवल उन कर्मचारियों को जिनकी ड्यूटी में खाने-पीने के सामान पर हाथ लगाना पड़े",
+    "key_provisions": [
+      "संगरोधावकाश केवल उन्हीं सरकारी कर्मचारियों को अनुमन्य होगा",
+      "जिन्हें अपनी सरकारी ड्यूटी के पालन में खाने-पीने के सामान पर हाथ लगाना पड़े"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P321-P330",
+    "chapter": "30 - Leave Process Salary Inside Outside India",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "संगरोधावकाश",
+      "ड्यूटी शर्तें",
+      "खाद्य सामग्री"
+    ]
+  },
+  {
+    "id": "fhb2_30_004",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 204",
+    "title": "प्रतिस्थानी की नियुक्ति",
+    "summary": "संक्रामक रोग के कारण अनुपस्थित कर्मचारी के स्थान पर प्रतिस्थानी की व्यवस्था",
+    "key_provisions": [
+      "अनुपस्थिति 30 दिन से अधिक न हो और अनुपस्थित कर्मचारी का वेतन 100 रु० प्रतिमास से अधिक न हो",
+      "प्रतिस्थानी उस अधिकारी की स्वीकृति से दिया जा सकता है जो उस पद को भरने के लिये सक्षम हो"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P321-P330",
+    "chapter": "30 - Leave Process Salary Inside Outside India",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "प्रतिस्थानी",
+      "संक्रामक रोग",
+      "वेतन सीमा"
+    ]
+  },
+  {
+    "id": "fhb2_30_005",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 207",
+    "title": "बाह्य सेवा में अंशदान भुगतान प्रक्रिया",
+    "summary": "बाह्य सेवा में स्थानान्तरित सरकारी कर्मचारी द्वारा अंशदान के भुगतान की प्रक्रिया",
+    "key_provisions": [
+      "स्थानान्तरण आदेश की प्रतिलिपि लेखा अधिकारी को भेजी जानी चाहिये",
+      "सरकारी कर्मचारी को महालेखाकार से अनुदेश प्राप्त करने चाहिये"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P321-P330",
+    "chapter": "30 - Leave Process Salary Inside Outside India",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "बाह्य सेवा",
+      "अंशदान",
+      "स्थानान्तरण"
+    ]
+  },
+  {
+    "id": "fhb2_30_006",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 208",
+    "title": "बाह्य सेवा में लेखा अधिकारी का निर्धारण",
+    "summary": "भारत के अन्दर और बाहर बाह्य सेवा के लिए लेखा अधिकारी का निर्धारण",
+    "key_provisions": [
+      "भारत के बाहर बाह्य सेवा में केन्द्रीय राजस्व महालेखाकार ही लेखा अधिकारी होगा",
+      "भारत में बाह्य सेवा में कोषागार से वेतन भुगतान होने पर सम्बन्धित लेखा परीक्षा अधिकारी होगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P321-P330",
+    "chapter": "30 - Leave Process Salary Inside Outside India",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "बाह्य सेवा",
+      "लेखा अधिकारी",
+      "केन्द्रीय राजस्व"
+    ]
+  },
+  {
+    "id": "fhb2_30_007",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "मूल नियम 74",
+    "title": "अनुमन्यता का प्रमाण-पत्र - राजपत्रित कर्मचारी",
+    "summary": "राजपत्रित सरकारी कर्मचारी के अवकाश की अनुमन्यता प्रमाणन प्रक्रिया",
+    "key_provisions": [
+      "राजपत्रित सरकारी कर्मचारी का अवकाश तब ही स्वीकृत करना चाहिये",
+      "जब उसकी अनुमन्यता उस महालेखाकार द्वारा प्रमाणित कर दी गयी हो"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P321-P330",
+    "chapter": "30 - Leave Process Salary Inside Outside India",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "राजपत्रित कर्मचारी",
+      "अनुमन्यता प्रमाण-पत्र",
+      "महालेखाकार"
+    ]
+  },
+  {
+    "id": "fhb2_30_008",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "note",
+    "rule_number": null,
+    "title": "पादरियों के अवकाश लेखे",
+    "summary": "विभिन्न गिरजाघरों के पादरियों के अवकाश लेखे रखने की व्यवस्था",
+    "key_provisions": [
+      "कलकत्ता के आर्चडीकान के अवकाश लेखे महालेखाकार केन्द्रीय राजस्व द्वारा रखे जाते हैं",
+      "अन्य चैपलेनों के अवकाश लेखे उस राज्य के महालेखाकार द्वारा रखे जाते हैं"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P321-P330",
+    "chapter": "30 - Leave Process Salary Inside Outside India",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "पादरी",
+      "गिरजाघर",
+      "अवकाश लेखे"
+    ]
+  },
+  {
+    "id": "fhb2_30_009",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "पैरा 33",
+    "title": "अराजपत्रित कर्मचारी अवकाश प्रक्रिया",
+    "summary": "अराजपत्रित सरकारी कर्मचारी के अवकाश स्वीकृति की प्रक्रिया",
+    "key_provisions": [
+      "भारत में अवकाश के लिए अवकाश लेखे देखकर संतुष्ट होना या प्रमाण-पत्र प्राप्त करना",
+      "भारत से बाहर अवकाश के लिए महालेखाकार से अनुमन्यता प्रमाण-पत्र आवश्यक"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P321-P330",
+    "chapter": "30 - Leave Process Salary Inside Outside India",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अराजपत्रित कर्मचारी",
+      "अवकाश प्रक्रिया",
+      "प्रमाण-पत्र"
+    ]
+  },
+  {
+    "id": "fhb2_30_010",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "सैनिक अधिकारी अवकाश नियम",
+    "summary": "असैनिक अवकाश नियमों के अन्तर्गत आने वाले सैनिक अधिकारियों की प्रक्रिया",
+    "key_provisions": [
+      "सैन्य लेखा अधिकारी महालेखाकार को ज्ञाप भेजेगा",
+      "उपार्जित फरलो और विभिन्न प्रकार की ली गई छुट्टियाँ दिखाई जायेंगी"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P321-P330",
+    "chapter": "30 - Leave Process Salary Inside Outside India",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "सैनिक अधिकारी",
+      "असैनिक अवकाश",
+      "फरलो"
+    ]
+  },
+  {
+    "id": "fhb2_30_011",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "अराजपत्रित कर्मचारी अवकाश वेतन भुगतान",
+    "summary": "अराजपत्रित सरकारी कर्मचारी के अवकाश वेतन आहरण की प्रक्रिया",
+    "key_provisions": [
+      "अवकाश वेतन केवल कार्यालय के अध्यक्ष के हस्ताक्षर पर ही आहरण किया जा सकता है",
+      "वही अधिकारी किसी भी अतिरिक्त भुगतान के लिये उत्तरदायी होगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P321-P330",
+    "chapter": "30 - Leave Process Salary Inside Outside India",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अराजपत्रित कर्मचारी",
+      "अवकाश वेतन",
+      "कार्यालयाध्यक्ष"
+    ]
+  },
+  {
+    "id": "fhb2_30_012",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "मूल नियम 91",
+    "title": "राजपत्रित कर्मचारी अवकाश वेतन प्रमाण-पत्र",
+    "summary": "राजपत्रित सरकारी कर्मचारी के अवकाश वेतन आहरण के लिए प्रमाण-पत्र की आवश्यकता",
+    "key_provisions": [
+      "अवकाश वेतन आहरण से पूर्व महालेखाकार से प्रमाण-पत्र प्रस्तुत करना आवश्यक",
+      "कार्यालय परिवर्तन की स्थिति में नया प्रमाण-पत्र प्राप्त करना चाहिये"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P321-P330",
+    "chapter": "30 - Leave Process Salary Inside Outside India",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "राजपत्रित कर्मचारी",
+      "अवकाश वेतन प्रमाण-पत्र",
+      "महालेखाकार"
+    ]
+  },
+  {
+    "id": "fhb2_30_013",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "जीवित होने का प्रमाण-पत्र",
+    "summary": "अवकाश वेतन आहरण के लिए जीवित होने के प्रमाण की आवश्यकता",
+    "key_provisions": [
+      "स्वयं उपस्थित होना या जीवित होने का प्रमाण-पत्र प्रस्तुत करना",
+      "एजेण्ट द्वारा आहरण की स्थिति में अनुबन्ध-पत्र भरना आवश्यक"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P321-P330",
+    "chapter": "30 - Leave Process Salary Inside Outside India",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "जीवित प्रमाण-पत्र",
+      "एजेण्ट",
+      "अनुबन्ध-पत्र"
+    ]
+  },
+  {
+    "id": "fhb2_30_014",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "भारत से बाहर अवकाश सूचना ज्ञापन",
+    "summary": "भारत से बाहर अवकाश पर जाने वाले कर्मचारी को सूचना ज्ञापन भेजना",
+    "key_provisions": [
+      "अवकाश की स्वीकृति गजट में निकलने पर तुरन्त सूचना ज्ञापन भेजना",
+      "महालेखाकार द्वारा पथ प्रदर्शन हेतु सूचना का ज्ञापन भेजना चाहिये"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P321-P330",
+    "chapter": "30 - Leave Process Salary Inside Outside India",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "भारत से बाहर अवकाश",
+      "सूचना ज्ञापन",
+      "गजट"
+    ]
+  },
+  {
+    "id": "fhb2_30_015",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "औपनिवेशिक अवकाश वेतन वारण्ट",
+    "summary": "उपनिवेश में अवकाश वेतन के लिए वारण्ट जारी करने की प्रक्रिया",
+    "key_provisions": [
+      "लन्दन के कोषागार या डोमिनियन से भुगतान के लिए प्रमाण-पत्र या वारण्ट देना",
+      "औपनिवेशिक अवकाश वेतन वारण्ट की तीन प्रतियाँ जारी करना"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P321-P330",
+    "chapter": "30 - Leave Process Salary Inside Outside India",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "औपनिवेशिक वारण्ट",
+      "लन्दन कोषागार",
+      "डोमिनियन"
+    ]
+  }
+]

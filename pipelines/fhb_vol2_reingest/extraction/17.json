@@ -1,0 +1,408 @@
+[
+  {
+    "id": "fhb2_17_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 114 (6)",
+    "title": "बाह्य सेवायोजक का अंशदान दायित्व",
+    "summary": "बाह्य सेवायोजक को सरकारी कर्मचारी की ओर से 30 रुपया प्रतिमास अंशदान देना होगा",
+    "key_provisions": [
+      "बाह्य सेवायोजक उसकी ओर से शासन को 30 रुपया प्रतिमास की दर से अंशदान देने का देनदार होगा",
+      "अंशदान का भुगतान सम्पूर्ण बाह्य सेवा अवधि भर करना पड़ेगा चाहे वह ड्यूटी पर रहे या अवकाश पर"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P191-P200",
+    "chapter": "17 - Foreign Service",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "बाह्य सेवा",
+      "अंशदान",
+      "वेतन"
+    ]
+  },
+  {
+    "id": "fhb2_17_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 114 (6-क)",
+    "title": "बाह्य सेवा में वेतन विनियमन",
+    "summary": "बाह्य सेवा में स्थानान्तरित कर्मचारी के वेतन व भत्ते सक्षम अधिकारी द्वारा विनियमित किये जायेंगे",
+    "key_provisions": [
+      "वेतन तथा भत्ते साधारणतया स्थानान्तरण स्वीकृत करने वाले सक्षम अधिकारी द्वारा विनियमित किये जायेंगे",
+      "इन आदेशों से हटाने के लिए शासन की पूर्व स्वीकृति की अपेक्षा होगी"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P191-P200",
+    "chapter": "17 - Foreign Service",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वेतन विनियमन",
+      "बाह्य सेवा",
+      "स्वीकृति"
+    ]
+  },
+  {
+    "id": "fhb2_17_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 114 (7)",
+    "title": "समान ड्यूटी पद पर वेतन निर्धारण",
+    "summary": "समान ड्यूटी वाले पद पर स्थानान्तरण में वेतन अन्तिम स्थायी वेतन से 25% अधिक नहीं होगा",
+    "key_provisions": [
+      "वेतन सरकारी सेवा में अन्तिम स्थायी वेतन से 25 प्रतिशत से अधिक न बढ़े",
+      "विशेष वेतन, व्यक्तिगत वेतन बिना राज्यपाल की स्वीकृति के हिसाब में न लिया जाये"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P191-P200",
+    "chapter": "17 - Foreign Service",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वेतन निर्धारण",
+      "स्थानान्तरण",
+      "राज्यपाल स्वीकृति"
+    ]
+  },
+  {
+    "id": "fhb2_17_004",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 114 (8)",
+    "title": "विशेष उत्तरदायित्व पद पर वेतन",
+    "summary": "असाधारण उत्तरदायित्वपूर्ण पद पर वेतन प्रतिष्ठा व कार्य स्वरूप के अनुसार निर्धारित होगा",
+    "key_provisions": [
+      "वेतन प्रतिष्ठा, सरकारी सेवा में वेतन और कार्य स्वरूप को ध्यान में रखकर निर्धारित किया जाये",
+      "विशेष वेतन बिना राज्यपाल की स्वीकृति के हिसाब में न ली जायेंगी"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P191-P200",
+    "chapter": "17 - Foreign Service",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "विशेष पद",
+      "वेतन निर्धारण",
+      "उत्तरदायित्व"
+    ]
+  },
+  {
+    "id": "fhb2_17_005",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 114 (9)",
+    "title": "वेतन वृद्धि विनियमन",
+    "summary": "श्रेणीबद्ध सेवा में वेतन वृद्धि सरकारी सेवा के समान तथा 20% अतिरिक्त धनराशि मिलेगी",
+    "key_provisions": [
+      "प्रत्येक स्थायी पदोन्नति पर वही वृद्धि जो सरकारी सेवा में मिलती तथा 20% से अनधिक धनराशि",
+      "3 वर्ष बाद 20% से अनधिक वृद्धि दी जा सकती है"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P191-P200",
+    "chapter": "17 - Foreign Service",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वेतन वृद्धि",
+      "पदोन्नति",
+      "वेतनक्रम"
+    ]
+  },
+  {
+    "id": "fhb2_17_006",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 114 (10)",
+    "title": "कोर्ट ऑफ वार्डस में वेतन निर्धारण",
+    "summary": "कोर्ट ऑफ वार्डस में नियुक्त अधिकारियों के लिए विशेष वेतन निर्धारण नियम",
+    "key_provisions": [
+      "डिप्टी कलेक्टर को वेतन-क्रम तथा 25% से अनधिक अतिरिक्त",
+      "नायब तहसीलदार को 157-10-205 रु० विशेष वेतन-क्रम",
+      "कानूनगो को श्रेणी वेतन तथा 30 रुपये अतिरिक्त"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P191-P200",
+    "chapter": "17 - Foreign Service",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "कोर्ट ऑफ वार्डस",
+      "डिप्टी कलेक्टर",
+      "तहसीलदार"
+    ]
+  },
+  {
+    "id": "fhb2_17_007",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "note",
+    "rule_number": null,
+    "title": "बलरामपुर रियासत विशेष प्रबन्धक वेतन",
+    "summary": "बलरामपुर रियासत के विशेष प्रबन्धक को डिप्टी कलेक्टर वेतन पर 50% अतिरिक्त मिलेगा",
+    "key_provisions": [
+      "बलरामपुर रियासत के विशेष प्रबन्धक के पद पर डिप्टी कलेक्टर के वेतन के ऊपर 50 प्रतिशत"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P191-P200",
+    "chapter": "17 - Foreign Service",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "बलरामपुर",
+      "विशेष प्रबन्धक",
+      "अतिरिक्त वेतन"
+    ]
+  },
+  {
+    "id": "fhb2_17_008",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 115",
+    "title": "बाह्य सेवा में पेंशन अंशदान",
+    "summary": "बाह्य सेवा में कर्मचारी की पेंशन व अवकाश-वेतन के लिए अंशदान जमा करना आवश्यक",
+    "key_provisions": [
+      "पेंशन पर व्यय के लिए प्रदेश के राजस्व में अंशदान जमा किया जाना चाहिए",
+      "भारत में बाह्य सेवा के लिए अवकाश-वेतन अंशदान भी आवश्यक"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P191-P200",
+    "chapter": "17 - Foreign Service",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "पेंशन अंशदान",
+      "अवकाश-वेतन",
+      "राजस्व"
+    ]
+  },
+  {
+    "id": "fhb2_17_009",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "अंशदेय भविष्य निधि अंशदान नियम",
+    "summary": "बाह्य सेवा में भविष्य निधि अंशदाता का अंशदान भुगतान नियम 1 अप्रैल 1941 से लागू",
+    "key_provisions": [
+      "बाह्य सेवा में मिलने वाले वेतन पर निकाली गयी दर के अनुसार अंशदान",
+      "क्ष+क्षय फार्मूले के अनुसार अतिरिक्त अंशदान"
+    ],
+    "file_number": null,
+    "date": "01-04-1941",
+    "issuing_authority": "राज्यपाल",
+    "court_case": null,
+    "page_range": "P191-P200",
+    "chapter": "17 - Foreign Service",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "भविष्य निधि",
+      "अंशदान फार्मूला",
+      "राज्यपाल आदेश"
+    ]
+  },
+  {
+    "id": "fhb2_17_010",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 116",
+    "title": "अंशदान दर निर्धारण अधिकार",
+    "summary": "राज्यपाल पेंशन व अवकाश-वेतन अंशदान की दर सामान्य आदेश द्वारा निर्धारित करेंगे",
+    "key_provisions": [
+      "राज्यपाल सामान्य आदेश द्वारा अंशदान दर निर्धारित करेंगे"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P191-P200",
+    "chapter": "17 - Foreign Service",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अंशदान दर",
+      "राज्यपाल अधिकार",
+      "सामान्य आदेश"
+    ]
+  },
+  {
+    "id": "fhb2_17_011",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "पेंशन अंशदान दर तालिका",
+    "summary": "सेवा अवधि के अनुसार विभिन्न श्रेणियों के लिए पेंशन अंशदान की विस्तृत दर तालिका",
+    "key_provisions": [
+      "प्रथम वर्ग एशिया निवासी के लिए 63-290 रुपया तक",
+      "द्वितीय वर्ग के लिए 5-18 प्रतिशत तक",
+      "निम्न श्रेणी के लिए 4-15 प्रतिशत तक"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": "राज्यपाल",
+    "court_case": null,
+    "page_range": "P191-P200",
+    "chapter": "17 - Foreign Service",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "पेंशन दर",
+      "सेवा श्रेणी",
+      "अंशदान तालिका"
+    ]
+  },
+  {
+    "id": "fhb2_17_012",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 119",
+    "title": "अंशदान छूट व ब्याज अधिकार",
+    "summary": "राज्यपाल को निर्दिष्ट मामलों में अंशदान से छूट देने व विलम्ब पर ब्याज निर्धारण का अधिकार",
+    "key_provisions": [
+      "निर्दिष्ट मामले या मामलों के वर्ग में देय अंशदान से छूट दे सकते हैं",
+      "समय पर न चुकता अंशदान पर ब्याज की दर निर्धारित कर सकते हैं"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P191-P200",
+    "chapter": "17 - Foreign Service",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अंशदान छूट",
+      "ब्याज दर",
+      "राज्यपाल अधिकार"
+    ]
+  },
+  {
+    "id": "fhb2_17_013",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 122",
+    "title": "भारत में बाह्य सेवा अवकाश नियम",
+    "summary": "भारत में बाह्य सेवा पर गये कर्मचारी को शासन की सेवा के अवकाश नियमों के अतिरिक्त अन्य नियम लागू नहीं",
+    "key_provisions": [
+      "शासन की सेवा में लागू अवकाश-नियमों के अतिरिक्त और किसी नियम के अनुसार अवकाश नहीं",
+      "वास्तव में ड्यूटी छोड़ने पर ही अवकाश या अवकाश-वेतन ले सकता है"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P191-P200",
+    "chapter": "17 - Foreign Service",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अवकाश नियम",
+      "भारत में सेवा",
+      "ड्यूटी"
+    ]
+  },
+  {
+    "id": "fhb2_17_014",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 125",
+    "title": "बाह्य सेवा से प्रत्यावर्तन नियम",
+    "summary": "सरकारी कर्मचारी शासन के अधीन पद का कार्यभार ग्रहण करने की तिथि से प्रत्यावर्तित होता है",
+    "key_provisions": [
+      "शासन के अन्तर्गत अपने पद का कार्यभार ग्रहण करने की तिथि से प्रत्यावर्तित होता है",
+      "अवकाश लेने पर प्रत्यावर्तन तिथि शासन द्वारा निश्चित की जायेगी"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P191-P200",
+    "chapter": "17 - Foreign Service",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "प्रत्यावर्तन",
+      "कार्यभार ग्रहण",
+      "अवकाश"
+    ]
+  },
+  {
+    "id": "fhb2_17_015",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 127",
+    "title": "नियमित अधिष्ठान परिवर्तन वसूली",
+    "summary": "नियमित अधिष्ठान में परिवर्तन का व्यय लाभार्थियों से वसूल करने के नियम",
+    "key_provisions": [
+      "वसूली सेवा की स्वीकृत लागत होगी और मासिक व्यय के साथ नहीं बदलेगी",
+      "सेवा लागत में नियम 116 के अनुसार अंशदान भी सम्मिलित होगा",
+      "शासन वसूली कम कर सकते हैं या छोड़ सकते हैं"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P191-P200",
+    "chapter": "17 - Foreign Service",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अधिष्ठान परिवर्तन",
+      "वसूली नियम",
+      "सेवा लागत"
+    ]
+  }
+]

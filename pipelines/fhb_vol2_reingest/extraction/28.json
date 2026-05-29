@@ -1,0 +1,445 @@
+[
+  {
+    "id": "fhb2_28_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "sub_rule",
+    "rule_number": "नियम 157-क (ग)",
+    "title": "असाधारण अवकाश पर अवकाश वेतन का निषेध",
+    "summary": "असाधारण अवकाश पर रहने वाले कर्मचारी को किसी भी प्रकार का अवकाश वेतन नहीं मिलेगा।",
+    "key_provisions": [
+      "यदि असाधारण अवकाश पर हो तो किसी अवकाश वेतन का हकदार नहीं होगा।"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P301-P310",
+    "chapter": "28 - Probationary Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "असाधारण अवकाश",
+      "अवकाश वेतन",
+      "निषेध"
+    ]
+  },
+  {
+    "id": "fhb2_28_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "note",
+    "rule_number": null,
+    "title": "कर्मचारी राज्य बीमा अधिनियम के तहत अवकाश वेतन समायोजन",
+    "summary": "कर्मचारी राज्य बीमा अधिनियम 1948 के तहत आने वाले व्यक्तियों के अवकाश वेतन में से बीमा लाभ की राशि काटी जाएगी।",
+    "key_provisions": [
+      "चिकित्सीय प्रमाण-पत्र के आधार पर लिए गये अवकाश के सम्बन्ध में इस उपनियम के अधीन देय अवकाश वेतन में से उसी अवधि के लिए उक्त अधिनियम के अधीन देय लाभ की धनराशि कम कर दी जायेगी।"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P301-P310",
+    "chapter": "28 - Probationary Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "कर्मचारी राज्य बीमा",
+      "अवकाश वेतन",
+      "समायोजन"
+    ]
+  },
+  {
+    "id": "fhb2_28_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "sub_rule",
+    "rule_number": "नियम 157-क (7)",
+    "title": "पूर्णकालिक सरकारी कर्मचारियों का अवकाश",
+    "summary": "समय विशेष या नैमित्तिक कर्मचारी जो आकस्मिकता निधि से भुगतान पाते हैं, उन्हें बिना भत्तों का अवकाश मिलेगा।",
+    "key_provisions": [
+      "पूर्णकालिक सरकारी कर्मचारी जिनकी प्रकृति समय विशेष या नैमित्तिक कर्मचारी के रूप में है और आकस्मिकता निधि से भुगतान प्राप्त करते चले आ रहे हैं, उन्हें बिना भत्तों का अवकाश मिलेगा।"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P301-P310",
+    "chapter": "28 - Probationary Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "पूर्णकालिक कर्मचारी",
+      "आकस्मिकता निधि",
+      "अवकाश"
+    ]
+  },
+  {
+    "id": "fhb2_28_004",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "clarification",
+    "rule_number": "नियम 157-क",
+    "title": "अवकाश परिवर्तन की शक्ति का निषेध",
+    "summary": "अवकाश स्वीकृत करने वाले प्राधिकारी को अवकाश के प्रकार में परिवर्तन करने की शक्ति नहीं है।",
+    "key_provisions": [
+      "अवकाश स्वीकृत करने वाले सक्षम प्राधिकारी को ऐसे अवकाश के जिसके लिए आवेदन किया गया हो, प्रकार में कोई परिवर्तन करने की शक्ति नहीं होगी।"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": "राज्यपाल",
+    "court_case": null,
+    "page_range": "P301-P310",
+    "chapter": "28 - Probationary Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अवकाश परिवर्तन",
+      "प्राधिकारी शक्ति",
+      "निषेध"
+    ]
+  },
+  {
+    "id": "fhb2_28_005",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "अवकाश वेतन आगणन प्रणाली का सरलीकरण",
+    "summary": "समस्त सरकारी सेवकों को अवकाश पर प्रस्थान करने के ठीक पहले प्राप्त होने वाले वेतन के बराबर अवकाश वेतन मिलेगा।",
+    "key_provisions": [
+      "समस्त सरकारी सेवकों को चाहे वे स्थायी हों अथवा अस्थायी, अर्जित अवकाश तथा 12 मास/4 मास नियमानुसार, जैसी भी स्थिति हो, की सीमा के अन्तर्गत चिकित्सा प्रमाण-पत्र पर अवकाश उपभोग करने हेतु अवकाश प्रस्थान करने के ठीक पहले प्राप्त होने वाले वेतन के बराबर अवकाश वेतन ग्राह्य होगा।"
+    ],
+    "file_number": "सा-4-1759/दस-200-76",
+    "date": "20-06-1978",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-4",
+    "court_case": null,
+    "page_range": "P301-P310",
+    "chapter": "28 - Probationary Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अवकाश वेतन",
+      "आगणन",
+      "सरलीकरण"
+    ]
+  },
+  {
+    "id": "fhb2_28_006",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "अवकाश परिवर्तन की सीमा",
+    "summary": "सरकारी सेवा छोड़ने के बाद अवकाश के प्रकार में परिवर्तन नियमानुकूल नहीं होगा।",
+    "key_provisions": [
+      "ऐसे मामलों में एक प्रकृति के अवकाश को अन्य प्रकृति के अवकाश में परिवर्तित करना नियमानुकूल न होगा।",
+      "किसी सरकारी सेवक को उसकी सेवाकाल में स्वीकृत किये गये अवकाश को उसके सरकारी सेवा छोड़ देने के पश्चात् अथवा सरकारी सेवा में न रहने के पश्चात् किसी अन्य प्रकृति के अवकाश में परिवर्तित नहीं किया जाना चाहिए।"
+    ],
+    "file_number": "सा-4-जी० आई०-78/दस-81",
+    "date": "31-03-1982",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-4",
+    "court_case": null,
+    "page_range": "P301-P310",
+    "chapter": "28 - Probationary Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अवकाश परिवर्तन",
+      "सेवा समाप्ति",
+      "नियमानुकूलता"
+    ]
+  },
+  {
+    "id": "fhb2_28_007",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 158",
+    "title": "स्थायी पद पर नियुक्ति के बाद अवकाश लेखा समायोजन",
+    "summary": "बिना सेवा क्रम भंग हुए स्थायी पद पर नियुक्त होने पर अवकाश लेखे में उपार्जित अवकाश जोड़ा जाएगा।",
+    "key_provisions": [
+      "यदि कोई उच्च सेवा का सरकारी कर्मचारी जो 1 जनवरी, 1936 के पूर्व नियुक्त हुआ था बिना सेवा क्रम भंग हुये किसी स्थायी पद पर मौलिक रूप से नियुक्त हो जाता है, तो उसके अवकाश लेखे में वह अवकाश की राशि जोड़ दी जायेगी"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P301-P310",
+    "chapter": "28 - Probationary Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "स्थायी नियुक्ति",
+      "अवकाश लेखा",
+      "समायोजन"
+    ]
+  },
+  {
+    "id": "fhb2_28_008",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 159",
+    "title": "सार्वजनिक निर्माण विभाग के अस्थायी अभियन्ता का अवकाश",
+    "summary": "सार्वजनिक निर्माण विभाग के अस्थायी अभियन्ता को शासन के विवेक पर अतिरिक्त अवकाश दिया जा सकता है।",
+    "key_provisions": [
+      "सार्वजनिक निर्माण विभाग के अस्थायी अभियन्ता को उपर्युक्त नियम 157 या 157-क में अनुमन्य अवकाश के अतिरिक्त शासन के विवेक पर अन्य अवकाश भी ऐसी शर्तों और ऐसे अवकाश वेतन पर स्वीकृत किया जा सकता है"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P301-P310",
+    "chapter": "28 - Probationary Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "सार्वजनिक निर्माण विभाग",
+      "अस्थायी अभियन्ता",
+      "अतिरिक्त अवकाश"
+    ]
+  },
+  {
+    "id": "fhb2_28_009",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 160",
+    "title": "सेना के उप-सहायक सर्जन का अवकाश",
+    "summary": "असैनिक विभाग में प्रतिनियुक्त सेना के उप-सहायक सर्जन को विशेष अवकाश नियमों के अनुसार अवकाश मिलेगा।",
+    "key_provisions": [
+      "सेना का उप-सहायक सर्जन जिसे 1 जनवरी, 1936 के पूर्व अस्थायी रूप से असैनिक विभाग को दे दिया गया हो, उसे असैनिक विभाग में की गई ड्यूटी के 1/11 के बराबर औसत वेतन पर उपार्जित अवकाश एक समय में 4 महीने की सीमा तक स्वीकृत किया जा सकता है।"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P301-P310",
+    "chapter": "28 - Probationary Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "सेना",
+      "उप-सहायक सर्जन",
+      "असैनिक विभाग"
+    ]
+  },
+  {
+    "id": "fhb2_28_010",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 161-क",
+    "title": "लोकल बोर्ड सहायक अध्यापक का अवकाश",
+    "summary": "राजकीय नार्मल स्कूल के माडेल स्कूलों में नियुक्त सहायक अध्यापकों को सीमित अवकाश की सुविधा।",
+    "key_provisions": [
+      "लोकल बोर्ड वर्नाक्यूलर मिडिल स्कूल के सहायक अध्यापक जो 1 जनवरी, 1936 के पूर्व को अथवा उस दिन या उसके पश्चात् लड़कों के राजकीय नार्मल स्कूल से सम्बद्ध माडेल स्कूलों के सेशन्स में मिलने वाले सहायक अध्यापक के पदों पर अधिकतम 5 वर्ष की निर्धारित अवधि के लिये नियुक्त होते हैं"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P301-P310",
+    "chapter": "28 - Probationary Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "लोकल बोर्ड",
+      "सहायक अध्यापक",
+      "नार्मल स्कूल"
+    ]
+  },
+  {
+    "id": "fhb2_28_011",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 162",
+    "title": "अंशकालिक न्यायिक अधिकारियों का अवकाश",
+    "summary": "अंशकालिक न्यायिक अधिकारियों और विधि अधिकारियों को विशेष अवकाश नियमों के अनुसार अवकाश मिलेगा।",
+    "key_provisions": [
+      "न्यायिक अधिकारी जो इस खण्ड के भाग 1 के मूल नियम 99 में उल्लिखित पदों में से किसी पद को ग्रहण कर रहा हो तथा सरकारी अधिवक्ता, सरकारी उप-अधिवक्ता, कनिष्ठ स्थायी अधिवक्ता"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P301-P310",
+    "chapter": "28 - Probationary Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अंशकालिक",
+      "न्यायिक अधिकारी",
+      "विधि अधिकारी"
+    ]
+  },
+  {
+    "id": "fhb2_28_012",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 165-क",
+    "title": "सेन्ट्रल मुद्रणालय ठेका कर्मचारियों का अवकाश",
+    "summary": "उत्तर प्रदेश सरकार के सेन्ट्रल मुद्रणालय में ठेके पर कार्य करने वाले व्यक्तियों के लिए विशेष अवकाश नियम।",
+    "key_provisions": [
+      "उत्तर प्रदेश सरकार के सेन्ट्रल मुद्रणालय में ठेके पर कार्य करने वाले व्यक्तियों का अवकाश, जिन्हें चतुर्थ श्रेणी में वर्गीकृत नहीं किया गया है"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P301-P310",
+    "chapter": "28 - Probationary Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "सेन्ट्रल मुद्रणालय",
+      "ठेका कर्मचारी",
+      "अवकाश नियम"
+    ]
+  },
+  {
+    "id": "fhb2_28_013",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 170",
+    "title": "परिवीक्षाधीन कर्मचारियों का अवकाश",
+    "summary": "परिवीक्षाधीन कर्मचारियों को उन्हीं अवकाश नियमों के अनुसार अवकाश मिलेगा जो स्थायी कर्मचारियों पर लागू होते हैं।",
+    "key_provisions": [
+      "किसी परिवीक्षाधीन कर्मचारी (probationers) को अवकाश स्वीकृत किया जा सकता है, यदि वह उन अवकाश नियमों के अन्तर्गत अनुमन्य हो जो उस पर लागू होते, यदि वह उस पद पर परिवीक्षा (probation) पर न होकर स्थायी रूप से नियुक्त होता।"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P301-P310",
+    "chapter": "28 - Probationary Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "परिवीक्षाधीन",
+      "कर्मचारी",
+      "अवकाश"
+    ]
+  },
+  {
+    "id": "fhb2_28_014",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 172",
+    "title": "शिक्षुओं का अवकाश",
+    "summary": "शिक्षुओं को चिकित्सीय प्रमाण-पत्र पर अर्द्धवेतन अवकाश और असाधारण अवकाश की सुविधा।",
+    "key_provisions": [
+      "शिक्षुता के किसी एक वर्ष की अवधि में 1 महीने से अनधिक अवधि के लिए चिकित्सीय प्रमाण-पत्र पर अर्द्धवेतन के बराबर अवकाश वेतन पर अवकाश।"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P301-P310",
+    "chapter": "28 - Probationary Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "शिक्षु",
+      "चिकित्सीय अवकाश",
+      "अर्द्धवेतन"
+    ]
+  },
+  {
+    "id": "fhb2_28_015",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "सेवा संघ पदाधिकारियों को विशेष आकस्मिक अवकाश",
+    "summary": "मान्यताप्राप्त सेवा संघों के पदाधिकारियों को संघ कार्य के लिए विशेष आकस्मिक अवकाश की सुविधा।",
+    "key_provisions": [
+      "सरकारी कर्मचारियों के मान्यताप्राप्त सेवा संघों/परिसंघों आदि के अध्यक्ष एवं सचिव को संघ के कार्य के निमित्त एवं कैलेण्डर वर्ष में अधिकतम 7 दिन तथा सेवा संघ की कार्यकारिणी के सदस्यों को जिनकी संख्या 9 से अधिक न होगी, कार्यकारिणी की बैठक में भाग लेने हेतु अधिकतम चार दिन का विशेष आकस्मिक अवकाश स्वीकृत किया जा सकता है।"
+    ],
+    "file_number": "283/का-4-7 ई० एम०/1983",
+    "date": "20-05-1983",
+    "issuing_authority": "कार्मिक अनुभाग",
+    "court_case": null,
+    "page_range": "P301-P310",
+    "chapter": "28 - Probationary Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "सेवा संघ",
+      "विशेष अवकाश",
+      "पदाधिकारी"
+    ]
+  },
+  {
+    "id": "fhb2_28_016",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 173",
+    "title": "कार्यभार ग्रहण काल - स्थान परिवर्तन के बिना",
+    "summary": "जब नियुक्ति के कारण निवास-स्थान नहीं बदलता तो एक दिन से अधिक कार्यभार ग्रहण काल नहीं दिया जाता।",
+    "key_provisions": [
+      "किसी नये पद पर कार्यभार ग्रहण करने के लिए, जब ऐसे पद पर नियुक्ति के कारण निवास-स्थान एक स्टेशन से दूसरे में आवश्यक रूप से नहीं बदलता, एक दिन से अधिक का समय नहीं दिया जाता।"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P301-P310",
+    "chapter": "28 - Probationary Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "कार्यभार ग्रहण",
+      "स्थान परिवर्तन",
+      "समय सीमा"
+    ]
+  },
+  {
+    "id": "fhb2_28_017",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 174",
+    "title": "कार्यभार ग्रहण काल - स्थान परिवर्तन के साथ",
+    "summary": "स्थान परिवर्तन की स्थिति में अधिकतम 30 दिन तक का कार्यभार ग्रहण काल दिया जा सकता है।",
+    "key_provisions": [
+      "उन मामलों में जिनमें स्थान का परिवर्तन आवश्यक हो, सरकारी कर्मचारी को अधिकतम 30 दिन तक का कार्यभार ग्रहण काल (joining time) दिया जा सकता है। छः दिन तैयारी के लिए दिये जाते हैं तथा उसके अतिरिक्त वास्तविक यात्रा को पूरा करने के लिए एक अवधि"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P301-P310",
+    "chapter": "28 - Probationary Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "कार्यभार ग्रहण",
+      "स्थान परिवर्तन",
+      "यात्रा समय"
+    ]
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "id": "fhb2_61_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "मूल नियम 22-बी (1)",
+    "title": "पुनरीक्षित वेतन संरचना में ए०सी०पी० के अन्तर्गत वेतन निर्धारण",
+    "summary": "ए०सी०पी० के अन्तर्गत वित्तीय स्तरोन्नयन पर वेतन निर्धारण मूल नियम 22-बी (1) के अनुसार होगा।",
+    "key_provisions": [
+      "वित्तीय स्तरोन्नयन अनुमन्य होने पर सम्बन्धित कार्मिक का वेतन वित्तीय नियम संग्रह खण्ड-2 भाग-2 से 4 के मूल नियम 22 बी (1) के अनुसार निर्धारित किया जायेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P631-P640",
+    "chapter": "61 - ACP Fixation Local Bodies Rules",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "ए०सी०पी०",
+      "वेतन निर्धारण",
+      "वित्तीय स्तरोन्नयन"
+    ]
+  },
+  {
+    "id": "fhb2_61_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "वित्तीय नियम-23 (1)",
+    "title": "ए०सी०पी० में वेतन निर्धारण हेतु विकल्प",
+    "summary": "सरकारी कार्मिक को ए०सी०पी० में वेतन निर्धारण की तिथि या अगली वेतनवृद्धि की तिथि का विकल्प होगा।",
+    "key_provisions": [
+      "सम्बन्धित सरकारी कार्मिक को ए०सी०पी० के अन्तर्गत वित्तीय स्तरोन्नयन अनुमन्य होने पर वित्तीय नियम-23 (1) के अन्तर्गत यह विकल्प होगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P631-P640",
+    "chapter": "61 - ACP Fixation Local Bodies Rules",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "ए०सी०पी०",
+      "विकल्प",
+      "वेतन निर्धारण"
+    ]
+  },
+  {
+    "id": "fhb2_61_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "clarification",
+    "rule_number": null,
+    "title": "विकल्प 1: अगली वेतनवृद्धि की तिथि से वेतन निर्धारण",
+    "summary": "अगली वेतनवृद्धि की तिथि से वेतन निर्धारण पर दो वेतनवृद्धियां देय होंगी।",
+    "key_provisions": [
+      "अगली वेतनवृद्धि की तिथि अर्थात 01 जुलाई को वेतन पुनर्निर्धारित होगा",
+      "इस तिथि को सम्बन्धित सेवक को दो वेतनवृद्धियों (एक वार्षिक तथा दूसरी वित्तीय स्तरोन्नयन के फलस्वरूप) देय होगी"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P631-P640",
+    "chapter": "61 - ACP Fixation Local Bodies Rules",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वेतनवृद्धि",
+      "विकल्प",
+      "ए०सी०पी०"
+    ]
+  },
+  {
+    "id": "fhb2_61_004",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "clarification",
+    "rule_number": null,
+    "title": "विकल्प 2: वित्तीय स्तरोन्नयन की तिथि से वेतन निर्धारण",
+    "summary": "वर्तमान वेतन और ग्रेड वेतन के योग का 03 प्रतिशत वेतनवृद्धि के रूप में जोड़ा जायेगा।",
+    "key_provisions": [
+      "वर्तमान वेतन बैण्ड में वेतन तथा वर्तमान ग्रेड वेतन के योग की 03 प्रतिशत धनराशि को अगले 10 में पूर्णाकित करते हुए एक वेतनवृद्धि के रूप में आगणित कर वर्तमान वेतन में जोड़ा जायेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P631-P640",
+    "chapter": "61 - ACP Fixation Local Bodies Rules",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वेतन निर्धारण",
+      "ए०सी०पी०",
+      "वेतनवृद्धि"
+    ]
+  },
+  {
+    "id": "fhb2_61_005",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "अपुनरीक्षित वेतनमानों में महंगाई भत्ता 54 प्रतिशत",
+    "summary": "अपुनरीक्षित वेतनमान वाले कर्मचारियों को 01 जुलाई 2008 से 54% महंगाई भत्ता देय।",
+    "key_provisions": [
+      "राज्य कर्मचारियों, सहायता प्राप्त शिक्षण/प्राविधिक शिक्षण संस्थाओं तथा शहरी स्थानीय निकायों के ऐसे कर्मचारी जिनके द्वारा पुनरीक्षित वेतन संरचना का चयन नहीं किया गया है को दिनांक 01 जुलाई, 2008 से वेतन तथा महंगाई वेतन के योग का 54 प्रतिशत महंगाई भत्ता देय होगा"
+    ],
+    "file_number": "वे०आ०-1-1810/दस-2008-42 (एम)/08",
+    "date": "05-01-2009",
+    "issuing_authority": "वित्त (वेतन आयोग) अनुभाग-1",
+    "court_case": null,
+    "page_range": "P631-P640",
+    "chapter": "61 - ACP Fixation Local Bodies Rules",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "महंगाई भत्ता",
+      "अपुनरीक्षित वेतनमान"
+    ]
+  },
+  {
+    "id": "fhb2_61_006",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "सचिवालय अधिकारियों के विशेष भत्तों का पुनरीक्षण",
+    "summary": "सचिवालय के अधिकारियों के विशेष भत्ते 01 दिसम्बर 2008 से संशोधित दरों पर देय।",
+    "key_provisions": [
+      "वेतन समिति 2008 की संस्तुतियों पर उत्तर प्रदेश सचिवालय एवं समकक्षता प्राप्त विभागों में तैनात अधिकारियों का सचिवालय विशेष भत्ता दिनांक 01 दिसम्बर, 2008 से निम्नवत् संशोधित किया गया है"
+    ],
+    "file_number": "वे०आ०-2-226/दस-09-54 (एम)/2008 टी०सी०",
+    "date": "02-02-2009",
+    "issuing_authority": "वित्त (वेतन आयोग) अनुभाग-2",
+    "court_case": null,
+    "page_range": "P631-P640",
+    "chapter": "61 - ACP Fixation Local Bodies Rules",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "सचिवालय",
+      "विशेष भत्ता",
+      "अधिकारी"
+    ]
+  },
+  {
+    "id": "fhb2_61_007",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "सचिवालय कर्मचारियों के विशेष भत्ते",
+    "summary": "सचिवालय के विभिन्न पदों पर कर्मचारियों को 01 दिसम्बर 2008 से संशोधित विशेष भत्ता।",
+    "key_provisions": [
+      "उत्तर प्रदेश सचिवालय एवं समकक्षता प्राप्त विभागों के कर्मचारियों को वर्तमान विशेष वेतन एवं विशेष भत्ते को समायोजित करते हुए दिनांक 01 दिसम्बर, 2008 से संशोधित सचिवालय विशेष भत्ता निम्नवत् अनुमन्य होगा"
+    ],
+    "file_number": "वे०आ०-2-227/दस-09-54 (एम)/2008 टी०सी०",
+    "date": "02-02-2009",
+    "issuing_authority": "वित्त (वेतन आयोग) अनुभाग-2",
+    "court_case": null,
+    "page_range": "P631-P640",
+    "chapter": "61 - ACP Fixation Local Bodies Rules",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "सचिवालय",
+      "कर्मचारी",
+      "विशेष भत्ता"
+    ]
+  },
+  {
+    "id": "fhb2_61_008",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "प्रदेश के बाहर तैनात अधिकारियों को नगर प्रतिकर भत्ता",
+    "summary": "उत्तर प्रदेश के बाहर तैनात अधिकारियों को नये ग्रेड वेतन के आधार पर नगर प्रतिकर भत्ता।",
+    "key_provisions": [
+      "ऐसे अधिकारी/कर्मचारी जो उत्तर प्रदेश के बाहर नियुक्त हैं, को शासनादेश दिनांक 08 दिसम्बर, 2008 द्वारा निर्धारित नये ग्रेड वेतन के आधार पर लखनऊ एवं कानपुर के लिये देय नगर प्रतिकर भत्ता अनुमन्य कराया जायेगा"
+    ],
+    "file_number": "जी-1-81/दस-2009-227-2008",
+    "date": "12-02-2009",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-1",
+    "court_case": null,
+    "page_range": "P631-P640",
+    "chapter": "61 - ACP Fixation Local Bodies Rules",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "नगर प्रतिकर भत्ता",
+      "प्रदेश के बाहर"
+    ]
+  },
+  {
+    "id": "fhb2_61_009",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "स्वशासी संस्थाओं के कर्मचारियों के सम्बन्ध में संकल्प",
+    "summary": "स्वशासी संस्थाओं के कर्मचारियों को पुनरीक्षित वेतन संरचना और ए०सी०पी० की सुविधा।",
+    "key_provisions": [
+      "पुनरीक्षित वेतन संरचना दिनांक 01-01-2006 अथवा विकल्प की तिथि से देय होगी तथा महंगाई भत्ता राज्य कर्मचारियों के समान देय होगा",
+      "ए०सी०पी० (ACP) 10, 20 तथा 30 वर्ष की सेवा पर राजकीय कार्मिकों के सादृश्य देय होगा"
+    ],
+    "file_number": "वे०आ०-2-252/दस-54 (एम)/2008 टी०सी०",
+    "date": "07-02-2009",
+    "issuing_authority": "वित्त (वेतन आयोग) अनुभाग-2",
+    "court_case": null,
+    "page_range": "P631-P640",
+    "chapter": "61 - ACP Fixation Local Bodies Rules",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "स्वशासी संस्थाएं",
+      "ए०सी०पी०",
+      "वेतन संरचना"
+    ]
+  },
+  {
+    "id": "fhb2_61_010",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "स्थानीय निकायों के कर्मचारियों के सम्बन्ध में संकल्प",
+    "summary": "नगरीय स्थानीय निकाय और जिला पंचायत के कर्मचारियों को राजकीय कर्मचारियों के समान सुविधाएं।",
+    "key_provisions": [
+      "वेतन संरचना, ए०सी०पी० (10, 20, 30 वर्ष), वेतनवृद्धि (01 जुलाई, 3%), पेंशन एवं भत्ते राजकीय कर्मचारियों के सादृश्य अनुमन्य होंगे",
+      "बढ़ा हुआ नकद भुगतान 01 दिसम्बर, 2008 से किया जायेगा"
+    ],
+    "file_number": "वे०आ०-2-251/दस-54 (एम)/2008 टी०सी०",
+    "date": "07-02-2009",
+    "issuing_authority": "वित्त (वेतन आयोग) अनुभाग-2",
+    "court_case": null,
+    "page_range": "P631-P640",
+    "chapter": "61 - ACP Fixation Local Bodies Rules",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "स्थानीय निकाय",
+      "जिला पंचायत",
+      "वेतन संरचना"
+    ]
+  },
+  {
+    "id": "fhb2_61_011",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "स्थानीय निकायों के कर्मचारियों के वेतन की स्वीकृति",
+    "summary": "स्थानीय निकायों के कर्मचारियों को 01 जनवरी 2006 से पुनरीक्षित वेतन संरचना की स्वीकृति।",
+    "key_provisions": [
+      "स्थानीय निकायों/जल संस्थानों के कर्मचारियों को दिनांक 01 जनवरी, 2006 से पुनरीक्षित वेतन संरचना (वेतन बैण्ड एवं ग्रेड वेतन) अनुमन्य की गई है",
+      "महंगाई भत्ते की संशोधित दरें राज्य कर्मचारियों के समान देय होंगी"
+    ],
+    "file_number": "609/9-1-08-21 सा/2008",
+    "date": "27-02-2009",
+    "issuing_authority": "नगर विकास अनुभाग-1",
+    "court_case": null,
+    "page_range": "P631-P640",
+    "chapter": "61 - ACP Fixation Local Bodies Rules",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "स्थानीय निकाय",
+      "जल संस्थान",
+      "वेतन स्वीकृति"
+    ]
+  }
+]

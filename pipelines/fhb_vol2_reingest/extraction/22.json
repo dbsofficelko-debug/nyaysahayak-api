@@ -1,0 +1,273 @@
+[
+  {
+    "id": "fhb2_22_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "विभागाध्यक्ष को अवकाश स्वीकृत करने के अधिकारों का प्रतिनिधायन",
+    "summary": "राज्यपाल ने विभागाध्यक्षों को 60 दिन तक का अवकाश स्वीकृत करने का अधिकार प्रदान किया, बशर्ते प्रतिस्थानी की नियुक्ति अपेक्षित न हो।",
+    "key_provisions": [
+      "राज्य के समस्त विभागाध्यक्षों को 60 दिन तक के अवकाश स्वीकृत कर सकते हैं",
+      "प्रतिस्थानी की नियुक्ति अपेक्षित न हो"
+    ],
+    "file_number": "(सामान्य-4) 1944/दस-66-73",
+    "date": "16-08-1973",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-4",
+    "court_case": null,
+    "page_range": "P241-P250",
+    "chapter": "22 - Combination Holidays With Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अवकाश",
+      "विभागाध्यक्ष",
+      "प्रतिनिधायन"
+    ]
+  },
+  {
+    "id": "fhb2_22_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "सहायक नियम 37",
+    "title": "निवृत्ति तिथि के बाद अवकाश पर प्रतिबन्ध",
+    "summary": "सरकारी कर्मचारी को अनिवार्य निवृत्ति तिथि के बाद अवकाश स्वीकृत करने के लिए शासन की पूर्व स्वीकृति आवश्यक है।",
+    "key_provisions": [
+      "अनिवार्यतया सेवा से निवृत्त हो जाने की तिथि से आगे अवकाश के लिए शासन की पूर्व स्वीकृति",
+      "निवृत्ति पूर्व अवकाश के मामले में विशेष प्रावधान"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P241-P250",
+    "chapter": "22 - Combination Holidays With Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "निवृत्ति",
+      "अवकाश",
+      "शासन स्वीकृति"
+    ]
+  },
+  {
+    "id": "fhb2_22_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "note",
+    "rule_number": null,
+    "title": "अनिवार्य निवृत्ति तिथि की परिभाषा",
+    "summary": "अनिवार्यतया निवृत्त होने की तिथि वह है जब सरकारी कर्मचारी मूल नियम 56 के अन्तर्गत 55 या 60 वर्ष की आयु प्राप्त करता है।",
+    "key_provisions": [
+      "अतिवयता की आयु 55 वर्ष या 60 वर्ष",
+      "मूल नियम 56 के अन्तर्गत निर्धारित"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P241-P250",
+    "chapter": "22 - Combination Holidays With Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "निवृत्ति",
+      "आयु सीमा",
+      "मूल नियम"
+    ]
+  },
+  {
+    "id": "fhb2_22_004",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "सहायक नियम 38",
+    "title": "छुट्टियों के साथ अवकाश का संयोजन",
+    "summary": "सरकारी कर्मचारी सक्षम प्राधिकारी की अनुमति से छुट्टी के पहले दिन कार्यालय समय समाप्ति पर स्थान छोड़ सकता है।",
+    "key_provisions": [
+      "छुट्टी या छुट्टियों की श्रृंखला के साथ अवकाश संयोजन",
+      "कार्यालय समय समाप्ति पर प्रस्थान की अनुमति"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P241-P250",
+    "chapter": "22 - Combination Holidays With Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "छुट्टी",
+      "अवकाश",
+      "संयोजन"
+    ]
+  },
+  {
+    "id": "fhb2_22_005",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "सहायक नियम 39",
+    "title": "रुपये की उत्तरदायिता के साथ छुट्टी संयोजन",
+    "summary": "सक्षम अधिकारी घोषित कर सकता है कि नियम 38 का प्रतिबन्ध (क) किसी विशेष मामले में लागू नहीं होगा।",
+    "key_provisions": [
+      "विदा होने वाला कर्मचारी रुपये के लिए उत्तरदायी रहेगा",
+      "सक्षम अधिकारी की विशेष घोषणा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P241-P250",
+    "chapter": "22 - Combination Holidays With Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "उत्तरदायिता",
+      "रुपया",
+      "छुट्टी"
+    ]
+  },
+  {
+    "id": "fhb2_22_006",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "सहायक नियम 40",
+    "title": "अवकाश और वेतन का पुनर्प्रबन्ध",
+    "summary": "छुट्टियों के संयोजन के आधार पर अवकाश तथा वेतन-भत्तों के पुनर्प्रबन्ध की प्रक्रिया निर्धारित की गई है।",
+    "key_provisions": [
+      "छुट्टियाँ अवकाश के पूर्व संयुक्त होने पर वेतन व्यवस्था",
+      "छुट्टियाँ अवकाश के बाद संयुक्त होने पर नियम"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P241-P250",
+    "chapter": "22 - Combination Holidays With Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वेतन",
+      "भत्ते",
+      "पुनर्प्रबन्ध"
+    ]
+  },
+  {
+    "id": "fhb2_22_007",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "सहायक नियम 42-क",
+    "title": "न्यायाधीशों के लिए दीर्घावकाश संयोजन",
+    "summary": "जिला व सेशन न्यायाधीश के मामले में दीर्घावकाश को छुट्टी माना जाएगा और विशेष शर्तों के साथ संयुक्त किया जा सकेगा।",
+    "key_provisions": [
+      "दीर्घावकाश के लिए अतिरिक्त व्यय नहीं किया जायेगा",
+      "दीर्घावकाश अवकाश के पूर्व और बाद दोनों ओर संयुक्त नहीं होगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P241-P250",
+    "chapter": "22 - Combination Holidays With Leave Joining Time",
+    "applicable_to": [
+      "District and Sessions Judges",
+      "Civil and Sessions Judges"
+    ],
+    "tags": [
+      "न्यायाधीश",
+      "दीर्घावकाश",
+      "छुट्टी"
+    ]
+  },
+  {
+    "id": "fhb2_22_008",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "सहायक नियम 43",
+    "title": "चिकित्सीय अवकाश से लौटने पर स्वस्थता प्रमाण-पत्र",
+    "summary": "एशिया में चिकित्सीय प्रमाण-पत्र पर अवकाश लेने वाले कर्मचारी को ड्यूटी पर लौटने से पूर्व स्वस्थता का प्रमाण-पत्र प्रस्तुत करना होगा।",
+    "key_provisions": [
+      "निर्धारित प्रपत्र पर स्वस्थता प्रमाण-पत्र आवश्यक",
+      "चिकित्सा परिषद् या रजिस्टर्ड चिकित्सा व्यवसायी द्वारा प्रमाणन"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P241-P250",
+    "chapter": "22 - Combination Holidays With Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "चिकित्सीय अवकाश",
+      "स्वस्थता",
+      "प्रमाण-पत्र"
+    ]
+  },
+  {
+    "id": "fhb2_22_009",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "सहायक नियम 80",
+    "title": "अवकाश लेखा का रखरखाव",
+    "summary": "विभिन्न श्रेणी के कर्मचारियों के लिए अवकाश लेखा निर्धारित प्रपत्रों में रखा जायेगा।",
+    "key_provisions": [
+      "विशेष अवकाश नियम वाले कर्मचारियों के लिए प्रपत्र संख्या 11",
+      "साधारण अवकाश नियम वाले कर्मचारियों के लिए प्रपत्र संख्या 11-क"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P241-P250",
+    "chapter": "22 - Combination Holidays With Leave Joining Time",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अवकाश लेखा",
+      "प्रपत्र",
+      "रखरखाव"
+    ]
+  },
+  {
+    "id": "fhb2_22_010",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "सहायक नियम 89",
+    "title": "राजपत्रित कर्मचारियों के लिए चिकित्सीय प्रमाण-पत्र प्रपत्र",
+    "summary": "राजपत्रित सरकारी कर्मचारी को चिकित्सीय अवकाश के लिए निर्धारित प्रपत्र में प्रमाण-पत्र प्राप्त करना आवश्यक है।",
+    "key_provisions": [
+      "मुख्य चिकित्सा अधिकारी या प्राधिकृत चिकित्सीय परिचारक द्वारा प्रमाणन",
+      "रोग का विवरण और अवकाश की अवधि की संस्तुति"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P241-P250",
+    "chapter": "22 - Combination Holidays With Leave Joining Time",
+    "applicable_to": [
+      "Gazetted Government Servants"
+    ],
+    "tags": [
+      "चिकित्सीय प्रमाण-पत्र",
+      "राजपत्रित",
+      "अवकाश"
+    ]
+  }
+]

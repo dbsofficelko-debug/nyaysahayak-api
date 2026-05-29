@@ -1,0 +1,280 @@
+[
+  {
+    "id": "fhb2_65_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": "नियम 171",
+    "title": "वेतन निर्धारण तथा अवशेष भुगतान प्रक्रिया के सम्बन्ध में नया निर्देश",
+    "summary": "संशोधित फिटमेन्ट तालिकाओं के माध्यम से 01 जनवरी 2006 के पूर्व तैनात कर्मियों के वेतन निर्धारण की प्रक्रिया",
+    "key_provisions": [
+      "01 जनवरी 2006 के पूर्व से तैनात कर्मियों के वर्तमान वेतनमान के कुछ प्रारम्भिक स्तरों पर निर्धारित वेतन",
+      "सीधी भर्ती से नियुक्त कर्मचारियों के लिए निर्धारित वेतन से कम निर्धारित होने की स्थिति में तालिकाओं को प्रतिस्थापित किया गया"
+    ],
+    "file_number": "वे०आ०-2-1271/दस-59 (एम)/2009",
+    "date": "07-09-2009",
+    "issuing_authority": "वित्त (वेतन आयोग) अनुभाग-2",
+    "court_case": null,
+    "page_range": "P671-P680",
+    "chapter": "65 - Revised Fitment Table GPF Interest",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वेतन निर्धारण",
+      "फिटमेन्ट तालिका",
+      "संशोधित वेतन"
+    ]
+  },
+  {
+    "id": "fhb2_65_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 171 - तालिका 1",
+    "title": "वेतनमान 3050-75-3950-80-4590 की संशोधित फिटमेन्ट तालिका",
+    "summary": "पुराने वेतनमान 3050-75-3950-80-4590 से नए वेतन बैंड PB-1 5200-20200 + ग्रेड वेतन 1900 में फिटमेन्ट",
+    "key_provisions": [
+      "पुराना वेतनमान: 3050-75-3950-80-4590",
+      "नया वेतन बैंड: PB-1 5200-20200 + ग्रेड वेतन 1900",
+      "न्यूनतम संशोधित मूल वेतन: 7730"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P671-P680",
+    "chapter": "65 - Revised Fitment Table GPF Interest",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "फिटमेन्ट तालिका",
+      "वेतन बैंड",
+      "ग्रेड वेतन"
+    ]
+  },
+  {
+    "id": "fhb2_65_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 171 - तालिका 2",
+    "title": "वेतनमान 3200-85-4900/5410 की संशोधित फिटमेन्ट तालिका",
+    "summary": "पुराने वेतनमान 3200-85-4900/5410 से नए वेतन बैंड PB-1 5200-20200 + ग्रेड वेतन 2000 में फिटमेन्ट",
+    "key_provisions": [
+      "पुराना वेतनमान: 3200-85-4900/5410",
+      "नया वेतन बैंड: PB-1 5200-20200 + ग्रेड वेतन 2000",
+      "न्यूनतम संशोधित मूल वेतन: 8460"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P671-P680",
+    "chapter": "65 - Revised Fitment Table GPF Interest",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "फिटमेन्ट तालिका",
+      "वेतन बैंड",
+      "ग्रेड वेतन"
+    ]
+  },
+  {
+    "id": "fhb2_65_004",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 171 - तालिका 3",
+    "title": "वेतनमान 4000-100-6000 की संशोधित फिटमेन्ट तालिका",
+    "summary": "पुराने वेतनमान 4000-100-6000 से नए वेतन बैंड PB-1 5200-20200 + ग्रेड वेतन 2400 में फिटमेन्ट",
+    "key_provisions": [
+      "पुराना वेतनमान: 4000-100-6000",
+      "नया वेतन बैंड: PB-1 5200-20200 + ग्रेड वेतन 2400",
+      "न्यूनतम संशोधित मूल वेतन: 9910"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P671-P680",
+    "chapter": "65 - Revised Fitment Table GPF Interest",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "फिटमेन्ट तालिका",
+      "वेतन बैंड",
+      "ग्रेड वेतन"
+    ]
+  },
+  {
+    "id": "fhb2_65_005",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 171 - तालिका 4",
+    "title": "वेतनमान 4250-100-5150-125-6400 की संशोधित फिटमेन्ट तालिका",
+    "summary": "पुराने वेतनमान 4250-100-5150-125-6400 से नए वेतन बैंड PB-1 5200-20200 + ग्रेड वेतन 2800 में फिटमेन्ट",
+    "key_provisions": [
+      "पुराना वेतनमान: 4250-100-5150-125-6400",
+      "नया वेतन बैंड: PB-1 5200-20200 + ग्रेड वेतन 2800",
+      "न्यूनतम संशोधित मूल वेतन: 11360"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P671-P680",
+    "chapter": "65 - Revised Fitment Table GPF Interest",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "फिटमेन्ट तालिका",
+      "वेतन बैंड",
+      "ग्रेड वेतन"
+    ]
+  },
+  {
+    "id": "fhb2_65_006",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 171 - तालिका 5",
+    "title": "वेतनमान 4500-125-7250/7000 की संशोधित फिटमेन्ट तालिका",
+    "summary": "पुराने वेतनमान 4500-125-7250/7000 से नए वेतन बैंड PB-1 5200-20200 + ग्रेड वेतन 2800 में फिटमेन्ट",
+    "key_provisions": [
+      "पुराना वेतनमान: 4500-125-7250/7000",
+      "नया वेतन बैंड: PB-1 5200-20200 + ग्रेड वेतन 2800",
+      "न्यूनतम संशोधित मूल वेतन: 11360"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P671-P680",
+    "chapter": "65 - Revised Fitment Table GPF Interest",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "फिटमेन्ट तालिका",
+      "वेतन बैंड",
+      "ग्रेड वेतन"
+    ]
+  },
+  {
+    "id": "fhb2_65_007",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 171 - तालिका 6",
+    "title": "वेतनमान 10000-325-15200 की संशोधित फिटमेन्ट तालिका",
+    "summary": "पुराने वेतनमान 10000-325-15200 से नए वेतन बैंड PB-3 15600-39100 + ग्रेड वेतन 6600 में फिटमेन्ट",
+    "key_provisions": [
+      "पुराना वेतनमान: 10000-325-15200",
+      "नया वेतन बैंड: PB-3 15600-39100 + ग्रेड वेतन 6600",
+      "न्यूनतम संशोधित मूल वेतन: 25350"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P671-P680",
+    "chapter": "65 - Revised Fitment Table GPF Interest",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "फिटमेन्ट तालिका",
+      "वेतन बैंड",
+      "ग्रेड वेतन"
+    ]
+  },
+  {
+    "id": "fhb2_65_008",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 171 - तालिका 7",
+    "title": "वेतनमान 16400-450-20000 की संशोधित फिटमेन्ट तालिका",
+    "summary": "पुराने वेतनमान 16400-450-20000 से नए वेतन बैंड PB-4 37400-67000 + ग्रेड वेतन 8900 में फिटमेन्ट",
+    "key_provisions": [
+      "पुराना वेतनमान: 16400-450-20000",
+      "नया वेतन बैंड: PB-4 37400-67000 + ग्रेड वेतन 8900",
+      "न्यूनतम संशोधित मूल वेतन: 49100"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P671-P680",
+    "chapter": "65 - Revised Fitment Table GPF Interest",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "फिटमेन्ट तालिका",
+      "वेतन बैंड",
+      "ग्रेड वेतन"
+    ]
+  },
+  {
+    "id": "fhb2_65_009",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": "नियम 172",
+    "title": "जी०पी०एफ० आदि पर ब्याज दर (2009-10)",
+    "summary": "वित्तीय वर्ष 2009-2010 में जनरल प्राविडेन्ट फण्ड, कन्ट्रीब्यूट्री फण्ड तथा पेंशन इन्श्योरेन्स फण्ड पर ब्याज दर",
+    "key_provisions": [
+      "जी०पी०एफ०, कन्ट्रीब्यूट्री फण्ड तथा पेंशन इन्श्योरेन्स फण्ड में जमा राशि पर ब्याज दर 8 प्रतिशत प्रतिवर्ष",
+      "यह दर पहली अप्रैल 2009 से प्रारम्भ होने वाले वित्तीय वर्ष में लागू रहेगी"
+    ],
+    "file_number": "जी०-2-1274/दस-2009-59/81",
+    "date": "30-11-2009",
+    "issuing_authority": "वित्त विभाग (सामान्य) अनुभाग-2",
+    "court_case": null,
+    "page_range": "P671-P680",
+    "chapter": "65 - Revised Fitment Table GPF Interest",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "जी०पी०एफ०",
+      "ब्याज दर",
+      "प्राविडेन्ट फण्ड"
+    ]
+  },
+  {
+    "id": "fhb2_65_010",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": "नियम 173",
+    "title": "पुनरीक्षित वेतन संरचना में आने के उपरान्त वेतनमान उच्चीकृत/संशोधित होने पर वेतन निर्धारण",
+    "summary": "01 जनवरी 2006 के बाद वेतनमान उच्चीकरण/संशोधन होने पर वेतन निर्धारण की प्रक्रिया और विकल्प",
+    "key_provisions": [
+      "विकल्प 1: उच्चीकरण की तिथि से वेतन बैंड में वेतन अपरिवर्तित रहेगा और उच्च ग्रेड वेतन अनुमन्य होगा",
+      "विकल्प 2: अगली वेतनवृद्धि की तिथि से वेतन निर्धारण हेतु विकल्प देने पर उच्चीकरण की तिथि से कोई लाभ देय नहीं",
+      "न्यूनतम वेतन की गारण्टी: सीधी भर्ती के कर्मचारियों के न्यूनतम मूल वेतन से कम नहीं होगा"
+    ],
+    "file_number": "वे०आ०-2-841/दस-2009-59 (एम)/2008",
+    "date": "24-12-2009",
+    "issuing_authority": "वित्त (वेतन आयोग) अनुभाग-2",
+    "court_case": null,
+    "page_range": "P671-P680",
+    "chapter": "65 - Revised Fitment Table GPF Interest",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वेतन निर्धारण",
+      "उच्चीकरण",
+      "वेतन संरचना"
+    ]
+  }
+]

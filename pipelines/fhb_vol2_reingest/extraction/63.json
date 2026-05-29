@@ -1,0 +1,228 @@
+[
+  {
+    "id": "fhb2_63_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 158",
+    "title": "एक्स-ग्रेसिया एक मुश्त कम्पेन्सेशन",
+    "summary": "सरकारी कार्य के दायित्वों के निर्वहन के फलस्वरूप मृत्यु होने पर सरकारी सेवकों को एक्स-ग्रेसिया की धनराशि का एक मुश्त भुगतान किया जाता है।",
+    "key_provisions": [
+      "कर्तव्यपालन की अवधि में दुर्घटना में मृत्यु हो जाती है - 10.00 लाख",
+      "आतंकवादी/अराजकतत्वों की गतिविधियाँ में हुयी हिंसा के फलस्वरूप हुयी मृत्यु - 10.00 लाख",
+      "देश की सीमा पर अन्तर्राष्ट्रीय युद्ध या सीमा पर छुटपुट घटनाओं के फलस्वरूप मृत्यु - 15.00 लाख"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P651-P660",
+    "chapter": "63 - Exgratia Commutation Table Pre 2006 Pension Revision",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "एक्स-ग्रेसिया",
+      "मुआवजा",
+      "मृत्यु",
+      "कर्तव्यपालन"
+    ]
+  },
+  {
+    "id": "fhb2_63_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 159",
+    "title": "कम्यूटेशन वैल्यू टेबल - प्रति वर्ष रु. 1 पेंशन हेतु",
+    "summary": "विभिन्न आयु के अनुसार प्रति वर्ष रु. 1 पेंशन के लिए कम्यूटेशन वैल्यू की तालिका निर्धारित की गई है।",
+    "key_provisions": [
+      "21 वर्ष की आयु - कम्यूटेशन वैल्यू 9.187",
+      "40 वर्ष की आयु - कम्यूटेशन वैल्यू 9.190",
+      "80 वर्ष की आयु - कम्यूटेशन वैल्यू 4.812"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P651-P660",
+    "chapter": "63 - Exgratia Commutation Table Pre 2006 Pension Revision",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "कम्यूटेशन",
+      "पेंशन",
+      "आयु",
+      "तालिका"
+    ]
+  },
+  {
+    "id": "fhb2_63_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 160",
+    "title": "01.01.2006 से नये वेतनमान वरण करने के 10 माह के अन्दर सेवानिवृत्ति",
+    "summary": "01.01.2006 से नये वेतनमान वरण करने के 10 माह के अन्दर सेवानिवृत्त होने वाले कार्मिकों की पेंशन गणना हेतु विशेष व्यवस्था।",
+    "key_provisions": [
+      "पुनरीक्षित वेतनमान/निर्धारित पे बैंड तथा ग्रेड पे में आगणित धनराशि",
+      "अवशेष भुगतान: 20% वित्तीय वर्ष 2008-09, 40% वर्ष 2009-10, 40% वर्ष 2010-11",
+      "80 वर्ष या अधिक आयु के पेशनरों को चालू वित्तीय वर्ष में भुगतान"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P651-P660",
+    "chapter": "63 - Exgratia Commutation Table Pre 2006 Pension Revision",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वेतन संशोधन",
+      "पेंशन गणना",
+      "अवशेष भुगतान"
+    ]
+  },
+  {
+    "id": "fhb2_63_004",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": "नियम 161",
+    "title": "पेंशन/पारिवारिक पेंशन की धनराशि पर मंहगाई राहत",
+    "summary": "विभिन्न तिथियों से पेंशन/पारिवारिक पेंशन पर मंहगाई राहत की दरें निर्धारित की गई हैं।",
+    "key_provisions": [
+      "01-01-2006: शून्य, 01-07-2006: 2%, 01-01-2007: 6%",
+      "01-07-2007: 9%, 01-01-2008: 12%, 01-07-2008: 16%",
+      "उच्च न्यायालय के न्यायाधीशों, लोक सेवा आयोग के अध्यक्ष/सदस्यों पर लागू नहीं"
+    ],
+    "file_number": "सा-3 1516/दस-2008-308/97",
+    "date": "08-12-2008",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-3",
+    "court_case": null,
+    "page_range": "P651-P660",
+    "chapter": "63 - Exgratia Commutation Table Pre 2006 Pension Revision",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "मंहगाई राहत",
+      "पेंशन",
+      "पारिवारिक पेंशन"
+    ]
+  },
+  {
+    "id": "fhb2_63_005",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": "नियम 162",
+    "title": "1 जनवरी, 2006 के पूर्व सेवानिवृत्त कर्मचारियों के पेंशन का पुनरीक्षण",
+    "summary": "2006 से पूर्व सेवानिवृत्त कर्मचारियों की पेंशन के समेकन, न्यूनतम/अधिकतम सीमा और अतिरिक्त पेंशन की व्यवस्था।",
+    "key_provisions": [
+      "समेकन: वर्तमान पेंशन + महंगाई पेंशन + 24% महंगाई राहत + 40% फिटमेन्ट वेटेज",
+      "न्यूनतम/अधिकतम सीमा: रु. 3500 से रु. 40,000",
+      "अतिरिक्त पेंशन: 80-85 वर्ष (20%), 85-90 वर्ष (30%), 90-95 वर्ष (40%)"
+    ],
+    "file_number": "सा-3-1515/दस-2008-308-97",
+    "date": "08-12-2008",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-3",
+    "court_case": null,
+    "page_range": "P651-P660",
+    "chapter": "63 - Exgratia Commutation Table Pre 2006 Pension Revision",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "पेंशन पुनरीक्षण",
+      "समेकन",
+      "अतिरिक्त पेंशन"
+    ]
+  },
+  {
+    "id": "fhb2_63_006",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": "नियम 163",
+    "title": "अशक्तता पेंशन भोगियों हेतु नियत परिचर भत्ता",
+    "summary": "100% अशक्तता के आधार पर पेंशन प्राप्त करने वाले व्यक्तियों को नियत परिचर भत्ता की व्यवस्था।",
+    "key_provisions": [
+      "100% अशक्तता पेंशन प्राप्त व्यक्तियों को रु. 3000 प्रतिमाह नियत परिचर भत्ता",
+      "दैनिक कार्यों के लिए किसी अन्य व्यक्ति पर पूरी तरह आश्रित होना आवश्यक",
+      "यह भत्ता अशक्तता पेंशन के अतिरिक्त देय होगा"
+    ],
+    "file_number": "सा-3-1517/दस-2008-308/97",
+    "date": "10-12-2008",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-3",
+    "court_case": null,
+    "page_range": "P651-P660",
+    "chapter": "63 - Exgratia Commutation Table Pre 2006 Pension Revision",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अशक्तता पेंशन",
+      "परिचर भत्ता",
+      "विकलांगता"
+    ]
+  },
+  {
+    "id": "fhb2_63_007",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": "नियम 164",
+    "title": "पेंशन निर्धारण-शुद्धि-पत्र",
+    "summary": "अन्तिम आहरित वेतन या अन्तिम 10 माह के औसत वेतन के आधार पर पेंशन निर्धारण की शुद्धि।",
+    "key_provisions": [
+      "अन्तिम आहरित वेतन के 50% या अन्तिम 10 माह के औसत के 50%, जो अधिक लाभप्रद हो",
+      "01-01-2006 से 07-12-2008 के मध्य 33 वर्ष सेवा पूर्ण करके सेवानिवृत्त होने वालों पर लागू",
+      "पेंशन निर्धारण में अधिक लाभप्रद विकल्प का चयन"
+    ],
+    "file_number": "सा-3-जी०आई०-28/दस-2008",
+    "date": "06-01-2009",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-3",
+    "court_case": null,
+    "page_range": "P651-P660",
+    "chapter": "63 - Exgratia Commutation Table Pre 2006 Pension Revision",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "पेंशन निर्धारण",
+      "वेतन औसत",
+      "शुद्धि"
+    ]
+  },
+  {
+    "id": "fhb2_63_008",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": "नियम 165",
+    "title": "कोषागार द्वारा 01-01-2006 के पूर्व पेंशनरों की पेंशन का पुनरीक्षण",
+    "summary": "30-09-1988 या पूर्व सेवानिवृत्त पेंशनरों के पेंशन पुनरीक्षण का कार्य कोषाधिकारी स्तर पर करने की व्यवस्था।",
+    "key_provisions": [
+      "30-09-1988 या पूर्व सेवानिवृत्त पेंशनरों का पुनरीक्षण कोषाधिकारी स्तर पर",
+      "महालेखाकार उ.प्र. द्वारा निर्गत पेंशन प्राधिकार पत्र वाले पेंशनरों पर लागू",
+      "पारिवारिक पेंशनर की जन्मतिथि हेतु विभिन्न साक्ष्य स्वीकार्य"
+    ],
+    "file_number": "सा-3-1541/दस-2008-308/97 टी०सी०",
+    "date": "07-01-2009",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-3",
+    "court_case": null,
+    "page_range": "P651-P660",
+    "chapter": "63 - Exgratia Commutation Table Pre 2006 Pension Revision",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "पेंशन पुनरीक्षण",
+      "कोषागार",
+      "जन्मतिथि साक्ष्य"
+    ]
+  }
+]

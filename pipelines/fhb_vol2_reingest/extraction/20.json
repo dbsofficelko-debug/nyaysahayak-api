@@ -1,0 +1,830 @@
+[
+  {
+    "id": "fhb2_20_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "sub_rule",
+    "rule_number": "उप-नियम (2)",
+    "title": "पट्टाकार द्वारा मकान किराया भत्ता भुगतान",
+    "summary": "जब पट्टाकार निःशुल्क आवास या मकान किराया भत्ता पाने का अधिकारी हो परन्तु पट्टेदार न हो तो पट्टाकार को शासन को धनराशि देनी होगी।",
+    "key_provisions": [
+      "पट्टाकार शासन को वह धनराशि देगा जो अनुमन्य मकान किराये भत्ते के या पट्टेदार द्वारा भुगतान किये जाने वाले किराये के बराबर हो"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "पट्टाकार",
+      "मकान किराया भत्ता",
+      "आवास"
+    ]
+  },
+  {
+    "id": "fhb2_20_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "18-ङ",
+    "title": "सरकारी कर्मचारियों द्वारा आवास अदला-बदली",
+    "summary": "सरकारी कर्मचारी आबन्टन करने वाले प्राधिकारी की अनुमति से आवास अदल-बदल कर सकते हैं परन्तु प्रत्येक कर्मचारी अपने पद पर आबन्टित आवास के किराये का उत्तरदायी रहेगा।",
+    "key_provisions": [
+      "ऐसी अदला-बदली को शासन द्वारा मान्यता प्रदान नहीं की जायेगी",
+      "प्रत्येक सरकारी कर्मचारी उस आवास के किराये का उत्तरदायी बना रहेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "आवास",
+      "अदला-बदली",
+      "किराया"
+    ]
+  },
+  {
+    "id": "fhb2_20_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "18-च",
+    "title": "अनुपस्थिति में आवास में सामान रखने की अनुमति",
+    "summary": "विभागाध्यक्ष अवकाश या ड्यूटी के कारण अस्थायी अनुपस्थिति में सरकारी कर्मचारी को बिना किराये के अपना सामान आवास में रखने की अनुमति दे सकता है।",
+    "key_provisions": [
+      "अस्थायी पदाधिकारी को आवास की आवश्यकता न हो",
+      "स्थायी पदाधिकारी की अनुपस्थिति में आवास को उपयुक्त किरायेदार को देने का प्रबन्ध न हो"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अनुपस्थिति",
+      "आवास",
+      "सामान"
+    ]
+  },
+  {
+    "id": "fhb2_20_004",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "18-छ",
+    "title": "दौरे पर निवास की स्थिति",
+    "summary": "सरकारी कर्मचारी को दौरे पर या पहाड़ी स्थान पर अनुपस्थित होने पर भी अपने आवास में निवास करता हुआ समझा जायेगा।",
+    "key_provisions": [
+      "दौरे पर या ऐसे पहाड़ी स्थान पर अनुपस्थित हो जहाँ रहने की शासन ने अनुमति दी हो"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "दौरा",
+      "निवास",
+      "पहाड़ी स्थान"
+    ]
+  },
+  {
+    "id": "fhb2_20_005",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "18-ज",
+    "title": "एक से अधिक स्थानों में आवास के नियम",
+    "summary": "जब सरकारी कर्मचारी को एक से अधिक स्थानों में आवास दिये गये हों तो किराया भुगतान के विशेष नियम लागू होंगे।",
+    "key_provisions": [
+      "प्रत्येक आवास में निवास तब तक समझा जायेगा जब तक दूसरे आवास में निवास न करने लगे",
+      "एक साथ निवास की स्थिति में प्रत्येक आवास के लिए निर्धारित दरों पर किराया लिया जायेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "एकाधिक आवास",
+      "किराया",
+      "दौरा"
+    ]
+  },
+  {
+    "id": "fhb2_20_006",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "18-झ",
+    "title": "वर्ष के एक भाग के लिए आवास आबन्टन",
+    "summary": "यदि सरकारी कर्मचारी को वर्ष के केवल एक भाग के लिए आवास आबन्टित हो और अतिरिक्त अवधि में भी निवास करे तो उस अवधि का किराया देना होगा।",
+    "key_provisions": [
+      "अतिरिक्त अवधि में वह निवास करता हुआ समझा जायेगा",
+      "अतिरिक्त अवधि के लिए निर्धारित दर पर किराये का देनदार होगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "आवास आबन्टन",
+      "अतिरिक्त अवधि",
+      "किराया"
+    ]
+  },
+  {
+    "id": "fhb2_20_007",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "18-ञ",
+    "title": "सशस्त्र पुलिस रक्षकों के आवास व्यय",
+    "summary": "आयुक्त, जिला मजिस्ट्रेट, ज्वाइंट मजिस्ट्रेट तथा पुलिस अधीक्षक के भवनों में सशस्त्र पुलिस रक्षकों के आवास निर्माण व्यय को मानक किराये की गणना से निकाला जायेगा।",
+    "key_provisions": [
+      "सशस्त्र पुलिस रक्षकों के लिये आवास बनाने में जो व्यय होगा वह मानक किराये का हिसाब लगाने के लिये पूँजीगत लागत से निकाल दिया जाएगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "सशस्त्र पुलिस",
+      "आवास व्यय",
+      "मानक किराया"
+    ]
+  },
+  {
+    "id": "fhb2_20_008",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "19",
+    "title": "आवास के वर्तमान मूल्य का निर्धारण",
+    "summary": "जब आवास की अध्याप्ति या निर्माण के वास्तविक व्यय का पता न हो तो अधिशासी अभियन्ता द्वारा वर्तमान मूल्य का अनुमान लगाया जायेगा।",
+    "key_provisions": [
+      "भवन की कुर्सी के क्षेत्रफल का पता लगाकर उसी विशिष्ट के भवन निर्माण की वर्तमान लागत का अनुमान लगाया जायेगा",
+      "अप्रचलित होने या अवमूल्यन के बदले में प्रतिशत घटाया जायेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "आवास मूल्यांकन",
+      "अधिशासी अभियन्ता",
+      "वर्तमान मूल्य"
+    ]
+  },
+  {
+    "id": "fhb2_20_009",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "19-क",
+    "title": "स्थल मूल्य निर्धारण जब भुगतान ज्ञात हो",
+    "summary": "जब सम्पत्ति के लिए भुगतान की धनराशि ज्ञात हो परन्तु स्थल का भुगतान न मालूम हो तो विभागाध्यक्ष द्वारा तुलनात्मक आधार पर मूल्य निश्चित किया जायेगा।",
+    "key_provisions": [
+      "उसी प्रकार के अन्य स्थल से तुलना करके निश्चित किया जाना चाहिये",
+      "स्थल की लागत निश्चित नहीं हो सकती तो मकान के खाता मूल्य का वही अनुपात मान लेना चाहिये"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "स्थल मूल्य",
+      "तुलनात्मक आधार",
+      "बाजार मूल्य"
+    ]
+  },
+  {
+    "id": "fhb2_20_010",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "19-ख",
+    "title": "स्थल तैयार करने का व्यय",
+    "summary": "भूमि समतल करना, सफाई करना, पुलिया और नाली बनाना आदि को स्थल तैयार करने पर किया गया व्यय समझा जायेगा।",
+    "key_provisions": [
+      "भूमि समतल करना, सफाई करना, पुलिया नाली आदि बनाना स्थल को तैयार करने पर किया गया व्यय समझा जायगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "स्थल तैयारी",
+      "भूमि समतल",
+      "निर्माण व्यय"
+    ]
+  },
+  {
+    "id": "fhb2_20_011",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "note",
+    "rule_number": null,
+    "title": "बाड़ और सड़क निर्माण व्यय की स्थिति",
+    "summary": "चारों तरफ बाड़ करना तथा पहुँचने के लिए सड़कें बनाना स्थल की लागत से भिन्न और आवास पर किये गये व्यय का अंश समझे जायेंगे।",
+    "key_provisions": [
+      "चारों तरफ बाड़ करना तथा पहुँचने के लिए सड़कें बनाना स्थल की लागत से भिन्न और आवास पर किये गये व्यय का ही अंश समझे जायेंगे"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "बाड़",
+      "सड़क निर्माण",
+      "आवास व्यय"
+    ]
+  },
+  {
+    "id": "fhb2_20_012",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "19-ग",
+    "title": "निर्माण कार्यों की वास्तविक लागत निर्धारण",
+    "summary": "यदि निर्माण कार्यों की वास्तविक लागत का अभिलेखों से पता न चले तो अधिशासी अभियन्ता द्वारा निर्धारित वर्तमान बाजार मूल्य के बराबर मानना चाहिये।",
+    "key_provisions": [
+      "1 जनवरी 1918 के पूर्व हुए निर्माण कार्य के लिए अधिशासी अभियन्ता द्वारा निर्धारित मूल्य को दो-तिहाई निर्माण कार्य पर किया गया व्यय समझा जायेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "निर्माण लागत",
+      "बाजार मूल्य",
+      "अधिशासी अभियन्ता"
+    ]
+  },
+  {
+    "id": "fhb2_20_013",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "19-ङ",
+    "title": "सफाई, जल व्यवस्था और बिजली अधिष्ठापन की लागत",
+    "summary": "सफाई, जल व्यवस्था, बिजली के अधिष्ठापन तथा सज्जा की लागत निर्धारित करने के लिए विशेष नियम हैं जिसमें सभी सामग्री और वस्तुएँ सम्मिलित हैं।",
+    "key_provisions": [
+      "सब सामग्री और वस्तुएँ जो उस बिन्दु से लगायी गई हों जहाँ वे सम्बन्धित आवास की ही हो गई हों",
+      "शासन के व्यय से आवास में दिये हुए सब चलने वाले पंखे और बत्तियाँ सज्जा ही माने जायेंगे"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "सफाई",
+      "जल व्यवस्था",
+      "बिजली अधिष्ठापन"
+    ]
+  },
+  {
+    "id": "fhb2_20_014",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "19-च",
+    "title": "विद्युत सज्जा के लिए अधिकतम मान",
+    "summary": "राजभवन तथा मन्त्रियों के आवास के अतिरिक्त अन्य आवासों के लिए पद के औसत वेतन के आधार पर विद्युत सज्जा का अधिकतम मान निर्धारित है।",
+    "key_provisions": [
+      "250 रुपये मासिक से कम वेतन के लिए 2 पंखे, 7 बत्तियाँ",
+      "1500 रुपये मासिक और इससे अधिक वेतन के लिए 6 पंखे, 30 बत्तियाँ"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "विद्युत सज्जा",
+      "वेतन आधार",
+      "पंखे बत्तियाँ"
+    ]
+  },
+  {
+    "id": "fhb2_20_015",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "19-छ",
+    "title": "जल-व्यवस्था तथा सफाई की सज्जा का अधिकतम मान",
+    "summary": "राजभवन तथा मन्त्रियों के आवासों के अतिरिक्त अन्य सरकारी आवासों में जल-व्यवस्था तथा सफाई की सज्जा के लिए अधिकतम मान निर्धारित है।",
+    "key_provisions": [
+      "स्नान करने के लिये नाँद, हाथ धोने का बर्तन, जल कोष्ठक",
+      "प्रत्येक रसोईघर में बर्तन आदि धोने के स्थान में एक नाली"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "जल व्यवस्था",
+      "सफाई सज्जा",
+      "स्नानागार"
+    ]
+  },
+  {
+    "id": "fhb2_20_016",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "20",
+    "title": "पट्टे पर लिये गये भवनों में परिवर्द्धन और परिवर्तन",
+    "summary": "गैर सरकारी व्यक्तियों से पट्टे पर लिये गये भवनों में परिवर्द्धन या परिवर्तन के लिए मालिक की लिखित अनुमति आवश्यक है और किराया वृद्धि के नियम लागू होंगे।",
+    "key_provisions": [
+      "भवन पर निवास से पहले पट्टाकार सभी संरचनात्मक मरम्मतों को करा देगा",
+      "परिवर्द्धन या परिवर्तन के लिए मालिक की लिखित अनुमति पहले ही प्राप्त कर लेनी चाहिये"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "पट्टा",
+      "परिवर्द्धन",
+      "मालिक अनुमति"
+    ]
+  },
+  {
+    "id": "fhb2_20_017",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "20-क",
+    "title": "आवासों में अनुरक्षण और मरम्मत व्यय",
+    "summary": "शासन के अपने या पट्टे पर लिये गये आवासों में साधारण या विशेष अनुरक्षण, मरम्मत और करों के लिए किराया परिवर्द्धन के नियम निर्धारित हैं।",
+    "key_provisions": [
+      "साधारण मरम्मतों की वार्षिक अनुमानित लागत के 1/12 तथा हर चौथे वर्ष की मरम्मतों के आनुपातिक अंश",
+      "सेवा-अधिष्ठानों के लिये किराया पूँजीगत लागत के साढ़े चार से 5 प्रतिशत बढ़ाया जायेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अनुरक्षण",
+      "मरम्मत व्यय",
+      "किराया परिवर्द्धन"
+    ]
+  },
+  {
+    "id": "fhb2_20_018",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "20-ख",
+    "title": "विभिन्न किरायेदारों के लिए अलग सेट का किराया",
+    "summary": "जिन आवासों में विभिन्न किरायेदारों के निवास के लिए अलग-अलग पूरा सेट हो तो प्रत्येक सेट का मानक किराया अलग से निकालना चाहिए।",
+    "key_provisions": [
+      "प्रत्येक सेट का मानक किराया अलग से निकालना चाहिए",
+      "प्रत्येक सेट के व्यय और लेखे अलग-अलग दिखाने और रखने चाहिए"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अलग सेट",
+      "मानक किराया",
+      "विभिन्न किरायेदार"
+    ]
+  },
+  {
+    "id": "fhb2_20_019",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "20-ग",
+    "title": "किराया की वैधता अवधि और परिवर्तन की शर्तें",
+    "summary": "नियमों के अन्तर्गत निकाला गया किराया 5 वर्ष तक लागू रहेगा और छोटे-मोटे परिवर्द्धनों के कारण नहीं बदलेगा परन्तु निर्धारित सीमा से अधिक व्यय पर किराया बढ़ाया जायेगा।",
+    "key_provisions": [
+      "5 वर्ष तक लागू रहेगा तथा छोटे-मोटे परिवर्द्धनों के कारण बदला नहीं जायेगा",
+      "भवन की पूँजीगत लागत के 1 प्रतिशत या 500 रुपये से अधिक व्यय पर किराया बढ़ाया जायेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "किराया वैधता",
+      "5 वर्ष अवधि",
+      "परिवर्द्धन सीमा"
+    ]
+  },
+  {
+    "id": "fhb2_20_020",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "22",
+    "title": "सरकारी आवासों में सुख-सुविधाओं का प्रावधान",
+    "summary": "सरकारी आवासों में साज-सामान, टेनिस प्रांगण, बगीचे आदि सुख-सुविधाओं का प्रावधान निर्धारित शर्तों के अधीन किया जायेगा।",
+    "key_provisions": [
+      "पदवी और सामाजिक कर्त्तव्यों को ध्यान में रखकर उचित सुख-सुविधाओं से अधिक या मूल्यवान न हो",
+      "निःशुल्क आवास पाने वाले कर्मचारियों को विशेष परिस्थितियों के अतिरिक्त ऐसी सुविधायें नहीं दी जायेंगी"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "सुख-सुविधाएं",
+      "टेनिस प्रांगण",
+      "बगीचे"
+    ]
+  },
+  {
+    "id": "fhb2_20_021",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "22-क",
+    "title": "टेनिस प्रांगण और बगीचों का किराया निर्धारण",
+    "summary": "शासन द्वारा निर्मित और अनुरक्षित टेनिस प्रांगण, बगीचे, गौशाला आदि का किराया पूँजीगत लागत पर ब्याज, अनुरक्षण व्यय और मरम्मत लागत के आधार पर होगा।",
+    "key_provisions": [
+      "पूँजीगत लागत पर उसी दर से ब्याज जो मूल नियम 45-क-3 के लिए लगायी जाये",
+      "वार्षिक अनुरक्षण के लिये आवश्यक धनराशि जिसमें मालियों, कुलियों, खाद, बीज का व्यय सम्मिलित है"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "टेनिस प्रांगण किराया",
+      "बगीचा किराया",
+      "अनुरक्षण व्यय"
+    ]
+  },
+  {
+    "id": "fhb2_20_022",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "22-कक",
+    "title": "बिजली से पानी खींचने की मशीन का किराया",
+    "summary": "आवास में निवास करने वाले के अनुरोध पर लगायी गई बिजली से पानी खींचने की मशीन का किराया निर्धारित दर पर ब्याज, मरम्मत और अवमूल्यन के आधार पर वसूल किया जायेगा।",
+    "key_provisions": [
+      "वार्षिक मरम्मत पर 1.5 प्रतिशत तथा विशेष मरम्मत और अवमूल्यन पर 8.5 प्रतिशत",
+      "प्रत्येक सरकारी कर्मचारी जो उस भवन में निवास करेगा वह मशीन के किराये का देनदार होगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "पम्पिंग मशीन",
+      "बिजली व्यय",
+      "अवमूल्यन"
+    ]
+  },
+  {
+    "id": "fhb2_20_023",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "22-ख",
+    "title": "सुख-सुविधाओं के अतिरिक्त किराये में छूट",
+    "summary": "शासन विशेष परिस्थितियों में आदेश द्वारा जल-व्यवस्था, स्वच्छता, विद्युत अधिष्ठापन को छोड़कर अन्य सुख-सुविधाओं के अतिरिक्त किराये को छोड़ या घटा सकता है।",
+    "key_provisions": [
+      "विशेष परिस्थितियों में आदेश द्वारा अतिरिक्त किराये को छोड़ सकता है या घटा सकता है"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "किराया छूट",
+      "विशेष परिस्थितियां",
+      "सुख-सुविधाएं"
+    ]
+  },
+  {
+    "id": "fhb2_20_024",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "22-ग",
+    "title": "साज-सामान का किराया दर",
+    "summary": "1921 में और उसके बाद 19 जून 1922 तक दिये गये साज-सामान का किराया 8 प्रतिशत और उसके बाद दिये गये साज-सामान का किराया 12 प्रतिशत प्रतिवर्ष की दर से लिया जायेगा।",
+    "key_provisions": [
+      "1921 से 19 जून 1922 तक का साज-सामान: 8 प्रतिशत प्रतिवर्ष",
+      "19 जून 1922 के बाद का साज-सामान: 12 प्रतिशत प्रतिवर्ष"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "साज-सामान किराया",
+      "8 प्रतिशत",
+      "12 प्रतिशत"
+    ]
+  },
+  {
+    "id": "fhb2_20_025",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "22-घ",
+    "title": "रेफ्रिजरेटर का किराया निर्धारण",
+    "summary": "शासन द्वारा दिये गये रेफ्रिजरेटरों पर वसूल किया जाने वाला किराया लागत पर 6 प्रतिशत ब्याज, 8.5 प्रतिशत अवमूल्यन और 25 रुपये प्रतिवर्ष अनुरक्षण के आधार पर निकाला जायेगा।",
+    "key_provisions": [
+      "लागत पर 6 प्रतिशत प्रतिवर्ष ब्याज",
+      "8.5 प्रतिशत प्रतिवर्ष अवमूल्यन",
+      "25 रुपये प्रतिवर्ष अनुरक्षण व्यय"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "रेफ्रिजरेटर",
+      "6 प्रतिशत ब्याज",
+      "अवमूल्यन"
+    ]
+  },
+  {
+    "id": "fhb2_20_026",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "22-च",
+    "title": "विशेष सेवाओं पर ब्याज दर",
+    "summary": "जब तक इन नियमों में अन्यथा प्रावधान न हो, मूल नियम 45-क-6 के अन्तर्गत आने वाली विशेष सेवाओं को पूँजीगत लागत पर ब्याज उसी दर से लिया जायेगा जो मूल नियम 45-क-3 के लिये लागू हो।",
+    "key_provisions": [
+      "विशेष सेवाओं को पूँजीगत लागत पर ब्याज उसी दर से लिया जायेगा जो मूल नियम 45-क-3 के प्रयोजन के लिये लागू की जाये"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "विशेष सेवाएं",
+      "ब्याज दर",
+      "पूँजीगत लागत"
+    ]
+  },
+  {
+    "id": "fhb2_20_027",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "22-छ",
+    "title": "अतिरिक्त किराये की स्वीकृति का प्राधिकार",
+    "summary": "शासन के प्रशासनिक विभागों तथा विभागाध्यक्षों को नियमों के अनुसार अतिरिक्त किराये की स्वीकृति करने तथा अतिरिक्त सुख-सुविधाओं पर व्यय करने के लिये प्राधिकृत कर दिया गया है।",
+    "key_provisions": [
+      "प्रशासनिक विभागों तथा विभागाध्यक्षों को अतिरिक्त किराये की स्वीकृति करने के लिये प्राधिकृत कर दिया गया है"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अतिरिक्त किराया",
+      "स्वीकृति प्राधिकार",
+      "विभागाध्यक्ष"
+    ]
+  },
+  {
+    "id": "fhb2_20_028",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "24",
+    "title": "मानदेय और शुल्क स्वीकृति के लिए विभागाध्यक्ष का प्राधिकार",
+    "summary": "विभागाध्यक्ष अपने प्रशासनिक नियन्त्रण के अन्तर्गत सरकारी कर्मचारी को मानदेय प्रदान करने या शुल्क प्राप्त करने की स्वीकृति दे सकता है। बिना अनुमति कोई मानदेय या शुल्क नहीं लिया जा सकता।",
+    "key_provisions": [
+      "विभागाध्यक्ष निर्धारित शर्तों के अधीन मानदेय या शुल्क की स्वीकृति दे सकता है",
+      "ऐसी अनुमति या शासन के आदेश के बिना कोई मानदेय या शुल्क नहीं ले सकेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "मानदेय",
+      "शुल्क स्वीकृति",
+      "विभागाध्यक्ष प्राधिकार"
+    ]
+  },
+  {
+    "id": "fhb2_20_029",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "note",
+    "rule_number": null,
+    "title": "परीक्षा संबंधी मानदेय की स्वतः स्वीकृति",
+    "summary": "लोक सेवा आयोग, माध्यमिक शिक्षा परिषद् आदि द्वारा सेटर, परीक्षक आदि के रूप में नियुक्ति में शासकीय स्वीकृति स्वतः निहित है। वार्षिक सीमा 3500 रुपये और एक स्रोत से 1500 रुपये निर्धारित है।",
+    "key_provisions": [
+      "एक व्यक्ति के लिए विभिन्न स्रोतों से मानदेय की अधिकतम सीमा एक वर्ष में 3500 रुपये",
+      "एक स्रोत से एक वर्ष में 1500 रुपये से अधिक मानदेय नहीं"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "परीक्षा मानदेय",
+      "3500 रुपये सीमा",
+      "स्वतः स्वीकृति"
+    ]
+  },
+  {
+    "id": "fhb2_20_030",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "क्षेत्रीय शिक्षा अधिकारियों को परीक्षक स्वीकृति का प्राधिकार",
+    "summary": "क्षेत्रीय उपशिक्षा निदेशक और निरीक्षिकाओं को अपने अधीनस्थ कर्मचारियों को परीक्षक स्वीकार करने की अनुमति देने का प्राधिकार दिया गया है। एक स्रोत से 250 रुपये और सभी स्रोतों से 500 रुपये की सीमा है।",
+    "key_provisions": [
+      "एक स्रोत से एक सरकारी कर्मचारी के लिए 250 रुपये की सीमा",
+      "सब स्रोतों को मिलाकर 500 रुपये की सीमा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": "राज्यपाल",
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "क्षेत्रीय अधिकारी",
+      "परीक्षक अनुमति",
+      "500 रुपये सीमा"
+    ]
+  },
+  {
+    "id": "fhb2_20_031",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "note",
+    "rule_number": null,
+    "title": "आकाशवाणी वार्ता के लिए मानदेय स्वीकृति",
+    "summary": "आकाशवाणी द्वारा वार्ता के लिए आमन्त्रित सरकारी कर्मचारी को अनुमति प्रदान करने से ही निर्धारित दरों से अनधिक मानदेय प्राप्त करने की स्वीकृति मान ली जायेगी।",
+    "key_provisions": [
+      "अनुमति प्रदान किये जाने से ही निर्धारित दरों से अनधिक मानदेय प्राप्त करने की स्वीकृति दे दी गई समझी जायेगी"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P221-P230",
+    "chapter": "20 - Acceptance Of Honoraria Fees",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "आकाशवाणी",
+      "वार्ता मानदेय",
+      "स्वतः स्वीकृति"
+    ]
+  }
+]

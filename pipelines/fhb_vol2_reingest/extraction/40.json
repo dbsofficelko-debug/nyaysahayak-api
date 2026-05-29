@@ -1,0 +1,253 @@
+[
+  {
+    "id": "fhb2_40_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "प्रपत्र सं० 10",
+    "title": "प्रतिभूति बन्ध प्रपत्र - मुख्य ऋणी और प्रतिभू के दायित्व",
+    "summary": "मुख्य ऋणी और प्रतिभू के दायित्व असाधारण छुट्टी की अवधि समाप्त होने पर भी बने रहते हैं",
+    "key_provisions": [
+      "प्रतिबन्ध यह है कि उसके अन्तर्गत मुख्य ऋणी और/या प्रतिभू या दायित्व असाधारण छु‌ट्टी की अवधि समाप्त होने पर मुख्य ऋणी द्वारा कार्यभार पुनर्ग्रहण न करने के फलस्वरूप उसके समझे गये पदत्याग के कारण न तो कम होगा और न वह उससे मुक्त होगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P421-P430",
+    "chapter": "40 - Forms",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "प्रतिभूति",
+      "बन्ध",
+      "दायित्व",
+      "छुट्टी"
+    ]
+  },
+  {
+    "id": "fhb2_40_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "प्रपत्र सं० 11",
+    "title": "अवकाश लेखा प्रपत्र - औसत वेतन पर अवकाश का हिसाब",
+    "summary": "सरकारी कर्मचारियों के अवकाश लेखे को औसत वेतन पर अवकाश के हिसाब से रखने का प्रपत्र",
+    "key_provisions": [
+      "इस लेखे को औसत वेतन पर अवकाश के हिसाब से रखा जायेगा",
+      "जो सरकारी कर्मचारी पहले ही से सरकारी सेवा में हो, पहली प्रविष्टियाँ मूल नियम 77 तथा 78 के अनुसार की जायेंगी"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P421-P430",
+    "chapter": "40 - Forms",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अवकाश",
+      "लेखा",
+      "औसत वेतन",
+      "हिसाब"
+    ]
+  },
+  {
+    "id": "fhb2_40_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "प्रपत्र सं० 11-क",
+    "title": "साधारण अवकाश नियमों के अन्तर्गत अवकाश लेखा",
+    "summary": "मूल नियमों में साधारण अवकाश नियमों के अन्तर्गत सरकारी कर्मचारियों का अवकाश लेखा रखने का प्रपत्र",
+    "key_provisions": [
+      "लेखे को औसत वेतन पर अवकाश के हिसाब से रखा जायगा",
+      "अर्द्ध अथवा चौथाई औसत वेतन पर लिये गये अवकाश को दो से भाग देकर दिखाना चाहिये"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P421-P430",
+    "chapter": "40 - Forms",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "साधारण अवकाश",
+      "नियम",
+      "लेखा",
+      "प्रपत्र"
+    ]
+  },
+  {
+    "id": "fhb2_40_004",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "प्रपत्र सं० 11-ख",
+    "title": "उत्तर प्रदेश मूल नियमों के अन्तर्गत अवकाश लेखे का प्रपत्र",
+    "summary": "उत्तर प्रदेश मूल नियमों के अधीन सरकारी कर्मचारियों के अवकाश लेखे का प्रपत्र और उसे भरने के अनुदेश",
+    "key_provisions": [
+      "लेखे को औसत वेतन पर अवकाश के हिसाब से रखा जायेगा",
+      "स्तम्भ 5 की प्रविष्टियों का योग 2½ वर्ष से अधिक न होना चाहिये"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P421-P430",
+    "chapter": "40 - Forms",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "उत्तर प्रदेश",
+      "मूल नियम",
+      "अवकाश लेखा",
+      "प्रपत्र"
+    ]
+  },
+  {
+    "id": "fhb2_40_005",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "प्रपत्र सं० 11-ग",
+    "title": "फण्डामेण्टल रूल 81-बी के अधीन अवकाश लेखा",
+    "summary": "फण्डामेण्टल रूल 81-बी और सब्सीडियरी रूल 157-ए के अधीन विनियमित अवकाश के लिए प्रपत्र",
+    "key_provisions": [
+      "स्थायी पदों पर धारणाधिकार रखने वाले सरकारी सेवकों को चिकित्सा प्रमाण-पत्र के आधार पर 12 माह की सीमा तक औसत वेतन पर अवकाश",
+      "चिकित्सा प्रमाण-पत्र के आधार पर दिये गये अवकाश के अनुक्रमिक योग को लाल स्याही से अंकित किया जाना चाहिए"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P421-P430",
+    "chapter": "40 - Forms",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "फण्डामेण्टल रूल",
+      "चिकित्सा प्रमाण-पत्र",
+      "अवकाश",
+      "स्थायी पद"
+    ]
+  },
+  {
+    "id": "fhb2_40_006",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "प्रपत्र सं० 11-घ",
+    "title": "अर्जित अवकाश लेखे का प्रपत्र",
+    "summary": "सरकारी सेवकों के अर्जित अवकाश के लेखे रखने के लिए प्रपत्र और उसके अनुदेश",
+    "key_provisions": [
+      "देय अर्जित अवकाश को दिनों में व्यक्त किया जाना चाहिए",
+      "अर्जित अवकाश को कलेण्डर वर्ष की छमाही में सेवा के प्रत्येक पूर्ण मास के लिए 2-1/2 दिन की दर पर जमा किया जाना चाहिए"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P421-P430",
+    "chapter": "40 - Forms",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अर्जित अवकाश",
+      "कलेण्डर वर्ष",
+      "छमाही",
+      "दिन"
+    ]
+  },
+  {
+    "id": "fhb2_40_007",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "प्रपत्र सं० 11-ङ",
+    "title": "निजी कार्य पर अवकाश लेखे का प्रपत्र",
+    "summary": "उत्तर प्रदेश सब्सीडियरी रूल्स के अधीन निजी कार्य पर अर्जित अवकाश के लेखे का प्रपत्र",
+    "key_provisions": [
+      "देय निजी कार्य पर अवकाश को दिनों में व्यक्त किया जाना चाहिए",
+      "निजी कार्य पर अवकाश को सेवा के प्रत्येक पूर्ण मास के लिए 2½ (ढाई) दिन की दर पर जमा किया जाना चाहिए"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P421-P430",
+    "chapter": "40 - Forms",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "निजी कार्य",
+      "अवकाश",
+      "सब्सीडियरी रूल",
+      "ढाई दिन"
+    ]
+  },
+  {
+    "id": "fhb2_40_008",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "प्रपत्र सं० 12",
+    "title": "अवकाश के लिए चिकित्सीय प्रमाण-पत्र",
+    "summary": "सरकारी कर्मचारियों के अवकाश के लिए चिकित्सीय प्रमाण-पत्र का प्रपत्र और उसकी आवश्यकताएं",
+    "key_provisions": [
+      "मुख्य चिकित्सा अधिकारी/प्राधिकृत सहायक चिकित्सक द्वारा रोगी की सावधानीपूर्वक एवं व्यक्तिगत परीक्षा करके प्रमाणित करना",
+      "चिकित्सा प्रमाण-पत्र दो प्रतियों में तैयार किया जाना चाहिये"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P421-P430",
+    "chapter": "40 - Forms",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "चिकित्सीय प्रमाण-पत्र",
+      "अवकाश",
+      "मुख्य चिकित्सा अधिकारी",
+      "परीक्षा"
+    ]
+  },
+  {
+    "id": "fhb2_40_009",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "प्रपत्र सं० 13",
+    "title": "सेवा-पुस्तिका प्रपत्र और अनुदेश",
+    "summary": "सरकारी कर्मचारियों की सेवा-पुस्तिका के रख-रखाव के लिए प्रपत्र और उसके अनुदेश",
+    "key_provisions": [
+      "यदाकदा होने वाली पदोन्नतियों आदि से सम्बन्धित प्रविष्टियाँ की जानी चाहिए और उन्हें प्रमाणित भी करना चाहिए",
+      "सेवा प्रतिवर्ष सत्यापित और लेखबद्ध कर दी जाती है"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P421-P430",
+    "chapter": "40 - Forms",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "सेवा-पुस्तिका",
+      "पदोन्नति",
+      "प्रविष्टि",
+      "सत्यापन"
+    ]
+  }
+]

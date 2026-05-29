@@ -1,0 +1,740 @@
+[
+  {
+    "id": "fhb2_68_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "ए०सी०पी० के अन्तर्गत नान फंक्शन वेतनमान की गणना",
+    "summary": "किसी पद पर नान फंक्शन वेतनमान अथवा ग्रेड वेतन मिलने पर उसे ए०सी०पी० की व्यवस्था के अन्तर्गत वित्तीय स्तरोन्नयन माना जायेगा।",
+    "key_provisions": [
+      "किसी पद पर नान फंक्शन वेतनमान अथवा ग्रेड वेतन मिलने पर उसे ए०सी०पी० की व्यवस्था के अन्तर्गत वित्तीय स्तरोन्नयन माना जायेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "ए०सी०पी०",
+      "वित्तीय स्तरोन्नयन",
+      "नान फंक्शन वेतनमान"
+    ]
+  },
+  {
+    "id": "fhb2_68_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "ए०सी०पी० के अन्तर्गत अगले लाभ की व्यवस्था",
+    "summary": "ए०सी०पी० के अन्तर्गत अगले लाभ के रूप में नान फंक्शन वेतनमान अथवा सादृश्य ग्रेड वेतन से अगला ग्रेड वेतन अनुमन्य होगा।",
+    "key_provisions": [
+      "ए०सी०पी० के अन्तर्गत अगले लाभ के रूप में नान फंक्शन वेतनमान अथवा सादृश्य ग्रेड वेतन से अगला ग्रेड वेतन अनुमन्य होगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "ए०सी०पी०",
+      "ग्रेड वेतन",
+      "वित्तीय लाभ"
+    ]
+  },
+  {
+    "id": "fhb2_68_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "वित्तीय स्तरोन्नयन की प्रभावी तिथि",
+    "summary": "अनुमन्य किये गए तीनों वित्तीय स्तरोन्नयन दिनांक 01 जनवरी, 2006 से लागू पुनरीक्षित वेतन संरचना में ही देय होंगे।",
+    "key_provisions": [
+      "अनुमन्य किये गए तीनों वित्तीय स्तरोन्नयन दिनांक 01 जनवरी, 2006 से लागू पुनरीक्षित वेतन संरचना में ही देय होंगे"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वित्तीय स्तरोन्नयन",
+      "वेतन संरचना",
+      "2006"
+    ]
+  },
+  {
+    "id": "fhb2_68_004",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "विलम्बित वित्तीय स्तरोन्नयन की गणना",
+    "summary": "यदि संतोषजनक सेवा पूर्ण न होने के कारण किसी कार्मिक को वित्तीय स्तरोन्नयन विलम्ब से प्राप्त होता है, तो अगले वित्तीय स्तरोन्नयन की गणना भी उसी विलम्बित तिथि से की जायेगी।",
+    "key_provisions": [
+      "यदि संतोषजनक सेवा पूर्ण न होने के कारण किसी कार्मिक को वित्तीय स्तरोन्नयन विलम्ब से प्राप्त होता है, तो अगले वित्तीय स्तरोन्नयन की गणना भी उसी विलम्बित तिथि से की जायेगी"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "विलम्बित स्तरोन्नयन",
+      "संतोषजनक सेवा",
+      "गणना"
+    ]
+  },
+  {
+    "id": "fhb2_68_005",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "पदोन्नति के बाद वित्तीय स्तरोन्नयन की व्यवस्था",
+    "summary": "सीधी भर्ती के बाद यदि संवर्ग में प्रथम पदोन्नति हो जाती है, तो केवल द्वितीय एवं तृतीय वित्तीय स्तरोन्नयन देय होंगे। दो पदोन्नतियां प्राप्त होने के उपरान्त केवल तृतीय वित्तीय स्तरोन्नयन का लाभ ही देय रह जायेगा।",
+    "key_provisions": [
+      "सीधी भर्ती के बाद यदि संवर्ग में प्रथम पदोन्नति हो जाती है, तो केवल द्वितीय एवं तृतीय वित्तीय स्तरोन्नयन देय होंगे",
+      "दो पदोन्नतियां प्राप्त होने के उपरान्त केवल तृतीय वित्तीय स्तरोन्नयन का लाभ ही देय रह जायेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "पदोन्नति",
+      "वित्तीय स्तरोन्नयन",
+      "सीधी भर्ती"
+    ]
+  },
+  {
+    "id": "fhb2_68_006",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "तीसरे स्तरोन्नयन के बाद वित्तीय लाभ की समाप्ति",
+    "summary": "तीसरे स्तरोन्नयन के प्राप्त होने की तिथि के पश्चात किसी भी दशा में वित्तीय स्तरोन्नयन का लाभ अनुमन्य नहीं होगा।",
+    "key_provisions": [
+      "तीसरे स्तरोन्नयन के प्राप्त होने की तिथि के पश्चात किसी भी दशा में वित्तीय स्तरोन्नयन का लाभ अनुमन्य नहीं होगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "तृतीय स्तरोन्नयन",
+      "वित्तीय लाभ",
+      "समाप्ति"
+    ]
+  },
+  {
+    "id": "fhb2_68_007",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "समान ग्रेड वेतन में पदोन्नति की गणना",
+    "summary": "एक ही संवर्ग में समान ग्रेड वेतन वाले पद पर पदोन्नति होने पर उसे भी वित्तीय स्तरोन्नयन माना जायेगा।",
+    "key_provisions": [
+      "एक ही संवर्ग में समान ग्रेड वेतन वाले पद पर पदोन्नति होने पर उसे भी वित्तीय स्तरोन्नयन माना जायेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "समान ग्रेड वेतन",
+      "पदोन्नति",
+      "संवर्ग"
+    ]
+  },
+  {
+    "id": "fhb2_68_008",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "वरिष्ठ कर्मचारी के वेतन संरक्षण की व्यवस्था",
+    "summary": "यदि पदोन्नति प्राप्त वरिष्ठ कर्मचारी का वेतन ए०सी०पी० के कारण कनिष्ठ कार्मिक से कम हो जाता है, तो वरिष्ठ कार्मिक का वेतन कनिष्ठ के बराबर कर दिया जायेगा।",
+    "key_provisions": [
+      "यदि पदोन्नति प्राप्त वरिष्ठ कर्मचारी का वेतन ए०सी०पी० के कारण कनिष्ठ कार्मिक से कम हो जाता है, तो वरिष्ठ कार्मिक का वेतन कनिष्ठ के बराबर कर दिया जायेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वरिष्ठ कर्मचारी",
+      "वेतन संरक्षण",
+      "ए०सी०पी०"
+    ]
+  },
+  {
+    "id": "fhb2_68_009",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "अन्य विभागों की सेवा की गणना",
+    "summary": "प्रदेश के अन्य राजकीय विभागों में समान ग्रेड वेतन में की गयी नियमित सेवा की गणना होगी, परन्तु नये विभाग में परिवीक्षा अवधि संतोषजनक रूप से पूर्ण करने के उपरान्त ही यह लाभ अनुमन्य होगा।",
+    "key_provisions": [
+      "प्रदेश के अन्य राजकीय विभागों में समान ग्रेड वेतन में की गयी नियमित सेवा की गणना होगी",
+      "नये विभाग में परिवीक्षा अवधि संतोषजनक रूप से पूर्ण करने के उपरान्त ही यह लाभ अनुमन्य होगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अन्य विभाग",
+      "सेवा गणना",
+      "परिवीक्षा अवधि"
+    ]
+  },
+  {
+    "id": "fhb2_68_010",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "ए०सी०पी० सेवा अवधि में सम्मिलित अवकाश",
+    "summary": "ए०सी०पी० सेवा अवधि की गणना में प्रतिनियुक्ति, वाह्य सेवा, अध्ययन अवकाश तथा सक्षम स्तर से स्वीकृत सभी प्रकार के अवकाश की अवधि को सम्मिलित किया जायेगा।",
+    "key_provisions": [
+      "ए०सी०पी० सेवा अवधि की गणना में प्रतिनियुक्ति, वाह्य सेवा, अध्ययन अवकाश तथा सक्षम स्तर से स्वीकृत सभी प्रकार के अवकाश की अवधि को सम्मिलित किया जायेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "सेवा अवधि",
+      "प्रतिनियुक्ति",
+      "अवकाश"
+    ]
+  },
+  {
+    "id": "fhb2_68_011",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "गैर-राज्य सेवा की अगणना",
+    "summary": "केन्द्र सरकार, स्थानीय निकाय, स्वशासी संस्था, सार्वजनिक उपक्रम एवं निगम में की गयी पूर्व सेवा को वित्तीय स्तरोन्नयन के लिए गणना में नहीं लिया जायेगा।",
+    "key_provisions": [
+      "केन्द्र सरकार, स्थानीय निकाय, स्वशासी संस्था, सार्वजनिक उपक्रम एवं निगम में की गयी पूर्व सेवा को वित्तीय स्तरोन्नयन के लिए गणना में नहीं लिया जायेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "केन्द्र सरकार",
+      "स्थानीय निकाय",
+      "पूर्व सेवा"
+    ]
+  },
+  {
+    "id": "fhb2_68_012",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "वित्तीय स्तरोन्नयन में ग्रेड वेतन का क्रम",
+    "summary": "वित्तीय स्तरोन्नयन अनुमन्यता की तिथि से पूर्व देय ग्रेड वेतन से ठीक अगला ग्रेड वेतन होगा।",
+    "key_provisions": [
+      "वित्तीय स्तरोन्नयन अनुमन्यता की तिथि से पूर्व देय ग्रेड वेतन से ठीक अगला ग्रेड वेतन होगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "ग्रेड वेतन",
+      "क्रम",
+      "अनुमन्यता"
+    ]
+  },
+  {
+    "id": "fhb2_68_013",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "उच्च ग्रेड वेतन की शर्त",
+    "summary": "यदि पदोन्नति के पद का ग्रेड वेतन बीच के किसी स्तर को छोड़कर उच्च है, तो वह उच्च ग्रेड वेतन वास्तविक पदोन्नति प्राप्त होने पर ही अनुमन्य होगा।",
+    "key_provisions": [
+      "यदि पदोन्नति के पद का ग्रेड वेतन बीच के किसी स्तर को छोड़कर उच्च है, तो वह उच्च ग्रेड वेतन वास्तविक पदोन्नति प्राप्त होने पर ही अनुमन्य होगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "उच्च ग्रेड वेतन",
+      "वास्तविक पदोन्नति",
+      "शर्त"
+    ]
+  },
+  {
+    "id": "fhb2_68_014",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "समयमान वेतनमान और ए०सी०पी० की असंगति",
+    "summary": "समयमान वेतनमान की कोई विशिष्ट विभागीय व्यवस्था और ए०सी०पी० की व्यवस्था दोनों एक साथ लागू नहीं होंगी।",
+    "key_provisions": [
+      "समयमान वेतनमान की कोई विशिष्ट विभागीय व्यवस्था और ए०सी०पी० की व्यवस्था दोनों एक साथ लागू नहीं होंगी"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "समयमान वेतनमान",
+      "ए०सी०पी०",
+      "असंगति"
+    ]
+  },
+  {
+    "id": "fhb2_68_015",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "वित्तीय स्तरोन्नयन की व्यक्तिगत प्रकृति",
+    "summary": "वित्तीय स्तरोन्नयन से कर्मचारी के पदनाम, श्रेणी अथवा प्रास्थिति में कोई परिवर्तन नहीं होगा। यह वित्तीय स्तरोन्नयन पूर्णतयः वैयक्तिक है और इसका कर्मचारी की वरिष्ठता से कोई सम्बन्ध नहीं है।",
+    "key_provisions": [
+      "वित्तीय स्तरोन्नयन से कर्मचारी के पदनाम, श्रेणी अथवा प्रास्थिति में कोई परिवर्तन नहीं होगा",
+      "यह वित्तीय स्तरोन्नयन पूर्णतयः वैयक्तिक है और इसका कर्मचारी की वरिष्ठता से कोई सम्बन्ध नहीं है"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "व्यक्तिगत प्रकृति",
+      "पदनाम",
+      "वरिष्ठता"
+    ]
+  },
+  {
+    "id": "fhb2_68_016",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "अनुशासनात्मक कार्यवाही में ए०सी०पी०",
+    "summary": "अनुशासनात्मक अथवा दण्डन कार्यवाही की स्थिति में ए०सी०पी० का लाभ सामान्य प्रोन्नति के नियमों द्वारा ही विनियमित होगा।",
+    "key_provisions": [
+      "अनुशासनात्मक अथवा दण्डन कार्यवाही की स्थिति में ए०सी०पी० का लाभ सामान्य प्रोन्नति के नियमों द्वारा ही विनियमित होगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अनुशासनात्मक कार्यवाही",
+      "दण्डन",
+      "नियम"
+    ]
+  },
+  {
+    "id": "fhb2_68_017",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "वरिष्ठ कर्मचारी की उच्च वेतन मांग का निषेध",
+    "summary": "कोई वरिष्ठ कर्मचारी इस आधार पर उच्च वेतन की मांग नहीं कर सकता कि उसके कनिष्ठ को ए०सी०पी० के कारण अधिक वेतन प्राप्त हो रहा है।",
+    "key_provisions": [
+      "कोई वरिष्ठ कर्मचारी इस आधार पर उच्च वेतन की मांग नहीं कर सकता कि उसके कनिष्ठ को ए०सी०पी० के कारण अधिक वेतन प्राप्त हो रहा है"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वरिष्ठ कर्मचारी",
+      "उच्च वेतन",
+      "मांग निषेध"
+    ]
+  },
+  {
+    "id": "fhb2_68_018",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "पदोन्नति से मना करने पर वित्तीय स्तरोन्नयन का निषेध",
+    "summary": "नियमित पदोन्नति लेने से मना करने पर अनुमन्य वित्तीय स्तरोन्नयन का लाभ नहीं दिया जायेगा।",
+    "key_provisions": [
+      "नियमित पदोन्नति लेने से मना करने पर अनुमन्य वित्तीय स्तरोन्नयन का लाभ नहीं दिया जायेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "पदोन्नति",
+      "मना करना",
+      "वित्तीय स्तरोन्नयन"
+    ]
+  },
+  {
+    "id": "fhb2_68_019",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "ए०सी०पी० के बाद पदोन्नति से मना करने का प्रभाव",
+    "summary": "यदि ए०सी०पी० मिलने के पश्चात पदोन्नति से मना किया जाता है, तो मिला हुआ लाभ वापस नहीं होगा, परन्तु अगले वित्तीय स्तरोन्नयन पर तब तक विचार नहीं होगा जब तक सहमति न दी जाये।",
+    "key_provisions": [
+      "यदि ए०सी०पी० मिलने के पश्चात पदोन्नति से मना किया जाता है, तो मिला हुआ लाभ वापस नहीं होगा",
+      "अगले वित्तीय स्तरोन्नयन पर तब तक विचार नहीं होगा जब तक सहमति न दी जाये"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "ए०सी०पी०",
+      "पदोन्नति मना",
+      "सहमति"
+    ]
+  },
+  {
+    "id": "fhb2_68_020",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "प्रतिनियुक्ति में ए०सी०पी० का विकल्प",
+    "summary": "प्रतिनियुक्ति अथवा सेवा स्थानान्तरण पर कार्यरत सरकारी सेवकों को अपने पैतृक विभाग के मूल पद के ए०सी०पी० अथवा वर्तमान पद के वेतन बैण्ड एवं ग्रेड वेतन में से जो भी लाभप्रद हो, उसे चुनने का विकल्प होगा।",
+    "key_provisions": [
+      "प्रतिनियुक्ति अथवा सेवा स्थानान्तरण पर कार्यरत सरकारी सेवकों को अपने पैतृक विभाग के मूल पद के ए०सी०पी० अथवा वर्तमान पद के वेतन बैण्ड एवं ग्रेड वेतन में से जो भी लाभप्रद हो, उसे चुनने का विकल्प होगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "प्रतिनियुक्ति",
+      "सेवा स्थानान्तरण",
+      "विकल्प"
+    ]
+  },
+  {
+    "id": "fhb2_68_021",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "न्यायिक सेवा में ए०सी०पी० की अनुप्रयोगता",
+    "summary": "राजकीय न्यायिक सेवा के अधिकारियों पर ए०सी०पी० की यह व्यवस्था लागू नहीं होगी।",
+    "key_provisions": [
+      "राजकीय न्यायिक सेवा के अधिकारियों पर ए०सी०पी० की यह व्यवस्था लागू नहीं होगी"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "न्यायिक सेवा",
+      "ए०सी०पी०",
+      "अनुप्रयोगता"
+    ]
+  },
+  {
+    "id": "fhb2_68_022",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "स्क्रीनिंग कमेटी का गठन",
+    "summary": "वित्तीय स्तरोन्नयन की अनुमन्यता पर विचार करने हेतु प्रत्येक विभाग में एक स्क्रीनिंग कमेटी का गठन किया जायेगा।",
+    "key_provisions": [
+      "वित्तीय स्तरोन्नयन की अनुमन्यता पर विचार करने हेतु प्रत्येक विभाग में एक स्क्रीनिंग कमेटी का गठन किया जायेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "स्क्रीनिंग कमेटी",
+      "गठन",
+      "विभाग"
+    ]
+  },
+  {
+    "id": "fhb2_68_023",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "स्क्रीनिंग कमेटी की संरचना",
+    "summary": "स्क्रीनिंग कमेटी में एक अध्यक्ष एवं दो सदस्य होंगे। सदस्य का ग्रेड वेतन, विचारणीय कार्मिक के ग्रेड वेतन से कम से कम एक स्तर उच्च होगा तथा किसी भी स्थिति में श्रेणी-ख से कम नहीं होगा।",
+    "key_provisions": [
+      "स्क्रीनिंग कमेटी में एक अध्यक्ष एवं दो सदस्य होंगे",
+      "सदस्य का ग्रेड वेतन, विचारणीय कार्मिक के ग्रेड वेतन से कम से कम एक स्तर उच्च होगा तथा किसी भी स्थिति में श्रेणी-ख से कम नहीं होगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "स्क्रीनिंग कमेटी",
+      "संरचना",
+      "ग्रेड वेतन"
+    ]
+  },
+  {
+    "id": "fhb2_68_024",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "स्क्रीनिंग कमेटी अध्यक्ष की योग्यता",
+    "summary": "स्क्रीनिंग कमेटी के अध्यक्ष का ग्रेड वेतन सदस्यों के ग्रेड वेतन से कम से कम एक स्तर उच्च होगा।",
+    "key_provisions": [
+      "स्क्रीनिंग कमेटी के अध्यक्ष का ग्रेड वेतन सदस्यों के ग्रेड वेतन से कम से कम एक स्तर उच्च होगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अध्यक्ष",
+      "ग्रेड वेतन",
+      "योग्यता"
+    ]
+  },
+  {
+    "id": "fhb2_68_025",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "स्क्रीनिंग कमेटी की बैठकों की आवृत्ति",
+    "summary": "स्क्रीनिंग कमेटी की बैठकें सामान्यतः वर्ष में दो बार (माह जनवरी तथा माह जुलाई) आयोजित की जायेंगी।",
+    "key_provisions": [
+      "स्क्रीनिंग कमेटी की बैठकें सामान्यतः वर्ष में दो बार (माह जनवरी तथा माह जुलाई) आयोजित की जायेंगी"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "बैठक",
+      "आवृत्ति",
+      "जनवरी",
+      "जुलाई"
+    ]
+  },
+  {
+    "id": "fhb2_68_026",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "स्क्रीनिंग कमेटी की संस्तुति प्रक्रिया",
+    "summary": "कमेटी अपनी संस्तुतियां बैठक की तिथि से 15 दिन की अवधि में सक्षम प्राधिकारी को प्रस्तुत करेगी। वित्तीय स्तरोन्नयन का लाभ नियुक्ति प्राधिकारी अथवा स्वीकर्ता अधिकारी द्वारा स्क्रीनिंग कमेटी की संस्तुतियों के आधार पर स्वीकृत किया जायेगा।",
+    "key_provisions": [
+      "कमेटी अपनी संस्तुतियां बैठक की तिथि से 15 दिन की अवधि में सक्षम प्राधिकारी को प्रस्तुत करेगी",
+      "वित्तीय स्तरोन्नयन का लाभ नियुक्ति प्राधिकारी अथवा स्वीकर्ता अधिकारी द्वारा स्क्रीनिंग कमेटी की संस्तुतियों के आधार पर स्वीकृत किया जायेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "संस्तुति",
+      "15 दिन",
+      "स्वीकृति"
+    ]
+  },
+  {
+    "id": "fhb2_68_027",
+    "department": "education",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": "187",
+    "title": "महिला शिक्षक/शिक्षणेत्तर कर्मचारियों को देय प्रसूतिकालीन अवकाश में वृद्धि",
+    "summary": "बेसिक शिक्षा परिषद के नियंत्रणाधीन स्थायी एवं अस्थायी शिक्षक तथा शिक्षणेत्तर महिला कर्मचारियों को प्रसूतिकालीन अवकाश 135 दिन से बढ़ाकर 180 दिन किया गया है।",
+    "key_provisions": [
+      "वित्त विभाग के शासनादेश दिनांक 08 दिसम्बर 2008 द्वारा राजकीय एवं सहायता प्राप्त शिक्षण संस्थाओं की स्थायी एवं अस्थायी महिला कर्मचारियों के प्रसूतिकालीन अवकाश की अवधि 135 दिन से बढ़ाकर 180 दिन कर दी गयी है",
+      "बेसिक शिक्षा परिषद के नियंत्रणाधीन स्थायी एवं अस्थायी शिक्षक तथा शिक्षणेत्तर महिला कर्मचारियों को भी प्रसूतिकालीन अवकाश 135 दिन से बढ़ाकर 180 दिन किये जाने का निर्णय लिया गया है"
+    ],
+    "file_number": "896/79-5-2010",
+    "date": "11-05-2010",
+    "issuing_authority": "शिक्षा अनुभाग-5",
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "Basic Education Teachers",
+      "Female Staff"
+    ],
+    "tags": [
+      "प्रसूतिकालीन अवकाश",
+      "महिला शिक्षक",
+      "180 दिन"
+    ]
+  },
+  {
+    "id": "fhb2_68_028",
+    "department": "education",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": "188",
+    "title": "बेसिक शिक्षकों को बाल्य देखभाल अवकाश स्वीकृत किया जाना",
+    "summary": "बेसिक शिक्षा परिषद के महिला शिक्षकों को बाल्य देखभाल अवकाश (Child Care Leave) स्वीकृत किये जाने के संबंध में निर्देश जारी किये गए हैं।",
+    "key_provisions": [
+      "बेसिक शिक्षा परिषद के महिला शिक्षकों को बाल्य देखभाल अवकाश (Child Care Leave) स्वीकृत किये जाने के संबंध में निर्देश जारी किये गए हैं"
+    ],
+    "file_number": "1301/79-5-2010-33/2009",
+    "date": "08-06-2010",
+    "issuing_authority": "शिक्षा अनुभाग-5",
+    "court_case": null,
+    "page_range": "P701-P710",
+    "chapter": "68 - Important GOs",
+    "applicable_to": [
+      "Basic Education Teachers",
+      "Female Staff"
+    ],
+    "tags": [
+      "बाल्य देखभाल अवकाश",
+      "महिला शिक्षक",
+      "Child Care Leave"
+    ]
+  }
+]

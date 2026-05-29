@@ -1,0 +1,281 @@
+[
+  {
+    "id": "fhb2_14_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "अवकाश एन्कैशमेंट की सीमा 240 से 300 दिन वृद्धि",
+    "summary": "सेवानिवृत्ति पर अर्जित अवकाश के नकद भुगतान की अधिकतम सीमा 240 दिन से बढ़ाकर 300 दिन की गई",
+    "key_provisions": [
+      "अधिकतम 240 दिन के स्थान पर 300 दिन तक के अर्जित अवकाश तक सीमित",
+      "नकद समतुल्य = (सेवानिवृत्ति के दिनांक को अनुज्ञेय वेतन एवं भत्ते / 30) X 300 दिन"
+    ],
+    "file_number": "सा-4-393/दस-99-200-88",
+    "date": "01-07-1999",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-4",
+    "court_case": null,
+    "page_range": "P151-P160",
+    "chapter": "14 - Leave Encashment",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अवकाश एन्कैशमेंट",
+      "सेवानिवृत्ति",
+      "नकद भुगतान"
+    ]
+  },
+  {
+    "id": "fhb2_14_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 82",
+    "title": "दीर्घावकाश विभागों पर लागू प्रावधान",
+    "summary": "दीर्घावकाश विभागों के कर्मचारियों के लिए विशेष अवकाश नियम और दीर्घावकाश की अवधि की गणना",
+    "key_provisions": [
+      "दीर्घावकाश ड्यूटी माना जाता है",
+      "प्रत्येक वर्ष की ड्यूटी के लिए एक महीना घटा देना चाहिये",
+      "विवशता के मामलों में प्रत्येक दो वर्ष के लिए एक महीना बढ़ाना"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P151-P160",
+    "chapter": "14 - Leave Encashment",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "दीर्घावकाश",
+      "अवकाश गणना",
+      "विभागीय नियम"
+    ]
+  },
+  {
+    "id": "fhb2_14_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 83",
+    "title": "विशेष विकलांगता अवकाश",
+    "summary": "सरकारी कर्त्तव्यों के दौरान चोट या विकलांगता के कारण विशेष अवकाश की व्यवस्था",
+    "key_provisions": [
+      "चिकित्सीय परिषद् के प्रमाण-पत्र पर अधिकतम 24 महीने तक",
+      "पहले चार महीने औसत वेतन, शेष अर्द्ध औसत वेतन",
+      "पेंशन के लिए ड्यूटी माना जाएगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P151-P160",
+    "chapter": "14 - Leave Encashment",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "विकलांगता अवकाश",
+      "चिकित्सा अवकाश",
+      "विशेष छुट्टी"
+    ]
+  },
+  {
+    "id": "fhb2_14_004",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 83-क",
+    "title": "संयोगवश चोट के लिए विशेष विकलांगता अवकाश",
+    "summary": "सरकारी कर्त्तव्यों के दौरान संयोगवश चोट या बीमारी के लिए विशेष अवकाश की व्यवस्था",
+    "key_provisions": [
+      "चिकित्सा-बोर्ड द्वारा प्रमाणित होना आवश्यक",
+      "आपवादिक परिस्थितियों में ही स्वीकृत",
+      "औसत वेतन पर अधिकतम चार माह या 120 दिन"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P151-P160",
+    "chapter": "14 - Leave Encashment",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "संयोगवश चोट",
+      "विकलांगता अवकाश",
+      "चिकित्सा प्रमाण"
+    ]
+  },
+  {
+    "id": "fhb2_14_005",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 83-ख",
+    "title": "विशेष विकलांगता अवकाश में समुद्र यात्रा किराया",
+    "summary": "1936 से पूर्व नियुक्त कर्मचारियों को विशेष विकलांगता अवकाश में समुद्र यात्रा की सुविधा",
+    "key_provisions": [
+      "एशिया से अन्यत्र अधिवास वाले कर्मचारियों के लिए",
+      "इंग्लैण्ड या यूरोप के बन्दरगाह तक यात्रा",
+      "पत्नी और बच्चों के लिए भी यात्रा किराया"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P151-P160",
+    "chapter": "14 - Leave Encashment",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "समुद्र यात्रा",
+      "विकलांगता अवकाश",
+      "यात्रा भत्ता"
+    ]
+  },
+  {
+    "id": "fhb2_14_006",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 84",
+    "title": "अध्ययन अवकाश",
+    "summary": "वैज्ञानिक, प्राविधिक समस्याओं के अध्ययन या विशेष पाठ्यक्रम के लिए अवकाश",
+    "key_provisions": [
+      "राज्यपाल द्वारा निर्धारित शर्तों पर स्वीकृत",
+      "अवकाश-लेखे से नहीं घटाया जाता",
+      "वैज्ञानिक या प्राविधिक अध्ययन के लिए"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P151-P160",
+    "chapter": "14 - Leave Encashment",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अध्ययन अवकाश",
+      "प्रशिक्षण",
+      "शैक्षणिक छुट्टी"
+    ]
+  },
+  {
+    "id": "fhb2_14_007",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 85",
+    "title": "असाधारण अवकाश",
+    "summary": "विशेष परिस्थितियों में बिना वेतन के असाधारण अवकाश की व्यवस्था",
+    "key_provisions": [
+      "जब कोई अन्य अवकाश देय न हो",
+      "अवकाश-लेखे से नहीं घटाया जाता",
+      "कोई अवकाश वेतन देय नहीं होता"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P151-P160",
+    "chapter": "14 - Leave Encashment",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "असाधारण अवकाश",
+      "बिना वेतन छुट्टी",
+      "विशेष परिस्थिति"
+    ]
+  },
+  {
+    "id": "fhb2_14_008",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "सेवानिवृत्ति पर अवकाश एन्कैशमेंट की मूल व्यवस्था",
+    "summary": "अधिवर्षता पर सेवानिवृत्त होने वाले कर्मचारियों को 180 दिन तक अर्जित अवकाश का नकद भुगतान",
+    "key_provisions": [
+      "अधिकतम 180 दिन तक सीमित",
+      "एकमुश्त भुगतान",
+      "अवकाश वेतन और महंगाई भत्ता सहित"
+    ],
+    "file_number": "जी-4-1002/दस-200-77",
+    "date": "26-04-1978",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-4",
+    "court_case": null,
+    "page_range": "P151-P160",
+    "chapter": "14 - Leave Encashment",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अवकाश एन्कैशमेंट",
+      "सेवानिवृत्ति",
+      "नकद भुगतान"
+    ]
+  },
+  {
+    "id": "fhb2_14_009",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "पेंशनरी समतुल्य कटौती का निरसन",
+    "summary": "अवकाश एन्कैशमेंट में से पेंशन तथा अन्य नैवृत्तिक लाभों के पेंशनरी समतुल्य की कटौती समाप्त",
+    "key_provisions": [
+      "पेंशनरी समतुल्य की कटौती नहीं की जायेगी",
+      "30 सितम्बर 1977 से प्रभावी",
+      "पूर्व आदेश का प्रस्तर (iv) निरस्त"
+    ],
+    "file_number": "सामान्य-4-1939/दस-200-77",
+    "date": "10-01-1979",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-4",
+    "court_case": null,
+    "page_range": "P151-P160",
+    "chapter": "14 - Leave Encashment",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "पेंशनरी कटौती",
+      "अवकाश एन्कैशमेंट",
+      "संशोधन"
+    ]
+  },
+  {
+    "id": "fhb2_14_010",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "अवकाश एन्कैशमेंट का विस्तार - विभिन्न सेवा समाप्ति स्थितियां",
+    "summary": "निलम्बन, अनिवार्य सेवानिवृत्ति, स्वैच्छिक सेवानिवृत्ति, सेवा समाप्ति आदि स्थितियों में अवकाश एन्कैशमेंट",
+    "key_provisions": [
+      "निलम्बनाधीन सेवानिवृत्ति में सुविधा",
+      "अनिवार्य/स्वैच्छिक सेवानिवृत्ति में 180 दिन सीमा",
+      "त्यागपत्र में 90 दिन की आधी सीमा"
+    ],
+    "file_number": "सा-4-1687/दस-83-100-77 टी०सी०",
+    "date": "25-07-1983",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-4",
+    "court_case": null,
+    "page_range": "P151-P160",
+    "chapter": "14 - Leave Encashment",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "सेवा समाप्ति",
+      "अवकाश एन्कैशमेंट",
+      "विस्तारित सुविधा"
+    ]
+  }
+]

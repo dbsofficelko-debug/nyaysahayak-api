@@ -1,0 +1,407 @@
+[
+  {
+    "id": "fhb2_23_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 92",
+    "title": "संदिग्ध मामलों में चिकित्सा समिति द्वारा व्यावसायिक निरीक्षण",
+    "summary": "संदिग्ध मामलों में चिकित्सा समिति आवेदक को 14 दिन तक व्यावसायिक निरीक्षण के लिए रोक सकती है।",
+    "key_provisions": [
+      "चिकित्सा समिति आवेदक को 14 दिन तक व्यावसायिक निरीक्षण के लिए रोक सकती है",
+      "प्रमाण-पत्र देने या इन्कार करने के पूर्व निरीक्षण आवश्यक"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P251-P260",
+    "chapter": "Chapter 23 - Grant Departure Return Payment Leave Salary",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "चिकित्सा समिति",
+      "व्यावसायिक निरीक्षण",
+      "अवकाश"
+    ]
+  },
+  {
+    "id": "fhb2_23_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 93",
+    "title": "असुविधा की स्थिति में वैकल्पिक चिकित्सीय प्रमाण-पत्र",
+    "summary": "यदि आवेदक को चिकित्सा समिति के समक्ष उपस्थित होने में असुविधा हो तो वैकल्पिक प्रमाण-पत्र स्वीकार किए जा सकते हैं।",
+    "key_provisions": [
+      "दो कमीशण्ड चिकित्सा अधिकारियों द्वारा हस्ताक्षरित प्रमाण-पत्र",
+      "जिला अधिकारी या आयुक्त द्वारा प्रतिहस्ताक्षरित प्रमाण-पत्र"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P251-P260",
+    "chapter": "Chapter 23 - Grant Departure Return Payment Leave Salary",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "चिकित्सीय प्रमाण-पत्र",
+      "वैकल्पिक प्रक्रिया",
+      "असुविधा"
+    ]
+  },
+  {
+    "id": "fhb2_23_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "note",
+    "rule_number": "नियम 93 टिप्पणी",
+    "title": "तीन महीने से अधिक अवकाश में स्वस्थता प्रमाण-पत्र की आवश्यकता",
+    "summary": "तीन महीने से अधिक अवकाश में प्रमाण-पत्र में यह उल्लेख होगा कि ड्यूटी पर लौटने के पूर्व दूसरी चिकित्सा समिति के समक्ष उपस्थित होना है या नहीं।",
+    "key_provisions": [
+      "तीन महीने से अधिक अवकाश में विशेष उल्लेख आवश्यक",
+      "दूसरी चिकित्सा समिति की आवश्यकता का निर्धारण"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P251-P260",
+    "chapter": "Chapter 23 - Grant Departure Return Payment Leave Salary",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अवकाश अवधि",
+      "स्वस्थता प्रमाण-पत्र",
+      "चिकित्सा समिति"
+    ]
+  },
+  {
+    "id": "fhb2_23_004",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 94",
+    "title": "चिकित्सीय प्रमाण-पत्र के प्रपत्र",
+    "summary": "नियम 93 के अंतर्गत प्रमाण-पत्रों के निर्धारित प्रपत्र और प्रतिहस्ताक्षर की आवश्यकताएं।",
+    "key_provisions": [
+      "असुविधा प्रमाणित करने का निर्धारित प्रपत्र",
+      "चिकित्सीय राय के लिए निर्धारित प्रपत्र"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P251-P260",
+    "chapter": "Chapter 23 - Grant Departure Return Payment Leave Salary",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "प्रपत्र",
+      "चिकित्सीय प्रमाण-पत्र",
+      "प्रतिहस्ताक्षर"
+    ]
+  },
+  {
+    "id": "fhb2_23_005",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 95",
+    "title": "अराजपत्रित कर्मचारियों के चिकित्सीय प्रमाण-पत्र",
+    "summary": "प्रवर सेवा में अराजपत्रित सरकारी कर्मचारियों के लिए निबंधित चिकित्सक या सरकारी चिकित्सा अधिकारी द्वारा निर्धारित प्रपत्र पर प्रमाण-पत्र।",
+    "key_provisions": [
+      "निबंधित चिकित्सक या सरकारी चिकित्सा अधिकारी का प्रमाण-पत्र",
+      "रोग का विस्तृत विवरण और अवधि की आवश्यकता"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P251-P260",
+    "chapter": "Chapter 23 - Grant Departure Return Payment Leave Salary",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अराजपत्रित कर्मचारी",
+      "चिकित्सीय प्रमाण-पत्र",
+      "प्रवर सेवा"
+    ]
+  },
+  {
+    "id": "fhb2_23_006",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 96",
+    "title": "दूसरा चिकित्सीय परामर्श",
+    "summary": "एक महीने से अधिक अवकाश या निश्चित चोट के मामलों में दूसरा चिकित्सीय परामर्श आवश्यक है।",
+    "key_provisions": [
+      "एक महीने से अधिक अवकाश में दूसरा परामर्श अनिवार्य",
+      "महिला कर्मचारियों के लिए विशेष व्यवस्था"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P251-P260",
+    "chapter": "Chapter 23 - Grant Departure Return Payment Leave Salary",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "दूसरा चिकित्सीय परामर्श",
+      "महिला कर्मचारी",
+      "अवकाश अवधि"
+    ]
+  },
+  {
+    "id": "fhb2_23_007",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "amendment",
+    "rule_number": "नियम 96(ख) संशोधन",
+    "title": "दूसरे चिकित्सीय परामर्श संबंधी संशोधन",
+    "summary": "बीमारी के मामलों में दूसरे चिकित्सीय परामर्श की आवश्यकता और स्वीकृतकर्ता प्राधिकारी की शिथिलीकरण शक्ति।",
+    "key_provisions": [
+      "एक मास से अधिक छुट्टी में दोबारा चिकित्सीय राय आवश्यक",
+      "स्वीकृतकर्ता प्राधिकारी नियम शिथिल कर सकता है"
+    ],
+    "file_number": "सा-4-2283/दस-81-200-81",
+    "date": "14-12-1981",
+    "issuing_authority": "उत्तर प्रदेश सरकार",
+    "court_case": null,
+    "page_range": "P251-P260",
+    "chapter": "Chapter 23 - Grant Departure Return Payment Leave Salary",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "संशोधन",
+      "चिकित्सीय परामर्श",
+      "शिथिलीकरण"
+    ]
+  },
+  {
+    "id": "fhb2_23_008",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 97",
+    "title": "चिकित्सीय प्रमाण-पत्र से अवकाश का अधिकार नहीं",
+    "summary": "चिकित्सीय प्रमाण-पत्र रखने से ही सरकारी कर्मचारी को अवकाश का अधिकार नहीं मिलता, स्वीकृत करने वाले प्राधिकारी के आदेश की प्रतीक्षा करनी चाहिए।",
+    "key_provisions": [
+      "प्रमाण-पत्र से स्वतः अवकाश का अधिकार नहीं",
+      "स्वीकृत करने वाले प्राधिकारी के आदेश की प्रतीक्षा आवश्यक"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P251-P260",
+    "chapter": "Chapter 23 - Grant Departure Return Payment Leave Salary",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अवकाश अधिकार",
+      "प्राधिकारी आदेश",
+      "चिकित्सीय प्रमाण-पत्र"
+    ]
+  },
+  {
+    "id": "fhb2_23_009",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 98",
+    "title": "निम्न श्रेणी कर्मचारियों की प्रक्रिया",
+    "summary": "निम्न श्रेणी के अराजपत्रित सरकारी कर्मचारियों के लिए स्वीकृत करने वाले प्राधिकारी जिस प्रकार के प्रमाण-पत्र को पर्याप्त समझें स्वीकार कर सकते हैं।",
+    "key_provisions": [
+      "निम्न श्रेणी कर्मचारियों के लिए लचीली प्रक्रिया",
+      "स्वीकृत करने वाले प्राधिकारी का विवेकाधिकार"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P251-P260",
+    "chapter": "Chapter 23 - Grant Departure Return Payment Leave Salary",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "निम्न श्रेणी कर्मचारी",
+      "लचीली प्रक्रिया",
+      "विवेकाधिकार"
+    ]
+  },
+  {
+    "id": "fhb2_23_010",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 99",
+    "title": "अवकाश प्रदान करने के सिद्धांत",
+    "summary": "जब सभी आवेदन-पत्रों को जनहित में स्वीकार न किया जा सके तो निर्णय के लिए विचारणीय कारक।",
+    "key_provisions": [
+      "सरकारी कर्मचारी जिनके बिना काम चल सकता है",
+      "पिछले अवकाश से लौटने के बाद की सेवा अवधि"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P251-P260",
+    "chapter": "Chapter 23 - Grant Departure Return Payment Leave Salary",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अवकाश प्राथमिकता",
+      "जनहित",
+      "सेवा आवश्यकता"
+    ]
+  },
+  {
+    "id": "fhb2_23_011",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 99-क",
+    "title": "औसत वेतन अवकाश की पुनरावृत्ति पर प्रतिबंध",
+    "summary": "औसत वेतन के अवकाश से लौटने के तीन महीने के भीतर दूसरी बार अवकाश प्रदान नहीं किया जाना चाहिए।",
+    "key_provisions": [
+      "तीन महीने की अवधि के भीतर दूसरा अवकाश प्रतिबंधित",
+      "असाधारण परिस्थितियों में छूट संभव"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P251-P260",
+    "chapter": "Chapter 23 - Grant Departure Return Payment Leave Salary",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "औसत वेतन अवकाश",
+      "पुनरावृत्ति प्रतिबंध",
+      "असाधारण परिस्थितियां"
+    ]
+  },
+  {
+    "id": "fhb2_23_012",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 100",
+    "title": "स्थायी अक्षमता की स्थिति में अवकाश",
+    "summary": "जब चिकित्सा समिति कहे कि सरकारी कर्मचारी की ड्यूटी पर लौटने की कोई आशा नहीं है तो भी निर्धारित शर्तों पर अवकाश दिया जा सकता है।",
+    "key_provisions": [
+      "12 महीने तक का अवकाश स्वीकृत किया जा सकता है",
+      "स्थायी अक्षमता में 6 महीने तक अतिरिक्त अवकाश"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P251-P260",
+    "chapter": "Chapter 23 - Grant Departure Return Payment Leave Salary",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "स्थायी अक्षमता",
+      "चिकित्सा समिति",
+      "विशेष अवकाश"
+    ]
+  },
+  {
+    "id": "fhb2_23_013",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 101",
+    "title": "दुराचरण के मामले में अवकाश प्रतिबंध",
+    "summary": "दुराचरण या सामान्य अदक्षता के कारण विमुक्त या पृथक करने वाले सरकारी कर्मचारी को अवकाश स्वीकृत नहीं करना चाहिए।",
+    "key_provisions": [
+      "दुराचरण के मामले में अवकाश प्रतिबंधित",
+      "विभागीय जांच के दौरान अवकाश नहीं"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P251-P260",
+    "chapter": "Chapter 23 - Grant Departure Return Payment Leave Salary",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "दुराचरण",
+      "विभागीय जांच",
+      "अवकाश प्रतिबंध"
+    ]
+  },
+  {
+    "id": "fhb2_23_014",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 111",
+    "title": "यूनाइटेड किंगडम में पहुंचने की रिपोर्ट",
+    "summary": "संयुक्त राज्य, इंग्लैंड में अवकाश लेने वाले सरकारी कर्मचारी को उस देश में अपने पहुंचने की रिपोर्ट भारत के उच्चायुक्त को करनी चाहिए।",
+    "key_provisions": [
+      "इंग्लैंड पहुंचने पर उच्चायुक्त को रिपोर्ट आवश्यक",
+      "अवकाश पर विदेश जाने वाले कर्मचारियों के लिए अनिवार्य"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P251-P260",
+    "chapter": "Chapter 23 - Grant Departure Return Payment Leave Salary",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "विदेश अवकाश",
+      "उच्चायुक्त",
+      "रिपोर्ट"
+    ]
+  },
+  {
+    "id": "fhb2_23_015",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 112",
+    "title": "होम ट्रेजरी से अवकाश वेतन भुगतान की शर्त",
+    "summary": "कोई भी सरकारी कर्मचारी होम ट्रेजरी से तब तक अवकाश वेतन नहीं ले सकता जब तक उसने उच्चायुक्त को निर्धारित प्रपत्र में अवकाश वेतन का प्रमाण-पत्र प्रस्तुत न कर दिया हो।",
+    "key_provisions": [
+      "प्रपत्र 2 में अवकाश वेतन प्रमाण-पत्र आवश्यक",
+      "उच्चायुक्त को प्रस्तुत करना अनिवार्य"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P251-P260",
+    "chapter": "Chapter 23 - Grant Departure Return Payment Leave Salary",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "होम ट्रेजरी",
+      "अवकाश वेतन",
+      "प्रमाण-पत्र"
+    ]
+  }
+]

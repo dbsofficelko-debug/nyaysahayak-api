@@ -1,0 +1,197 @@
+[
+  {
+    "id": "fhb2_32_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नमूना अनुबन्ध प्रपत्र संख्या 3",
+    "title": "सेवा को अनिश्चित अवधि के लिए बढ़ाने हेतु अनुबन्ध-पत्र",
+    "summary": "उत्तर प्रदेश सरकार के कर्मचारियों की सेवा अवधि बढ़ाने के लिए मानक अनुबन्ध प्रपत्र जिसमें सेवा शर्तें, वेतन और सेवा समाप्ति के नियम निर्धारित हैं।",
+    "key_provisions": [
+      "प्रथम पक्ष अपने सरकार के आदेशों तथा उन अधिकारियों के अधीन प्रस्तुत करेगा",
+      "वह सरकार के सेवा में अट्ठावन वर्ष की आयु तक बना रहेगा और तत्पश्चात् निवृत्त होगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P341-P350",
+    "chapter": "32 - Model Agreement Form",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अनुबन्ध",
+      "सेवा विस्तार",
+      "सेवा शर्तें"
+    ]
+  },
+  {
+    "id": "fhb2_32_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "सेवा समाप्ति के नियम",
+    "summary": "सरकारी कर्मचारी की सेवा समाप्त करने के चार मुख्य तरीके - अक्षमता, स्वास्थ्य कारण, दुराचरण और पारस्परिक सहमति से।",
+    "key_provisions": [
+      "सरकार द्वारा तीन कैलेण्डर मास की लिखित सूचना देकर अक्षमता के आधार पर",
+      "बिना पूर्व सूचना के स्वास्थ्य कारणों से सेवा समाप्ति",
+      "दुराचरण या अवज्ञा के लिए तत्काल सेवा समाप्ति"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P341-P350",
+    "chapter": "32 - Model Agreement Form",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "सेवा समाप्ति",
+      "नोटिस",
+      "दुराचरण"
+    ]
+  },
+  {
+    "id": "fhb2_32_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "वेतन और भत्ते की व्यवस्था",
+    "summary": "अनुबन्धित कर्मचारी को मूल वेतन, यात्रा भत्ता, चिकित्सा सुविधा और भविष्य निधि की सुविधा प्रदान करने के नियम।",
+    "key_provisions": [
+      "समय-समय पर प्रचलित नियमों के अधीन मूल वेतन मिलेगा",
+      "यात्रा-भत्ता उत्तर प्रदेश वित्तीय नियम संग्रह के अनुसार",
+      "उत्तर प्रदेश अंशदायी भविष्य निर्वाह निधि में अभिदान की अनुमति"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P341-P350",
+    "chapter": "32 - Model Agreement Form",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वेतन",
+      "भत्ते",
+      "भविष्य निधि"
+    ]
+  },
+  {
+    "id": "fhb2_32_004",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "अवकाश नकदीकरण संबंधी शासनादेश",
+    "summary": "द्वितीय उत्तर प्रदेश वेतन आयोग की संस्तुतियों के आधार पर अर्जित अवकाश के नकदीकरण की सुविधा के नियम।",
+    "key_provisions": [
+      "2,900 रु० प्रतिमाह तक वेतन वालों को 30 दिन का नकदीकरण",
+      "2,900 रु० से अधिक वेतन वालों को 15 दिन का नकदीकरण",
+      "नकदीकरण के बाद कम से कम 60 दिन का अवकाश शेष रहना आवश्यक"
+    ],
+    "file_number": "सा-4-1905/दस-81-202-70",
+    "date": "30-10-1981",
+    "issuing_authority": "विशेष सचिव, उत्तर प्रदेश सरकार (वित्त सामान्य)",
+    "court_case": null,
+    "page_range": "P341-P350",
+    "chapter": "32 - Model Agreement Form",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अवकाश नकदीकरण",
+      "वेतन आयोग",
+      "अर्जित अवकाश"
+    ]
+  },
+  {
+    "id": "fhb2_32_005",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "अवकाश नकदीकरण की शर्तें",
+    "summary": "अर्जित अवकाश के नकदीकरण के लिए पात्रता, प्रक्रिया और भुगतान की विस्तृत शर्तें निर्धारित करने वाले नियम।",
+    "key_provisions": [
+      "एक कैलेण्डर वर्ष में केवल एक बार नकदीकरण की सुविधा",
+      "सेवानिवृत्ति से 30/15 दिन पहले यह सुविधा अनुमन्य नहीं",
+      "अवकाश वेतन, महंगाई भत्ता देय किन्तु मकान किराया भत्ता नहीं"
+    ],
+    "file_number": null,
+    "date": "29-09-1981",
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P341-P350",
+    "chapter": "32 - Model Agreement Form",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "नकदीकरण शर्तें",
+      "पात्रता",
+      "भुगतान नियम"
+    ]
+  },
+  {
+    "id": "fhb2_32_006",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "विदेश में अवकाश संबंधी दिशा-निर्देश",
+    "summary": "भारत से बाहर अवकाश पर जाने वाले सरकारी कर्मचारियों के लिए पथ-प्रदर्शन हेतु विस्तृत सूचना और नियम।",
+    "key_provisions": [
+      "जहाज पर सवार होने की तिथि की रिपोर्ट देना आवश्यक",
+      "अवकाश वेतन प्रमाण-पत्र या औपनिवेशिक वारण्ट प्राप्त करना",
+      "इंग्लैंड पहुंचने पर उच्चायुक्त को तुरंत सूचना देना"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P341-P350",
+    "chapter": "32 - Model Agreement Form",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "विदेश अवकाश",
+      "रिपोर्टिंग",
+      "उच्चायुक्त"
+    ]
+  },
+  {
+    "id": "fhb2_32_007",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "अवकाश प्रसारण और वापसी के नियम",
+    "summary": "विदेश में अवकाश के दौरान अवकाश बढ़ाने, रूपान्तरण और ड्यूटी पर वापसी के लिए आवश्यक प्रक्रिया और शर्तें।",
+    "key_provisions": [
+      "अवकाश समाप्ति के तीन महीने पूर्व प्रसारण हेतु आवेदन",
+      "चिकित्सीय आधार पर प्रसारण के लिए इण्डिया आफिस की चिकित्सा परिषद् की अनुमति",
+      "ड्यूटी पर वापसी से 14 दिन पूर्व अनुमति आवश्यक"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P341-P350",
+    "chapter": "32 - Model Agreement Form",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अवकाश प्रसारण",
+      "चिकित्सा परिषद्",
+      "वापसी अनुमति"
+    ]
+  }
+]

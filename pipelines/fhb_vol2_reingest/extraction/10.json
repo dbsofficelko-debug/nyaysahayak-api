@@ -1,0 +1,431 @@
+[
+  {
+    "id": "fhb2_10_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "court_ruling",
+    "rule_number": null,
+    "title": "प्राकृतिक न्याय सिद्धान्त - मूल नियम 54 व्याख्या",
+    "summary": "न्यायालय द्वारा मूल नियम 54 के अंतर्गत कारण स्पष्ट करने का अवसर न देना प्राकृतिक न्याय के विपरीत माना गया।",
+    "key_provisions": [
+      "प्रस्तावित कार्य के विरुद्ध कारण स्पष्ट करने का अवसर नहीं दिया जाता है तो आदेश खण्डनीय है",
+      "मूल नियम 54 न्याय और उचित कार्य की आधारभूत विचारधारा के अनुसार कार्य करने का उत्तरदायित्व"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": "न्यायाधीशों (lordships) का निर्णय",
+    "page_range": "P101-P110",
+    "chapter": "10 - Suspension Compulsory Retirement",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "प्राकृतिक न्याय",
+      "मूल नियम 54",
+      "न्यायालय निर्णय"
+    ]
+  },
+  {
+    "id": "fhb2_10_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "मूल नियम 55",
+    "title": "निलम्बित सरकारी कर्मचारी को अवकाश निषेध",
+    "summary": "निलम्बित सरकारी कर्मचारी को अवकाश नहीं दिया जा सकेगा।",
+    "key_provisions": [
+      "निलम्बित सरकारी कर्मचारी को अवकाश नहीं दिया जा सकेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P101-P110",
+    "chapter": "10 - Suspension Compulsory Retirement",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "निलम्बन",
+      "अवकाश निषेध"
+    ]
+  },
+  {
+    "id": "fhb2_10_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "आपराधिक अभियोजन के दौरान अनुशासनिक कार्यवाही",
+    "summary": "विधि न्यायालय में अभियोग चलने के दौरान भी अनुशासनिक कार्यवाही की जा सकती है।",
+    "key_provisions": [
+      "आपराधिक अभियोजन का क्षेत्र दुराचार हेतु विभागीय जाँच से भिन्न है",
+      "न्यायालय कार्यवाही से अनुशासनिक कार्यवाही पर रोक नहीं लगती"
+    ],
+    "file_number": "17-1-69-नियुक्ति (ख)",
+    "date": "06-06-1969",
+    "issuing_authority": "उत्तर प्रदेश शासन",
+    "court_case": "एस० वेंकट रमन बनाम यूनियन ऑफ इण्डिया [ए० आई० आर० 1954 एस० सी० 375]",
+    "page_range": "P101-P110",
+    "chapter": "10 - Suspension Compulsory Retirement",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अनुशासनिक कार्यवाही",
+      "आपराधिक अभियोजन",
+      "सुप्रीम कोर्ट"
+    ]
+  },
+  {
+    "id": "fhb2_10_004",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "पुलिस कर्मचारियों हेतु विशेष प्रावधान",
+    "summary": "पुलिस ऐक्ट की धारा 7 से शासित पुलिस कर्मचारियों के लिए फौजदारी मुकदमे के साथ विभागीय कार्यवाही नहीं हो सकती।",
+    "key_provisions": [
+      "पुलिस ऐक्ट की धारा 7 से शासित पुलिस कर्मचारियों के खिलाफ फौजदारी मुकदमे के साथ विभागीय कार्यवाही नहीं की जा सकती"
+    ],
+    "file_number": "17/1/69-नियुक्ति-3",
+    "date": "01-07-1973",
+    "issuing_authority": "उत्तर प्रदेश शासन",
+    "court_case": null,
+    "page_range": "P101-P110",
+    "chapter": "10 - Suspension Compulsory Retirement",
+    "applicable_to": [
+      "UP Police Personnel"
+    ],
+    "tags": [
+      "पुलिस कर्मचारी",
+      "पुलिस ऐक्ट",
+      "विभागीय कार्यवाही"
+    ]
+  },
+  {
+    "id": "fhb2_10_005",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "दण्ड निर्धारण में पिछले रिकार्ड का विचार",
+    "summary": "दण्ड की मात्रा निश्चित करने के लिए पिछले रिकार्ड पर विचार हेतु शो-काज नोटिस में उल्लेख पर्याप्त है।",
+    "key_provisions": [
+      "दण्ड की मात्रा निश्चित करने के लिये पिछले रिकार्ड पर विचार का उल्लेख शो-काज नोटिस में पर्याप्त",
+      "आरोप-पत्र में स्पष्ट आरोप सम्मिलित करना आवश्यक नहीं"
+    ],
+    "file_number": "17/6/1968-नियुक्ति (3)",
+    "date": "26-07-1973",
+    "issuing_authority": "उत्तर प्रदेश शासन",
+    "court_case": null,
+    "page_range": "P101-P110",
+    "chapter": "10 - Suspension Compulsory Retirement",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "दण्ड निर्धारण",
+      "पिछला रिकार्ड",
+      "शो-काज नोटिस"
+    ]
+  },
+  {
+    "id": "fhb2_10_006",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "राजकीय कर्मचारियों के साथ न्यायसंगत व्यवहार",
+    "summary": "प्रोन्नति, स्थायीकरण आदि में विलम्ब न हो तथा स्थानान्तरण आदेश का अनुपालन सुनिश्चित हो।",
+    "key_provisions": [
+      "प्रोन्नति एवं आर्थिक लाभ का काम निष्पक्षता एवं सद्भाव के आधार पर समय से पूरा हो",
+      "स्थानान्तरण आदेश के पश्चात् अवकाश स्वीकृत न किया जाए"
+    ],
+    "file_number": "25168-223/12-542-ए/73",
+    "date": "21-09-1974",
+    "issuing_authority": "उत्तर प्रदेश परिषद",
+    "court_case": null,
+    "page_range": "P101-P110",
+    "chapter": "10 - Suspension Compulsory Retirement",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "प्रोन्नति",
+      "स्थानान्तरण",
+      "न्यायसंगत व्यवहार"
+    ]
+  },
+  {
+    "id": "fhb2_10_007",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "निलम्बन आदेश का संशोधित प्रारूप",
+    "summary": "निलम्बन आदेश के लिए संशोधित प्रारूप जिसमें जीवन-निर्वाह भत्ते और अन्य प्रतिकर भत्तों का विवरण।",
+    "key_provisions": [
+      "जीवन-निर्वाह भत्ते की धनराशि अर्द्ध वेतन पर देय वेतन राशि के बराबर",
+      "अन्य सेवायोजन न करने का प्रमाण-पत्र आवश्यक"
+    ],
+    "file_number": "कार्मिक-24/38/1976 संख्या-1",
+    "date": "13-08-1976",
+    "issuing_authority": "उत्तर प्रदेश शासन",
+    "court_case": null,
+    "page_range": "P101-P110",
+    "chapter": "10 - Suspension Compulsory Retirement",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "निलम्बन आदेश",
+      "जीवन-निर्वाह भत्ता",
+      "प्रारूप"
+    ]
+  },
+  {
+    "id": "fhb2_10_008",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "एक ही घटना से संबंधित जाँच की एकरूपता",
+    "summary": "एक ही घटना से संबंधित कई अधिकारियों की जाँच एक ही अधिकारी द्वारा पूर्ण की जानी चाहिए।",
+    "key_provisions": [
+      "एक ही घटना से संबंधित सभी अधिकारियों की जाँच एक ही अधिकारी द्वारा हो",
+      "समय न होने के कारण अधूरी जाँच उचित नहीं"
+    ],
+    "file_number": "7/2-1977-कार्मिक-1",
+    "date": "28-02-1977",
+    "issuing_authority": "उत्तर प्रदेश शासन",
+    "court_case": null,
+    "page_range": "P101-P110",
+    "chapter": "10 - Suspension Compulsory Retirement",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "जाँच अधिकारी",
+      "एकरूप जाँच",
+      "घटना आधारित"
+    ]
+  },
+  {
+    "id": "fhb2_10_009",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "जाँच में सहायक अधिकारी की उपस्थिति",
+    "summary": "सार्वजनिक निर्माण विभाग में जाँच हेतु नियुक्त सहायक अधिकारी निर्धारित तिथियों पर उपस्थित होना आवश्यक।",
+    "key_provisions": [
+      "सहायक अधिकारियों का दायित्व निर्धारित तिथियों पर जाँच अधिकारी के सहयोग हेतु उपस्थित होना",
+      "जाँच शीघ्र से शीघ्र समाप्त की जाए"
+    ],
+    "file_number": "2663/23-6-71-ई०एम०/82",
+    "date": "27-04-1983",
+    "issuing_authority": "उत्तर प्रदेश शासन",
+    "court_case": null,
+    "page_range": "P101-P110",
+    "chapter": "10 - Suspension Compulsory Retirement",
+    "applicable_to": [
+      "PWD Officers/Staff"
+    ],
+    "tags": [
+      "सार्वजनिक निर्माण विभाग",
+      "जाँच सहयोग",
+      "सहायक अधिकारी"
+    ]
+  },
+  {
+    "id": "fhb2_10_010",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "निलम्बन मामलों का शीघ्र निस्तारण",
+    "summary": "निलम्बन के साथ ही आरोप-पत्र तामील किया जाए तथा 6 माह बाद भी आरोप-पत्र न मिले तो सेवा में पदारूढ़ करें।",
+    "key_provisions": [
+      "निलम्बन के साथ ही आरोप-पत्र तामील किया जाये",
+      "6 माह पूरी होने के बाद आरोप-पत्र न मिले तो तत्काल सेवा में पदारूढ़ करें"
+    ],
+    "file_number": "7/2/कार्मिक-1",
+    "date": "31-03-1984",
+    "issuing_authority": "उत्तर प्रदेश शासन",
+    "court_case": null,
+    "page_range": "P101-P110",
+    "chapter": "10 - Suspension Compulsory Retirement",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "निलम्बन",
+      "आरोप-पत्र",
+      "शीघ्र निस्तारण"
+    ]
+  },
+  {
+    "id": "fhb2_10_011",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "मूल नियम 56",
+    "title": "अनिवार्य सेवानिवृत्ति - साठ वर्ष की आयु",
+    "summary": "प्रत्येक सरकारी सेवक साठ वर्ष की आयु प्राप्त करने वाले मास के अन्तिम दिन सेवानिवृत्त होगा।",
+    "key_provisions": [
+      "साठ वर्ष की आयु प्राप्त करने वाले मास के अन्तिम दिन अपरान्ह में सेवानिवृत्त होगा",
+      "जन्मतिथि मास के प्रथम दिवस हो तो पूर्ववर्ती मास के अन्तिम दिवस सेवानिवृत्त होगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P101-P110",
+    "chapter": "10 - Suspension Compulsory Retirement",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "सेवानिवृत्ति",
+      "साठ वर्ष आयु",
+      "अनिवार्य"
+    ]
+  },
+  {
+    "id": "fhb2_10_012",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "sub_rule",
+    "rule_number": "मूल नियम 56 खण्ड (क-1)",
+    "title": "सेवा विस्तार की सीमा",
+    "summary": "सेवानिवृत्ति की आयु के आगे सात वर्ष से अधिक सेवा विस्तार नहीं दिया जाएगा।",
+    "key_provisions": [
+      "सेवानिवृत्ति की आयु के आगे सात वर्ष से अधिक सेवा विस्तार नहीं",
+      "लोकहित में अनधिक तीन मास की अवधि के लिए विस्तार संभव"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P101-P110",
+    "chapter": "10 - Suspension Compulsory Retirement",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "सेवा विस्तार",
+      "सात वर्ष सीमा",
+      "लोकहित"
+    ]
+  },
+  {
+    "id": "fhb2_10_013",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "sub_rule",
+    "rule_number": "मूल नियम 56 खण्ड (ग)",
+    "title": "अनिवार्य सेवानिवृत्ति - पचास वर्ष की आयु",
+    "summary": "नियुक्ति प्राधिकारी पचास वर्ष की आयु के बाद किसी भी समय सरकारी सेवक को सेवानिवृत्त कर सकता है।",
+    "key_provisions": [
+      "पचास वर्ष की आयु के पश्चात् नोटिस देकर बिना कारण बताये सेवानिवृत्त कर सकता है",
+      "पैंतालीस वर्ष की आयु के बाद स्वेच्छया सेवानिवृत्त हो सकता है"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P101-P110",
+    "chapter": "10 - Suspension Compulsory Retirement",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अनिवार्य सेवानिवृत्ति",
+      "पचास वर्ष",
+      "स्वेच्छया"
+    ]
+  },
+  {
+    "id": "fhb2_10_014",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "clarification",
+    "rule_number": "मूल नियम 56 स्पष्टीकरण (2)",
+    "title": "लोकहित में सेवानिवृत्ति के विचारणीय कारक",
+    "summary": "नियुक्ति प्राधिकारी सरकारी सेवक से सम्बद्ध किसी सुसंगत बात पर विचार कर सकता है।",
+    "key_provisions": [
+      "सरकारी सेवक से सम्बद्ध किसी सुसंगत बात पर विचार कर सकता है",
+      "दक्षता रोक पार करने या पदोन्नति से पूर्व की प्रविष्टि पर विचार अपवर्जित नहीं"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P101-P110",
+    "chapter": "10 - Suspension Compulsory Retirement",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "लोकहित",
+      "विचारणीय कारक",
+      "सुसंगत बात"
+    ]
+  },
+  {
+    "id": "fhb2_10_015",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "अनुशासनिक कार्यवाही के दौरान सेवानिवृत्ति",
+    "summary": "अनुशासनिक कार्यवाही चलने के दौरान 55 वर्ष की आयु पर सेवानिवृत्ति के नियम।",
+    "key_provisions": [
+      "विभागीय कार्यवाहियाँ चलने तक 3 महीने की नोटिस देकर सेवानिवृत्त न किया जाए",
+      "सार्वजनिक हित में कार्यवाहियों को वापस लेकर सेवानिवृत्त किया जा सकता है"
+    ],
+    "file_number": "17/7/68-नियुक्ति (ख)",
+    "date": "25-01-1969",
+    "issuing_authority": "उत्तर प्रदेश शासन",
+    "court_case": null,
+    "page_range": "P101-P110",
+    "chapter": "10 - Suspension Compulsory Retirement",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अनुशासनिक कार्यवाही",
+      "55 वर्ष",
+      "सेवानिवृत्ति"
+    ]
+  },
+  {
+    "id": "fhb2_10_016",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "स्वेच्छा सेवानिवृत्ति में अतिरिक्त सेवा लाभ",
+    "summary": "स्वेच्छा से सेवानिवृत्त होने वाले कर्मचारियों को पेन्शन हेतु पाँच वर्ष तक अतिरिक्त सेवा का लाभ।",
+    "key_provisions": [
+      "पेन्शन और उपादान के प्रयोजनार्थ पाँच वर्ष की अतिरिक्त सेवा का लाभ",
+      "चरित्र-पंजी में सत्यनिष्ठा संदिग्ध हो तो लाभ अनुमन्य नहीं"
+    ],
+    "file_number": "5/7/77 (3) / कार्मिक-1",
+    "date": "24-08-1977",
+    "issuing_authority": "उत्तर प्रदेश शासन",
+    "court_case": null,
+    "page_range": "P101-P110",
+    "chapter": "10 - Suspension Compulsory Retirement",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "स्वेच्छा सेवानिवृत्ति",
+      "अतिरिक्त सेवा लाभ",
+      "पेन्शन"
+    ]
+  }
+]

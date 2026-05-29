@@ -1,0 +1,280 @@
+[
+  {
+    "id": "fhb2_25_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 146-क",
+    "title": "अध्ययन अवकाश नियम - परिभाषा और क्षेत्र",
+    "summary": "राज्यपाल द्वारा सरकारी कर्मचारियों को वैज्ञानिक, प्राविधिक या समान समस्याओं के अध्ययन के लिए अतिरिक्त अवकाश देने हेतु बनाए गए नियम",
+    "key_provisions": [
+      "ये नियम केवल अध्ययन अवकाश से सम्बन्धित हैं",
+      "जन-स्वास्थ्य, चिकित्सा, पशुपालन, कृषि, शिक्षा, सार्वजनिक निर्माण तथा वन विभागों पर लागू"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P271-P280",
+    "chapter": "Chapter 25 - Study Leave",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अध्ययन अवकाश",
+      "वैज्ञानिक अध्ययन",
+      "प्राविधिक प्रशिक्षण"
+    ]
+  },
+  {
+    "id": "fhb2_25_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "note",
+    "rule_number": null,
+    "title": "अध्ययन अवकाश नियमों की प्रयोज्यता",
+    "summary": "ये नियम केवल राज्यपाल के नियमकारी के अधीन सरकारी कर्मचारियों पर लागू होते हैं, भारत सचिव के अधिकारियों पर नहीं",
+    "key_provisions": [
+      "केवल राज्यपाल के नियमकारी के अधीन सरकारी कर्मचारियों पर लागू",
+      "भारत सचिव के अधिकारियों पर लागू नहीं होते"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P271-P280",
+    "chapter": "Chapter 25 - Study Leave",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "प्रयोज्यता",
+      "राज्यपाल",
+      "नियमकारी"
+    ]
+  },
+  {
+    "id": "fhb2_25_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 3",
+    "title": "अध्ययन अवकाश की शर्तें और सीमाएं",
+    "summary": "अध्ययन अवकाश की अवधि, पात्रता और अन्य अवकाश के साथ संयोजन की शर्तें निर्धारित करता है",
+    "key_provisions": [
+      "पाँच वर्ष से कम सेवा वाले या सेवानिवृत्ति के तीन साल पहले वाले को नहीं मिलेगा",
+      "नियमित ड्यूटी से अनुपस्थिति 28 महीने से अधिक नहीं होनी चाहिये",
+      "एक बार में 12 महीने की अवधि साधारणतया उचित अधिकतम"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P271-P280",
+    "chapter": "Chapter 25 - Study Leave",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अवधि सीमा",
+      "पात्रता",
+      "सेवा शर्तें"
+    ]
+  },
+  {
+    "id": "fhb2_25_004",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 6",
+    "title": "अध्ययन अवकाश के लिए आवेदन प्रक्रिया",
+    "summary": "अध्ययन अवकाश के लिए प्रार्थना-पत्र प्रस्तुत करने की प्रक्रिया और आवश्यक दस्तावेज",
+    "key_provisions": [
+      "महालेखाकार के प्रमाण-पत्र के साथ विभागाध्यक्ष को प्रस्तुत करना",
+      "पाठ्यक्रम या परीक्षा का स्पष्ट उल्लेख होना चाहिए",
+      "यूरोप या अमेरिका में अध्ययन के लिए उच्चायुक्त को प्रतिलिपि भेजना"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P271-P280",
+    "chapter": "Chapter 25 - Study Leave",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "आवेदन प्रक्रिया",
+      "दस्तावेज",
+      "विभागाध्यक्ष"
+    ]
+  },
+  {
+    "id": "fhb2_25_005",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 9",
+    "title": "अध्ययन भत्ता दरें और भुगतान",
+    "summary": "विभिन्न देशों में अध्ययन के लिए निर्धारित भत्ता दरें और भुगतान की शर्तें",
+    "key_provisions": [
+      "इंग्लैण्ड में 16 शिलिंग प्रतिदिन, यूरोप महाद्वीप में 1 पौंड प्रतिदिन",
+      "संयुक्त राज्य अमेरिका में 30 शिलिंग प्रतिदिन",
+      "अध्ययन भत्ता के अतिरिक्त निर्वाह भत्ता नहीं दिया जायेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P271-P280",
+    "chapter": "Chapter 25 - Study Leave",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अध्ययन भत्ता",
+      "दरें",
+      "भुगतान"
+    ]
+  },
+  {
+    "id": "fhb2_25_006",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 13",
+    "title": "अध्ययन अवकाश की सेवा गणना",
+    "summary": "अध्ययन अवकाश की अवधि को पदोन्नति और पेंशन के लिए सेवा मानने संबंधी प्रावधान",
+    "key_provisions": [
+      "पदोन्नति तथा पेंशन के लिये तो सेवा मानी जायेगी, परन्तु अवकाश के लिये नहीं",
+      "अर्द्ध-औसत वेतन पर अतिरिक्त अवकाश गिना जायेगा",
+      "अर्द्ध औसत वेतन की अधिकतम सीमा निकालने में हिसाब में नहीं लिया जायेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P271-P280",
+    "chapter": "Chapter 25 - Study Leave",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "सेवा गणना",
+      "पदोन्नति",
+      "पेंशन"
+    ]
+  },
+  {
+    "id": "fhb2_25_007",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 14",
+    "title": "अध्ययन अवकाश में वेतन और भत्ते",
+    "summary": "अध्ययन अवकाश की अवधि में मिलने वाले वेतन और भत्तों का विवरण",
+    "key_provisions": [
+      "अर्द्ध औसत वेतन पायेगा जो नियम 89 तथा 90 की सीमा में रहेगा",
+      "औसत वेतन के अवकाश के समय अध्ययन का आरम्भ कर सकता है",
+      "सम्पूर्ण सेवा में अध्ययन अवकाश कुल 2 वर्ष से अधिक नहीं"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P271-P280",
+    "chapter": "Chapter 25 - Study Leave",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वेतन",
+      "अर्द्ध औसत वेतन",
+      "अवधि सीमा"
+    ]
+  },
+  {
+    "id": "fhb2_25_008",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "राज्यपाल के आदेश - राज्य स्वास्थ्य सेवा",
+    "summary": "राज्य स्वास्थ्य सेवा के सदस्यों के लिए विशेष अध्ययन अवकाश प्रावधान",
+    "key_provisions": [
+      "कुल एक वर्ष तक का साधारण अध्ययन अवकाश ले सकता है",
+      "तीन महीने तक का अतिरिक्त अवकाश स्नातकोत्तर पाठ्यक्रम के लिये",
+      "असाधारण अवकाश के साथ अध्ययन अवकाश लिया जा सकता है"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": "राज्यपाल",
+    "court_case": null,
+    "page_range": "P271-P280",
+    "chapter": "Chapter 25 - Study Leave",
+    "applicable_to": [
+      "State Health Service Members"
+    ],
+    "tags": [
+      "स्वास्थ्य सेवा",
+      "स्नातकोत्तर",
+      "विशेष प्रावधान"
+    ]
+  },
+  {
+    "id": "fhb2_25_009",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "उच्चायुक्त को प्रतिनिधायन",
+    "summary": "भारत के उच्चायुक्त को अध्ययन अवकाश संबंधी अधिकारों का प्रतिनिधायन",
+    "key_provisions": [
+      "यात्रा-व्यय तथा शुल्क स्वीकृत करने का अधिकार",
+      "अध्ययन भत्तों की दरें निर्धारित करने का अधिकार",
+      "असाधारण मामलों में निर्वाह भत्ता स्वीकृत करने का अधिकार"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": "राज्यपाल",
+    "court_case": null,
+    "page_range": "P271-P280",
+    "chapter": "Chapter 25 - Study Leave",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "उच्चायुक्त",
+      "प्रतिनिधायन",
+      "अधिकार"
+    ]
+  },
+  {
+    "id": "fhb2_25_010",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": "शा० आ० सं० 3125/बारह ड-540-51",
+    "title": "दीर्घावकाशी पदों की घोषणा",
+    "summary": "विभिन्न चिकित्सा शिक्षा संस्थानों के पदों को दीर्घावकाशी घोषित करने का आदेश",
+    "key_provisions": [
+      "गणेश शंकर विद्यार्थी मेडिकल कालेज के पदों को दीर्घावकाशी घोषित",
+      "प्रोफेसर, रीडर, लेक्चरर तथा डिमान्सट्रेटर के पद शामिल",
+      "सृजित होने की तिथि से दीर्घावकाशी माने गए"
+    ],
+    "file_number": "शा० आ० सं० 3125/बारह ड-540-51",
+    "date": "13-11-1957",
+    "issuing_authority": "उत्तर प्रदेश सरकार",
+    "court_case": null,
+    "page_range": "P271-P280",
+    "chapter": "Chapter 25 - Study Leave",
+    "applicable_to": [
+      "Medical College Staff"
+    ],
+    "tags": [
+      "दीर्घावकाश",
+      "चिकित्सा शिक्षा",
+      "पद घोषणा"
+    ]
+  }
+]

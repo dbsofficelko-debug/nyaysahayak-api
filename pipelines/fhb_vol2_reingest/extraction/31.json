@@ -1,0 +1,270 @@
+[
+  {
+    "id": "fhb2_31_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 28",
+    "title": "वारण्ट आधारित अवकाश वेतन आहरण हेतु प्रतिलिपि प्रस्तुतीकरण",
+    "summary": "कर्मचारी को वारण्ट के आधार पर अवकाश वेतन आहरण के लिए वारण्ट की प्रतिलिपि प्रस्तुत करनी चाहिए जो अंतिम वेतन प्रमाण-पत्र का काम करेगी।",
+    "key_provisions": [
+      "कर्मचारी जिसने वारण्ट के आधार पर अपना अवकाश वेतन आहरित किया हो, उसे उस वारण्ट की अपनी प्रतिलिपि प्रस्तुत करना चाहिये"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P331-P340",
+    "chapter": "31 - Special Service Rules Leave Account",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अवकाश वेतन",
+      "वारण्ट",
+      "प्रतिलिपि"
+    ]
+  },
+  {
+    "id": "fhb2_31_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 29",
+    "title": "रेलवे तथा सैन्य लेखा विभाग के लिए विशेष उपबंध",
+    "summary": "रेलवे अथवा सैन्य लेखा प्राधिकारी अपने विभाग के विशेष नियमों के अनुसार इन नियमों में परिवर्तन कर सकते हैं।",
+    "key_provisions": [
+      "रेलवे अथवा सैन्य लेखा प्राधिकारियों द्वारा अपने विभाग के विशेष नियमों के अनुसार परिवर्तन कर सकते हैं"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P331-P340",
+    "chapter": "31 - Special Service Rules Leave Account",
+    "applicable_to": [
+      "Railway and Military Accounts Department"
+    ],
+    "tags": [
+      "रेलवे",
+      "सैन्य लेखा",
+      "विशेष नियम"
+    ]
+  },
+  {
+    "id": "fhb2_31_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 30",
+    "title": "सैनिक अधिकारियों के फरलो की स्वीकृति पर सेवा विवरण अग्रेषण",
+    "summary": "सैनिक अधिकारी के फरलो या असैनिक सेवा में अवकाश की स्वीकृति पर लेखा अधिकारी द्वारा भारत के उच्चायुक्त को सेवा विवरण भेजा जाना।",
+    "key_provisions": [
+      "फरलो अथवा असैनिक सेवा में किसी सैनिक अधिकारी के अवकाश की स्वीकृति का आदेश निकलता है",
+      "भारत के उच्चायुक्त को ऐसे प्रपत्र में सेवा का विवरण अग्रसारित किया जायेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P331-P340",
+    "chapter": "31 - Special Service Rules Leave Account",
+    "applicable_to": [
+      "Military Officers"
+    ],
+    "tags": [
+      "सैनिक अधिकारी",
+      "फरलो",
+      "सेवा विवरण"
+    ]
+  },
+  {
+    "id": "fhb2_31_004",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 31",
+    "title": "असैनिक सेवा में सैनिक अधिकारी के अवकाश की सूचना",
+    "summary": "असैनिक सेवा में सैनिक अधिकारी को अवकाश स्वीकृत होने पर असैनिक महालेखाकार द्वारा रक्षा लेखा अधिकारी को सूचना भेजना।",
+    "key_provisions": [
+      "असैनिक महालेखाकार द्वारा उस रक्षा लेखा अधिकारी को सूचना भेजी जायेगी",
+      "फरलो या अवकाश के प्रारम्भ या अन्त के दिनांक की सूचना"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P331-P340",
+    "chapter": "31 - Special Service Rules Leave Account",
+    "applicable_to": [
+      "Military Officers in Civil Service"
+    ],
+    "tags": [
+      "असैनिक सेवा",
+      "सैनिक अधिकारी",
+      "अवकाश सूचना"
+    ]
+  },
+  {
+    "id": "fhb2_31_005",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 32",
+    "title": "अधिकारी के अवकाश से वापसी पर सैन्य लेखा अधिकारी की जिम्मेदारी",
+    "summary": "अधिकारी के अवकाश से लौटने पर सैन्य लेखा अधिकारी को यह सुनिश्चित करना कि वह अवकाश अवधि के अंदर ही ड्यूटी पर वापस आया है।",
+    "key_provisions": [
+      "सैन्य लेखा अधिकारी की यह ड्यूटी होगी कि वह अपने आपको संतुष्ट कर ले",
+      "अपने अवकाश की अवधि के अन्दर ही ड्यूटी पर वापस आ गया है"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P331-P340",
+    "chapter": "31 - Special Service Rules Leave Account",
+    "applicable_to": [
+      "Military Officers"
+    ],
+    "tags": [
+      "अवकाश वापसी",
+      "सैन्य लेखा",
+      "ड्यूटी"
+    ]
+  },
+  {
+    "id": "fhb2_31_006",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 33",
+    "title": "अवकाश लेखा रखने की व्यवस्था",
+    "summary": "विशेष और साधारण अवकाश नियमों के अंतर्गत सरकारी कर्मचारियों के अवकाश लेखे क्रमशः प्रपत्र संख्या 1 व 2 में रखे जाने का प्रावधान।",
+    "key_provisions": [
+      "सरकारी कर्मचारी जो विशेष अवकाश नियमों तथा साधारण अवकाश नियमों के अन्तर्गत हो",
+      "उनके अवकाश लेखे क्रमशः प्रपत्र संख्या 1 व 2 में रखे जायेंगे"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P331-P340",
+    "chapter": "31 - Special Service Rules Leave Account",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अवकाश लेखा",
+      "प्रपत्र",
+      "विशेष नियम"
+    ]
+  },
+  {
+    "id": "fhb2_31_007",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 34",
+    "title": "पुनरीक्षित अवकाश नियम 1933 के अंतर्गत अवकाश लेखा व्यवस्था",
+    "summary": "पुनरीक्षित अवकाश नियम 1933 से नियंत्रित कर्मचारियों के लिए अवकाश लेखे की विशेष व्यवस्था और स्थानांतरण की स्थिति में प्रक्रिया।",
+    "key_provisions": [
+      "पुनरीक्षित अवकाश नियम, 1933 से नियन्त्रित हों अवकाश लेखे उपर्युक्त पैरा में निर्धारित प्रपत्रों में रखने की आवश्यकता नहीं",
+      "सेवा-पुस्तिकाओं में प्रविष्ट किये गये विवरण अथवा सेवाओं के इतिहास या सेवा के अन्य अभिलेख"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P331-P340",
+    "chapter": "31 - Special Service Rules Leave Account",
+    "applicable_to": [
+      "Government Servants under Revised Leave Rules 1933"
+    ],
+    "tags": [
+      "पुनरीक्षित अवकाश नियम",
+      "उपार्जित अवकाश",
+      "स्थानांतरण"
+    ]
+  },
+  {
+    "id": "fhb2_31_008",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 35",
+    "title": "अराजपत्रित कर्मचारियों की सेवा पुस्तिका",
+    "summary": "प्रत्येक अराजपत्रित सरकारी कर्मचारी के लिए प्रपत्र संख्या 10 में सेवा पुस्तिका रखने और उसमें सरकारी जीवन की प्रत्येक घटना का अभिलेख रखने का नियम।",
+    "key_provisions": [
+      "प्रत्येक अराजपत्रित सरकारी कर्मचारी के लिये प्रपत्र संख्या 10 में एक सेवा पुस्तिका रखनी चाहिये",
+      "सरकारी कर्मचारी के सरकारी जीवन की प्रत्येक घटना का अभिलेख होना चाहिये"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P331-P340",
+    "chapter": "31 - Special Service Rules Leave Account",
+    "applicable_to": [
+      "Non-Gazetted Government Servants"
+    ],
+    "tags": [
+      "सेवा पुस्तिका",
+      "अराजपत्रित",
+      "प्रपत्र संख्या 10"
+    ]
+  },
+  {
+    "id": "fhb2_31_009",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 36",
+    "title": "बाह्य सेवा में स्थानांतरण पर सेवा पुस्तिका की प्रक्रिया",
+    "summary": "सरकारी कर्मचारी के बाह्य सेवा में स्थानांतरण और वापसी पर लेखा परीक्षा अधिकारी द्वारा सेवा पुस्तिका में आवश्यक प्रविष्टियों की व्यवस्था।",
+    "key_provisions": [
+      "लेखा परीक्षा अधिकारी सम्बन्धित कार्यालय अध्यक्ष अथवा विभागाध्यक्ष से सेवा-पुस्तिका प्राप्त होने पर",
+      "स्थानान्तरण स्वीकृत करने के आदेश, बाह्य सेवा की अवधि में अनुमन्य अवकाश पर उस स्थानान्तरण का प्रभाव"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P331-P340",
+    "chapter": "31 - Special Service Rules Leave Account",
+    "applicable_to": [
+      "Government Servants on Foreign Service"
+    ],
+    "tags": [
+      "बाह्य सेवा",
+      "स्थानांतरण",
+      "लेखा परीक्षा"
+    ]
+  },
+  {
+    "id": "fhb2_31_010",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "clarification",
+    "rule_number": null,
+    "title": "राज्य सेवाओं के लिए पुनरीक्षित अवकाश नियम 1936 का स्पष्टीकरण",
+    "summary": "राज्य की विशिष्ट तथा अधीनस्थ सेवाओं के सरकारी कर्मचारियों के मामलों में पुनरीक्षित अवकाश नियम 1936 का अर्थ उत्तर प्रदेश मूल नियमों के नियम 81-ख में दिए गए नियमों से है।",
+    "key_provisions": [
+      "राज्य के विशिष्ट तथा अधीनस्थ सेवाओं के सरकारी कर्मचारियों के मामलों में",
+      "उत्तर प्रदेश मूल नियमों के नियम 81-ख में दिये हुए हैं"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P331-P340",
+    "chapter": "31 - Special Service Rules Leave Account",
+    "applicable_to": [
+      "UP State Services"
+    ],
+    "tags": [
+      "पुनरीक्षित अवकाश नियम",
+      "राज्य सेवा",
+      "मूल नियम 81-ख"
+    ]
+  }
+]

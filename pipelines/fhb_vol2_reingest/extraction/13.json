@@ -1,0 +1,216 @@
+[
+  {
+    "id": "fhb2_13_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "note",
+    "rule_number": null,
+    "title": "प्रपत्र संख्या 11-घ - निजी कार्य पर अवकाश लेखा",
+    "summary": "सरकारी सेवकों के निजी कार्य पर अवकाश के लेखे का प्रपत्र और उसकी टिप्पणियाँ",
+    "key_provisions": [
+      "देय निजी कार्य पर अवकाश दिनों में व्यक्त किया जाना चाहिये",
+      "सेवा के प्रत्येक पूर्ण मास के लिये 2½ (ढाई) दिन की दर पर जमा किया जाना चाहिये"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P141-P150",
+    "chapter": "13 - Leave El Calculation",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "निजी कार्य अवकाश",
+      "अवकाश लेखा",
+      "प्रपत्र"
+    ]
+  },
+  {
+    "id": "fhb2_13_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "note",
+    "rule_number": null,
+    "title": "प्रपत्र संख्या 11-ङ - अर्जित अवकाश लेखा",
+    "summary": "सरकारी सेवकों के अर्जित अवकाश के लेखे का प्रपत्र और उसकी टिप्पणियाँ",
+    "key_provisions": [
+      "देय अर्जित अवकाश को दिनों में व्यक्त किया जाना चाहिए",
+      "असाधारण अवकाश की अवधि को लाल स्याही में अंकित किया जाना चाहिए"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P141-P150",
+    "chapter": "13 - Leave El Calculation",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अर्जित अवकाश",
+      "अवकाश लेखा",
+      "प्रपत्र"
+    ]
+  },
+  {
+    "id": "fhb2_13_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 81-ख (4)",
+    "title": "लघुकृत अवकाश (commuted leave)",
+    "summary": "अध्ययन अवकाश पर जाने वाले कर्मचारी के लिए लघुकृत अवकाश की व्यवस्था और शर्तें",
+    "key_provisions": [
+      "निजी कार्य के लिये स्वीकृत किए जाने योग्य कुल अवकाश की संख्या का आधा अवकाश",
+      "एक बार में केवल 45 दिन का अवकाश स्वीकृत किया जाएगा यदि पूर्णतः एशिया में व्यतीत किया जाए"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P141-P150",
+    "chapter": "13 - Leave El Calculation",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "लघुकृत अवकाश",
+      "अध्ययन अवकाश",
+      "एशिया"
+    ]
+  },
+  {
+    "id": "fhb2_13_004",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 81-ख (5)",
+    "title": "असाधारण अवकाश (extraordinary leave)",
+    "summary": "सरकारी कर्मचारी को मूल नियम 85 के उपबन्धों के अनुसार असाधारण अवकाश की व्यवस्था",
+    "key_provisions": [
+      "मूल नियम 81 के साथ पठित मूल नियम 85 के उपबन्धों के अनुसार असाधारण अवकाश स्वीकृत किया जा सकता है"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P141-P150",
+    "chapter": "13 - Leave El Calculation",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "असाधारण अवकाश",
+      "मूल नियम 85"
+    ]
+  },
+  {
+    "id": "fhb2_13_005",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "clarification",
+    "rule_number": "नियम 81-ख",
+    "title": "उपार्जित अवकाश की गणना - राज्यपाल के आदेश",
+    "summary": "उपार्जित अवकाश की गणना के लिए ड्यूटी के वास्तविक दिन गिनकर 1/11 का गुणा करने की व्यवस्था",
+    "key_provisions": [
+      "ड्यूटी के वास्तविक दिन पहले गिनने चाहिये और तब इसमें 1/11 का गुणा कर दिया जाए",
+      "120 दिन की सीमा तक अनुमन्य होगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": "राज्यपाल",
+    "court_case": null,
+    "page_range": "P141-P150",
+    "chapter": "13 - Leave El Calculation",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "उपार्जित अवकाश",
+      "गणना",
+      "ड्यूटी"
+    ]
+  },
+  {
+    "id": "fhb2_13_006",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "अर्जित अवकाश के आगणन की कार्यविधि का सरलीकरण",
+    "summary": "अर्जित अवकाश की गणना को सरल बनाने के लिए प्रत्येक कैलेण्डर वर्ष में 31 दिन का अवकाश दो छमाही में जमा करने की व्यवस्था",
+    "key_provisions": [
+      "प्रत्येक कैलेण्डर वर्ष में 31 दिन का अर्जित अवकाश दो छमाही किश्तों में जमा किया जाएगा",
+      "पहली जनवरी को 16 दिन तथा पहली जुलाई को 15 दिन का अर्जित अवकाश जमा किया जायेगा"
+    ],
+    "file_number": "सामान्य-4-1751/दस-201-76",
+    "date": "24-06-1978",
+    "issuing_authority": "उत्तर प्रदेश शासन वित्त (सामान्य) अनुभाग-4",
+    "court_case": null,
+    "page_range": "P141-P150",
+    "chapter": "13 - Leave El Calculation",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अर्जित अवकाश",
+      "सरलीकरण",
+      "छमाही"
+    ]
+  },
+  {
+    "id": "fhb2_13_007",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "अर्जित अवकाश के आगणन की कार्यविधि का स्पष्टीकरण",
+    "summary": "अर्द्धवर्ष के दौरान अवकाश लेने वाले सरकारी सेवकों के अवकाश लेखे की सही प्रक्रिया का स्पष्टीकरण",
+    "key_provisions": [
+      "अर्द्धवर्ष के दौरान लिया गया अवकाश जमा अवकाश में से कम किया जाना है",
+      "शेष अवकाश अगले अर्द्धवर्ष के लिए अग्रनीत किया जाना है"
+    ],
+    "file_number": "सा-4-जी०आई० 10/दस-201/76",
+    "date": "30-03-1982",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-4",
+    "court_case": null,
+    "page_range": "P141-P150",
+    "chapter": "13 - Leave El Calculation",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अर्जित अवकाश",
+      "स्पष्टीकरण",
+      "अर्द्धवर्ष"
+    ]
+  },
+  {
+    "id": "fhb2_13_008",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "अवकाश-खाते में उपार्जित अवकाश जमा करने की अधिकतम सीमा में वृद्धि",
+    "summary": "सरकारी सेवकों के अवकाश-खाते में उपार्जित अवकाश की अधिकतम सीमा 240 दिन से बढ़ाकर 300 दिन करने की व्यवस्था",
+    "key_provisions": [
+      "अवकाश-खाते में उपार्जित अवकाश जमा करने की अधिकतम सीमा 240 दिन के स्थान पर 300 दिन निर्धारित",
+      "यह आदेश तत्काल प्रभावी होंगे"
+    ],
+    "file_number": "सा-4-392/दस-99-203-86",
+    "date": "01-07-1999",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-4",
+    "court_case": null,
+    "page_range": "P141-P150",
+    "chapter": "13 - Leave El Calculation",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "उपार्जित अवकाश",
+      "अधिकतम सीमा",
+      "300 दिन"
+    ]
+  }
+]

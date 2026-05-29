@@ -1,0 +1,320 @@
+[
+  {
+    "id": "fhb2_4_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "note",
+    "rule_number": "नियम 38",
+    "title": "विधान सभा सदस्यता के दौरान वेतन व्यवस्था",
+    "summary": "सरकारी कर्मचारी को विधान सभा की सेवा के दौरान वही वेतन मिलेगा जो वह सामान्यतः पाता। अतिरिक्त यात्रा-भत्ता भी मिलेगा।",
+    "key_provisions": [
+      "सभा की सेवा करते हुए वही वेतन पायेगा जो वह समय-समय पर पाता यदि उस सेवा को न करता",
+      "उसके अतिरिक्त, उसको वह यात्रा-भत्ता भी मिलेगा जो शासन निर्धारित कर दे"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P071-P080",
+    "chapter": "4 & 5",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "विधान सभा",
+      "वेतन",
+      "यात्रा-भत्ता"
+    ]
+  },
+  {
+    "id": "fhb2_4_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "clarification",
+    "rule_number": "नियम 38",
+    "title": "विधान सभा सदस्यता हेतु अस्थायी पद सृजन",
+    "summary": "केन्द्रीय विधान सभा या राज्य सभा की सदस्यता के लिये नामांकित कर्मचारी हेतु अस्थायी पद सृजित करने की अनुमति।",
+    "key_provisions": [
+      "स्थानीय सरकार को मुख्यालय से उसकी अनुपस्थिति की अवधि के लिये एक अस्थायी पद सृजित करके उसको उस पर नियुक्त करने की अनुमति है"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P071-P080",
+    "chapter": "4 & 5",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अस्थायी पद",
+      "विधान सभा",
+      "नियुक्ति"
+    ]
+  },
+  {
+    "id": "fhb2_4_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 39",
+    "title": "अस्थायी पदों का वेतन निर्धारण",
+    "summary": "नए व्यक्ति की नियुक्ति के लिए सृजित अस्थायी पद का वेतन निम्नतम आवश्यक वेतन के आधार पर निर्धारित करना।",
+    "key_provisions": [
+      "उसका वेतन उस निम्नतम वेतन को ध्यान में रखकर निर्धारित करना चाहिए जो पद के कर्त्तव्यों को दक्षता से कर सकने वाले व्यक्ति की सेवाओं को प्राप्त करने के लिये आवश्यक हों"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P071-P080",
+    "chapter": "4 & 5",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अस्थायी पद",
+      "वेतन निर्धारण",
+      "नियुक्ति"
+    ]
+  },
+  {
+    "id": "fhb2_4_004",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "note",
+    "rule_number": "नियम 39",
+    "title": "ठेके पर नियुक्ति के आदर्श प्रपत्र",
+    "summary": "सरकारी कर्मचारियों को ठेके पर नियुक्त करने के अनुबन्ध के आदर्श प्रपत्र परिशिष्ट में उपलब्ध हैं।",
+    "key_provisions": [
+      "सरकारी कर्मचारियों को ठेके पर नियुक्त करने के अनुबन्ध के आदर्श प्रपत्र इस संग्रह के परिशिष्ट (ख) के भाग 3 में दिये हुए हैं"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P071-P080",
+    "chapter": "4 & 5",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "ठेका नियुक्ति",
+      "आदर्श प्रपत्र",
+      "अनुबन्ध"
+    ]
+  },
+  {
+    "id": "fhb2_4_005",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 40",
+    "title": "सरकारी कर्मचारी के लिए अस्थायी पद का वेतन",
+    "summary": "मौजूदा सरकारी कर्मचारी की नियुक्ति हेतु सृजित अस्थायी पद का वेतन कार्य प्रकृति और वर्तमान वेतन के आधार पर निर्धारित करना।",
+    "key_provisions": [
+      "जो कार्य किया जाना है उसका स्वरूप तथा उत्तरदायित्व",
+      "उन सरकारी कर्मचारियों का वर्तमान वेतन जिनकी स्थिति ऐसी हो कि वे उस पर नियुक्ति के लिये चुने जा सकें"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P071-P080",
+    "chapter": "4 & 5",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अस्थायी पद",
+      "वेतन निर्धारण",
+      "सरकारी कर्मचारी"
+    ]
+  },
+  {
+    "id": "fhb2_4_006",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "clarification",
+    "rule_number": "नियम 39-40",
+    "title": "विशेष कर्त्तव्य और प्रतिनियुक्ति की मान्यता",
+    "summary": "मूल नियमों के अन्तर्गत विशेष कर्त्तव्य या भारत के भीतर प्रतिनियुक्ति की मान्यता नहीं दी जाएगी।",
+    "key_provisions": [
+      "मूल नियमों के अन्तर्गत विशेष कर्त्तव्य या भारत के भीतर प्रतिनियुक्ति की मान्यता नहीं दी जाएगी",
+      "उन कर्त्तव्यों को करने के लिये अस्थायी पद सृजित किया जाएगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P071-P080",
+    "chapter": "4 & 5",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "विशेष कर्त्तव्य",
+      "प्रतिनियुक्ति",
+      "अस्थायी पद"
+    ]
+  },
+  {
+    "id": "fhb2_4_007",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": "नियम 40",
+    "title": "अस्थायी पदों के वेतन निर्धारण की प्रक्रिया",
+    "summary": "राज्यपाल द्वारा अस्थायी पदों के वेतन निर्धारण हेतु निर्धारित प्रक्रिया और दो वर्गों में विभाजन।",
+    "key_provisions": [
+      "अस्थायी पदों को दो वर्गों में विभाजित किया जा सकता है",
+      "साधारण कार्य करने के लिये सृजित पद और विशेष कार्य के लिए सृजित पद"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": "राज्यपाल",
+    "court_case": null,
+    "page_range": "P071-P080",
+    "chapter": "4 & 5",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अस्थायी पद",
+      "वेतन निर्धारण",
+      "राज्यपाल आदेश"
+    ]
+  },
+  {
+    "id": "fhb2_5_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 44",
+    "title": "प्रतिकर भत्ते का सिद्धान्त",
+    "summary": "प्रतिकर भत्ते की धनराशि इस प्रकार निर्धारित करनी चाहिये कि वह पाने वाले के लिये लाभ का स्रोत न बन जाए।",
+    "key_provisions": [
+      "प्रतिकर भत्ते की धनराशि इस प्रकार निर्धारित करनी चाहिये कि वह पाने वाले के लिये लाभ का स्रोत न बन जाए",
+      "राज्यपाल निर्गत करें"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P071-P080",
+    "chapter": "5",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "प्रतिकर भत्ते",
+      "वेतन परिवर्द्धन",
+      "राज्यपाल नियम"
+    ]
+  },
+  {
+    "id": "fhb2_5_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "clarification",
+    "rule_number": "नियम 44",
+    "title": "पदोन्नति के पूर्वगामी प्रभाव और यात्रा-भत्ता",
+    "summary": "पूर्वगामी प्रभाव से पदोन्नति या वेतन वृद्धि की स्थिति में यात्रा-भत्ते के दावे संशोधन की शर्तें।",
+    "key_provisions": [
+      "पदोन्नति या प्रत्यावर्तन या बढ़े हुए वेतन मिलने की तिथि और इनकी विज्ञप्ति निकलने की तिथि के बीच की अवधि सम्बन्धित यात्रा-भत्ते के दावे को संशोधित करने की अनुमति नहीं है"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P071-P080",
+    "chapter": "5",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "पदोन्नति",
+      "यात्रा-भत्ता",
+      "पूर्वगामी प्रभाव"
+    ]
+  },
+  {
+    "id": "fhb2_5_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 45",
+    "title": "सरकारी आवास आबंटन के सिद्धान्त",
+    "summary": "सरकारी कर्मचारियों को आवास आबंटन को नियन्त्रण करने के सिद्धान्त राज्यपाल द्वारा निर्धारित नियमों से विनियमित होंगे।",
+    "key_provisions": [
+      "सरकारी कर्मचारियों को उनके द्वारा आवास के रूप में उपयोग के लिये शासन के अपने या पट्टे पर लिये गये भवनों के आबंटन को नियन्त्रण करने के सिद्धान्त"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P071-P080",
+    "chapter": "5",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "सरकारी आवास",
+      "आबंटन",
+      "राज्यपाल नियम"
+    ]
+  },
+  {
+    "id": "fhb2_5_004",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 45-क(2)",
+    "title": "सरकारी भवन की पूँजीकृत लागत निर्धारण",
+    "summary": "किराये निर्धारण हेतु सरकारी भवन की पूँजीकृत लागत में सफाई, जल-कल तथा बिजली का मूल सम्मिलित होगा परन्तु भूमि का मूल्य नहीं।",
+    "key_provisions": [
+      "सरकार के अपने भवन की पूँजीकृत लागत में सफाई, जल-कल तथा बिजली के अधिष्ठापन का मूल सम्मिलित किया जाएगा",
+      "उसमें भूमि का मूल्य या लागत या उसको तैयार करने का व्यय सम्मिलित नहीं होगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P071-P080",
+    "chapter": "5",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "पूँजीकृत लागत",
+      "किराया निर्धारण",
+      "सरकारी भवन"
+    ]
+  },
+  {
+    "id": "fhb2_5_005",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "court_ruling",
+    "rule_number": "नियम 44",
+    "title": "प्रतिकर की न्यायसंगत परिभाषा",
+    "summary": "सर्वोच्च न्यायालय द्वारा प्रतिकर की न्यायसंगत परिभाषा - बाजार भाव से कम रकम संविधान के अनुच्छेद 31 की माँग पूरी नहीं करती।",
+    "key_provisions": [
+      "राज्य द्वारा अर्जित की गई किसी भी सम्पत्ति के लिए प्रतिकर के रूप में उस सम्पत्ति का बाजार भाव से कम रकम प्रतिकर रूप में चुकाकर संविधान के अनुच्छेद 31 में दिये गये मूल अधिकार की माँग को पूरा नहीं किया जा सकता"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": "पश्चिमी बंगाल बनाम श्रीमती बेला बनर्जी, ए० आई० आर० 1954 एस० सी० 170",
+    "page_range": "P071-P080",
+    "chapter": "5",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "प्रतिकर",
+      "न्यायसंगत",
+      "संविधान अनुच्छेद 31"
+    ]
+  }
+]

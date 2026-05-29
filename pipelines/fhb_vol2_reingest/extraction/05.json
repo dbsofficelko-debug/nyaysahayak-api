@@ -1,0 +1,423 @@
+[
+  {
+    "id": "fhb2_05_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "note",
+    "rule_number": "मूल नियम 22-ख",
+    "title": "निःसंवर्ग पद से संवर्ग पद पर नियुक्ति संबंधी टिप्पणी",
+    "summary": "निःसंवर्ग पद से संवर्ग पद पर नियुक्ति के मामले में मूल नियम 22-ख के उपबंध लागू नहीं होंगे।",
+    "key_provisions": [
+      "इस नियम के उपबन्ध किसी निःसंवर्ग (ex-cadre) पद से किसी संवर्ग (cadre) के पद पर नियुक्ति के मामले में लागू नहीं होंगे"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P051-P060",
+    "chapter": "5 - Time Scale Of Pay",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "निःसंवर्ग",
+      "संवर्ग",
+      "नियुक्ति"
+    ]
+  },
+  {
+    "id": "fhb2_05_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "note",
+    "rule_number": "मूल नियम 22-ख",
+    "title": "निःसंवर्ग पदों के बीच नियुक्ति पर वेतन निर्धारण",
+    "summary": "निःसंवर्ग पदों के बीच नियुक्ति में वेतन निर्धारण केवल संवर्ग पद के वेतन के संदर्भ में किया जाना चाहिए।",
+    "key_provisions": [
+      "द्वितीय या अनुवर्ती निःसंवर्ग पदों पर वेतन फण्डामेन्टल रूल 22-ख (1) के अधीन केवल संवर्ग के पद में वेतन के अभिदेश में निर्धारित किया जाना चाहिये"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P051-P060",
+    "chapter": "5 - Time Scale Of Pay",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "निःसंवर्ग",
+      "वेतन निर्धारण",
+      "संवर्ग"
+    ]
+  },
+  {
+    "id": "fhb2_05_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "note",
+    "rule_number": "मूल नियम 22-ख",
+    "title": "प्रत्यावर्तन पर वेतन निर्धारण",
+    "summary": "उच्चतर पद से प्रत्यावर्तन पर वेतन वही होगा जो वह वास्तव में पाता यदि पदोन्नत न किया गया होता।",
+    "key_provisions": [
+      "ऐसा वेतन होगा जिसे वह वस्तुतः पाता यदि वह उच्चतर पद पर पदोन्नत न किया गया होता"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P051-P060",
+    "chapter": "5 - Time Scale Of Pay",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "प्रत्यावर्तन",
+      "वेतन",
+      "पदोन्नति"
+    ]
+  },
+  {
+    "id": "fhb2_05_004",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "मूल नियम 22-बी के उप-नियम (2)(1) के अंतर्गत वेतन पुनर्निर्धारण स्पष्टीकरण",
+    "summary": "वेतन का पुनर्निर्धारण शासन द्वारा वित्त विभाग की सहमति से ही किया जाएगा।",
+    "key_provisions": [
+      "संशोधित मूल नियम 22-बी के उपनियम (2) (एक) के अन्तर्गत वेतन का पुनर्निर्धारण शासन द्वारा वित्त विभाग की सहमति से ही किया जायेगा"
+    ],
+    "file_number": "जी-2-289/दस-84-302-82",
+    "date": "31-03-1984",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-2",
+    "court_case": null,
+    "page_range": "P051-P060",
+    "chapter": "5 - Time Scale Of Pay",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वेतन पुनर्निर्धारण",
+      "वित्त विभाग",
+      "सहमति"
+    ]
+  },
+  {
+    "id": "fhb2_05_005",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "समूह 'क' के पदों पर नियुक्ति/प्रोन्नति पर वेतन-निर्धारण",
+    "summary": "समूह 'क' के अधिकारियों को वेतनमान की सीमा रु. 2,050 तक बढ़ाकर मूल नियम 22-बी का लाभ दिया गया।",
+    "key_provisions": [
+      "समूह 'क' के ऐसे अधिकारी का, जिनके वेतनमान का अधिकतम रु० 2,050 तक हो, उच्चतर दायित्व वाले पदों पर नियुक्ति/पदोन्नति की दशा में प्रारम्भिक वेतन मूल नियम 22-बी के प्रावधानों के अन्तर्गत किया जायेगा"
+    ],
+    "file_number": "जी-2-528/दस-303-83",
+    "date": "04-06-1984",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-2",
+    "court_case": null,
+    "page_range": "P051-P060",
+    "chapter": "5 - Time Scale Of Pay",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "समूह क",
+      "वेतन निर्धारण",
+      "पदोन्नति"
+    ]
+  },
+  {
+    "id": "fhb2_05_006",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "उच्चतर पदों पर वेतन निर्धारण हेतु वेतनमान सीमा प्रतिबंध समाप्ति",
+    "summary": "मूल नियम 22-बी के अंतर्गत वेतन निर्धारण हेतु वेतनमान की सीमा का प्रतिबंध समाप्त कर दिया गया।",
+    "key_provisions": [
+      "मूल नियम 22-बी के अन्तर्गत वेतन निर्धारण हेतु लगे वेतनमान की सीमा के प्रतिबन्ध को समाप्त करने तथा अब उक्त नियम का लाभ सभी सरकारी सेवकों को दिये जाने की स्वीकृति प्रदान कर दी है"
+    ],
+    "file_number": "जी-2-724/दस-88-303-88",
+    "date": "17-09-1988",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-2",
+    "court_case": null,
+    "page_range": "P051-P060",
+    "chapter": "5 - Time Scale Of Pay",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वेतन निर्धारण",
+      "वेतनमान सीमा",
+      "प्रतिबंध समाप्ति"
+    ]
+  },
+  {
+    "id": "fhb2_05_007",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "पदोन्नति पर मूल नियम 22-बी के अंतर्गत वेतन निर्धारण हेतु तिथि विकल्प",
+    "summary": "पदोन्नति पर वेतन निर्धारण के लिए दो विकल्प दिए गए - तुरंत निर्धारण या अगली वेतनवृद्धि पर पुनर्निर्धारण।",
+    "key_provisions": [
+      "या तो पदोन्नति/नियुक्ति के दिनांक को मूल नियम 22-बी के अनुसार निर्धारित कर दिया जाए अथवा प्रारम्भ में मूल नियम 22 (ए) (1) के अनुसार निर्धारित कर अगली वेतनवृद्धि के दिनांक को पुनर्निर्धारित कर दिया जाए"
+    ],
+    "file_number": "जी-2-854/दस-333/86",
+    "date": "17-09-1988",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-2",
+    "court_case": null,
+    "page_range": "P051-P060",
+    "chapter": "5 - Time Scale Of Pay",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "पदोन्नति",
+      "वेतन निर्धारण",
+      "विकल्प"
+    ]
+  },
+  {
+    "id": "fhb2_05_008",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "मूल नियम 22-ग",
+    "title": "समान या कम महत्वपूर्ण पदों पर नियुक्ति में वेतन निर्धारण",
+    "summary": "समान या कम महत्वपूर्ण पदों पर नियुक्ति में वेतन निर्धारण के नियम जो मूल नियम 22, 22-ख या 22-ग के अंतर्गत नहीं आते।",
+    "key_provisions": [
+      "उसका प्रारम्भिक वेतन इस पद से निम्न या समान पद के समयमान में ऐसे पद के न्यूनतम समयमान पर पिछले पद पर एक साल की सेवा पूरी करने पर एक वेतनवृद्धि देकर नियत किया जायेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P051-P060",
+    "chapter": "5 - Time Scale Of Pay",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वेतन निर्धारण",
+      "समान पद",
+      "निम्न पद"
+    ]
+  },
+  {
+    "id": "fhb2_05_009",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "मूल नियम 23",
+    "title": "पद-वेतन परिवर्तन पर विकल्प",
+    "summary": "पद-वेतन में परिवर्तन पर सरकारी सेवक को पुराना वेतन रखने या नया वेतन लेने का विकल्प दिया गया।",
+    "key_provisions": [
+      "वह स्वयं अपने विकल्प से अपना पुराना वेतन उस दिनांक तक रख सकता है जब वह पुराने वेतनमान में अपनी अगली या कोई अनुवर्ती वेतनवृद्धि उपार्जित करे"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P051-P060",
+    "chapter": "5 - Time Scale Of Pay",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "पद-वेतन",
+      "परिवर्तन",
+      "विकल्प"
+    ]
+  },
+  {
+    "id": "fhb2_05_010",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "मूल नियम 24",
+    "title": "वेतनवृद्धि का स्वतः प्राप्त होना और रोकना",
+    "summary": "वेतनवृद्धि स्वतः प्राप्त होगी जब तक कि आचरण या कार्य असंतोषजनक होने पर उसे रोका न गया हो।",
+    "key_provisions": [
+      "साधारणतया वेतनवृद्धि स्वतः प्राप्त कर ली जाएगी जब तक कि उसे रोका न गया हो",
+      "यदि किसी सरकारी कर्मचारी का आचरण अच्छा न रहा हो या कार्य सन्तोषजनक न रहा हो तो उसकी वेतनवृद्धि रोक ली जा सकेगी"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P051-P060",
+    "chapter": "5 - Time Scale Of Pay",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वेतनवृद्धि",
+      "आचरण",
+      "कार्य संतोषजनक"
+    ]
+  },
+  {
+    "id": "fhb2_05_011",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "मूल नियम 25",
+    "title": "दक्षतारोध के आगे वेतनवृद्धि",
+    "summary": "दक्षतारोध निर्धारित वेतन-क्रम में आगे वेतनवृद्धि सक्षम प्राधिकारी की स्पष्ट स्वीकृति से ही दी जाएगी।",
+    "key_provisions": [
+      "यदि किसी वेतन-क्रम में दक्षतारोध निर्धारित है तो सरकारी कर्मचारी को दक्षतारोध के आगे वेतनवृद्धि उस प्राधिकारी की स्पष्ट स्वीकृति के बिना न दी जाएगी"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P051-P060",
+    "chapter": "5 - Time Scale Of Pay",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "दक्षतारोध",
+      "वेतनवृद्धि",
+      "स्वीकृति"
+    ]
+  },
+  {
+    "id": "fhb2_05_012",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "मूल नियम 26",
+    "title": "वेतनवृद्धि के लिए सेवा की गणना",
+    "summary": "समयमान में वेतनवृद्धि के लिए सेवा की गणना की शर्तें निर्धारित की गई हैं।",
+    "key_provisions": [
+      "किसी समयमान में किसी पद के समस्त कर्त्तव्यकाल की गणना उस समयमान में वेतनवृद्धि के लिए की जाएगी",
+      "1 अप्रैल, 1978 के पश्चात् देय होने वाली वेतनवृद्धि उस मास के प्रथम दिनांक को प्रोद्भूत होगी"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P051-P060",
+    "chapter": "5 - Time Scale Of Pay",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "सेवा गणना",
+      "वेतनवृद्धि",
+      "समयमान"
+    ]
+  },
+  {
+    "id": "fhb2_05_013",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "मूल नियम 27",
+    "title": "असामयिक वेतनवृद्धि",
+    "summary": "सक्षम प्राधिकारी किसी वेतन-क्रम में असामयिक वेतनवृद्धि प्रदान कर सकता है लेकिन मानदेय या पुरस्कार के रूप में नहीं।",
+    "key_provisions": [
+      "कोई प्राधिकारी किसी वेतन-क्रम में किसी सरकारी कर्मचारी को असामयिक वेतनवृद्धि प्रदान कर सकता है",
+      "ऐसी असामयिक वेतनवृद्धि मानदेय या पुरस्कार के रूप में नहीं दी जायेगी"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P051-P060",
+    "chapter": "5 - Time Scale Of Pay",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "असामयिक वेतनवृद्धि",
+      "प्राधिकारी",
+      "मानदेय"
+    ]
+  },
+  {
+    "id": "fhb2_05_014",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "सीनियर ग्रेड/सेलेक्शन ग्रेड में वेतन पुनर्निर्धारण",
+    "summary": "सीनियर ग्रेड/सेलेक्शन ग्रेड में वेतन मौलिक वेतन के बराबर या कम होने पर मूल नियम 27 के अंतर्गत पुनर्निर्धारण।",
+    "key_provisions": [
+      "सीनियर ग्रेड/सेलेक्शन ग्रेड में उसका वेतन वित्तीय नियम संग्रह के मूल नियम 27 के अन्तर्गत उसके मौलिक वेतन के अगले उच्चतर प्रक्रम पर पुनः निर्धारित कर दिया जाए"
+    ],
+    "file_number": "जी-2-1095/दस-1985",
+    "date": "04-01-1986",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-2",
+    "court_case": null,
+    "page_range": "P051-P060",
+    "chapter": "5 - Time Scale Of Pay",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "सीनियर ग्रेड",
+      "सेलेक्शन ग्रेड",
+      "वेतन पुनर्निर्धारण"
+    ]
+  },
+  {
+    "id": "fhb2_05_015",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "मूल नियम 28",
+    "title": "दंड के रूप में निम्न पद पर स्थानांतरण में वेतन",
+    "summary": "दंड के रूप में निम्न पद पर स्थानांतरण में वेतन निम्न पद के उच्चतम वेतन से अनधिक हो सकता है।",
+    "key_provisions": [
+      "उसे निम्न पद के उच्चतम वेतन से अनधिक कोई भी वेतन, जिसे वह उचित समझे, दे सकता है",
+      "इस नियम के अन्तर्गत सरकारी कर्मचारी को जो वेतन पाने की अनुमति दी जाए वह नियम 22 के लागू होने से मिलने वाले वेतन से अधिक न हो"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P051-P060",
+    "chapter": "5 - Time Scale Of Pay",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "दंड",
+      "निम्न पद",
+      "स्थानांतरण"
+    ]
+  },
+  {
+    "id": "fhb2_05_016",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "मूल नियम 29",
+    "title": "दंड के रूप में वेतन-क्रम में निम्न स्तर पर उतारना",
+    "summary": "दंड के रूप में वेतन-क्रम में निम्न स्तर पर उतारने में अवधि और भविष्य की वेतनवृद्धियों पर प्रभाव स्पष्ट करना आवश्यक।",
+    "key_provisions": [
+      "इस कमी का आदेश देने वाला प्राधिकारी उस अवधि को बता देगा जब तक यह आदेश प्रभावी होगा",
+      "यह भी कि क्या प्रत्यावर्त्तन पर उसका प्रभाव यह होगा कि भविष्य में मिलने वाली वेतनवृद्धियाँ स्थगित हो जायेंगी"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P051-P060",
+    "chapter": "5 - Time Scale Of Pay",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "दंड",
+      "वेतन-क्रम",
+      "निम्न स्तर"
+    ]
+  }
+]

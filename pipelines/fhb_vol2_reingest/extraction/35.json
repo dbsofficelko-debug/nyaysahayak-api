@@ -1,0 +1,272 @@
+[
+  {
+    "id": "fhb2_35_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "विवरण-पत्र 4 (क्रमशः)",
+    "title": "अधिकारियों को अवकाश स्वीकृति के प्रतिनिहित अधिकार",
+    "summary": "विभिन्न विभागों के अधिकारियों को अपने अधीनस्थ कर्मचारियों को अवकाश स्वीकृत करने के प्रतिनिहित अधिकार की सूची",
+    "key_provisions": [
+      "उप-निदेशक, महाविद्यालय के प्रधानाचार्य को तीन महीने से अनधिक अवधि तक अवकाश स्वीकृति का अधिकार",
+      "कृषि विभाग के राजपत्रित अधिकारियों को अधीनस्थों को 6 सप्ताह तक का अवकाश देने का अधिकार"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P371-P380",
+    "chapter": "35 - Delegation And Forms",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अवकाश",
+      "प्रतिनिहित अधिकार",
+      "कृषि विभाग"
+    ]
+  },
+  {
+    "id": "fhb2_35_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "क्रम संख्या (20)",
+    "title": "कृषि विभाग अधिकारियों के अवकाश स्वीकृति अधिकार",
+    "summary": "कृषि विभाग के विभिन्न पदों के अधिकारियों को अधीनस्थ कर्मचारियों को अवकाश स्वीकृत करने के अधिकार",
+    "key_provisions": [
+      "उप-निदेशक, प्रधानाचार्य को तीन महीने से अनधिक अवधि तक अवकाश स्वीकृति",
+      "राजपत्रित अधिकारियों को अराजपत्रित कर्मचारियों को 6 सप्ताह तक अवकाश देने का अधिकार"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P371-P380",
+    "chapter": "35 - Delegation And Forms",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "कृषि विभाग",
+      "अवकाश स्वीकृति",
+      "राजपत्रित अधिकारी"
+    ]
+  },
+  {
+    "id": "fhb2_35_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "क्रम संख्या (22)",
+    "title": "परगना अधिकारी के अवकाश स्वीकृति अधिकार",
+    "summary": "परगना अधिकारी को तहसीलों के चतुर्थ श्रेणी कर्मचारियों को अवकाश देने के अधिकार और शर्तें",
+    "key_provisions": [
+      "तहसीलों के चतुर्थ श्रेणी के सरकारी कर्मचारियों को 30 दिन से अनधिक अवकाश",
+      "प्रतिस्थानी की आवश्यकता नहीं पड़ेगी या ज्येष्ठ अनुमोदित प्रत्याशी को नियुक्त किया जायेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P371-P380",
+    "chapter": "35 - Delegation And Forms",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "परगना अधिकारी",
+      "चतुर्थ श्रेणी",
+      "तहसील"
+    ]
+  },
+  {
+    "id": "fhb2_35_004",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "क्रम संख्या (24)",
+    "title": "मण्डलीय आयुक्तों के अवकाश स्वीकृति अधिकार",
+    "summary": "मण्डलों के आयुक्तों को राजकीय कोषाध्यक्षों को अवकाश देने के अधिकार",
+    "key_provisions": [
+      "मण्डलों के सब आयुक्त जिनमें उप-आयुक्त, कुमायूँ मण्डल भी सम्मिलित हैं",
+      "अपने मण्डलों के अन्तर्गत कोषागारों में कार्य करने वाले राजकीय कोषाध्यक्षों को दो महीने तक का अवकाश"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P371-P380",
+    "chapter": "35 - Delegation And Forms",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "मण्डलीय आयुक्त",
+      "कोषाध्यक्ष",
+      "कोषागार"
+    ]
+  },
+  {
+    "id": "fhb2_35_005",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "क्रम संख्या (26)",
+    "title": "चिकित्सा अधिकारियों के अवकाश स्वीकृति अधिकार",
+    "summary": "जनपद शल्यक और चिकित्सालय अधीक्षकों को नर्सिंग कर्मचारियों को अवकाश देने के अधिकार",
+    "key_provisions": [
+      "जनपद शल्यक तथा राजकीय चिकित्सालयों के अधीक्षक तथा चिकित्सा महाविद्यालयों के चिकित्सालयों के अधीक्षक",
+      "राजकीय चिकित्सालयों के अराजपत्रित नर्सिंग कर्मचारियों को 4 महीने से अनधिक अवधियों के लिए अवकाश"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P371-P380",
+    "chapter": "35 - Delegation And Forms",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "जनपद शल्यक",
+      "चिकित्सालय",
+      "नर्सिंग कर्मचारी"
+    ]
+  },
+  {
+    "id": "fhb2_35_006",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम संख्या 36 (6)",
+    "title": "शासन के विभाग और सचिव के अवकाश स्वीकृति अधिकार",
+    "summary": "शासन के विभाग और सचिव को राजपत्रित कर्मचारियों को अवकाश स्वीकृत करने के अधिकार",
+    "key_provisions": [
+      "शासन के विभाग को राजपत्रित सरकारी कर्मचारी को पूर्ण अधिकार",
+      "शासन के सचिव को सचिवालय के अधीक्षकों को 4 माह तक का अवकाश"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P371-P380",
+    "chapter": "35 - Delegation And Forms",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "शासन विभाग",
+      "सचिव",
+      "राजपत्रित कर्मचारी"
+    ]
+  },
+  {
+    "id": "fhb2_35_007",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम संख्या 36 (7)",
+    "title": "न्यायपालिका के अवकाश स्वीकृति अधिकार",
+    "summary": "मुख्य न्यायाधीश और हाईकोर्ट के न्यायाधीशों को राजपत्रित कर्मचारियों को अवकाश देने के अधिकार",
+    "key_provisions": [
+      "मुख्य न्यायाधीश को हाईकोर्ट द्वारा नियुक्त राजपत्रित सरकारी कर्मचारियों के मामले में पूर्ण अधिकार",
+      "जिला तथा सत्र न्यायाधीश को 6 सप्ताह से अनधिक किसी भी प्रकार का अवकाश"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P371-P380",
+    "chapter": "35 - Delegation And Forms",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "न्यायपालिका",
+      "मुख्य न्यायाधीश",
+      "हाईकोर्ट"
+    ]
+  },
+  {
+    "id": "fhb2_35_008",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम संख्या 36 (16-क)",
+    "title": "मण्डलीय आयुक्तों के तहसीलदार और डिप्टी कलेक्टर अवकाश अधिकार",
+    "summary": "मण्डलों के आयुक्तों को तहसीलदारों और डिप्टी कलेक्टरों को अवकाश देने के विशेष अधिकार",
+    "key_provisions": [
+      "तहसीलदारों के सम्बन्ध में पूर्ण अधिकार",
+      "डिप्टी कलेक्टरों तथा जुडीशियल अधिकारियों को एक महीने से अनधिक अवधि का अवकाश"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P371-P380",
+    "chapter": "35 - Delegation And Forms",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "मण्डलीय आयुक्त",
+      "तहसीलदार",
+      "डिप्टी कलेक्टर"
+    ]
+  },
+  {
+    "id": "fhb2_35_009",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "note",
+    "rule_number": null,
+    "title": "राज्य वन सेवा कर्मचारियों के लिए विशेष टिप्पणी",
+    "summary": "1 जनवरी 1936 के बाद नियुक्त राज्य वन सेवा कर्मचारियों के लिए 4 महीने की सीमा का स्पष्टीकरण",
+    "key_provisions": [
+      "1 जनवरी, 1936 को या उसके पश्चात् नियुक्त राज्य वन सेवा के सरकारी कर्मचारी के मामले में",
+      "4 महीने की सीमा के अर्थ लगाये जायेंगे 120 दिन"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P371-P380",
+    "chapter": "35 - Delegation And Forms",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "राज्य वन सेवा",
+      "अवकाश सीमा",
+      "120 दिन"
+    ]
+  },
+  {
+    "id": "fhb2_35_010",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम संख्या 36 (20)",
+    "title": "मुख्य अभियन्ता के अवकाश स्वीकृति अधिकार",
+    "summary": "मुख्य अभियन्ता को सार्वजनिक निर्माण, सिंचाई और विद्युत विभाग के अधिकारियों को अवकाश देने के अधिकार",
+    "key_provisions": [
+      "सहायक अभियन्ताओं तथा उसके समकक्ष अथवा निम्न पद के राजपत्रित कर्मचारियों के मामले में पूर्ण अधिकार",
+      "सहायक अभियन्ताओं से उच्च पद के राजपत्रित कर्मचारियों के सम्बन्ध में 6 सप्ताह से अनधिक अवकाश"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P371-P380",
+    "chapter": "35 - Delegation And Forms",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "मुख्य अभियन्ता",
+      "सार्वजनिक निर्माण",
+      "सिंचाई विभाग"
+    ]
+  }
+]

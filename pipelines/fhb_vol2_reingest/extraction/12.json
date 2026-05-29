@@ -1,0 +1,321 @@
+[
+  {
+    "id": "fhb2_12_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 79",
+    "title": "निकाल दिया गया",
+    "summary": "यह नियम निकाल दिया गया है और अब लागू नहीं है।",
+    "key_provisions": [
+      "निकाल दिया गया।"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P131-P140",
+    "chapter": "12 - Leave",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "निकाला गया",
+      "अवकाश"
+    ]
+  },
+  {
+    "id": "fhb2_12_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 80",
+    "title": "अवकाश-लेखा के आधार पर अवकाश की देयता",
+    "summary": "जिन सरकारी कर्मचारियों के लिये अवकाश-लेखा रखा जाता है, उन्हें उनके अवकाश-लेखे के शेष के अनुसार अवकाश देय होता है।",
+    "key_provisions": [
+      "उस सरकारी कर्मचारी को, जिसके लिये अवकाश-लेखा रखा जाता है, अवकाश की वह राशि देय होती है, जो उसके नाम पर उसके अवकाश-लेखे के शेष में दिखाई गई हो।"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P131-P140",
+    "chapter": "12 - Leave",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अवकाश-लेखा",
+      "देयता",
+      "शेष"
+    ]
+  },
+  {
+    "id": "fhb2_12_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 81",
+    "title": "अवकाश प्रदान करने के नियम और प्रतिबन्ध",
+    "summary": "अवकाश-लेखा रखे जाने वाले सरकारी कर्मचारियों के लिए अवकाश प्रदान करने के नियम और विभिन्न प्रतिबन्धों का विवरण।",
+    "key_provisions": [
+      "सक्षम प्राधिकारी के विवेक पर अवकाश प्रदान किया जा सकेगा",
+      "अवकाश की अधिकतम राशि ड्यूटी पर व्यतीत अवधि का 1/11 अथवा ढाई वर्ष"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P131-P140",
+    "chapter": "12 - Leave",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अवकाश",
+      "प्रतिबन्ध",
+      "सक्षम प्राधिकारी"
+    ]
+  },
+  {
+    "id": "fhb2_12_004",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "sub_rule",
+    "rule_number": "नियम 81(क)",
+    "title": "औसत वेतन पर अवकाश की अधिकतम राशि",
+    "summary": "औसत वेतन पर अवकाश की अधिकतम राशि का निर्धारण और इसकी गणना की पद्धति।",
+    "key_provisions": [
+      "एक बार में 4 महीने",
+      "कुल मिलाकर ड्यूटी में व्यतीत की गई अवधि का 1/11"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P131-P140",
+    "chapter": "12 - Leave",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "औसत वेतन",
+      "अधिकतम राशि",
+      "चार महीने"
+    ]
+  },
+  {
+    "id": "fhb2_12_005",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "sub_rule",
+    "rule_number": "नियम 81(ग)",
+    "title": "अदेय अवकाश के नियम",
+    "summary": "सेवानिवृत्ति से पूर्व लिये गये अवकाश को छोड़कर अदेय अवकाश प्रदान करने की शर्तें।",
+    "key_provisions": [
+      "चिकित्सीय प्रमाण-पत्र पर बिना अवधि की सीमा",
+      "बिना चिकित्सीय प्रमाण-पत्र के एक ही बार में 3 महीने से अनधिक"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P131-P140",
+    "chapter": "12 - Leave",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अदेय अवकाश",
+      "चिकित्सीय प्रमाण-पत्र",
+      "तीन महीने"
+    ]
+  },
+  {
+    "id": "fhb2_12_006",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "note",
+    "rule_number": null,
+    "title": "अदेय अवकाश और स्वेच्छा सेवानिवृत्ति संबंधी टिप्पणी",
+    "summary": "अदेय अवकाश लेने वाले कर्मचारी की स्वेच्छा सेवानिवृत्ति की स्थिति में अवकाश रद्द करने का प्रावधान।",
+    "key_provisions": [
+      "अदेय अवकाश रद्द कर दिया जायेगा",
+      "सेवानिवृत्ति की तिथि वह होगी, जिस तिथि से वह अवकाश आरम्भ हुआ था"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P131-P140",
+    "chapter": "12 - Leave",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अदेय अवकाश",
+      "स्वेच्छा सेवानिवृत्ति",
+      "रद्द"
+    ]
+  },
+  {
+    "id": "fhb2_12_007",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "नियम 81(ख) से सम्बन्धित राज्यपाल के आदेश",
+    "summary": "प्रतिनियुक्ति के दौरान अवकाश के क्रम भंग और चिकित्सीय प्रमाण-पत्र पर अवकाश संबंधी राज्यपाल के आदेश।",
+    "key_provisions": [
+      "प्रतिनियुक्ति को पहले से प्रदान किये गये अवकाश का क्रम भंग माना जाएगा",
+      "चिकित्सीय प्रमाण-पत्र के अतिरिक्त देय अवकाश से अधिक अवकाश की वसूली"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": "राज्यपाल",
+    "court_case": null,
+    "page_range": "P131-P140",
+    "chapter": "12 - Leave",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "प्रतिनियुक्ति",
+      "चिकित्सीय प्रमाण-पत्र",
+      "राज्यपाल आदेश"
+    ]
+  },
+  {
+    "id": "fhb2_12_008",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 81-क",
+    "title": "निकाल दिया गया",
+    "summary": "यह नियम निकाल दिया गया है और अब लागू नहीं है।",
+    "key_provisions": [
+      "निकाल दिया गया।"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P131-P140",
+    "chapter": "12 - Leave",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "निकाला गया",
+      "अवकाश"
+    ]
+  },
+  {
+    "id": "fhb2_12_009",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 81-ख",
+    "title": "नए अवकाश नियमों का लागू होना",
+    "summary": "1 अप्रैल 1966 के बाद नियुक्त सरकारी कर्मचारियों और पुराने कर्मचारियों के विकल्प पर लागू होने वाले नए अवकाश नियम।",
+    "key_provisions": [
+      "1 अप्रैल, 1966 को या उसके बाद सरकारी सेवा में प्रविष्ट सभी सरकारी कर्मचारी",
+      "एक बार प्रयोग किया गया विकल्प अन्तिम होगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P131-P140",
+    "chapter": "12 - Leave",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "नए नियम",
+      "1966",
+      "विकल्प"
+    ]
+  },
+  {
+    "id": "fhb2_12_010",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "sub_rule",
+    "rule_number": "नियम 81-ख(1)",
+    "title": "अर्जित अवकाश की संगणना",
+    "summary": "1 जनवरी 1978 से अर्जित अवकाश की संगणना की नई प्रक्रिया और छमाही आधार पर अवकाश जमा करने की व्यवस्था।",
+    "key_provisions": [
+      "प्रत्येक कैलेण्डर वर्ष में इकतीस दिन का अर्जित अवकाश",
+      "पहली जनवरी को सोलह दिन और पहली जुलाई को पन्द्रह दिन"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P131-P140",
+    "chapter": "12 - Leave",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अर्जित अवकाश",
+      "छमाही",
+      "31 दिन"
+    ]
+  },
+  {
+    "id": "fhb2_12_011",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "sub_rule",
+    "rule_number": "नियम 81-ख(2)",
+    "title": "चिकित्सीय प्रमाण-पत्र पर अवकाश",
+    "summary": "चिकित्सीय प्रमाण-पत्र के आधार पर अवकाश की अधिकतम सीमा और शर्तें।",
+    "key_provisions": [
+      "सम्पूर्ण सेवाकाल में कुल बारह महीने तक का अवकाश",
+      "आपवादिक मामले में चिकित्सा बोर्ड की संस्तुति पर छः मास तक का और अवकाश"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P131-P140",
+    "chapter": "12 - Leave",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "चिकित्सीय अवकाश",
+      "बारह महीने",
+      "चिकित्सा बोर्ड"
+    ]
+  },
+  {
+    "id": "fhb2_12_012",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "sub_rule",
+    "rule_number": "नियम 81-ख(3)",
+    "title": "निजी कार्यों पर अवकाश",
+    "summary": "निजी कार्यों पर अवकाश की अधिकतम सीमा और इसकी संगणना की प्रक्रिया।",
+    "key_provisions": [
+      "सम्पूर्ण सेवा के दौरान कुल तीन सौ पैंसठ दिन से अनधिक",
+      "प्रत्येक कैलेण्डर वर्ष में इकतीस दिन के निजी कार्य पर अवकाश का हकदार"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P131-P140",
+    "chapter": "12 - Leave",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "निजी कार्य",
+      "365 दिन",
+      "31 दिन वार्षिक"
+    ]
+  }
+]

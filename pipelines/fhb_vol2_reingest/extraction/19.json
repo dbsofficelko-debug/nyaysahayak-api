@@ -1,0 +1,387 @@
+[
+  {
+    "id": "fhb2_19_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "मूल नियम 44 के अन्तर्गत 17-क",
+    "title": "प्रतिकर भत्ते - लिपिक वर्ग कर्मचारियों पर लागू नियम",
+    "summary": "लिपिक वर्ग कर्मचारियों तथा सचिवालयों के निम्न श्रेणी कर्मचारियों पर लागू नियम जो शासन के साथ नैनीताल जाते हैं।",
+    "key_provisions": [
+      "लिपिक वर्ग कर्मचारियों (जिनमें शासन के सहायक सचिव भी सम्मिलित हैं) पर लागू",
+      "सिविल, वित्त तथा सार्वजनिक निर्माण विभाग के सचिवालयों के निम्न श्रेणी कर्मचारियों पर लागू"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P211-P220",
+    "chapter": "अध्याय 3-क - प्रतिकर भत्ते",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "प्रतिकर भत्ता",
+      "लिपिक वर्ग",
+      "नैनीताल"
+    ]
+  },
+  {
+    "id": "fhb2_19_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "note",
+    "rule_number": null,
+    "title": "राज्यपाल के सचिव तथा सैनिक सचिव कार्यालयों पर लागू नियम",
+    "summary": "भारत सरकार अधिनियम 1935 की धारा 305 के अधीन राज्यपाल के आदेश के अन्तर्गत राज्यपाल के सचिव तथा सैनिक सचिव के कार्यालयों पर भी लागू।",
+    "key_provisions": [
+      "राज्यपाल के सचिव तथा सैनिक सचिव के कार्यालयों के लिपिक वर्ग पर लागू",
+      "संशोधन के लिये राज्यपाल की अनुमति आवश्यक"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P211-P220",
+    "chapter": "अध्याय 3-क - प्रतिकर भत्ते",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "राज्यपाल सचिव",
+      "सैनिक सचिव",
+      "भारत सरकार अधिनियम"
+    ]
+  },
+  {
+    "id": "fhb2_19_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "17-ख",
+    "title": "नैनीताल में मकान किराया भत्ता दरें",
+    "summary": "नैनीताल में पूरी ऋतु भर ठहरने के लिये विवाहित और अविवाहित कर्मचारियों को मकान किराया भत्ता की दरें निर्धारित।",
+    "key_provisions": [
+      "विवाहित कर्मचारी: एक महीने का वेतन, अधिकतम 400 रु०, न्यूनतम 125 रु०",
+      "अविवाहित कर्मचारी: आधे महीने का वेतन, अधिकतम 200 रु०, न्यूनतम 75 रु०"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P211-P220",
+    "chapter": "अध्याय 3-क - प्रतिकर भत्ते",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "मकान किराया भत्ता",
+      "नैनीताल",
+      "विवाहित",
+      "अविवाहित"
+    ]
+  },
+  {
+    "id": "fhb2_19_004",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "17-ग",
+    "title": "भत्ता पाने की पात्रता शर्तें",
+    "summary": "स्थायी, परिवीक्षाधीन, अस्थायी या स्थानापन्न नियुक्तियों में कर्मचारियों को भत्ता पाने की शर्तें निर्धारित।",
+    "key_provisions": [
+      "स्थायी पदों पर नियुक्त या परिवीक्षाधीन कर्मचारियों को अनुमन्य",
+      "अस्थायी या स्थानापन्न प्रबन्ध नैनीताल में 3 महीने से अधिक चले"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P211-P220",
+    "chapter": "अध्याय 3-क - प्रतिकर भत्ते",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "पात्रता",
+      "स्थायी नियुक्ति",
+      "अस्थायी नियुक्ति"
+    ]
+  },
+  {
+    "id": "fhb2_19_005",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "17-घ",
+    "title": "भत्ते की पूरी दर की शर्तें",
+    "summary": "तीन महीने या अधिक ठहरने पर पूरी दर, कम अवधि में वित्त विभाग से आदेश प्राप्त करने की व्यवस्था।",
+    "key_provisions": [
+      "तीन महीने या अधिक ठहरने पर पूरी दर",
+      "कम अवधि में वित्त विभाग से आदेश आवश्यक",
+      "विवाहित दर के लिये परिवार का नैनीताल में रहना आवश्यक"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P211-P220",
+    "chapter": "अध्याय 3-क - प्रतिकर भत्ते",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "भत्ता दर",
+      "न्यूनतम अवधि",
+      "परिवार"
+    ]
+  },
+  {
+    "id": "fhb2_19_006",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "17-ङ",
+    "title": "सरकारी आवासों में निवास करने वाले कर्मचारियों की स्थिति",
+    "summary": "सरकारी आवासों में निवास करने वाले कर्मचारी भत्ता पाने के पात्र नहीं, उनसे रियायती दरों पर किराया वसूल किया जायेगा।",
+    "key_provisions": [
+      "सरकारी आवासों में निवास करने वाले भत्ता पाने के पात्र नहीं",
+      "नैनीताल में सचिवालय के आवासों में रियायती दरों पर किराया"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P211-P220",
+    "chapter": "अध्याय 3-क - प्रतिकर भत्ते",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "सरकारी आवास",
+      "रियायती किराया",
+      "सचिवालय"
+    ]
+  },
+  {
+    "id": "fhb2_19_007",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "17-च",
+    "title": "निम्न श्रेणी कर्मचारियों के लिये मासिक भत्ता",
+    "summary": "सचिवालय के निम्न श्रेणी कर्मचारियों को नैनीताल में मासिक भत्ता तथा उपार्जित अवकाश के दौरान भत्ते के सिद्धान्त।",
+    "key_provisions": [
+      "कार्यालय खुलने के 4 दिन पूर्व से बन्द होने के 4 दिन बाद तक भत्ता",
+      "उपार्जित अवकाश के अतिरिक्त अन्य अवकाश में भत्ता अनुमन्य नहीं"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P211-P220",
+    "chapter": "अध्याय 3-क - प्रतिकर भत्ते",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "निम्न श्रेणी",
+      "मासिक भत्ता",
+      "उपार्जित अवकाश"
+    ]
+  },
+  {
+    "id": "fhb2_19_008",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "17-छ",
+    "title": "विभागाध्यक्षों और अन्य अधिकारियों के अधिष्ठान के लिये भत्ते",
+    "summary": "विभागाध्यक्षों, केन्द्रीय मुद्रणालय तथा लखनऊ शाखा के कर्मचारियों के लिये नैनीताल में भत्ते की व्यवस्था।",
+    "key_provisions": [
+      "लिपिक वर्ग को नियम 17-ख के अनुसार मकान किराया भत्ता",
+      "विवाहित दरें केवल परिवार साथ ले जाने पर",
+      "भत्ता किश्तों में दिया जायेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P211-P220",
+    "chapter": "अध्याय 3-क - प्रतिकर भत्ते",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "विभागाध्यक्ष",
+      "केन्द्रीय मुद्रणालय",
+      "लखनऊ शाखा"
+    ]
+  },
+  {
+    "id": "fhb2_19_009",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "18",
+    "title": "सरकारी आवास का आवंटन",
+    "summary": "सरकार के अपने या पट्टे पर लिये गये भवन को सरकारी कर्मचारी को आवास के रूप में आवंटन की प्रक्रिया।",
+    "key_provisions": [
+      "भवन या उसके भाग को पद के नाम से आवंटित करना",
+      "आवंटन के आदेश में निर्दिष्ट पद के नाम से उपयोग"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P211-P220",
+    "chapter": "अध्याय 4 - आवासों के किराये का निर्धारण तथा वसूली",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "आवास आवंटन",
+      "सरकारी भवन",
+      "पट्टा"
+    ]
+  },
+  {
+    "id": "fhb2_19_010",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "18-क",
+    "title": "आवास में निवास की शर्तें और किराया देयता",
+    "summary": "पदाधिकारी के आवास में निवास माने जाने की शर्तें, अवकाश के दौरान स्थिति, और स्थानान्तरण पर किराया व्यवस्था।",
+    "key_provisions": [
+      "पद धारण की अवधि भर आवास में निवास माना जायेगा",
+      "अवकाश में निवास नहीं माना जायेगा",
+      "स्थानान्तरण पर विभिन्न दरों पर किराया"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P211-P220",
+    "chapter": "अध्याय 4 - आवासों के किराये का निर्धारण तथा वसूली",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "निवास शर्तें",
+      "अवकाश",
+      "स्थानान्तरण",
+      "किराया"
+    ]
+  },
+  {
+    "id": "fhb2_19_011",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "note",
+    "rule_number": null,
+    "title": "सामान्य किराये की परिभाषा",
+    "summary": "सामान्य किराये का अर्थ आवास का मानक किराया या पदाधिकारी की परिलब्धियों का 10 प्रतिशत, जो भी कम हो।",
+    "key_provisions": [
+      "मानक किराया या परिलब्धियों का 10 प्रतिशत, जो कम हो",
+      "सरकार द्वारा दिये गए नगरपालिका कर तथा अन्य कर सम्मिलित"
+    ],
+    "file_number": "जी०-1-1243/दस-534 (119)/69",
+    "date": "11-01-1973",
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P211-P220",
+    "chapter": "अध्याय 4 - आवासों के किराये का निर्धारण तथा वसूली",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "सामान्य किराया",
+      "मानक किराया",
+      "परिलब्धियां"
+    ]
+  },
+  {
+    "id": "fhb2_19_012",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "18-ख",
+    "title": "स्थानान्तरण पर अस्थायी कार्यभार की स्थिति",
+    "summary": "स्थानान्तरण पर जब कार्यभार अधीनस्थ को सौंपा जाये तो एक महीने तक कोई किराया नहीं लिया जायेगा।",
+    "key_provisions": [
+      "अधीनस्थ सरकारी कर्मचारी को अस्थायी कार्यभार",
+      "1 महीने की अधिकतम अवधि तक कोई किराया नहीं"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P211-P220",
+    "chapter": "अध्याय 4 - आवासों के किराये का निर्धारण तथा वसूली",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "स्थानान्तरण",
+      "अस्थायी कार्यभार",
+      "अधीनस्थ"
+    ]
+  },
+  {
+    "id": "fhb2_19_013",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "18-ग",
+    "title": "आवास आवंटन के निलम्बन की शर्तें",
+    "summary": "विभिन्न परिस्थितियों में शासन द्वारा किसी पद पर आवास के आवंटन को निलम्बित करने की शर्तें और प्रक्रिया।",
+    "key_provisions": [
+      "अस्थायी नियुक्ति पर वास्तविक निवास न करने पर",
+      "दूसरे पद की ड्यूटी से बाधा पड़ने पर",
+      "यूरोपीय और भारतीय ढंग के आवास की असंगति पर"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P211-P220",
+    "chapter": "अध्याय 4 - आवासों के किराये का निर्धारण तथा वसूली",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "आवंटन निलम्बन",
+      "अस्थायी नियुक्ति",
+      "यूरोपीय ढंग"
+    ]
+  },
+  {
+    "id": "fhb2_19_014",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "18-घ",
+    "title": "सरकारी आवास की शिकमी किरायेदारी",
+    "summary": "सरकारी कर्मचारी द्वारा अपने आवास को शिकमी किरायेदार को देने की शर्तें और किराया निर्धारण की व्यवस्था।",
+    "key_provisions": [
+      "विभागाध्यक्ष द्वारा अनुमोदित व्यक्ति को दे सकता है",
+      "शासन शिकमी किरायेदारी को मान्यता नहीं देगा",
+      "पट्टाकार व्यक्तिगत रूप से उत्तरदायी रहेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P211-P220",
+    "chapter": "अध्याय 4 - आवासों के किराये का निर्धारण तथा वसूली",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "शिकमी किरायेदारी",
+      "पट्टाकार",
+      "पट्टेदार"
+    ]
+  }
+]

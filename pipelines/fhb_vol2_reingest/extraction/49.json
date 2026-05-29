@@ -1,0 +1,272 @@
+[
+  {
+    "id": "fhb2_49_001",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "मूल नियम 22-ए (1)",
+    "title": "वैयक्तिक प्रोन्नतीय वेतनमान में वेतन निर्धारण",
+    "summary": "समान वेतनमान में पदोन्नति होने पर वेतन अगले उच्च प्रक्रम पर निर्धारित होगा और मूल नियम 22-बी लागू नहीं होंगे।",
+    "key_provisions": [
+      "ऐसे मामलों में जहाँ किसी कर्मचारी/अधिकारी की पदोन्नति उसी वेतनमान में होती है",
+      "ऐसे पद पर उसका वेतन अगले उच्च प्रक्रम पर निर्धारित होगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P511-P520",
+    "chapter": "49 - Important GOs Rules",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वेतन निर्धारण",
+      "पदोन्नति",
+      "वैयक्तिक वेतनमान"
+    ]
+  },
+  {
+    "id": "fhb2_49_002",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "वृद्धिरोध वेतनवृद्धि - अधिकतम वेतन 10,500 तक",
+    "summary": "अधिकतम वेतन 10,500 तक के पदधारकों को वेतनमान के अधिकतम पर पहुंचने पर तीन वेतनवृद्धियां वार्षिक आधार पर देय होंगी।",
+    "key_provisions": [
+      "जब अपने वेतनमान के अधिकतम पर पहुँच जाय तो उनके वेतनमान को तीन वेतन वृद्धियों की धनराशि जोड़कर बढ़ा दिया जाय",
+      "यह वेतनवृद्धियाँ वार्षिक आधार पर देय होगी"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P511-P520",
+    "chapter": "49 - Important GOs Rules",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वृद्धिरोध वेतनवृद्धि",
+      "वेतनमान",
+      "अधिकतम वेतन"
+    ]
+  },
+  {
+    "id": "fhb2_49_003",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": null,
+    "title": "वृद्धिरोध वेतनवृद्धि - अधिकतम वेतन 10,500 से अधिक",
+    "summary": "अधिकतम वेतन 10,500 से अधिक के पदधारकों को प्रत्येक 2 वर्ष बाद एक वेतनवृद्धि, अधिकतम तीन वेतनवृद्धियां देय होंगी।",
+    "key_provisions": [
+      "प्रत्येक 2 वर्ष बाद एक वेतनवृद्धि दी जाय",
+      "ऐसी वेतन वृद्धियों की अधिकतम संख्या तीन होगी"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P511-P520",
+    "chapter": "49 - Important GOs Rules",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वृद्धिरोध वेतनवृद्धि",
+      "वेतनमान",
+      "द्विवार्षिक"
+    ]
+  },
+  {
+    "id": "fhb2_49_004",
+    "department": "न्याय अनुभाग",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "वाहन चालक संवर्ग पुनर्गठन",
+    "summary": "वाहन चालक संवर्ग को चार ग्रेडों में विभाजित करते हुए पदोन्नति व्यवस्था निर्धारित की गई।",
+    "key_provisions": [
+      "वाहन चालक संवर्ग को ग्रेड-4, ग्रेड-3, ग्रेड-2, ग्रेड-1 में विभाजित",
+      "ज्येष्ठता के आधार पर पदोन्नति"
+    ],
+    "file_number": "3426/सात-न्याय-1/2006-85/2006",
+    "date": "12-10-2006",
+    "issuing_authority": "न्याय अनुभाग-1",
+    "court_case": null,
+    "page_range": "P511-P520",
+    "chapter": "49 - Important GOs Rules",
+    "applicable_to": [
+      "उच्च न्यायालय वाहन चालक"
+    ],
+    "tags": [
+      "वाहन चालक",
+      "संवर्ग पुनर्गठन",
+      "पदोन्नति"
+    ]
+  },
+  {
+    "id": "fhb2_49_005",
+    "department": "वित्त विभाग",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "पुस्तकालयों की श्रेणी निर्धारण",
+    "summary": "पुस्तकालयों के श्रेणीकरण हेतु मानक निर्धारित करते हुए माध्यमिक शिक्षा विभाग को नोडल विभाग बनाया गया।",
+    "key_provisions": [
+      "पुस्तकालयों की श्रेणी निर्धारण हेतु सचिव माध्यमिक शिक्षा की अध्यक्षता में गठित समिति के मानक",
+      "पदों की वर्तमान संख्या में कोई परिवर्तन नहीं होगा"
+    ],
+    "file_number": "वे०आ०-2-1139/दस-2007-44/2001",
+    "date": "05-11-2006",
+    "issuing_authority": "वित्त (वेतन आयोग) अनु-2",
+    "court_case": null,
+    "page_range": "P511-P520",
+    "chapter": "49 - Important GOs Rules",
+    "applicable_to": [
+      "पुस्तकालयाध्यक्ष"
+    ],
+    "tags": [
+      "पुस्तकालय",
+      "श्रेणीकरण",
+      "वेतनमान"
+    ]
+  },
+  {
+    "id": "fhb2_49_006",
+    "department": "वित्त विभाग",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "मकान किराया भत्ता पुनर्वर्गीकरण",
+    "summary": "2001 की जनगणना के आधार पर 25 नगरों को अवर्गीकृत से 'सी' श्रेणी में रखकर मकान किराया भत्ता संशोधित किया गया।",
+    "key_provisions": [
+      "गंगोह, खतौली, किरतपुर आदि 25 नगरों को 'सी' श्रेणी में रखा गया",
+      "दिनांक 01 जनवरी, 2007 से प्रभावी"
+    ],
+    "file_number": "जी-1-988/दस-2006-205/99",
+    "date": "08-12-2006",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-1",
+    "court_case": null,
+    "page_range": "P511-P520",
+    "chapter": "49 - Important GOs Rules",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "मकान किराया भत्ता",
+      "नगर वर्गीकरण",
+      "जनगणना"
+    ]
+  },
+  {
+    "id": "fhb2_49_007",
+    "department": "वित्त विभाग",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "नगर प्रतिकर भत्ता पुनर्वर्गीकरण",
+    "summary": "2001 की जनगणना के आधार पर नगरों का पुनर्वर्गीकरण करते हुए नगर प्रतिकर भत्ता की संशोधित दरें निर्धारित की गईं।",
+    "key_provisions": [
+      "कानपुर, लखनऊ, नोयडा को एक श्रेणी में रखा गया",
+      "मूल वेतन के अनुसार भिन्न दरें निर्धारित"
+    ],
+    "file_number": "जी-1-997/दस-2006-203/99",
+    "date": "08-12-2006",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-1",
+    "court_case": null,
+    "page_range": "P511-P520",
+    "chapter": "49 - Important GOs Rules",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "नगर प्रतिकर भत्ता",
+      "नगर वर्गीकरण",
+      "मूल वेतन"
+    ]
+  },
+  {
+    "id": "fhb2_49_008",
+    "department": "नगर विकास विभाग",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "स्थानीय निकाय उपार्जित अवकाश सीमा वृद्धि",
+    "summary": "स्थानीय निकाय कर्मियों के अवकाश लेखे में जमा उपार्जित अवकाश की सीमा 180 दिन से बढ़ाकर 300 दिन की गई।",
+    "key_provisions": [
+      "उपार्जित अवकाश की सुविधा 180 दिन से बढ़ाकर 300 दिन",
+      "अतिरिक्त व्ययभार सम्बन्धित निकाय द्वारा वहन"
+    ],
+    "file_number": "4646/9-1-2006-226सा/99",
+    "date": "13-12-2006",
+    "issuing_authority": "नगर विकास अनुभाग-1",
+    "court_case": null,
+    "page_range": "P511-P520",
+    "chapter": "49 - Important GOs Rules",
+    "applicable_to": [
+      "स्थानीय निकाय कर्मी"
+    ],
+    "tags": [
+      "उपार्जित अवकाश",
+      "स्थानीय निकाय",
+      "अवकाश लेखा"
+    ]
+  },
+  {
+    "id": "fhb2_49_009",
+    "department": "नगर विकास विभाग",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "जल संस्थान निलंबित अधिकारियों का वेतन भुगतान",
+    "summary": "जल संस्थान के निलंबित अधिकारियों का वेतन उसी संस्थान से आहरित कराने की व्यवस्था निर्धारित की गई।",
+    "key_provisions": [
+      "निलंबित अधिकारी का वेतन उसी जल संस्थान से आहरित",
+      "पद रिक्त न होने पर अन्य संस्थान से आहरण"
+    ],
+    "file_number": "4672/9-3-06-73 डब्लू/03",
+    "date": "15-12-2006",
+    "issuing_authority": "नगर विकास अनुभाग-3",
+    "court_case": null,
+    "page_range": "P511-P520",
+    "chapter": "49 - Important GOs Rules",
+    "applicable_to": [
+      "जल संस्थान अधिकारी"
+    ],
+    "tags": [
+      "जल संस्थान",
+      "निलंबन",
+      "वेतन भुगतान"
+    ]
+  },
+  {
+    "id": "fhb2_49_010",
+    "department": "वित्त विभाग",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "पेंशन प्रपत्र जांच अवधि सीमा",
+    "summary": "पेंशन प्राधिकार-पत्र निर्गत करते समय वेतन निर्धारण की संनिरीक्षा की अवधि 34 माह तक सीमित की गई।",
+    "key_provisions": [
+      "पेंशन प्रपत्रों की जाँच मात्र 34 माह की अवधि तक",
+      "सेवा निवृत्ति की तारीख से पूर्व के 34 महीने की अवधि"
+    ],
+    "file_number": "सा-3-35/दस-07-101(6)/2005",
+    "date": "16-01-2007",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-3",
+    "court_case": null,
+    "page_range": "P511-P520",
+    "chapter": "49 - Important GOs Rules",
+    "applicable_to": [
+      "सेवानिवृत्त कर्मचारी"
+    ],
+    "tags": [
+      "पेंशन",
+      "वेतन निर्धारण",
+      "संनिरीक्षा अवधि"
+    ]
+  }
+]
