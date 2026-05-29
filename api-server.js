@@ -607,46 +607,123 @@ function expandQuery(q) {
   return [...new Set(terms)];
 }
 
-// ── Smart search function ────────────────────────────────────────
-function smartSearch(query, bookFilter, limit = 8) {
-  const terms = expandQuery(query);
+// ── Regex escape helper ─────────────────────────────────────────
+function escapeRegex(s) {
+  return String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+// ── Count non-overlapping occurrences of substring (fast, no regex) ─
+function countOccurrences(haystack, needle) {
+  if (!haystack || !needle || needle.length === 0) return 0;
+  let count = 0, pos = 0;
+  while ((pos = haystack.indexOf(needle, pos)) !== -1) {
+    count++;
+    pos += needle.length;
+  }
+  return count;
+}
+
+// ── Build searchable text from a KB entry (post-Phase-1 schema) ──
+function buildSearchableText(r) {
+  const parts = [
+    r.title || '',
+    r.summary || '',
+    Array.isArray(r.key_provisions) ? r.key_provisions.join(' ') : (r.key_provisions || ''),
+    Array.isArray(r.tags) ? r.tags.join(' ') : (r.tags || ''),
+    r.chapter || '',
+    r.rule_number || '',
+    r.file_number || '',
+    r.issuing_authority || '',
+    r.source || '',
+    // Legacy fields (if any old cards still around)
+    r.content || '', r.text || '', r.heading || '', r.keywords || '', r.topic || '',
+  ];
+  return parts.join(' ').toLowerCase();
+}
+
+// ── Smart search — IDF-weighted field-aware scoring ──────────────
+function smartSearch(query, bookFilter, limit = 12) {
+  if (!query || !query.trim()) return [];
+  const terms = expandQuery(query)
+    .filter(t => t && t.length > 1)
+    .map(t => String(t).toLowerCase());
+  if (!terms.length) return [];
+
   let pool = knowledge;
 
-  // Book filter
+  // Book filter (preserved: universal entries pass through)
   if (bookFilter && bookFilter.trim()) {
     const bf = bookFilter.toLowerCase().trim();
-    pool = knowledge.filter(r => {
+    pool = pool.filter(r => {
       const dept = (r.dept || r.department || '').toLowerCase();
       const book = (r.book || r.filename || r.source || '').toLowerCase();
-      // Universal entries (Level 1) sabhi depts ko milegi
       if (dept === 'universal') return true;
       return book.includes(bf) || dept.includes(bf);
     });
   }
+  if (!pool.length) return [];
 
-  // Score each entry
-  const scored = pool.map(r => {
+  // ── Step 1: precompute IDF for each term across pool ──
+  const N = pool.length;
+  const idf = {};
+  // Precompute searchable text per entry (reused below for scoring)
+  const searchables = pool.map(r => buildSearchableText(r));
+  for (const term of terms) {
+    let df = 0;
+    for (let i = 0; i < searchables.length; i++) {
+      if (searchables[i].includes(term)) df++;
+    }
+    // Smoothed IDF: log10((N+1)/(df+1)) + 1; range ≈ [1, ~3.5]
+    idf[term] = Math.log10((N + 1) / (df + 1)) + 1;
+  }
+
+  // ── Step 2: phrase match preparation ──
+  const fullQuery = query.toLowerCase().trim();
+  const isMultiWord = fullQuery.split(/\s+/).filter(w => w.length > 1).length > 1;
+
+  // ── Step 3: score each entry ──
+  // Field weights (relative importance for matches)
+  const W = {
+    title: 5, rule_number: 4, file_number: 3.5, tags: 3,
+    chapter: 2, summary: 1.5, provisions: 1, authority: 0.7, source: 0.5,
+  };
+
+  const scored = pool.map((r, idx) => {
+    const title       = (r.title || '').toLowerCase();
+    const summary     = (r.summary || '').toLowerCase();
+    const provisions  = Array.isArray(r.key_provisions)
+                          ? r.key_provisions.join(' ').toLowerCase()
+                          : String(r.key_provisions || '').toLowerCase();
+    const tags        = Array.isArray(r.tags)
+                          ? r.tags.join(' ').toLowerCase()
+                          : String(r.tags || '').toLowerCase();
+    const chapter     = (r.chapter || '').toLowerCase();
+    const ruleNum     = (r.rule_number || '').toLowerCase();
+    const fileNum     = (r.file_number || '').toLowerCase();
+    const source      = (r.source || '').toLowerCase();
+    const authority   = (r.issuing_authority || '').toLowerCase();
+
     let score = 0;
-    const fields = [
-      r.content   || '',
-      r.keywords  || '',
-      r.topic     || '',
-      r.chapter   || '',
-      r.book      || '',
-      r.heading   || '',
-      r.title     || '',
-      r.section   || '',
-      r.text      || '',
-    ].join(' ').toLowerCase();
+    for (const term of terms) {
+      const w = idf[term] || 1;
+      const termScore =
+        countOccurrences(title,      term) * W.title +
+        countOccurrences(ruleNum,    term) * W.rule_number +
+        countOccurrences(fileNum,    term) * W.file_number +
+        countOccurrences(tags,       term) * W.tags +
+        countOccurrences(chapter,    term) * W.chapter +
+        countOccurrences(summary,    term) * W.summary +
+        countOccurrences(provisions, term) * W.provisions +
+        countOccurrences(authority,  term) * W.authority +
+        countOccurrences(source,     term) * W.source;
+      score += termScore * w;
+    }
 
-    terms.forEach(term => {
-      if (!term) return;
-      // Exact match = higher score
-      const exactCount = (fields.match(new RegExp(term, 'g')) || []).length;
-      score += exactCount * 2;
-      // Partial match
-      if (fields.includes(term)) score += 1;
-    });
+    // Phrase match bonus: full query found contiguously in major fields
+    if (isMultiWord) {
+      const major = title + ' ' + summary + ' ' + provisions + ' ' + tags;
+      if (major.includes(fullQuery)) score += 50;
+    }
 
     return { entry: r, score };
   });
@@ -670,7 +747,7 @@ app.get('/', (req, res) => res.json({
 const handleSearch = async (req, res) => {
   const query      = req.body?.query || req.body?.q || req.query?.q || req.query?.query || '';
   const bookFilter = req.body?.book  || req.query?.book  || '';
-  const limitParam = parseInt(req.query?.limit || req.body?.limit) || 8;
+  const limitParam = parseInt(req.query?.limit || req.body?.limit) || 12;
   const rawMode    = req.method === 'GET' || req.query?.raw;
 
   if (!query.trim()) return res.status(400).json({ error: 'Query required — use ?q=yourquery' });
@@ -686,10 +763,15 @@ const handleSearch = async (req, res) => {
     // POST without raw — return AI answer
     const context = results.length > 0
       ? results.map(r => {
-          const book    = r.book || r.source || '';
-          const chapter = r.chapter || r.heading || r.topic || '';
-          const content = r.content || r.text || '';
-          return `[${book} — ${chapter}]\n${content}`;
+          const book    = r.source || r.book || '';
+          const chapter = r.chapter || '';
+          const ruleNum = r.rule_number || '';
+          const title   = r.title || '';
+          const heading = [chapter, ruleNum, title].filter(Boolean).join(' — ');
+          const provisions = Array.isArray(r.key_provisions)
+                              ? r.key_provisions.join('\n')
+                              : (r.key_provisions || r.summary || r.content || r.text || '');
+          return `[${book}${heading ? ' — ' + heading : ''}]\n${provisions}`;
         }).join('\n\n')
       : '';
 
