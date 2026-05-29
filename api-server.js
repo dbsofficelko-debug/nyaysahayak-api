@@ -592,6 +592,20 @@ const TRANSLIT = {
   'year': ['वर्ष', 'साल'],
 };
 
+// ── Roman letter → Devanagari variants (used in rule numbers like 22-B → 22-बी or 22-ख) ──
+// Each English letter maps to 2 Devanagari forms commonly used in UP rules:
+//   - alphabet-position form (क/ख/ग/घ — used for sub-section ordering)
+//   - transliteration form (ए/बी/सी/डी — Hindi spelling of English letter name)
+const ALPHA_DEV_VARIANTS = {
+  'a': ['क', 'ए'],     'b': ['ख', 'बी'],    'c': ['ग', 'सी'],    'd': ['घ', 'डी'],
+  'e': ['ङ', 'ई'],     'f': ['च', 'एफ'],    'g': ['छ', 'जी'],    'h': ['ज', 'एच'],
+  'i': ['झ', 'आई'],    'j': ['ञ', 'जे'],    'k': ['ट', 'के'],    'l': ['ठ', 'एल'],
+  'm': ['ड', 'एम'],    'n': ['ढ', 'एन'],    'o': ['ण', 'ओ'],     'p': ['त', 'पी'],
+  'q': ['थ', 'क्यू'],   'r': ['द', 'आर'],    's': ['ध', 'एस'],    't': ['न', 'टी'],
+  'u': ['प', 'यू'],    'v': ['फ', 'वी'],    'w': ['ब', 'डब्ल्यू'], 'x': ['भ', 'एक्स'],
+  'y': ['म', 'वाई'],   'z': ['य', 'जेड'],
+};
+
 function expandQuery(q) {
   const terms = [q.toLowerCase()];
   const words = q.toLowerCase().split(/\s+/);
@@ -603,6 +617,18 @@ function expandQuery(q) {
         if (q.includes(h)) terms.push(eng, ...hindiArr.map(x => x.toLowerCase()));
       });
     });
+    // Rule-number-letter pattern: "22-b" / "22-B" / "22b" → expand to Devanagari variants
+    const ruleLetterMatch = w.match(/^(\d+)\s*[\-\u2010-\u2015]?\s*([a-z])$/);
+    if (ruleLetterMatch) {
+      const num = ruleLetterMatch[1];
+      const letter = ruleLetterMatch[2];
+      const variants = ALPHA_DEV_VARIANTS[letter] || [];
+      variants.forEach(v => {
+        terms.push(`${num}-${v}`);   // 22-बी, 22-ख
+        terms.push(`${num} ${v}`);   // 22 बी
+        terms.push(`${num}${v}`);    // 22बी
+      });
+    }
   });
   return [...new Set(terms)];
 }
