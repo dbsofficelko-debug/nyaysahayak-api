@@ -2,7 +2,7 @@
 
 > **Purpose:** Library pustakon ki permanent tracking file. Har session ke shuru mein ye padhi jaaye. Tum aur Claude dono ke liye single source of truth.
 >
-> **Last updated:** 10-May-2026 morning (Day 1 closed — 30 books — strategic pivot to quality-first; Day 2 Session 2.1 starting)
+> **Last updated:** 29-May-2026 (Day 2 closed — +1 book Police Regulations; Forest Manual + DBT → PURCHASE; **Round 3 starting — Hallucination Diagnostic**)
 >
 > **Scanner:** CZUR ET24 — being shipped from Delhi (director arranging)
 >
@@ -13,31 +13,59 @@
 
 ---
 
-## 🚦 NEXT SESSION — Where to start (10-May-2026 morning, 8 AM)
+## 🚦 NEXT SESSION — Where to start (Round 3 — 29-May-2026 onwards)
 
-**Resume from: Session 2.1 — UP Vitt remaining (LTC + TA + GPF)**
+**Resume from: Round 3 #1 — Bot Hallucination Diagnostic**
 
 ---
 
-### 📅 DAY 1 — 09 May 2026 — CLOSED ✅
+### 📅 DAY 2 — 10 May 2026 — CLOSED ✅ (partial)
 
-**Total acquired:** 30 books
+**Acquired:** 1 book — `UP_Police_Regulations.pdf` (268pp Hindi, 22.6 MB, uppolice.gov.in official) → `05_UP_Depts/`
 
-| Folder | Count | Books |
-|---|---|---|
-| 01_IndiaCode | 4 | UP Panchayat Raj 1947, Kshetra-Zila Panchayat 1961, Basic Education 1972, Urban Planning 1973 |
-| 04_Central | 12 | Constitution Diglot, RTI, GFR 2017, RTE 2009, MGNREGA Hindi, PMAY-G, PM Ujjwala, SBM Rural, NHM Framework, FC 14th + 15th + 16th |
-| 06_AG_Audit | 11 | GAR, CGA RP Rules 2022, Civil Accounts Manual 2024 Hindi, DPC Act 1971, Vittiya Sakshyankan Audit Niyam Pustak, 6 AG UP Audit Reports (incl. PMAY + AYUSH) |
-| 03_UP_Karmik | 3 | Conduct Rules 1956, D&A Rules 1999 + 2022 amendment GO, Reservation Act 1994 + Schedule + 2002 amendment |
-| 02_UP_Vitt | 0 | Day 2 target |
-| 05_UP_Depts | 0 | Day 2 target |
+**Shifted to PURCHASE (consolidated source needed):**
+- UP TA / GPF / Pension / Family Pension / Pay Revision / Medical Reimbursement — all scattered GOs, FHB Vol 1+5+6 + EBC + R.K. Sahay covers them
+- UP Police Standing Orders — only individual DGP circulars exist; PURCHASE Phase 2 #22 (UP Police Manual Vol 1-3) covers
+- UP Panchayat Sangathan Pustika — **SKIPPED entirely** (org chart, zero KB value, not even PURCHASE)
+- UP Forest Manual (Vol 1/2/4) + DBT Pension Schemes — deferred to PURCHASE/later (low blocking value)
 
-**MISSING.txt entries:**
-- 9 IndiaCode Acts (Session 1.1 partial — Stamp Act, Municipalities 1916, Nagar Nigam 1959, Apartment 2010, Industrial Area 1976, Housing Dev, Niwachan Niyam, Revenue Code 2006, Intermediate Education 1921 nahi mile)
-- CAG MSO Audit
-- CAG Receipt Audit Manual
+**Sessions 2.4 / 2.5 / 2.6 untouched** — buffer + audit + backup. Final Excel ledger pending. Will be folded into Round 3 pipeline phase.
 
-**Substitution note:** "Govt Accounts Format Rules 2017" misnamed entry tha — actual GAR (General Accounts Rules) substitute kiya gaya.
+**Cumulative acquisition after Day 1+2:** 31 books across 5 folders.
+
+---
+
+### 🔬 ROUND 3 — Hallucination Diagnostic (29-May-2026 onwards)
+
+**Goal:** Diagnose actual hallucination source on live bot before any pipeline work. **Without diagnosis, pipeline build = blind fix.**
+
+**Phase A — Test Case Collection (immediate)**
+- 5–10 actual hallucinating queries identify (or suspected) — domain mix: pension, discipline, seniority, teacher service, financial
+- User runs each on `nyaysahayak.co.in/nyaysahayak_ai_v8.html` → screenshots bot output + cited entries
+- Claude inspects `knowledge.json` for the cited entries' actual source quality
+
+**Phase B — Failure Mode Classification**
+Each hallucination logged with:
+| Query | Bot output | KB entries cited | Ground truth | Failure mode |
+|---|---|---|---|---|
+| ... | ... | ... | ... | font garbling / chunking / retrieval / prompt template |
+
+**Phase C — Pipeline Architecture Decision**
+Based on dominant failure mode:
+- Font garbling (Kruti Dev/DevLys) → Unicode converter + OCR fallback (Tesseract Hindi installed)
+- Chunking → re-chunk with semantic boundaries
+- Retrieval → embedding/keyword search re-tuning
+- Prompt template → system prompt rewrite
+
+**Output:** One-time targeted pipeline build for root cause. Architecture: PDF → font detect → conversion → Unicode .md → library chapters + bot RAG chunks. **One scan, two products** preserved.
+
+---
+
+### Resume command for new chat
+
+> *"Library project resume — Round 3. Pehle GitHub se LIBRARY_BACKLOG.md padho — repo dbsofficelko-debug/nyaysahayak-api. Section '🔬 ROUND 3 — Hallucination Diagnostic' follow karo. Phase A se start (test case collection)."*
+
+---
 
 ---
 
@@ -71,14 +99,7 @@
 
 ---
 
-### Tomorrow morning (10-May-2026, 8 AM) — START HERE
-
-**Resume command for new chat:**
-> *"Library project resume — Round 2. Pehle GitHub se LIBRARY_BACKLOG.md padho — repo dbsofficelko-debug/nyaysahayak-api. Strategic pivot yaad rakho. Section '🗓 DAY 2 — 10 May 2026' follow karo. Session 2.1 (UP Vitt remaining — LTC + TA + GPF) se start."*
-
----
-
-## 🗓 2-DAY DOWNLOAD MARATHON (09-10 May 2026)
+## 🗓 2-DAY DOWNLOAD MARATHON (09-10 May 2026) — historical reference
 
 **Target:** 42 books in 20 hrs (Batch 1 ke 2 already done).
 **Realistic:** 35-40 books mil jayenge — kuch UP portal pe broken/missing honge.
