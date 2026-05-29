@@ -1102,6 +1102,22 @@ app.get('/sv/:filename', (req, res) => {
   res.json(ch);
 });
 
+// UP Aacharan Niyamavali 1956 — 33 rules, OCR'd via Tesseract Hindi
+let aacharanData = [];
+try {
+  aacharanData = JSON.parse(readFileSync(path.join(__dirname, 'aacharan_index.json'), 'utf-8'));
+  console.log('Aacharan loaded:', aacharanData.length, 'rules');
+} catch(e) { console.log('Aacharan not found:', e.message); }
+
+app.get('/aacharan', (req, res) => {
+  res.json({ total: aacharanData.length, chapters: aacharanData.map(({chapter,topic,filename}) => ({chapter,topic,filename})) });
+});
+app.get('/aacharan/:filename', (req, res) => {
+  const ch = aacharanData.find(c => c.filename === req.params.filename);
+  if (!ch) return res.status(404).json({ error: 'Not found' });
+  res.json(ch);
+});
+
 
 
 // Seva Vidhi — 4 volumes
