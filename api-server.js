@@ -608,7 +608,10 @@ const ALPHA_DEV_VARIANTS = {
 
 function expandQuery(q) {
   const terms = [q.toLowerCase()];
-  const words = q.toLowerCase().split(/\s+/);
+  const words = q.toLowerCase().split(/\s+/).filter(Boolean);
+  // CRITICAL: add every individual word as a term so scorer can match each
+  // independently (e.g. "22-बी" as a standalone term against rule_number fields).
+  terms.push(...words);
   words.forEach(w => {
     if (TRANSLIT[w]) terms.push(...TRANSLIT[w].map(t => t.toLowerCase()));
     // Also try reverse — if Hindi word matches a key's value, add the key
@@ -730,19 +733,43 @@ function smartSearch(query, bookFilter, limit = 12) {
     const authority   = (r.issuing_authority || '').toLowerCase();
 
     let score = 0;
+    // TF saturation cap — each term gets at most CAP occurrences per field counted.
+    // Prevents long body-text cards from drowning out targeted title/rule_number matches.
+    const CAP = 3;
+    const cap = (n) => Math.min(n, CAP);
     for (const term of terms) {
       const w = idf[term] || 1;
       const termScore =
-        countOccurrences(title,      term) * W.title +
-        countOccurrences(ruleNum,    term) * W.rule_number +
-        countOccurrences(fileNum,    term) * W.file_number +
-        countOccurrences(tags,       term) * W.tags +
-        countOccurrences(chapter,    term) * W.chapter +
-        countOccurrences(summary,    term) * W.summary +
-        countOccurrences(provisions, term) * W.provisions +
-        countOccurrences(authority,  term) * W.authority +
-        countOccurrences(source,     term) * W.source;
+        cap(countOccurrences(title,      term)) * W.title +
+        cap(countOccurrences(ruleNum,    term)) * W.rule_number +
+        cap(countOccurrences(fileNum,    term)) * W.file_number +
+        cap(countOccurrences(tags,       term)) * W.tags +
+        cap(countOccurrences(chapter,    term)) * W.chapter +
+        cap(countOccurrences(summary,    term)) * W.summary +
+        cap(countOccurrences(provisions, term)) * W.provisions +
+        cap(countOccurrences(authority,  term)) * W.authority +
+        cap(countOccurrences(source,     term)) * W.source;
       score += termScore * w;
+    }
+
+    // Strong bonus when card's rule_number field contains a SPECIFIC query term
+    // (number-containing term, to avoid common words like "नियम"/"मूल" triggering)
+    if (ruleNum) {
+      for (const term of terms) {
+        if (term.length >= 3 && /\d/.test(term) && ruleNum.includes(term)) {
+          score += 80;
+          break;
+        }
+      }
+    }
+    // Similar for file_number (GO number lookups)
+    if (fileNum) {
+      for (const term of terms) {
+        if (term.length >= 3 && /\d/.test(term) && fileNum.includes(term)) {
+          score += 60;
+          break;
+        }
+      }
     }
 
     // Phrase match bonus: full query found contiguously in major fields
