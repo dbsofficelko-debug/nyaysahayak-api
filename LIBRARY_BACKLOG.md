@@ -189,6 +189,40 @@ Sources assessed and **SKIPPED** (until clean alternatives available):
 - New clean SV Vol 4 returns Devanagari content snippets correctly
 - Only gap: "character" → चरित्र पंजी missing in TRANSLIT (minor; future improvement)
 
+**T2.4 — Bot KB cleanup + search ranking critical fixes (post-live-test):**
+
+Five live test rounds revealed cumulative issues, each fixed in turn:
+
+1. **Bot too conservative** — refused queries where KB had related content.
+   Fix: Rule 1 → ternary scenarios (full / partial+gap / refuse). [Commit 46a342d]
+
+2. **Citation showed "Universal KB"** instead of actual source.
+   Fix: searchKB _book fallback uses e.source. [Commit 46a342d]
+
+3. **SV4 bot KB had [cite_start] markers** leaking into responses.
+   Fix: stripped 905 markers from 151 SV4 entries in knowledge.json. [Commit 4a00c71]
+
+4. **CRITICAL — rule-number-specific queries (e.g. "मूल नियम 22-बी") still
+   returned tangentially-relevant SV4 cards in top 5 even after limits 6→12
+   and letter algorithmic expansion.
+
+   Root cause: expandQuery split query into words but NEVER added the
+   individual words to terms list. Only the full query string and TRANSLIT
+   lookups became terms. For "मूल नियम 22-बी", the term "22-बी" was completely
+   absent from terms — bonus checks couldn't fire, scoring couldn't reward
+   targeted rule_number matches. SV4 cards with huge bodies of common terms
+   ("नियम", "मूल" appearing 50+ times) won by raw accumulation.
+
+   Bundled fix in commit bb41920:
+   - `terms.push(...words)` after split (the actual root-cause fix)
+   - rule_number exact-match bonus +80 (digit-containing terms only)
+   - file_number exact-match bonus +60
+   - TF saturation cap=3 per field per term (prevents body-volume dominance)
+
+   Final live test for "मूल नियम 22-बी का प्रावधान बताइए": bot answers with
+   structured content from 3 FHB cards (वेतन निर्धारण विकल्प, वेतनवृद्धि की तारीख,
+   ACP के अंतर्गत वेतन निर्धारण) with full citations including rule_number.
+
 ---
 
 ### 🎯 NEXT: TIER 3 — Enhancements (deferred)
