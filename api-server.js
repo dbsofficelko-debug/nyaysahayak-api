@@ -446,20 +446,6 @@ app.get('/sv/:filename', (req, res) => {
   res.json(ch);
 });
 
-let pmData = [];
-try {
-  pmData = JSON.parse(readFileSync(path.join(__dirname, 'pm_index.json'), 'utf-8'));
-  console.log('PM loaded:', pmData.length, 'chapters');
-} catch(e) { console.log('PM not found:', e.message); }
-
-app.get('/pm', (req, res) => {
-  res.json({ total: pmData.length, chapters: pmData.map(({chapter,topic,filename}) => ({chapter,topic,filename})) });
-});
-app.get('/pm/:filename', (req, res) => {
-  const ch = pmData.find(c => c.filename === req.params.filename);
-  if (!ch) return res.status(404).json({ error: 'Not found' });
-  res.json(ch);
-});
 
 
 // Seva Vidhi — 4 volumes
@@ -486,22 +472,7 @@ for (const [key, vol] of Object.entries(SV_VOLS)) {
   });
 }
 
-// ── Police Kalyan Hastapustika ──
-let policeKalyanData = [];
-try {
-  policeKalyanData = JSON.parse(readFileSync(path.join(__dirname, 'police_kalyan_index.json'), 'utf-8'));
-  console.log('Police Kalyan loaded:', policeKalyanData.length, 'GOs');
-} catch(e) { console.log('Police Kalyan not found:', e.message); }
-
-app.get('/police-kalyan', (req, res) => {
-  res.json({ total: policeKalyanData.length, chapters: policeKalyanData.map(({type,num,topic,filename,file_number,date}) => ({type,num,topic,filename,file_number,date})) });
-});
-app.get('/police-kalyan/:filename', (req, res) => {
-  const ch = policeKalyanData.find(c => c.filename === req.params.filename);
-  if (!ch) return res.status(404).json({ error: 'Not found' });
-  res.json(ch);
-});
-
+// ── PUVVNL ──
 let puvvnlData = [];
 try {
   puvvnlData = JSON.parse(readFileSync(path.join(__dirname, 'puvvnl_index.json'), 'utf-8'));
@@ -521,7 +492,6 @@ const LIBRARY_DATA = {
   fhb:    () => fhbData,
   sad:    () => sadData,
   sv:     () => svData,
-  pm:     () => pmData,
   puvvnl: () => puvvnlData,
 };
 
@@ -530,7 +500,7 @@ app.get('/library/search', (req, res) => {
   const book = req.query.book;
   if (!q) return res.json({ total: 0, results: [] });
   if (!book || !LIBRARY_DATA[book]) {
-    return res.status(400).json({ error: 'valid book code required (fhb/sad/sv/pm/puvvnl)' });
+    return res.status(400).json({ error: 'valid book code required (fhb/sad/sv/puvvnl)' });
   }
 
   const terms = expandQuery(q).filter(t => t && t.length > 1);
