@@ -2,7 +2,7 @@
 
 > **Purpose:** Library pustakon ki permanent tracking file. Har session ke shuru mein ye padhi jaaye. Tum aur Claude dono ke liye single source of truth.
 >
-> **Last updated:** 29-May-2026 evening (**Phase 0 cleanup done** — KB 2,618 entries, 4 clean Devanagari library books; Phase 1 FHB Vol 2 re-ingestion next)
+> **Last updated:** 29-May-2026 night (**Phase 1 COMPLETE** — FHB Vol 2 re-ingested in Devanagari; bot KB now 100% Devanagari, 1,295 entries)
 >
 > **Scanner:** CZUR ET24 — being shipped from Delhi (director arranging)
 >
@@ -69,21 +69,44 @@ Bot KB was 88.6% non-Devanagari (mix of English statutory text from bilingual UP
 
 ---
 
-### 🔄 PHASE 1 — FHB Vol 2 re-ingestion (NEXT)
+### ✅ PHASE 1 — FHB Vol 2 re-ingestion (29-May-2026 — DONE)
 
-**Goal:** Replace 2,267 English fact cards with ~2,000 Devanagari fact cards extracted from `fhb_index.json`'s 92 clean Devanagari chapters.
+**Pipeline built and executed:**
+- `pipelines/fhb_vol2_reingest/extract.py` — Sonnet-based extraction with retry on 429
+- `pipelines/fhb_vol2_reingest/extract_parallel.py` — ThreadPoolExecutor wrapper, workers=2 for Tier 1 rate limit
+- `pipelines/fhb_vol2_reingest/integrate.py` — schema validate + atomic swap
 
-**Approach:** LLM extraction pipeline (Claude Sonnet) — reads each chapter, identifies discrete rules/sub-rules/GOs/court rulings, outputs structured fact cards matching existing schema.
+**Execution:**
+- 90 chapters extracted (idx 02-91, skipping TOC 0-1)
+- 944 Devanagari fact cards produced
+- Atomic swap: 2,267 English entries removed, 944 Devanagari added
+- Total cost: ~$3-4 of ~$25 credits
 
-**Pending decisions:**
-1. Where pipeline runs (sandbox vs user's Mac)
-2. API key handling
+**Card type breakdown:**
+| Type | Count |
+|---|---|
+| rule | 470 |
+| go | 362 |
+| sub_rule | 28 |
+| note | 47 |
+| clarification | 27 |
+| amendment | 17 |
+| court_ruling | 5 |
 
-**Estimated:** 3-5 hours script + runtime + validation. Cost ~$5-10 in Sonnet tokens.
+**Bot KB final state: 1,295 entries — 100% Devanagari**
+
+| Source | Entries | Script |
+|---|---|---|
+| FHB Vol 2 | 944 | ✅ Devanagari (new) |
+| Seva Vidhi Vol 4 | 321 | ✅ Devanagari |
+| SAD Manual | 28 | ✅ Devanagari |
+| Seva Vidhi Vol 5 | 2 | ✅ Devanagari |
+
+**From 88.6% non-Devanagari at Phase 0 start → 100% Devanagari at Phase 1 end.**
 
 ---
 
-### Phase 2+ pipeline targets (after FHB)
+### 🔄 PHASE 2 — Next priorities (after FHB)
 
 1. SV Vol 4 library re-ingestion from clean MD (`SevaVidhi_Vol4_Nivritti.md` 2.2 MB) — replaces OCR-garbled `sv_vol4_index.json` + `sv_index.json`
 2. SV Vol 5 Shashnadesh expansion (`SevaVidhi_Vol5_Shashnadesh.md` 9.3 MB) → ~1,000-2,000 new Devanagari KB entries (untapped goldmine)
