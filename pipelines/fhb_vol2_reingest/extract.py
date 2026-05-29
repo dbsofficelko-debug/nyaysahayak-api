@@ -165,7 +165,7 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Print stats only, don't write files")
     parser.add_argument("--limit", type=int, help="Process only first N chapters (for testing)")
     parser.add_argument("--resume", action="store_true", help="Skip chapters already extracted")
-    parser.add_argument("--model", default="claude-sonnet-4-20250514")
+    parser.add_argument("--model", default="claude-sonnet-4-6")
     parser.add_argument("--start-from", type=int, default=0, help="Start from chapter index N")
     args = parser.parse_args()
 

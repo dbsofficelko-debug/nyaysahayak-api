@@ -1,0 +1,298 @@
+[
+  {
+    "id": "fhb2_3_01",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 17",
+    "title": "सरकारी कर्मचारी के वेतन-क्रम में निम्नतम वेतन का औसत वेतन",
+    "summary": "सरकारी कर्मचारी के वेतन-क्रम में निम्नतम वेतन को उसका औसत वेतन समझना चाहिये।",
+    "key_provisions": [
+      "सरकारी कर्मचारी के वेतन-क्रम में निम्नतम वेतन को (जिसमें समुद्र पार वेतन भी सम्मिलित है) उसका औसत वेतन समझ लेना चाहिये।"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P041-P050",
+    "chapter": "3 & 4",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वेतन",
+      "औसत वेतन",
+      "समुद्र पार वेतन"
+    ]
+  },
+  {
+    "id": "fhb2_3_02",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 18",
+    "title": "पाँच वर्ष की लगातार अनुपस्थिति के पश्चात् अवकाश प्रतिबन्ध",
+    "summary": "भारत में बाह्य सेवा से भिन्न अन्यत्र किसी ड्यूटी से पाँच वर्ष की लगातार अनुपस्थिति के पश्चात् कोई अवकाश स्वीकृत नहीं किया जाएगा।",
+    "key_provisions": [
+      "पाँच वर्ष की लगातार अनुपस्थिति के पश्चात् चाहे वह अवकाश पर हो या बिना अवकाश के हो, किसी भी प्रकार का अवकाश स्वीकृत नहीं किया जाएगा।"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P041-P050",
+    "chapter": "3 & 4",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "अवकाश",
+      "अनुपस्थिति",
+      "अनुशासनिक कार्यवाही"
+    ]
+  },
+  {
+    "id": "fhb2_3_03",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 18-क",
+    "title": "वेतन भत्ते और अवकाश के दावे का विनियमन",
+    "summary": "सरकारी कर्मचारी के वेतन तथा भत्ते का दावा उन नियमों द्वारा विनियमित होता है जो अर्जित करने के समय लागू रहे हों।",
+    "key_provisions": [
+      "वेतन तथा भत्ते का दावा उन नियमों द्वारा विनियमित होता है जो वेतन या भत्ता अर्जित करने के समय लागू रहे हों"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P041-P050",
+    "chapter": "3 & 4",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वेतन",
+      "भत्ते",
+      "अवकाश",
+      "दावा"
+    ]
+  },
+  {
+    "id": "fhb2_4_01",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 19",
+    "title": "सरकारी कर्मचारी के वेतन की सीमा",
+    "summary": "किसी सरकारी कर्मचारी का वेतन उस वेतन से अधिक न होगा जो सक्षम प्राधिकारी ने उस पद के लिए स्वीकृत किया हो।",
+    "key_provisions": [
+      "किसी सरकारी कर्मचारी का वेतन उस वेतन से अधिक न होगा जो सक्षम प्राधिकारी ने उस पद के लिए स्वीकृत किया हो",
+      "शासन की स्वीकृति के बिना कोई विशेष या व्यक्तिगत वेतन प्रदान नहीं किया जाएगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P041-P050",
+    "chapter": "4",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वेतन",
+      "सक्षम प्राधिकारी",
+      "विशेष वेतन"
+    ]
+  },
+  {
+    "id": "fhb2_4_02",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 20",
+    "title": "नियम 9(6)(ख) के अन्तर्गत ड्यूटी मानी गई अवधि में वेतन",
+    "summary": "नियम 9(6)(ख) के अन्तर्गत ड्यूटी मान ली गई अवधि में सरकारी कर्मचारी को शासन द्वारा साम्योचित समझा गया वेतन दिया जा सकेगा।",
+    "key_provisions": [
+      "इतना वेतन दिया जा सकेगा जितना शासन साम्योचित समझे",
+      "किसी भी दशा में यह वेतन उस वेतन से अधिक न होगा जो उसे अन्य किसी ड्यूटी पर होने में मिलता"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P041-P050",
+    "chapter": "4",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वेतन",
+      "ड्यूटी",
+      "शासन स्वीकृति"
+    ]
+  },
+  {
+    "id": "fhb2_4_03",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 21",
+    "title": "समयमान वेतनक्रम पर लागू नियम",
+    "summary": "नियम 22 से 29 तथा नियम 31 सामान्यतया समयमान वेतनक्रमों पर लागू होते हैं।",
+    "key_provisions": [
+      "नियम 22 से 29, जिनमें दोनों सम्मिलित हैं तथा नियम 31 सामान्यतया समयमान वेतनक्रमों पर लागू होते हैं"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P041-P050",
+    "chapter": "4",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "समयमान वेतनक्रम",
+      "वेतन नियम"
+    ]
+  },
+  {
+    "id": "fhb2_4_04",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 22",
+    "title": "समयमान वेतनक्रम में प्रारम्भिक मूल वेतन का निर्धारण",
+    "summary": "वेतन के समयमान में किसी पद पर मौलिक रूप से नियुक्त सरकारी सेवक का प्रारम्भिक मूल वेतन निर्धारण के नियम।",
+    "key_provisions": [
+      "स्थायी पद पर धारणाधिकार होने पर अधिक महत्व के कर्तव्य में नये पद के वेतन के समयमान के उस प्रक्रम पर आहरित करेगा जो पुराने पद के मौलिक वेतन के ठीक ऊपर हो",
+      "अन्य मामलों में वेतन के समयमान का न्यूनतम वेतन आहरित करेगा"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P041-P050",
+    "chapter": "4",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "प्रारम्भिक वेतन",
+      "समयमान",
+      "धारणाधिकार"
+    ]
+  },
+  {
+    "id": "fhb2_4_05",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "केन्द्रीय सरकारी कर्मचारियों की राज्य सरकार में नियुक्ति पर वेतन निर्धारण",
+    "summary": "केन्द्रीय कर्मचारियों की राज्य सरकार के अन्तर्गत नियुक्ति होने पर वेतन निर्धारण के नियम।",
+    "key_provisions": [
+      "स्थायी केन्द्रीय कर्मचारियों का वेतन सामान्य नियमों के अन्तर्गत निर्धारित किया जायेगा",
+      "अस्थायी केन्द्रीय कर्मचारियों को राज्य शासन के अन्तर्गत उनके पद के वेतनमान का न्यूनतम वेतन ही प्राप्त होगा"
+    ],
+    "file_number": "जी-2-673/दस-81/234-71",
+    "date": "02-07-1981",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-2",
+    "court_case": null,
+    "page_range": "P041-P050",
+    "chapter": "4",
+    "applicable_to": [
+      "Central Government Employees",
+      "UP Government Servants"
+    ],
+    "tags": [
+      "केन्द्रीय कर्मचारी",
+      "वेतन निर्धारण",
+      "राज्य सरकार"
+    ]
+  },
+  {
+    "id": "fhb2_4_06",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "go",
+    "rule_number": null,
+    "title": "पुनर्योजित सरकारी सेवकों के वेतन निर्धारण और भत्तों का स्पष्टीकरण",
+    "summary": "सेवानिवृत्ति के उपरान्त पुनर्नियुक्त सरकारी सेवकों के वेतन निर्धारण, महँगाई-भत्ते एवं अन्य भत्तों के नियम।",
+    "key_provisions": [
+      "पुनर्योजन की अवधि में वेतन अन्तिम आहरित वेतन या पुनर्योजित पद के वेतनमान के अधिकतम, जो भी कम हो, से अधिक न हो",
+      "वेतन की धनराशि तथा सकल पेंशन के योग पर अनुमन्य महँगाई-भत्ता एवं अन्य अनुमन्य भत्ते दिये जायेंगे"
+    ],
+    "file_number": "सा-3-1443/दस--930/83",
+    "date": "15-12-1983",
+    "issuing_authority": "वित्त (सामान्य) अनुभाग-3",
+    "court_case": null,
+    "page_range": "P041-P050",
+    "chapter": "4",
+    "applicable_to": [
+      "Re-employed Government Servants"
+    ],
+    "tags": [
+      "पुनर्योजन",
+      "सेवानिवृत्ति",
+      "वेतन निर्धारण",
+      "महँगाई भत्ता"
+    ]
+  },
+  {
+    "id": "fhb2_4_07",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 22-क",
+    "title": "वेतन-क्रम कम किये जाने पर प्रारम्भिक स्थायी वेतन",
+    "summary": "वेतन-क्रम वाले पद पर स्थायी रूप से नियुक्त सरकारी कर्मचारी का वेतन-क्रम कम किये जाने पर प्रारम्भिक वेतन निर्धारण।",
+    "key_provisions": [
+      "कर्त्तव्यों या उत्तरदायित्वों के कम होने के अतिरिक्त अन्य कारणों से वेतन-क्रम घटाये जाने पर नियम 22 द्वारा विनियमित किया जाता है",
+      "पहले कभी स्थायी या स्थानापन्न रूप से कार्य करने पर प्रारम्भिक वेतन उस वेतन से कम न होगा जो पिछले अवसर पर मिलता"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P041-P050",
+    "chapter": "4",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "वेतन-क्रम",
+      "प्रारम्भिक वेतन",
+      "स्थायी नियुक्ति"
+    ]
+  },
+  {
+    "id": "fhb2_4_08",
+    "department": "universal",
+    "source": "Financial Handbook Vol 2",
+    "type": "rule",
+    "rule_number": "नियम 22-ख",
+    "title": "उच्चतर पद पर पदोन्नति या नियुक्ति पर प्रारम्भिक वेतन निर्धारण",
+    "summary": "अधिक महत्वपूर्ण कर्तव्य और उत्तरदायित्व वाले उच्चतर पद पर पदोन्नति या नियुक्ति पर प्रारम्भिक वेतन निर्धारण के नियम।",
+    "key_provisions": [
+      "उच्चतर पद के समयमान में प्रारम्भिक वेतन निम्न पद के वेतन के अगले प्रक्रम पर निश्चित किया जाएगा",
+      "असंगति उत्पन्न होने पर ज्येष्ठ सरकारी सेवक के वेतन में वृद्धि की जाएगी"
+    ],
+    "file_number": null,
+    "date": null,
+    "issuing_authority": null,
+    "court_case": null,
+    "page_range": "P041-P050",
+    "chapter": "4",
+    "applicable_to": [
+      "UP Government Servants"
+    ],
+    "tags": [
+      "पदोन्नति",
+      "उच्चतर पद",
+      "प्रारम्भिक वेतन",
+      "असंगति"
+    ]
+  }
+]
