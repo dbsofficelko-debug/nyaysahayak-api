@@ -2,7 +2,7 @@
 
 > **Purpose:** Library pustakon ki permanent tracking file. Har session ke shuru mein ye padhi jaaye. Tum aur Claude dono ke liye single source of truth.
 >
-> **Last updated:** 29-May-2026 night (**Phase 1 COMPLETE** — FHB Vol 2 re-ingested in Devanagari; bot KB now 100% Devanagari, 1,295 entries)
+> **Last updated:** 29-May-2026 night (**Phase 1 + Phase 2a COMPLETE** — bot KB 1,401 entries, 100% Devanagari; SV Vol 5/Budget Manual/Teacher Rules blocked on scanner+purchase)
 >
 > **Scanner:** CZUR ET24 — being shipped from Delhi (director arranging)
 >
@@ -106,7 +106,40 @@ Bot KB was 88.6% non-Devanagari (mix of English statutory text from bilingual UP
 
 ---
 
-### 🔄 PHASE 2 — Next priorities (after FHB)
+### ✅ PHASE 2a — Vitt GO Court Relevant ingested (29-May-2026 — DONE)
+
+**Source:** `Vitt_GO_Court_Relevant.md` (29 KB, 62% Devanagari, pre-structured 106 GO entries)
+**Method:** Pure structural parser — no LLM needed, zero API cost
+**Pipeline:** `pipelines/vitt_go_ingest/parse.py`
+**Result:** +106 Devanagari fact cards, department=`vitt`, type=`go`
+
+**Bot KB state after Phase 2a: 1,401 entries — still 100% Devanagari**
+
+| Source | Entries |
+|---|---|
+| Financial Handbook Vol 2 | 944 |
+| Seva Vidhi Vol 4 | 321 |
+| **Vitt GO Court Relevant** | **106 (new)** |
+| SAD Manual | 28 |
+| Seva Vidhi Vol 5 | 2 |
+
+---
+
+### ❌ PHASE 2b — BLOCKED on scanner + purchase
+
+User principle locked: **"garbled kuch bhi mat enter karo jo best ho wahi"** — only world-class quality sources.
+
+Sources assessed and **SKIPPED** (until clean alternatives available):
+
+| Source | Issue | Resolution path |
+|---|---|---|
+| SV Vol 5 Shashnadesh (9.3 MB MD) | OCR garbage — page-by-page txt files concatenated with column-wrap issues, broken char sequences (`8 है इचुं<8 4 |e S2t`) | CZUR ET24 scanner re-OCR required |
+| UP Budget Manual COMBINED (81 KB MD) | 99% English (0.1% Devanagari) | Need Devanagari edition — Govt Press purchase |
+| UP Elementary Education Teacher Service Rules 2025 (13 KB) | 100% English | Need Hindi notification — defer |
+
+---
+
+### 🔄 PHASE 3+ targets (after scanner + purchase)
 
 1. SV Vol 4 library re-ingestion from clean MD (`SevaVidhi_Vol4_Nivritti.md` 2.2 MB) — replaces OCR-garbled `sv_vol4_index.json` + `sv_index.json`
 2. SV Vol 5 Shashnadesh expansion (`SevaVidhi_Vol5_Shashnadesh.md` 9.3 MB) → ~1,000-2,000 new Devanagari KB entries (untapped goldmine)
