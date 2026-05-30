@@ -1183,6 +1183,27 @@ for (const [key, book] of Object.entries(BATCH1_BOOKS)) {
   });
 }
 
+// ── Batch 2 books: Urban Planning & Development Act 1973 ──
+const BATCH2_BOOKS = {
+  nyv: { file: 'nyv_index.json', name: 'उत्तर प्रदेश नगर योजना और विकास अधिनियम, 1973' },
+};
+const batch2Data = {};
+for (const [key, book] of Object.entries(BATCH2_BOOKS)) {
+  try {
+    batch2Data[key] = JSON.parse(readFileSync(path.join(__dirname, book.file), 'utf-8'));
+    console.log(key + ' loaded:', batch2Data[key].length, 'chapters');
+  } catch(e) { batch2Data[key] = []; console.log(key + ' not found:', e.message); }
+  app.get('/' + key, (req, res) => {
+    const d = batch2Data[key];
+    res.json({ total: d.length, name: book.name, chapters: d.map(({chapter,topic,filename}) => ({chapter,topic,filename})) });
+  });
+  app.get('/' + key + '/:filename', (req, res) => {
+    const ch = batch2Data[key].find(c => c.filename === req.params.filename);
+    if (!ch) return res.status(404).json({ error: 'Not found' });
+    res.json(ch);
+  });
+}
+
 // ── Library chapter content search (per-book) ───────────────────
 const LIBRARY_DATA = {
   fhb:    () => fhbData,
@@ -1193,6 +1214,7 @@ const LIBRARY_DATA = {
   res:    () => batch1Data.res,
   bea:    () => batch1Data.bea,
   rte:    () => batch1Data.rte,
+  nyv:    () => batch2Data.nyv,
 };
 
 app.get('/library/search', (req, res) => {

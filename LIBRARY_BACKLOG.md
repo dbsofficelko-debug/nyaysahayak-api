@@ -2,7 +2,7 @@
 
 > **Purpose:** Library pustakon ki permanent tracking file. Har session ke shuru mein ye padhi jaaye. Tum aur Claude dono ke liye single source of truth.
 >
-> **Last updated:** 30-May-2026 (**BATCH 1 DONE & PUSHED** — DA Rules 1999 +2022 GO, Reservation Act 1994, Basic Education Act 1972, RTE Act 2009; bot KB 1,434 → 1,534; **library now 9 books**; frontend cards live on library.html; next = Batch 2)
+> **Last updated:** 30-May-2026 (**BATCH 2 IN PROGRESS** — `/res` enriched (full 79-entry OBC list + full creamy-layer + 2002 amendment detail); `/nyv` Urban Planning & Dev Act 1973 added (20 ch, dept=आवास विभाग, +20 KB → 1,554); department bot 'आवास विभाग' added; Nagar Nigam 1959/Municipalities 1916 → PURCHASE-pending; Panchayat Raj 1947 (145pp) + Kshetra/Zila 1961 (278pp) scanned → vision transcription pending multi-pass. | Earlier: **BATCH 1 DONE & PUSHED** — DA Rules 1999 +2022 GO, Reservation Act 1994, Basic Education Act 1972, RTE Act 2009; bot KB 1,434 → 1,534; **library now 9 books**; frontend cards live on library.html; next = Batch 2)
 >
 > **Scanner:** CZUR ET24 — being shipped from Delhi (director arranging)
 >
@@ -260,7 +260,13 @@ Today's bundled fixes also in repo: search root-cause fix (commit bb41920, `term
 
 **5 batches (5 PDFs each):**
 - **Batch 1 (DONE ✅ pushed):** DA Rules 1999 (`/dar` 19ch, 2022 GO folded as Do's/Don'ts appendix) + Reservation Act 1994 (`/res` 18ch) + Basic Education Act 1972 (`/bea` 23ch) + RTE Act 2009 (`/rte` 40ch). +100 KB cards (1434→1534). Both repos pushed; frontend cards live. Builders: pipelines/krutidev_ocr/build_batch1_part1.py & part2.py
-- **Batch 2 (NEXT):** UP Panchayat Raj Act 1947 + UP Kshettra Panchayat & Zila Panchayat Act 1961 + UP Municipalities 1916/Nagar Nigam 1959 + UP Urban Planning & Development Act 1973 + reservation-rest (promotion/divyang). Cluster ties to BEA 'स्थानीय निकाय' + Batch-1 Reservation.
+- **Batch 2 (IN PROGRESS):**
+  - ✅ `/res` ENRICHED — अनुसूची-एक full 79-entry OBC list + अनुसूची-दो full creamy-layer criteria + धारा 3 अग्रनयन/रोस्टर detail (the 2 uploaded reservation PDFs were already in /res as thin summaries → completeness upgrade, no new route).
+  - ✅ `/nyv` Urban Planning & Development Act 1973 — 20 ch, dept=आवास विभाग, +20 KB cards (1534→1554). Routes + LIBRARY_DATA + frontend card + 'आवास विभाग' department bot added.
+  - ⏳ `/prj` UP Panchayat Raj Act 1947 (145pp scanned) — vision transcription pending (dept=पंचायती राज विभाग).
+  - ⏳ `/kzp` UP Kshetra Panchayat & Zila Panchayat Act 1961 (278pp scanned) — vision transcription pending (dept=पंचायती राज विभाग).
+  - 🛒 UP Municipalities 1916 / Nagar Nigam 1959 — NOT uploaded → PURCHASE (dept=नगर विकास विभाग).
+  - ❓ reservation-rest (promotion/divyang) — NOT in uploaded files; uploaded reservation PDFs were base-Act amendment + creamy layer (folded into /res). Needs separate source if still wanted.
 - **Batch 3:** UP_Police_Regulations + Civil_Accounts_Manual
 - **Batch 4:** Vittiya Sakshyankan + CAG_DPC + GFR_2017
 - **Batch 5:** All Tier B (Constitution, FC reports, AG audits, scheme guidelines)
