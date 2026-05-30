@@ -814,3 +814,8 @@ Jab bhi koi book add/remove/update ho:
 | Seva Vidhi Vol 3 index (2 entries) | Severely incomplete | 06-May-2026 |
 
 → Removed books should NOT appear in library frontend until full quality data is restored.
+
+## Batch 2 status (auto-update 2026-05-30)
+- /nyv — UP Urban Planning & Development Act 1973: LIVE (20 ch).
+- /prj — UP (United Provinces) Panchayat Raj Act 1947: COMPLETE & LIVE (38 ch, अध्याय 1-9, धारा 1-119; faithful KrutiDev->Devanagari). Wired into api-server.js + knowledge.json (+38 cards, KB=1592) + frontend library card + 'पंचायती राज विभाग' department bot.
+- Next Batch-2 book: /kzp — UP Kshetra Panchayat & Zila Panchayat Act 1961 (278pp, same KrutiDev method, dept=पंचायती राज विभाग).

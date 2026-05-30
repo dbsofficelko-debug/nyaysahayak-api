@@ -1186,6 +1186,7 @@ for (const [key, book] of Object.entries(BATCH1_BOOKS)) {
 // ── Batch 2 books: Urban Planning & Development Act 1973 ──
 const BATCH2_BOOKS = {
   nyv: { file: 'nyv_index.json', name: 'उत्तर प्रदेश नगर योजना और विकास अधिनियम, 1973' },
+  prj: { file: 'prj_index.json', name: 'उत्तर प्रदेश (संयुक्त प्रांत) पंचायत राज अधिनियम, 1947' },
 };
 const batch2Data = {};
 for (const [key, book] of Object.entries(BATCH2_BOOKS)) {
@@ -1215,6 +1216,7 @@ const LIBRARY_DATA = {
   bea:    () => batch1Data.bea,
   rte:    () => batch1Data.rte,
   nyv:    () => batch2Data.nyv,
+  prj:    () => batch2Data.prj,
 };
 
 app.get('/library/search', (req, res) => {
