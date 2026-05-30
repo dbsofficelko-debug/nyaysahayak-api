@@ -2,7 +2,7 @@
 
 > **Purpose:** Library pustakon ki permanent tracking file. Har session ke shuru mein ye padhi jaaye. Tum aur Claude dono ke liye single source of truth.
 >
-> **Last updated:** 29-May-2026 late night (**Tier 1 + Tier 2 COMPLETE** — bot zero-hallucination verified via Haiku test; library SV Vol 4 clean re-ingest done; dead code purged)
+> **Last updated:** 30-May-2026 (**Aacharan Niyamavali book added via Krutidev OCR pipeline**; bot KB 1,401 → 1,434; library now 5 books; batch-processing plan locked for 25 Desktop PDFs)
 >
 > **Scanner:** CZUR ET24 — being shipped from Delhi (director arranging)
 >
@@ -15,7 +15,7 @@
 
 ## 🚦 NEXT SESSION — Where to start (Round 3 — 29-May-2026 onwards)
 
-**Resume from: Round 3 #1 — Bot Hallucination Diagnostic**
+**Resume from: BATCH PROCESSING — 25 Desktop PDFs via Krutidev OCR pipeline. Start with Batch 1 (5 PDFs). User must upload PDFs into the session before OCR can run.**
 
 ---
 
@@ -222,6 +222,48 @@ Five live test rounds revealed cumulative issues, each fixed in turn:
    Final live test for "मूल नियम 22-बी का प्रावधान बताइए": bot answers with
    structured content from 3 FHB cards (वेतन निर्धारण विकल्प, वेतनवृद्धि की तारीख,
    ACP के अंतर्गत वेतन निर्धारण) with full citations including rule_number.
+
+---
+
+### ✅ NEW BOOK — UP Aacharan Niyamavali 1956 (30-May-2026 — DONE)
+
+- **Source:** free-download PDF, Krutidev font encoded
+- **Method:** Tesseract Hindi OCR @ 300 DPI — ZERO API cost
+- **Pipeline (reusable):** `pipelines/krutidev_ocr/ocr_pipeline.py`
+- **Bot KB:** 1,401 → 1,434 entries (33 rules added, source=`UP Aacharan Niyamavali 1956`)
+- **Library:** 5th book card; `/aacharan` endpoint; `aacharan_index.json`
+
+**Bot KB state: 1,434 entries — 100% Devanagari, 6 sources**
+
+| Source | Entries |
+|---|---|
+| Financial Handbook Vol 2 | 944 |
+| Seva Vidhi Vol 4 | 321 |
+| Vitt GO Court Relevant | 106 |
+| **UP Aacharan Niyamavali 1956** | **33 (new)** |
+| SAD Manual | 28 |
+| Seva Vidhi Vol 5 | 2 |
+
+**Library: 5 books** — FHB, SAD, SV, PUVVNL, Aacharan.
+
+Today's bundled fixes also in repo: search root-cause fix (commit bb41920, `terms.push(...words)` + rule_number/file_number bonuses + TF cap), Rule 1 ternary tuning (commit 46a342d, full / partial+gap / refuse), SV4 KB cleanup (commit 4a00c71, 905 `[cite_start]`/`[cite: N]` markers stripped from 151 entries). Live test: 5/5 categories pass (full / partial+gap / refuse / rule lookup / transfer policy).
+
+---
+
+### 🚦 NEXT TASK — Batch process 25 Desktop PDFs (Krutidev OCR, ZERO API cost)
+
+**Classification locked:**
+- **Tier A (Bot KB + Library):** 15 books with rule structure (Acts/Rules)
+- **Tier B (Library only):** 10 books (Constitution, FC reports, AG audits, scheme guidelines)
+
+**Per-upload process:** (1) Tesseract Hindi OCR @ 300 DPI → (2) quality check: Devanagari %, garbage markers, structure → (3) Tier A → bot KB cards + library chapters; Tier B → library only → (4) append to `knowledge.json` + `book_index.json` + endpoint + frontend card → (5) commit + push both repos.
+
+**5 batches (5 PDFs each):**
+- **Batch 1 (PENDING):** UP_DA_Rules_1999, UP_DA_Rules_Amendment_2022_GO, UP_Reservation_Act_1994_Original, UP_Basic_Education_Act_1972, RTE_Act_2009 (~3.2 MB, ~15 min OCR)
+- **Batch 2:** Panchayat Acts + Urban Planning + CGA Rules + GAR + Reservation rest
+- **Batch 3:** UP_Police_Regulations + Civil_Accounts_Manual
+- **Batch 4:** Vittiya Sakshyankan + CAG_DPC + GFR_2017
+- **Batch 5:** All Tier B (Constitution, FC reports, AG audits, scheme guidelines)
 
 ---
 
