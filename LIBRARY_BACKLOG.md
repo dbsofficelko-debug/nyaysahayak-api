@@ -2,7 +2,7 @@
 
 > **Purpose:** Library pustakon ki permanent tracking file. Har session ke shuru mein ye padhi jaaye. Tum aur Claude dono ke liye single source of truth.
 >
-> **Last updated:** 30-May-2026 (**Aacharan Niyamavali book added via Krutidev OCR pipeline**; bot KB 1,401 → 1,434; library now 5 books; batch-processing plan locked for 25 Desktop PDFs)
+> **Last updated:** 30-May-2026 (**BATCH 1 DONE & PUSHED** — DA Rules 1999 +2022 GO, Reservation Act 1994, Basic Education Act 1972, RTE Act 2009; bot KB 1,434 → 1,534; **library now 9 books**; frontend cards live on library.html; next = Batch 2)
 >
 > **Scanner:** CZUR ET24 — being shipped from Delhi (director arranging)
 >
@@ -15,7 +15,7 @@
 
 ## 🚦 NEXT SESSION — Where to start (Round 3 — 29-May-2026 onwards)
 
-**Resume from: BATCH PROCESSING — 25 Desktop PDFs via Krutidev OCR pipeline. Start with Batch 1 (5 PDFs). User must upload PDFs into the session before OCR can run.**
+**Resume from: BATCH PROCESSING — Batch 1 DONE (9 books, KB 1,534). NEXT = BATCH 2 (Panchayat/Nagar laws + reservation rest). User must upload the 5 Batch-2 PDFs into the session before processing. Note: these Acts are clean Devanagari → transcribe from source directly, no Tesseract (OCR garbles faded scans).**
 
 ---
 
@@ -259,8 +259,8 @@ Today's bundled fixes also in repo: search root-cause fix (commit bb41920, `term
 **Per-upload process:** (1) Tesseract Hindi OCR @ 300 DPI → (2) quality check: Devanagari %, garbage markers, structure → (3) Tier A → bot KB cards + library chapters; Tier B → library only → (4) append to `knowledge.json` + `book_index.json` + endpoint + frontend card → (5) commit + push both repos.
 
 **5 batches (5 PDFs each):**
-- **Batch 1 (PENDING):** UP_DA_Rules_1999, UP_DA_Rules_Amendment_2022_GO, UP_Reservation_Act_1994_Original, UP_Basic_Education_Act_1972, RTE_Act_2009 (~3.2 MB, ~15 min OCR)
-- **Batch 2:** Panchayat Acts + Urban Planning + CGA Rules + GAR + Reservation rest
+- **Batch 1 (DONE ✅ pushed):** DA Rules 1999 (`/dar` 19ch, 2022 GO folded as Do's/Don'ts appendix) + Reservation Act 1994 (`/res` 18ch) + Basic Education Act 1972 (`/bea` 23ch) + RTE Act 2009 (`/rte` 40ch). +100 KB cards (1434→1534). Both repos pushed; frontend cards live. Builders: pipelines/krutidev_ocr/build_batch1_part1.py & part2.py
+- **Batch 2 (NEXT):** UP Panchayat Raj Act 1947 + UP Kshettra Panchayat & Zila Panchayat Act 1961 + UP Municipalities 1916/Nagar Nigam 1959 + UP Urban Planning & Development Act 1973 + reservation-rest (promotion/divyang). Cluster ties to BEA 'स्थानीय निकाय' + Batch-1 Reservation.
 - **Batch 3:** UP_Police_Regulations + Civil_Accounts_Manual
 - **Batch 4:** Vittiya Sakshyankan + CAG_DPC + GFR_2017
 - **Batch 5:** All Tier B (Constitution, FC reports, AG audits, scheme guidelines)
