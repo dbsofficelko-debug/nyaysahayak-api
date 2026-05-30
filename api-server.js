@@ -1159,12 +1159,40 @@ app.get('/puvvnl/:filename', (req, res) => {
   if (!ch) return res.status(404).json({ error: 'Not found' });
   res.json(ch);
 });
+// ── Batch 1 books: DA Rules 1999, Reservation Act 1994, Basic Education Act 1972, RTE Act 2009 ──
+const BATCH1_BOOKS = {
+  dar: { file: 'dar_index.json', name: 'उ0प्र0 सरकारी सेवक (अनुशासन एवं अपील) नियमावली, 1999' },
+  res: { file: 'res_index.json', name: 'उ0प्र0 लोक सेवा (अनुसूचित जाति/जनजाति/अन्य पिछड़े वर्ग आरक्षण) अधिनियम, 1994' },
+  bea: { file: 'bea_index.json', name: 'उत्तर प्रदेश बेसिक शिक्षा अधिनियम, 1972' },
+  rte: { file: 'rte_index.json', name: 'नि:शुल्क और अनिवार्य बाल शिक्षा का अधिकार अधिनियम, 2009' },
+};
+const batch1Data = {};
+for (const [key, book] of Object.entries(BATCH1_BOOKS)) {
+  try {
+    batch1Data[key] = JSON.parse(readFileSync(path.join(__dirname, book.file), 'utf-8'));
+    console.log(key + ' loaded:', batch1Data[key].length, 'chapters');
+  } catch(e) { batch1Data[key] = []; console.log(key + ' not found:', e.message); }
+  app.get('/' + key, (req, res) => {
+    const d = batch1Data[key];
+    res.json({ total: d.length, name: book.name, chapters: d.map(({chapter,topic,filename}) => ({chapter,topic,filename})) });
+  });
+  app.get('/' + key + '/:filename', (req, res) => {
+    const ch = batch1Data[key].find(c => c.filename === req.params.filename);
+    if (!ch) return res.status(404).json({ error: 'Not found' });
+    res.json(ch);
+  });
+}
+
 // ── Library chapter content search (per-book) ───────────────────
 const LIBRARY_DATA = {
   fhb:    () => fhbData,
   sad:    () => sadData,
   sv:     () => svData,
   puvvnl: () => puvvnlData,
+  dar:    () => batch1Data.dar,
+  res:    () => batch1Data.res,
+  bea:    () => batch1Data.bea,
+  rte:    () => batch1Data.rte,
 };
 
 app.get('/library/search', (req, res) => {
