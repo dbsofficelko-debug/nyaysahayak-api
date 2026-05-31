@@ -2,7 +2,7 @@
 
 > **Purpose:** Library pustakon ki permanent tracking file. Har session ke shuru mein ye padhi jaaye. Tum aur Claude dono ke liye single source of truth.
 >
-> **Last updated:** 30-May-2026 (**BATCH 2 IN PROGRESS** — `/res` enriched (full 79-entry OBC list + full creamy-layer + 2002 amendment detail); `/nyv` Urban Planning & Dev Act 1973 added (20 ch, dept=आवास विभाग, +20 KB → 1,554); department bot 'आवास विभाग' added; Nagar Nigam 1959/Municipalities 1916 → PURCHASE-pending; Panchayat Raj 1947 (145pp) + Kshetra/Zila 1961 (278pp) scanned → vision transcription pending multi-pass. | Earlier: **BATCH 1 DONE & PUSHED** — DA Rules 1999 +2022 GO, Reservation Act 1994, Basic Education Act 1972, RTE Act 2009; bot KB 1,434 → 1,534; **library now 9 books**; frontend cards live on library.html; next = Batch 2)
+> **Last updated:** 31-May-2026 (**/kzp FULLY WIRED & PUSHED** — UP क्षेत्र पंचायत व जिला पंचायत अधिनियम 1961 complete: 61 अध्याय (धारा 1–274) + अनुसूची 1–7 transcribed (Devanagari, decoded from KrutiDev); अनुसूची 8 = honest note-only (text absent from this edition). kzp wired into `BATCH2_BOOKS`+`LIBRARY_DATA`, +69 cards → knowledge.json **1,661**, library book-card (maroon) + 1961 Act wired into पंचायती राज विभाग bot. API `8193693`, FE `2b5537f`. **Library now 11 books.** | Earlier 30-May: BATCH 2 — `/res` enriched, `/nyv` added, `/prj` live. | BATCH 1 DONE — DA Rules/Reservation/Basic Ed/RTE; next = Batch 3)
 >
 > **Scanner:** CZUR ET24 — being shipped from Delhi (director arranging)
 >
@@ -15,21 +15,26 @@
 
 ## 🚦 NEXT SESSION — Where to start (Round 3 — 29-May-2026 onwards)
 
-### ⏩ ACTIVE TASK (31-May-2026): /kzp transcription — ACT BODY COMPLETE, schedules pending
+### ✅ DONE (31-May-2026): /kzp — FULLY COMPLETE & WIRED
 
-**Resume phrase:** "Library project resume. Pehle GitHub se LIBRARY_BACKLOG.md padho — repo dbsofficelko-debug/nyaysahayak-api."
+**Resume phrase (still valid for any future /kzp edits):** "Library project resume. Pehle GitHub se LIBRARY_BACKLOG.md padho — repo dbsofficelko-debug/nyaysahayak-api."
 
-**Book:** UP क्षेत्र पंचायत व जिला पंचायत अधिनियम 1961 (PDF `UP_Kshetra_Zila_Panchayat_1961.pdf`, 278pp, KrutiDev text-layer — NOT a scan).
-**Method:** `pdftotext -layout <pdf> kzp_raw.txt` → KrutiDev-ASCII → Claude decodes directly to faithful Unicode Devanagari (no Tesseract/vision). Per pass ~3 chapters, durable-commit `kzp_index.json` + `kzp_cards.json` only (do NOT wire route/bot/library until book complete).
-**Conventions:** dept=`पंचायती राज विभाग`; slug `/kzp`; card id prefix `kzp_`; index `chapter`="अध्याय N · धारा X", `content` full Devanagari markdown; source field="UP Kshetra Panchayat & Zila Panchayat Act 1961". Shares dept with `/prj` → wire `/kzp` into the EXISTING पंचायती राज विभाग bot's books array.
+**Book:** UP क्षेत्र पंचायत व जिला पंचायत अधिनियम 1961 (`UP_Kshetra_Zila_Panchayat_1961.pdf`, 278pp, KrutiDev text-layer). dept=`पंचायती राज विभाग`; slug `/kzp`; shares dept with `/prj`.
 
-**STATUS:** **ACT BODY 100% COMPLETE — धारा 1 से 274, सभी 14 अध्याय, 61 chapters committed (latest `1d1b2cf`).** Confirmed via kzp_index.json (61 entries, last = अध्याय 14 · धारा 270-274).
+**STATUS: 100% DONE.**
+- **Act body:** 61 अध्याय, धारा 1–274 (committed earlier `1d1b2cf`).
+- **अनुसूचियां:** 1–7 fully transcribed to Devanagari (index ids 62–68, cards `kzp_anusuchi_1..7`):
+  - अनु.1 (धारा 32) क्षेत्र पंचायत के 32 कृत्य · अनु.2 (धारा 33) जिला पंचायत भाग-क 31 + भाग-ख 9 · अनु.3 (धारा 35) UP पंचायत राज एक्ट 1947 धारा→प्राधिकारी · अनु.4 (धारा 56) जिला पंचायत अधिकार/कृत्य · अनु.5 (धारा 56) मुख्य अधिकारी · अनु.6 (धारा 79) क्षेत्र पंचायत · अनु.7 (धारा 79(3)) खंड विकास अधिकारी.
+  - **अनु.8 (धारा 273) = NOTE ONLY** (index id 69, card `kzp_anusuchi_8`): अन्य अधिनियमितियों का संशोधन. ⚠️ **Schedule-8 ka detailed text is ABSENT from this PDF edition** — na Hindi (KrutiDev schedules 1–7 par khatm, line ~6745), na English (bilingual section SCHEDULE VII par khatm, line 14196). Sirf धारा 273 isko refer karti hai. Zero-hallucination principle ke tehat fabricate NAHI kiya — honest note banaya. **FOLLOW-UP: अनुसूची 8 full table (amended enactments list) needs राजपत्र/updated edition source — PURCHASE/gazette-pending.**
+- **Wired:** kzp in `BATCH2_BOOKS`+`LIBRARY_DATA` (api-server.js, `node -c` OK); +69 cards merged → knowledge.json **1,661**; library.html book-card (maroon `#6b1d2b`→`#3d0f17`, "धारा १–२७४ + अनुसूची १–८", 61 अध्याय) + BOOK_CONFIG `/kzp`; 1961 Act wired into पंचायती राज विभाग bot prompt + books array + 3 chips (nyaysahayak_ai_v8.html).
+- **Pushed:** API `8193693` (main), FE `2b5537f`. **Library = 11 books.**
 
-**REMAINING for /kzp:**
-1. **अनुसूचियां 1–8** (schedules) — tabular कृत्य/अधिकार lists referenced by धारा 31/35/56/63/81/84 etc. In `kzp_raw.txt`: अनुसूची 1 @line 5664, अनुसूची 2 @5794, अनुसूची 3 @5959, अनुसूची 4 @6102, schedules 5-7 (कृत्य/अधिकार) + Schedule 8 (अन्य अधिनियमितियों के संशोधन) follow to ~end of 14196 lines. Grep: `grep -nE "vuqlwph|v/;k;" kzp_raw.txt`. Transcribe as `sec_anusuchi_1` etc. — OR treat as optional and finalize now (user's call).
-2. **FINALIZE+WIRE** (when /kzp deemed complete): merge `kzp_cards.json` into `knowledge.json`; add `kzp` to `BATCH2_BOOKS` + `LIBRARY_DATA` in `api-server.js` (`node -c` check); add `/kzp` book-card to frontend `library.html` (cover distinct from prj-green, e.g. maroon `#6b1d2b`/indigo `#2d2a5e`, "धारा १–२७४", 61 अध्याय) + BOOK_CONFIG entry; add `/kzp` to EXISTING पंचायती राज विभाग bot's `books` array in `nyaysahayak_ai_v8.html`; push both repos; update this backlog.
+### ⏩ NEXT
+1. **/prj अनुसूचियां** — UP (संयुक्त प्रांत) पंचायत राज अधिनियम 1947 vision/source transcription pending (if its schedules not yet done — verify prj_index.json).
+2. **अनुसूची 8 (kzp)** — acquire clean राजपत्र source → replace note card with full amended-enactments table.
+3. **BATCH 3** — next book set.
 
-**Sandbox guard each pass:** re-run `pdftotext -layout` if kzp_raw.txt missing; re-clone repo if missing (committed files persist in git). Fresh clone needs `git config user.email/user.name` before commit. Token used only in remote URL, scrub after push, never commit.
+**Sandbox guard each pass:** re-run `pdftotext -layout` if kzp_raw.txt missing; re-clone repos if missing (committed files persist). Fresh clone needs `git config user.email/user.name`. Token only in remote URL, scrub after push, never commit.
 
 ---
 
