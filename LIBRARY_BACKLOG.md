@@ -2,7 +2,7 @@
 
 > **Purpose:** Library pustakon ki permanent tracking file. Har session ke shuru mein ye padhi jaaye. Tum aur Claude dono ke liye single source of truth.
 >
-> **Last updated:** 31-May-2026 (**/kzp FULLY WIRED & PUSHED** — UP क्षेत्र पंचायत व जिला पंचायत अधिनियम 1961 complete: 61 अध्याय (धारा 1–274) + अनुसूची 1–7 transcribed (Devanagari, decoded from KrutiDev); अनुसूची 8 = honest note-only (text absent from this edition). kzp wired into `BATCH2_BOOKS`+`LIBRARY_DATA`, +69 cards → knowledge.json **1,661**, library book-card (maroon) + 1961 Act wired into पंचायती राज विभाग bot. API `8193693`, FE `2b5537f`. **Library now 11 books.** | Earlier 30-May: BATCH 2 — `/res` enriched, `/nyv` added, `/prj` live. | BATCH 1 DONE — DA Rules/Reservation/Basic Ed/RTE; next = Batch 3)
+> **Last updated:** 31-May-2026 (**/prj अनुसूची DONE** — UP पंचायत राज 1947 की अनुसूची (धारा 68, सिविल वादों की परिसीमा, 4 प्रविष्टियां) transcribed → prj_index 39, +1 card → knowledge.json **1,662**; prj card label updated. API `6ff9bb0`, FE `cd7fb3e`. /prj ab body+schedule COMPLETE. | Earlier 31-May: **/kzp FULLY WIRED & PUSHED** — UP क्षेत्र पंचायत व जिला पंचायत अधिनियम 1961 complete: 61 अध्याय (धारा 1–274) + अनुसूची 1–7 transcribed (Devanagari, decoded from KrutiDev); अनुसूची 8 = honest note-only (text absent from this edition). kzp wired into `BATCH2_BOOKS`+`LIBRARY_DATA`, +69 cards → knowledge.json **1,661**, library book-card (maroon) + 1961 Act wired into पंचायती राज विभाग bot. API `8193693`, FE `2b5537f`. **Library now 11 books.** | Earlier 30-May: BATCH 2 — `/res` enriched, `/nyv` added, `/prj` live. | BATCH 1 DONE — DA Rules/Reservation/Basic Ed/RTE; next = Batch 3)
 >
 > **Scanner:** CZUR ET24 — being shipped from Delhi (director arranging)
 >
@@ -30,9 +30,9 @@
 - **Pushed:** API `8193693` (main), FE `2b5537f`. **Library = 11 books.**
 
 ### ⏩ NEXT
-1. **/prj अनुसूचियां** — UP (संयुक्त प्रांत) पंचायत राज अधिनियम 1947 vision/source transcription pending (if its schedules not yet done — verify prj_index.json).
-2. **अनुसूची 8 (kzp)** — acquire clean राजपत्र source → replace note card with full amended-enactments table.
-3. **BATCH 3** — next book set.
+1. ✅ **/prj अनुसूची** — DONE (31-May): 1947 Act ki ek hi own अनुसूची (धारा 68, सिविल वादों की परिसीमा) transcribed & merged. Note: body ke 'अनुसूची 3/8' refs 1961 Act ki schedules ke cross-refs the (kzp mein already transcribed).
+2. **अनुसूची 8 (kzp)** — acquire clean राजपत्र source → replace note card with full amended-enactments table. PURCHASE/gazette-pending.
+3. **BATCH 3** — next book set (decide + acquire).
 
 **Sandbox guard each pass:** re-run `pdftotext -layout` if kzp_raw.txt missing; re-clone repos if missing (committed files persist). Fresh clone needs `git config user.email/user.name`. Token only in remote URL, scrub after push, never commit.
 
