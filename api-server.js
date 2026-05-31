@@ -1188,6 +1188,7 @@ const BATCH2_BOOKS = {
   nyv: { file: 'nyv_index.json', name: 'उत्तर प्रदेश नगर योजना और विकास अधिनियम, 1973' },
   prj: { file: 'prj_index.json', name: 'उत्तर प्रदेश (संयुक्त प्रांत) पंचायत राज अधिनियम, 1947' },
   kzp: { file: 'kzp_index.json', name: 'उत्तर प्रदेश (क्षेत्र पंचायत तथा जिला पंचायत) अधिनियम, 1961' },
+  urc: { file: 'urc_index.json', name: 'उत्तर प्रदेश राजस्व संहिता, 2006' },
 };
 const batch2Data = {};
 for (const [key, book] of Object.entries(BATCH2_BOOKS)) {
@@ -1219,6 +1220,7 @@ const LIBRARY_DATA = {
   nyv:    () => batch2Data.nyv,
   prj:    () => batch2Data.prj,
   kzp:    () => batch2Data.kzp,
+  urc:    () => batch2Data.urc,
 };
 
 app.get('/library/search', (req, res) => {
