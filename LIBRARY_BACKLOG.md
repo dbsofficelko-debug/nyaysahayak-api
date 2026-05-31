@@ -15,7 +15,25 @@
 
 ## 🚦 NEXT SESSION — Where to start (Round 3 — 29-May-2026 onwards)
 
-**Resume from: BATCH PROCESSING — Batch 1 DONE (9 books, KB 1,534). NEXT = BATCH 2 (Panchayat/Nagar laws + reservation rest). User must upload the 5 Batch-2 PDFs into the session before processing. Note: these Acts are clean Devanagari → transcribe from source directly, no Tesseract (OCR garbles faded scans).**
+### ⏩ ACTIVE TASK (31-May-2026): /kzp transcription — ACT BODY COMPLETE, schedules pending
+
+**Resume phrase:** "Library project resume. Pehle GitHub se LIBRARY_BACKLOG.md padho — repo dbsofficelko-debug/nyaysahayak-api."
+
+**Book:** UP क्षेत्र पंचायत व जिला पंचायत अधिनियम 1961 (PDF `UP_Kshetra_Zila_Panchayat_1961.pdf`, 278pp, KrutiDev text-layer — NOT a scan).
+**Method:** `pdftotext -layout <pdf> kzp_raw.txt` → KrutiDev-ASCII → Claude decodes directly to faithful Unicode Devanagari (no Tesseract/vision). Per pass ~3 chapters, durable-commit `kzp_index.json` + `kzp_cards.json` only (do NOT wire route/bot/library until book complete).
+**Conventions:** dept=`पंचायती राज विभाग`; slug `/kzp`; card id prefix `kzp_`; index `chapter`="अध्याय N · धारा X", `content` full Devanagari markdown; source field="UP Kshetra Panchayat & Zila Panchayat Act 1961". Shares dept with `/prj` → wire `/kzp` into the EXISTING पंचायती राज विभाग bot's books array.
+
+**STATUS:** **ACT BODY 100% COMPLETE — धारा 1 से 274, सभी 14 अध्याय, 61 chapters committed (latest `1d1b2cf`).** Confirmed via kzp_index.json (61 entries, last = अध्याय 14 · धारा 270-274).
+
+**REMAINING for /kzp:**
+1. **अनुसूचियां 1–8** (schedules) — tabular कृत्य/अधिकार lists referenced by धारा 31/35/56/63/81/84 etc. In `kzp_raw.txt`: अनुसूची 1 @line 5664, अनुसूची 2 @5794, अनुसूची 3 @5959, अनुसूची 4 @6102, schedules 5-7 (कृत्य/अधिकार) + Schedule 8 (अन्य अधिनियमितियों के संशोधन) follow to ~end of 14196 lines. Grep: `grep -nE "vuqlwph|v/;k;" kzp_raw.txt`. Transcribe as `sec_anusuchi_1` etc. — OR treat as optional and finalize now (user's call).
+2. **FINALIZE+WIRE** (when /kzp deemed complete): merge `kzp_cards.json` into `knowledge.json`; add `kzp` to `BATCH2_BOOKS` + `LIBRARY_DATA` in `api-server.js` (`node -c` check); add `/kzp` book-card to frontend `library.html` (cover distinct from prj-green, e.g. maroon `#6b1d2b`/indigo `#2d2a5e`, "धारा १–२७४", 61 अध्याय) + BOOK_CONFIG entry; add `/kzp` to EXISTING पंचायती राज विभाग bot's `books` array in `nyaysahayak_ai_v8.html`; push both repos; update this backlog.
+
+**Sandbox guard each pass:** re-run `pdftotext -layout` if kzp_raw.txt missing; re-clone repo if missing (committed files persist in git). Fresh clone needs `git config user.email/user.name` before commit. Token used only in remote URL, scrub after push, never commit.
+
+---
+
+**Earlier resume note: BATCH PROCESSING — Batch 1 DONE (9 books, KB 1,534). BATCH 2 in progress (/prj live, /kzp act-body done). Acts are clean Devanagari → transcribe from source directly, no Tesseract.**
 
 ---
 
